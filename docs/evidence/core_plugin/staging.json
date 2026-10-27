@@ -1,0 +1,77 @@
+{
+  "archived_previous_staging": "<ruta-del-repo>/build-codex/staging-before-core-plugin-20260906-180113",
+  "files": [
+    {
+      "name": "core.dll",
+      "source": "<ruta-del-repo>/dist/plugin/core.dll",
+      "size": 225191,
+      "sha256": "ca2849b56c3543351f8a56556e80424cc42cdd685ac8a962543384f726e1db1d",
+      "imports": [
+        "KERNEL32.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "libstdc++-6.dll"
+      ],
+      "purpose": "Sigma2 guarded slot hook"
+    },
+    {
+      "name": "libgcc_s_seh-1.dll",
+      "source": "<ruta-del-repo>/dist/plugin/libgcc_s_seh-1.dll",
+      "size": 150030,
+      "sha256": "6d4d1e8b48a06a591cf60599ec6e3dd2ba31e0bf5e81dd198ed25cfea9a86117",
+      "imports": [
+        "KERNEL32.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "libwinpthread-1.dll"
+      ],
+      "purpose": "MinGW runtime dependency"
+    },
+    {
+      "name": "libstdc++-6.dll",
+      "source": "<ruta-del-repo>/dist/plugin/libstdc++-6.dll",
+      "size": 2503182,
+      "sha256": "055d42d37df160bc1d2bae503363fc49b64becb495b32f2efb6de50c3411f466",
+      "imports": [
+        "libgcc_s_seh-1.dll",
+        "KERNEL32.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "libwinpthread-1.dll"
+      ],
+      "purpose": "MinGW runtime dependency"
+    },
+    {
+      "name": "libwinpthread-1.dll",
+      "source": "<ruta-del-repo>/dist/plugin/libwinpthread-1.dll",
+      "size": 61429,
+      "sha256": "9230fabfb5b5909d6f223327d2ac72cf17e161dfe51e9c7537517ae61a05e62e",
+      "imports": [
+        "KERNEL32.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll"
+      ],
+      "purpose": "MinGW runtime dependency"
+    }
+  ]
+}

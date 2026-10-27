@@ -1,0 +1,46 @@
+_PushNonVol RDI
+
+Function Table:
+  Start Address: 0x1462a00
+  End Address: 0x1462cf7
+  Unwind Info Address: 0x1c13db8
+    Version: 1
+    Flags: 3 UNW_ExceptionHandler UNW_TerminateHandler
+    Size of prolog: 46
+    Number of Codes: 7
+    No frame pointer used
+    Unwind Codes:
+      0x1c: UOP_SaveNonVol RSI [0x0140]
+      0x18: UOP_SaveNonVol RBX [0x0138]
+      0x0b: UOP_AllocLarge 36
+      0x04: UOP_PushNonVol RDI
+
+Function Table:
+  Start Address: 0x1462d00
+  End Address: 0x1462f6f
+  Unwind Info Address: 0x1c13e40
+    Version: 1
+    Flags: 3 UNW_ExceptionHandler UNW_TerminateHandler
+    Size of prolog: 28
+    Number of Codes: 8
+    No frame pointer used
+    Unwind Codes:
+      0x1c: UOP_SaveNonVol RBP [0x0070]
+      0x17: UOP_SaveNonVol RBX [0x0068]
+      0x09: UOP_AllocSmall 64
+      0x05: UOP_PushNonVol R14
+      0x03: UOP_PushNonVol RDI
+      0x02: UOP_PushNonVol RSI
+
+Function Table:
+  Start Address: 0x1462f80
+  End Address: 0x1463050
+  Unwind Info Address: 0x1c13e9c
+    Version: 1
+    Flags: 0
+    Size of prolog: 6
+    Number of Codes: 2
+    No frame pointer used
+    Unwind Codes:
+      0x06: UOP_AllocSmall 32
+      0x02: UOP_P

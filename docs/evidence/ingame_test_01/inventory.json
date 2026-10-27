@@ -1,0 +1,73 @@
+{
+  "time": "2026-09-06T17:56:22.029839-06:00",
+  "files": [
+    {
+      "path": "<ruta-del-repo>/build-codex/dbghelp.dll",
+      "size": 238504,
+      "sha256": "0154a3861b09d896dc47cd712654bfc6cd99e56d351b629e6c7eabaa98cb7a0f"
+    },
+    {
+      "path": "<ruta-del-repo>/dist/dbghelp.dll",
+      "size": 238504,
+      "sha256": "0154a3861b09d896dc47cd712654bfc6cd99e56d351b629e6c7eabaa98cb7a0f"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/NINJA GAIDEN SIGMA2.exe",
+      "size": 37637472,
+      "sha256": "a66daf011d22dd6fd6676e0b8ccc68e85448d4570bbac635e25adc1f2d06ffef"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/dbghelp.dll",
+      "size": 14848,
+      "sha256": "8f20f4964be657d8d428fe52e9e5673c8fe05da34d8b40fa46411b55b384f4e6"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/steam_api64.dll",
+      "size": 262944,
+      "sha256": "473f5a312b56519f347741b63f3dea590946b96ea40ef3803d5f452c39af2f1e"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/NGS2Coop.dll",
+      "size": 105112,
+      "sha256": "10e31629c63f1309e33cf5db4881f493da0cb492a98cbe311dfe214a9086b0ac"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmcombat.dll",
+      "size": 14336,
+      "sha256": "f25e11f28e65bfe0e4cbbfbcd6fccd21776202c56219c1a7ce135a284aa7e839"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmeffect.dll",
+      "size": 34304,
+      "sha256": "ad4fe8d609a35c6a66462c80a87b16c1c523eeef57f44c6cca3f3f491240899c"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmloader.dll",
+      "size": 17408,
+      "sha256": "80cba30064c703c702e42c44824beb592a451b793e10a8d708d2d05470cef510"
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmsteam-bugfixes.dll",
+      "size": 12800,
+      "sha256": "7ba0e0f19d7373d4d1d746dcb7a6cb7ebc7d7d783c2c757b701d7c6669b10c4b"
+    },
+    {
+      "path": "<ruta-del-repo>/dist/libgcc_s_seh-1.dll",
+      "size": 150030,
+      "sha256": "6d4d1e8b48a06a591cf60599ec6e3dd2ba31e0bf5e81dd198ed25cfea9a86117"
+    },
+    {
+      "path": "<ruta-del-repo>/dist/libstdc++-6.dll",
+      "size": 2503182,
+      "sha256": "055d42d37df160bc1d2bae503363fc49b64becb495b32f2efb6de50c3411f466"
+    },
+    {
+      "path": "<ruta-del-repo>/dist/libwinpthread-1.dll",
+      "size": 61429,
+      "sha256": "9230fabfb5b5909d6f223327d2ac72cf17e161dfe51e9c7537517ae61a05e62e"
+    }
+  ],
+  "installed_files": [],
+  "backup": "<ruta-del-repo>/backups/pre-core-runtime-test-20260906-175622",
+  "game_process_observed": false
+}

@@ -1,0 +1,6 @@
+0x00f81927 func=  0xf8190e  addss    xmm0, dword ptr [rbx + 0x4bc0]   [base=rbx idx=- disp=0x4bc0]
+0x00f8193a func=  0xf8190e  movss    dword ptr [rbx + 0x4bc0], xmm0   [base=rbx idx=- disp=0x4bc0]
+0x0142191d func= 0x14218c0  movdqa   xmmword ptr [rax + 0x4bc0], xmm0   [base=rax idx=- disp=0x4bc0]
+0x01421ac0 func= 0x14219a0  addss    xmm0, dword ptr [rax + 0x4bc0]   [base=rax idx=- disp=0x4bc0]
+0x01421ac8 func= 0x14219a0  movss    dword ptr [rax + 0x4bc0], xmm0   [base=rax idx=- disp=0x4bc0]
+--- 5 hits for disps ['0x4bc0']

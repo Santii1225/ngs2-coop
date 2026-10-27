@@ -1,0 +1,120 @@
+2038.178:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.178:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffff30000 rip 6ffffff40af9 rva 10af9 rsp 38dd600
+2038.178:0120:0150:trace:unwind:dump_unwind_info **** func 10aec-10aff
+2038.178:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFFFD8120 flags 1 prolog 0x4 bytes function 00006FFFFFF40AEC-00006FFFFFF40AFF
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x4: subq $0x28,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     handler 00006FFFFFF892E0 data at 00006FFFFFFD812C
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffff30000 rip 6ffffff77646 rva 47646 rsp 38dd630
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 47300-477e0
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFFFD827C flags 0 prolog 0x1b bytes function 00006FFFFFF77300-00006FFFFFF777E0
+2038.179:0120:0150:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x13: subq $0x688,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x9: pushq %r12
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x7: pushq %r13
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x5: pushq %r14
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x3: pushq %r15
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffff30000 rip 6ffffff79aed rva 49aed rsp 38ddd00
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 49600-4a64e
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFFFD555C flags 0 prolog 0x22 bytes function 00006FFFFFF79600-00006FFFFFF7A64E
+2038.179:0120:0150:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x22: movaps %xmm6,0x1c0(%rsp)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x13: subq $0x1d8,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x9: pushq %r12
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x7: pushq %r13
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x5: pushq %r14
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x3: pushq %r15
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffff30000 rip 6ffffff40ccf rva 10ccf rsp 38ddf20
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 10c54-10cdc
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFFFD81F0 flags 0 prolog 0x7 bytes function 00006FFFFFF40C54-00006FFFFFF40CDC
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffbf0000 rip 6fffffbfd947 rva d947 rsp 38de420
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func d8d8-d94f
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFFCAEE64 flags 0 prolog 0xf bytes function 00006FFFFFBFD8D8-00006FFFFFBFD94F
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 inside epilog.
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffff8b0000 rip 6fffff8e2496 rva 32496 rsp 38de4f0
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 32480-324cb
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFF92EC40 flags 0 prolog 0x8 bytes function 00006FFFFF8E2480-00006FFFFF8E24CB
+2038.179:0120:0150:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffff8b0000 rip 6fffff8ce5d6 rva 1e5d6 rsp 38de520
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 1e540-1e5d7
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFF92C2F8 flags 0 prolog 0xd bytes function 00006FFFFF8CE540-00006FFFFF8CE5D7
+2038.179:0120:0150:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+2038.179:0120:0530:trace:mscoree:DllMain (00006FFFFDAC0000, 3, 0000000000000000)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffff8b0000 rip 6fffff8f0a0f rva 40a0f rsp 38de590
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 40730-40c65
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFF92D3B0 flags 0 prolog 0x1b bytes function 00006FFFFF8F0730-00006FFFFF8F0C65
+2038.179:0120:0150:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x13: subq $0xa18,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x9: pushq %r12
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x7: pushq %r13
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x5: pushq %r14
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x3: pushq %r15
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.179:0120:0150:trace:seh:RtlUnwindEx calling TEB handler 00006FFFFF8E8150 (rec=00000000038DE440, frame=00000000038DE670 context=00000000038DD060, dispatch=00000000038DCA10)
+2038.179:0120:0150:trace:seh:RtlUnwindEx handler at 00006FFFFF8E8150 returned 1
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffff8b0000 rip 6fffff8d4e92 rva 24e92 rsp 38deff0
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 24820-24f7c
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFF92D3F8 flags 0 prolog 0x12 bytes function 00006FFFFF8D4820-00006FFFFF8D4F7C
+2038.179:0120:0150:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+2038.179:0120:0164:trace:mscoree:DllMain (00006FFFFDAC0000, 3, 0000000000000000)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x12: leaq 0x80(%rsp),rbp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xa: subq $0xa80,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x2: pushq %rsi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffff8b0000 rip 6fffff8b66ab rva 66ab rsp 38dfa90
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 6690-66b0
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFF92D2BC flags 0 prolog 0x4 bytes function 00006FFFFF8B6690-00006FFFFF8B66B0
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x4: subq $0x28,%rsp
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 inside epilog.
+2038.179:0120:0150:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffaa0000 rip 6fffffaa97e8 rva 97e8 rsp 38dfac0
+2038.179:0120:0150:trace:unwind:dump_unwind_info **** func 9370-99c4
+2038.179:0120:0150:trace:unwind:dump_unwind_info unwind info at 00006FFFFFABB934 flags 0 prolog 0x1b bytes function 00006FFFFFAA9370-00006FFFFFAA99C4
+2038.179:0120:0150:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x13: subq $0x478,%rsp
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x9: pushq %r12
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x7: pushq %r13
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x5: pushq %r14
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x3: pushq %r15
+2038.179:0120:0150:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+2038.179:0120:0528:trace:mscoree:DllMain (00006FFFFDAC0000, 3, 0000000000000000)
+2038.180:0120:0150:trace:seh:RtlRestoreContext returning to 00006FFFFFAA325A stack 00000000038DFAC0
+2038.180:0120:0524:trace:mscoree:DllMain (00006FFFFDAC0000, 3, 0000000000000000)
+2038.180:0120:0150:trace:mscoree:DllMain (00006FFFFDAC0000, 3, 0000000000000000)
+2038.228:0120:0124:trace:mscoree:_CorDllMain (0000000005AD0000, 0, 0000000000000001)
+2038.228:0120:0124:trace:mscoree:_CorDllMain (0000000004490000, 0, 0000000000000001)
+2038.228:0120:0124:trace:mscoree:_CorDllMain (0000000004440000, 0, 0000000000000001)
+2038.228:0120:0124:trace:mscoree:_CorDllMain (00000000036C0000, 0, 0000000000000001)
+2038.228:0120:0124:trace:mscoree:_CorDllMain (00000000036A0000, 0, 0000000000000001)
+2038.228:0120:0124:trace:mscoree:_CorDllMain (0000000010000000, 0, 0000000000000001)
+2038.228:0120:0124:trace:mscoree:_CorDllMain (0000000003070000, 0, 0000000000000001)
+2038.230:0120:0124:trace:mscoree:DllMain (00006FFFFDAC0000, 0, 0000000000000001)
+pid 8813 != 8812, skipping destruction (fork without exec?)

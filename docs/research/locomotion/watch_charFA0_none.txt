@@ -1,0 +1,155 @@
+[New LWP 27407]
+[New LWP 14335]
+[New LWP 14225]
+[New LWP 14224]
+[New LWP 14223]
+[New LWP 14222]
+[New LWP 14221]
+[New LWP 14220]
+[New LWP 14219]
+[New LWP 14218]
+[New LWP 14208]
+[New LWP 14207]
+[New LWP 14206]
+[New LWP 14180]
+[New LWP 14164]
+[New LWP 14163]
+[New LWP 14162]
+[New LWP 14161]
+[New LWP 14160]
+[New LWP 14159]
+[New LWP 14158]
+[New LWP 14157]
+[New LWP 14156]
+[New LWP 14155]
+[New LWP 14154]
+[New LWP 14153]
+[New LWP 14152]
+[New LWP 14151]
+[New LWP 14150]
+[New LWP 14149]
+[New LWP 14148]
+[New LWP 14147]
+[New LWP 14146]
+[New LWP 14144]
+[New LWP 14143]
+[New LWP 14142]
+[New LWP 14141]
+[New LWP 14140]
+[New LWP 14137]
+[New LWP 14136]
+[New LWP 14135]
+[New LWP 14134]
+[New LWP 14133]
+[New LWP 14132]
+[New LWP 14131]
+[New LWP 14130]
+[New LWP 14129]
+[New LWP 14128]
+[New LWP 14127]
+[New LWP 14126]
+[New LWP 14125]
+[New LWP 14124]
+[New LWP 14123]
+[New LWP 14122]
+[New LWP 14121]
+[New LWP 14120]
+[New LWP 14119]
+[New LWP 14118]
+[New LWP 14117]
+[New LWP 14116]
+[New LWP 14115]
+[New LWP 14114]
+[New LWP 14111]
+[New LWP 14110]
+[New LWP 14109]
+[New LWP 14108]
+[New LWP 14107]
+[New LWP 14106]
+[New LWP 14105]
+[New LWP 14104]
+[New LWP 14103]
+[New LWP 14102]
+[New LWP 14101]
+[New LWP 14100]
+[New LWP 14099]
+[New LWP 14098]
+[New LWP 14097]
+[New LWP 14096]
+[New LWP 14095]
+[New LWP 14094]
+[New LWP 14093]
+[New LWP 14092]
+[New LWP 14091]
+[New LWP 14090]
+[New LWP 14089]
+[New LWP 14088]
+[New LWP 14087]
+[New LWP 14086]
+[New LWP 14085]
+[New LWP 14084]
+[New LWP 14080]
+[New LWP 14079]
+[New LWP 14077]
+[New LWP 14076]
+[New LWP 14074]
+[New LWP 14064]
+[New LWP 14063]
+[New LWP 14061]
+[New LWP 14057]
+[New LWP 14056]
+[New LWP 14055]
+[New LWP 14054]
+[New LWP 14053]
+[New LWP 14052]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.cachyos.org>
+  <https://debuginfod.archlinux.org>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f3650d49a7f in ioctl () from target:/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/libc.so.6
+Hardware watchpoint 1: *(unsigned long long *)5418490544
+Hardware watchpoint 2: *(unsigned long long *)5418495216
+=== armed WRITE: RYU char+0xFA0 (XY) and MOMIJI char+0xFA0 (XY) ===
+Num     Type           Disp Enb Address            What
+1       hw watchpoint  keep y                      *(unsigned long long *)5418490544
+2       hw watchpoint  keep y                      *(unsigned long long *)5418495216
+[Thread 0x105bff6c0 (LWP 27407) exited]
+[New Thread 0x1007ff6c0 (LWP 27529)]
+[Thread 0x1007ff6c0 (LWP 27529) exited]
+[New Thread 0x105bff6c0 (LWP 27547)]
+[Thread 0x105bff6c0 (LWP 27547) exited]
+[New Thread 0x1007ff6c0 (LWP 27603)]
+[Thread 0x1007ff6c0 (LWP 27603) exited]
+[New Thread 0x105bff6c0 (LWP 27642)]
+[Switching to Thread 0x1025ff6c0 (LWP 14115)]
+HIT  1 [AI_FA0] pc=0x140f33f2c thr=14115/Updating
+     prev24=960f00008b82d00200008982980f0000660f7f82a00f0000  here16=0f284a30660f7f8ab00f00000f284220
+     rax=0x4000 rbx=0x1 rcx=0x14319cdb0 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0x4 r8=0x142f79d50 r9=0x0 r10=0x14319cdb0 r11=0x142f78b10 r12=0x143195300 r13=0x140000000 r14=0x142fa6410 r15=0x1
+     xmm0=(0.0000,0.0000,-0.0000,0.0000) xmm1=(0.6008,0.0000,0.0000,0.0000) xmm2=(0.6269,0.0000,0.0000,0.0000) xmm6=(0.0000,0.0000,0.0000,0.0000) xmm7=(0.0000,0.0000,0.0000,0.0000)
+     [char+0xFA0]=(0.00000,0.00000,-0.00000,0.00000)  [char+0x30]=(-0.11682,0.10506,0.09960,1.00000)  [char+0x04]=0x61
+     stack: [+0x38]=0x140f8ce75 [+0xa8]=0x140f7fa07 [+0xe8]=0x140f8044a [+0x118]=0x140f8c429 [+0x148]=0x141462167 [+0x1a0]=0x141462160
+HIT  2 [AI_FA0] pc=0x140f33f2c thr=14115/Updating
+     prev24=960f00008b82d00200008982980f0000660f7f82a00f0000  here16=0f284a30660f7f8ab00f00000f284220
+     rax=0x4000 rbx=0x1 rcx=0x14319cdb0 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0x4 r8=0x142f79d50 r9=0x0 r10=0x14319cdb0 r11=0x142f78b10 r12=0x143195300 r13=0x140000000 r14=0x142fa6410 r15=0x1
+     xmm0=(0.0000,0.0000,0.0000,0.0000) xmm1=(0.6008,0.0000,0.0000,0.0000) xmm2=(0.6269,0.0000,0.0000,0.0000) xmm6=(0.0000,0.0000,0.0000,0.0000) xmm7=(0.0000,0.0000,0.0000,0.0000)
+     [char+0xFA0]=(0.00000,0.00000,0.00000,0.00000)  [char+0x30]=(-0.11571,0.08792,0.09865,1.00000)  [char+0x04]=0x60
+     stack: [+0x38]=0x140f8ce75 [+0xa8]=0x140f7fa07 [+0xe8]=0x140f8044a [+0x118]=0x140f8c429 [+0x148]=0x141462167 [+0x1a0]=0x141462160
+HIT  3 [AI_FA0] pc=0x140f33f2c thr=14115/Updating
+     prev24=960f00008b82d00200008982980f0000660f7f82a00f0000  here16=0f284a30660f7f8ab00f00000f284220
+     rax=0x4000 rbx=0x1 rcx=0x14319cdb0 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0x4 r8=0x142f79d50 r9=0x0 r10=0x14319cdb0 r11=0x142f78b10 r12=0x143195300 r13=0x140000000 r14=0x142fa6410 r15=0x1
+     xmm0=(0.0000,0.0000,-0.0000,0.0000) xmm1=(0.6008,0.0000,0.0000,0.0000) xmm2=(0.6269,0.0000,0.0000,0.0000) xmm6=(0.0000,0.0000,0.0000,0.0000) xmm7=(0.0000,0.0000,0.0000,0.0000)
+     [char+0xFA0]=(0.00000,0.00000,-0.00000,0.00000)  [char+0x30]=(0.00096,0.06489,0.07420,1.00000)  [char+0x04]=0x61
+     stack: [+0x38]=0x140f8ce75 [+0xa8]=0x140f7fa07 [+0xe8]=0x140f8044a [+0x118]=0x140f8c429 [+0x148]=0x141462167 [+0x1a0]=0x141462160
+HIT  4 [AI_FA0] pc=0x140f33f2c thr=14115/Updating
+     prev24=960f00008b82d00200008982980f0000660f7f82a00f0000  here16=0f284a30660f7f8ab00f00000f284220
+     rax=0x4000 rbx=0x1 rcx=0x14319cdb0 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0x4 r8=0x142f79d50 r9=0x0 r10=0x14319cdb0 r11=0x142f78b10 r12=0x143195300 r13=0x140000000 r14=0x142fa6410 r15=0x1
+     xmm0=(0.0000,0.0000,0.0000,0.0000) xmm1=(0.6008,0.0000,0.0000,0.0000) xmm2=(0.6269,0.0000,0.0000,0.0000) xmm6=(0.0000,0.0000,0.0000,0.0000) xmm7=(0.0000,0.0000,0.0000,0.0000)
+     [char+0xFA0]=(0.00000,0.00000,0.00000,0.00000)  [char+0x30]=(0.00176,0.05634,0.05565,1.00000)  [char+0x04]=0x60
+     stack: [+0x38]=0x140f8ce75 [+0xa8]=0x140f7fa07 [+0xe8]=0x140f8044a [+0x118]=0x140f8c429 [+0x148]=0x141462167 [+0x1a0]=0x141462160
+[Thread 0x105bff6c0 (LWP 27642) exited]
+[New Thread 0x1007ff6c0 (LWP 27673)]
+[Inferior 1 (process 14042) detached]

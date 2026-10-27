@@ -1,0 +1,5 @@
+0x00f1e7b0 func=  0xf1e6f4  movups   xmm1, xmmword ptr [rdi + 0x1010]   [base=rdi idx=- disp=0x1010]
+0x00f1e7d5 func=  0xf1e6f4  movups   xmm0, xmmword ptr [rdi + 0x1010]   [base=rdi idx=- disp=0x1010]
+0x00f8182a func=  0xf8170a  mov      dword ptr [rbx + 0x1010], eax   [base=rbx idx=- disp=0x1010]
+0x017220e2 func= 0x171ccf0  mov      rcx, qword ptr [rbp + 0x1010]   [base=rbp idx=- disp=0x1010]
+--- 4 hits for disps ['0x1010']

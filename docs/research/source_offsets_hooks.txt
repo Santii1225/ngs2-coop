@@ -1,0 +1,143 @@
+src/util.hpp:67:    VirtualProtect (m_va, sizeof (T), PAGE_EXECUTE_READWRITE, &m_flOldProtect);
+src/util.hpp:81:      VirtualProtect (m_va, sizeof (T), m_flOldProtect, &m_flOldProtect);
+src/util.hpp:120:// Hooking is done by direct jump.
+src/util.hpp:122:class SimpleInlineHook
+src/util.hpp:131:  SimpleInlineHook () = delete;
+src/util.hpp:132:  SimpleInlineHook (const SimpleInlineHook &) = delete;
+src/util.hpp:133:  SimpleInlineHook & operator= (const SimpleInlineHook &) = delete;
+src/util.hpp:136:  SimpleInlineHook (F *target_func, uintptr_t callback_func)
+src/util.hpp:141:  SimpleInlineHook (F *target_func, F *callback_func)
+src/util.hpp:142:    : SimpleInlineHook {target_func, reinterpret_cast <uintptr_t> (callback_func)} {}
+src/util.hpp:145:  SimpleInlineHook (uintptr_t func_rva, F *callback_func)
+src/util.hpp:146:    : SimpleInlineHook {reinterpret_cast <F *> (base_address + func_rva), reinterpret_cast<uintptr_t> (callback_func)} {}
+src/util.hpp:191:class VFPHook
+src/util.hpp:196:  VFPHook () = delete;
+src/util.hpp:197:  VFPHook (const VFPHook &) = delete;
+src/util.hpp:198:  VFPHook & operator= (const VFPHook &) = delete;
+src/util.hpp:201:  VFPHook (uintptr_t vfp_rva, F* callback_func)
+src/steam-bugfixes/main.cpp:32:  patch1 = new Patch {0x13ddfa6 + 3, uint8_t {7}};
+src/steam-bugfixes/main.cpp:36:  patch2 = new Patch {0xC43060, make_bytes (0xe9, 0xde, 0x00, 0x00, 0x00)};
+src/loader/main.cpp:56:VFPHook<decltype (get_chunk_info)> *get_chunk_info_hook;
+src/loader/main.cpp:57:VFPHook<decltype (load_data)> *load_data_hook;
+src/loader/main.cpp:91:  return load_data_hook->call (thisptr, param2, ci, out_buf);
+src/loader/main.cpp:116:  return load_data_hook->call (thisptr, param2, ci, out_buf);
+src/loader/main.cpp:122:  auto ci = get_chunk_info_hook->call (thisptr, index);
+src/loader/main.cpp:174:    NGS1SteamAE = 0x91aa00,
+src/loader/main.cpp:175:    NGS2SteamAE = 0x179c400,
+src/loader/main.cpp:176:    NGS2SteamJP = 0x179c000,
+src/loader/main.cpp:184:    load_data_hook = new VFPHook {0x0994b50, load_data_ngs1};
+src/loader/main.cpp:185:    get_chunk_info_hook = new VFPHook {0x0994b58, get_chunk_info};
+src/loader/main.cpp:186:    tmcl_malloc = reinterpret_cast<decltype (tmcl_malloc)>(base_address + 0x07e5630);
+src/loader/main.cpp:189:    load_data_hook = new VFPHook {0x18ef6f0, load_data};
+src/loader/main.cpp:190:    get_chunk_info_hook = new VFPHook {0x18ef6f8, get_chunk_info};
+src/loader/main.cpp:193:    load_data_hook = new VFPHook {0x18ee6f0, load_data};
+src/loader/main.cpp:194:    get_chunk_info_hook = new VFPHook {0x18ee6f8, get_chunk_info};
+src/core/main.cpp:27:SimpleInlineHook<decltype (SetCurrentDirectoryW)> *SetCurrentDirectoryW_hook
+src/core/main.cpp:28:  = new SimpleInlineHook {SetCurrentDirectoryW, pre_init};
+src/core/main.cpp:31:SimpleInlineHook<decltype (check_dlls)> *check_dlls_hook;
+src/core/main.cpp:35:VFPHook <decltype (Sigma2_vfunction1)> *Sigma2_vfunction1_hook;
+src/core/main.cpp:66:  Sigma2_vfunction1_hook->call (thisptr);
+src/core/main.cpp:76:  delete check_dlls_hook;
+src/core/main.cpp:81:// We postpone the execution of our codes by hooking SetCurrentDirectoryW, which
+src/core/main.cpp:87:  check_dlls_hook = new SimpleInlineHook {0xb5c460, check_dlls};
+src/core/main.cpp:88:  patch1 = new Patch {0x1340d3b, XOR_R8_NOP4};
+src/core/main.cpp:89:  Sigma2_vfunction1_hook = new VFPHook {0x1462a00, Sigma2_vfunction1};
+src/core/main.cpp:91:  delete SetCurrentDirectoryW_hook;
+src/combat/main.cpp:51:  patch_story = new Patch {0x1829080, arr};
+src/combat/main.cpp:53:  patch_challenge = new Patch {0x1829110, arr};
+src/combat/main.cpp:57:  //*reinterpret_cast <float *> (base_of_image + 0x1e26440 + 4) = 1;
+src/combat/main.cpp:60:  //*reinterpret_cast <float *> (base_of_image + 0x1e26440 + 8) = 1;
+src/combat/main.cpp:64:  patch2 = new Patch {0x0f4bfcd, uint8_t {0x77}};
+src/combat/main.cpp:65:  patch3 = new Patch {0x0f73607 + 1, uint8_t {0x87}};
+src/effect/main.cpp:163:  VFPHook<decltype (BloodStampEffectManager_vfunction2)> *BloodStampEffectManager_vfunction2_hook;
+src/effect/main.cpp:164:  VFPHook<decltype (SphericalResourceGenerator_vfunction2)> *SphericalResourceGenerator_vfunction2_hook;
+src/effect/main.cpp:171:  SimpleInlineHook<decltype (update_SUP_NodeObj_visibility<0>)> *update_SUP_NodeObj_visibility_hook;
+src/effect/main.cpp:172:  SimpleInlineHook<decltype (get_OPTscat_indices)> *get_OPTscat_indices_hook;
+src/effect/main.cpp:307:  SimpleInlineHook <decltype (is_stationary)> *is_stationary_hook;
+src/effect/main.cpp:312:  SimpleInlineHook <decltype (FUN_13ffb50)> *FUN_13ffb50_hook;
+src/effect/main.cpp:327:  SimpleInlineHook <decltype (is_to_be_vanished)> *is_to_be_vanished_hook;
+src/effect/main.cpp:329:  SimpleInlineHook <decltype (get_pose_matrix)> *get_pose_matrix_hook;
+src/effect/main.cpp:332:  SimpleInlineHook <decltype (init_game_model_data_manager)> *init_game_model_data_manager_hook;
+src/effect/main.cpp:391:      uintptr_t y = reinterpret_cast <uintptr_t> (&x) + (x & 0x0fffffff);
+src/effect/main.cpp:408:  BloodStampEffectManager_vfunction2_hook->call (thisptr);
+src/effect/main.cpp:418:  SphericalResourceGenerator_vfunction2_hook->call (thisptr, param_1);
+src/effect/main.cpp:493:  return get_pose_matrix_hook->call (out, nl, obj);
+src/effect/main.cpp:544:  FUN_13ffb50_hook->call (param_1, param_2);
+src/effect/main.cpp:578:  auto &x = *reinterpret_cast <float (*)[0x140]> (base_address + 0x219bff0);
+src/effect/main.cpp:580:  *reinterpret_cast <uintptr_t *> (base_address + 0x219c4f0) = reinterpret_cast <uintptr_t> (game_model_data_manager);
+src/effect/main.cpp:606:  object_data_offset_table = reinterpret_cast <uintptr_t (*)[4]> (base_address + 0x1e38710);
+src/effect/main.cpp:607:  game_object_ptr = reinterpret_cast <struct game_object *> (base_address + 0x3195300);
+src/effect/main.cpp:608:  in_pause_ptr = reinterpret_cast <uint8_t *> (base_address + 0x211e753);
+src/effect/main.cpp:609:  vanish_timer_table_ptr = reinterpret_cast <int32_t *> (base_address + 0x211e990);
+src/effect/main.cpp:617:    patch1 = new Patch {0x1048888, make_bytes (0x83, 0xe0, 0x00)};
+src/effect/main.cpp:621:    patch2 = new Patch {0x17f25c8, uint16_t {0x1002}};
+src/effect/main.cpp:622:    patch3 = new Patch {0x17f0428, uint16_t {0x1002}};
+src/effect/main.cpp:623:    patch4 = new Patch {0x17f3ca8, uint16_t {0x1002}};
+src/effect/main.cpp:628:    patch5 = new Patch {0x1457f6d + 6, 0};
+src/effect/main.cpp:632:    patch6 = new Patch {0x0f29437, make_bytes (0xe9, 0xa0, 0x00, 0x00, 0x00)};
+src/effect/main.cpp:634:    patch7 = new Patch {0x0f294dc, make_bytes (0x31, 0xc0)};
+src/effect/main.cpp:639:    patch1 = new Patch {0x120a13f + 1, 0x075f720 - (0x120a13f + 5)};
+src/effect/main.cpp:640:    patch2 = new Patch {0x120a0f0 + 1, 0x075fd20 - (0x120a0f0 + 5)};
+src/effect/main.cpp:645:    patch3 = new Patch {0x12058c9 + 3, uint8_t {0x4u}};
+src/effect/main.cpp:646:    *reinterpret_cast <uintptr_t *> (base_address + 0x1c8e218) = base_address + 0x12058b0;
+src/effect/main.cpp:647:    patch4 = new Patch {0x1205899 + 3, uint8_t {0x5u}};
+src/effect/main.cpp:648:    *reinterpret_cast <uintptr_t *> (base_address + 0x1c8e1f8) = base_address + 0x1205880;
+src/effect/main.cpp:657:    patch1 = new Patch {0x120cc1d + 1, 0x077b010 - (0x120cc1d + 5)};
+src/effect/main.cpp:658:    patch2 = new Patch {0x120cbe1 + 1, 0x077b010 - (0x120cbe1 + 5)};
+src/effect/main.cpp:660:    patch3 = new Patch {0x120c82d + 1, 0x077b010 - (0x120c82d + 5)};
+src/effect/main.cpp:661:    patch4 = new Patch {0x120c7f1 + 1, 0x077b010 - (0x120c7f1 + 5)};
+src/effect/main.cpp:663:    patch5 = new Patch {0x120daa5 + 1, 0x077ce10 - (0x120daa5 + 5)};
+src/effect/main.cpp:664:    patch6 = new Patch {0x120da69 + 1, 0x077ce10 - (0x120da69 + 5)};
+src/effect/main.cpp:667:    patch7 = new Patch {0x120cafe, concat (NOP7, uint8_t {0xeb})};
+src/effect/main.cpp:668:    patch8 = new Patch {0x120c70e, concat (NOP7, uint8_t {0xeb})};
+src/effect/main.cpp:670:    BloodStampEffectManager_vfunction2_hook = new VFPHook {0x188a890, BloodStampEffectManager_vfunction2};
+src/effect/main.cpp:671:    SphericalResourceGenerator_vfunction2_hook = new VFPHook {0x18c5578, SphericalResourceGenerator_vfunction2};
+src/effect/main.cpp:677:    update_SUP_NodeObj_visibility_hook = new SimpleInlineHook {0x1455880, update_SUP_NodeObj_visibility <0x1e38710>};
+src/effect/main.cpp:678:    get_OPTscat_indices_hook = new SimpleInlineHook {0x144cb00, get_OPTscat_indices};
+src/effect/main.cpp:682:    patch1 = new Patch {0x145866a + 1, 0x1220060 - (0x145866a + 5)};
+src/effect/main.cpp:686:    patch2 = new Patch {0x12201f6 + 1, 0x1206ec0 - (0x12201f6 + 5)};
+src/effect/main.cpp:688:    patch3 = new Patch {0x1207430, *reinterpret_cast <uint32_t (*)[4]> (base_address + 0x1207430 + 4 * 0x10)};
+src/effect/main.cpp:692:    patch4 = new Patch {0x1458761 + 1, 0x121fe20 - (0x1458761 + 5)};
+src/effect/main.cpp:696:    patch5 = new Patch {0x1460d34, concat (NOP9, NOP9, NOP9, NOP7, uint8_t {0xeb})};
+src/effect/main.cpp:700:    patch7 = new Patch {0x144c0d0, concat (NOP5, NOP5)};
+src/effect/main.cpp:706:    patch8 = new Patch {0x145a338, concat (make_bytes (0x31, 0xc0), NOP4)};
+src/effect/main.cpp:709:    patch9 = new Patch {0x144ae80, concat (make_bytes (0x31, 0xc0), NOP4)};
+src/effect/main.cpp:714:    *reinterpret_cast <uintptr_t *> (base_address + 0x1c74980) = base_address + 0x100a990;
+src/effect/main.cpp:718:    *reinterpret_cast <uintptr_t *> (base_address + 0x1c74900) = base_address + 0x100a990;
+src/effect/main.cpp:724:    afterimage::update_afterimage_params <0x1e39b40> ();
+src/effect/main.cpp:726:    patch1 = new Patch {0x1053d20 + 2, uint8_t {0}};
+src/effect/main.cpp:734:    patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};
+src/effect/main.cpp:736:    corpse_table_ptr = reinterpret_cast <struct corpse_object *> (base_address + 0x6439cc0);
+src/effect/main.cpp:737:    FUN_13ffb50_hook = new SimpleInlineHook {0x13ffb50, FUN_13ffb50};
+src/effect/main.cpp:741:    patch2_1 = new Patch {0x145d60a,
+src/effect/main.cpp:748:    // jne 0x145d60a;
+src/effect/main.cpp:749:    patch2_2 = new Patch {0x145d635 + 1, concat (uint8_t {0xd5})};
+src/effect/main.cpp:753:    patch3 = new Patch {0x145d7d8, concat (NOP5, NOP5)};
+src/effect/main.cpp:758:    patch4 = new Patch {0x145f584, concat (make_bytes (0x31, 0xc0), NOP3)};
+src/effect/main.cpp:760:    release_corpse = reinterpret_cast <decltype (release_corpse)> (base_address + 0x145dde0);
+src/effect/main.cpp:762:    rigidbody_id_table_ptr = reinterpret_cast <uint32_t (*)[0x80]> (base_address + 0x64b4850);
+src/effect/main.cpp:763:    character_ptr = reinterpret_cast <struct character *> (base_address + 0x2f78b10);
+src/effect/main.cpp:764:    limb_count_ptr = reinterpret_cast <uint32_t *> (base_address + 0x21b3000);
+src/effect/main.cpp:765:    limb_manager_ptr = reinterpret_cast <struct limb_data (*)[4]> (base_address + 0x6426880);
+src/effect/main.cpp:766:    lump_manager_ptr = reinterpret_cast <lump_manager *> (base_address + 0x642a6b0);
+src/effect/main.cpp:767:    get_lump_pose_matrix = reinterpret_cast <decltype (get_lump_pose_matrix)> (base_address + 0x144a330);
+src/effect/main.cpp:768:    get_pose_matrix_hook = new SimpleInlineHook {0xc0fdc0, get_pose_matrix};
+src/effect/main.cpp:770:    is_stationary_hook = new SimpleInlineHook {0x0f87410, is_stationary};
+src/effect/main.cpp:773:    patch5 = new Patch {0xf291de, concat (NOP9, NOP8, NOP3)};
+src/effect/main.cpp:774:    is_to_be_vanished_hook = new SimpleInlineHook {0x1635e60, is_to_be_vanished};
+src/effect/main.cpp:776:    init_game_model_data_manager_hook = new SimpleInlineHook {0x141b6d0, init_game_model_data_manager};
+src/effect/main.cpp:781:    patch6_1 = new Patch {0x0f896d0, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:782:    patch6_2 = new Patch {0x0f89700, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:783:    patch6_3 = new Patch {0x1377bb0, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:784:    //patch6_4 = new Patch {0x1381ce5, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:785:    patch6_5 = new Patch {0x14075d0, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:786:    //patch6_6 = new Patch {0x140b805, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:787:    patch6_7 = new Patch {0x140c8e0, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:788:    patch6_8 = new Patch {0x141a257, NOP_CMP_DL_IMM_JB_IMM};
+src/effect/main.cpp:789:    //patch6_9 = new Patch {0x141b0d6, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:790:    //patch6_10 = new Patch {0x141ba79, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:791:    patch6_11 = new Patch {0x15f1e08, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:792:    patch6_12 = new Patch {0x15f2ad2, NOP_CMP_CL_IMM_JB_IMM};
+src/effect/main.cpp:793:    patch6_13 = new Patch {0x163507a, CMP_R8B_IMM_JB_IMM};
+src/effect/main.cpp:796:    patch7 = new Patch {0x146794d + 1, 0x800000u};
+src/effect/main.cpp:799:    patch8 = new Patch {0x1444f23 + 1, 0x145dde0 - (0x1444f23 + 5)};

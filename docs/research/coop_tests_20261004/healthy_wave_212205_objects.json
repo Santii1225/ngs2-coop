@@ -1,0 +1,538 @@
+{
+ "time": "21:22:05",
+ "tag": "manual",
+ "extra": {
+  "karma": 52890,
+  "hp1": 2687,
+  "hp2": 2370
+ },
+ "objects": [
+  {
+   "i": 0,
+   "type": 0,
+   "flag": 0,
+   "parent": 255,
+   "group": 0,
+   "hp": 2687,
+   "max": 2700,
+   "pos": [
+    174.58355712890625,
+    1.152227759361267,
+    32.02973556518555
+   ],
+   "port": 0,
+   "cstate": 87,
+   "player": true
+  },
+  {
+   "i": 1,
+   "type": 1,
+   "flag": 2,
+   "parent": 0,
+   "group": 0,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 0,
+   "cstate": 87,
+   "player": false
+  },
+  {
+   "i": 2,
+   "type": 147,
+   "flag": 2,
+   "parent": 0,
+   "group": 1,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 1,
+   "cstate": 11,
+   "player": false
+  },
+  {
+   "i": 3,
+   "type": 5,
+   "flag": 2,
+   "parent": 0,
+   "group": 2,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 4,
+   "type": 220,
+   "flag": 0,
+   "parent": 255,
+   "group": 1,
+   "hp": 2370,
+   "max": 2700,
+   "pos": [
+    192.3822784423828,
+    -0.9486021995544434,
+    32.59773635864258
+   ],
+   "port": 1,
+   "cstate": 11,
+   "player": true
+  },
+  {
+   "i": 5,
+   "type": 330,
+   "flag": 2,
+   "parent": 4,
+   "group": 3,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 152,
+   "player": false
+  },
+  {
+   "i": 6,
+   "type": 323,
+   "flag": 1,
+   "parent": 255,
+   "group": 0,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 0,
+   "cstate": 87,
+   "player": false
+  },
+  {
+   "i": 7,
+   "type": 297,
+   "flag": 1,
+   "parent": 255,
+   "group": 1,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 1,
+   "cstate": 11,
+   "player": false
+  },
+  {
+   "i": 8,
+   "type": 2,
+   "flag": 1,
+   "parent": 255,
+   "group": 2,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 9,
+   "type": 350,
+   "flag": 1,
+   "parent": 255,
+   "group": 3,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 152,
+   "player": false
+  },
+  {
+   "i": 10,
+   "type": 297,
+   "flag": 1,
+   "parent": 255,
+   "group": 4,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 24,
+   "player": false
+  },
+  {
+   "i": 11,
+   "type": 2,
+   "flag": 1,
+   "parent": 255,
+   "group": 5,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 12,
+   "type": 4,
+   "flag": 0,
+   "parent": 255,
+   "group": 2,
+   "hp": 650,
+   "max": 650,
+   "pos": [
+    189.16708374023438,
+    -0.9486021995544434,
+    32.25672149658203
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 13,
+   "type": 23,
+   "flag": 2,
+   "parent": 12,
+   "group": 4,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 24,
+   "player": false
+  },
+  {
+   "i": 14,
+   "type": 42,
+   "flag": 2,
+   "parent": 255,
+   "group": 5,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 15,
+   "type": 23,
+   "flag": 255,
+   "parent": 29,
+   "group": 7,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 16,
+   "type": 23,
+   "flag": 2,
+   "parent": 22,
+   "group": 6,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 24,
+   "player": false
+  },
+  {
+   "i": 17,
+   "type": 8,
+   "flag": 0,
+   "parent": 255,
+   "group": 4,
+   "hp": 1470,
+   "max": 1470,
+   "pos": [
+    170.01243591308594,
+    -0.9486023783683777,
+    33.95323181152344
+   ],
+   "port": 4,
+   "cstate": 24,
+   "player": false
+  },
+  {
+   "i": 18,
+   "type": 22,
+   "flag": 2,
+   "parent": 30,
+   "group": 14,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 255,
+   "player": false
+  },
+  {
+   "i": 19,
+   "type": 4,
+   "flag": 0,
+   "parent": 255,
+   "group": 6,
+   "hp": 750,
+   "max": 750,
+   "pos": [
+    187.1053924560547,
+    -0.9486021399497986,
+    33.91069793701172
+   ],
+   "port": 4,
+   "cstate": 24,
+   "player": false
+  },
+  {
+   "i": 20,
+   "type": 23,
+   "flag": 2,
+   "parent": 19,
+   "group": 8,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 152,
+   "player": false
+  },
+  {
+   "i": 21,
+   "type": 341,
+   "flag": 255,
+   "parent": 255,
+   "group": 11,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 255,
+   "player": false
+  },
+  {
+   "i": 22,
+   "type": 4,
+   "flag": 0,
+   "parent": 255,
+   "group": 7,
+   "hp": 750,
+   "max": 750,
+   "pos": [
+    178.20751953125,
+    -0.523191511631012,
+    35.12738800048828
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 23,
+   "type": 22,
+   "flag": 2,
+   "parent": 17,
+   "group": 9,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 152,
+   "player": false
+  },
+  {
+   "i": 24,
+   "type": 23,
+   "flag": 2,
+   "parent": 28,
+   "group": 10,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 2,
+   "player": false
+  },
+  {
+   "i": 25,
+   "type": 339,
+   "flag": 255,
+   "parent": 255,
+   "group": 13,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 255,
+   "player": false
+  },
+  {
+   "i": 26,
+   "type": 8,
+   "flag": 255,
+   "parent": 255,
+   "group": 9,
+   "hp": 0,
+   "max": 1680,
+   "pos": [
+    156.61978149414062,
+    -0.9486023187637329,
+    31.441102981567383
+   ],
+   "port": 4,
+   "cstate": 152,
+   "player": false
+  },
+  {
+   "i": 27,
+   "type": 341,
+   "flag": 255,
+   "parent": 255,
+   "group": 12,
+   "hp": 0,
+   "max": 0,
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "port": 4,
+   "cstate": 255,
+   "player": false
+  },
+  {
+   "i": 28,
+   "type": 4,
+   "flag": 0,
+   "parent": 255,
+   "group": 5,
+   "hp": 550,
+   "max": 550,
+   "pos": [
+    171.33355712890625,
+    -0.9486021995544434,
+    45.4720344543457
+   ],
+   "port": 4,
+   "cstate": 40,
+   "player": false
+  },
+  {
+   "i": 29,
+   "type": 4,
+   "flag": 255,
+   "parent": 255,
+   "group": 8,
+   "hp": 0,
+   "max": 550,
+   "pos": [
+    165.677734375,
+    -0.9486021995544434,
+    30.750150680541992
+   ],
+   "port": 4,
+   "cstate": 152,
+   "player": false
+  },
+  {
+   "i": 30,
+   "type": 8,
+   "flag": 0,
+   "parent": 255,
+   "group": 10,
+   "hp": 1255,
+   "max": 1680,
+   "pos": [
+    171.0970001220703,
+    -0.9486023783683777,
+    33.75765609741211
+   ],
+   "port": 4,
+   "cstate": 2,
+   "player": false
+  }
+ ]
+}

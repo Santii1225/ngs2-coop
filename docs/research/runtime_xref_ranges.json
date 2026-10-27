@@ -1,0 +1,62 @@
+[
+  {
+    "xref": "0xc12ea3",
+    "function": [
+      "0xc12e30",
+      "0xc12f3c",
+      "0x1b3e228"
+    ],
+    "capture_start": "0xc12e30",
+    "capture_end": "0xc12f3c"
+  },
+  {
+    "xref": "0xc14b50",
+    "function": [
+      "0xc14b00",
+      "0xc14be1",
+      "0x1b3e580"
+    ],
+    "capture_start": "0xc14b00",
+    "capture_end": "0xc14be1"
+  },
+  {
+    "xref": "0x1340ddb",
+    "function": [
+      "0x1340ae0",
+      "0x1340fd2",
+      "0x1c00e58"
+    ],
+    "capture_start": "0x1340ae0",
+    "capture_end": "0x1340fd2"
+  },
+  {
+    "xref": "0x1462d1f",
+    "function": [
+      "0x1462d00",
+      "0x1462f6f",
+      "0x1c13e40"
+    ],
+    "capture_start": "0x1462d00",
+    "capture_end": "0x1462f6f"
+  },
+  {
+    "xref": "0x1462fce",
+    "function": [
+      "0x1462f80",
+      "0x1463050",
+      "0x1c13e9c"
+    ],
+    "capture_start": "0x1462f80",
+    "capture_end": "0x1463050"
+  },
+  {
+    "xref": "0x146950b",
+    "function": [
+      "0x1469490",
+      "0x146958b",
+      "0x1c145bc"
+    ],
+    "capture_start": "0x1469490",
+    "capture_end": "0x146958b"
+  }
+]

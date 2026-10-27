@@ -1,0 +1,38 @@
+{
+  "pid": 51579,
+  "base": "0x140000000",
+  "bytes_read": 24762992,
+  "scope": ".text only; 64KiB blocks plus 16-byte overlap; hits not yet decoded",
+  "hits": [
+    {
+      "kind": "raw RIP LEA/MOV",
+      "source": "0x140c12ea3",
+      "target": "0x1418f9518"
+    },
+    {
+      "kind": "raw RIP LEA/MOV",
+      "source": "0x140c14b50",
+      "target": "0x1418f9518"
+    },
+    {
+      "kind": "raw RIP LEA/MOV",
+      "source": "0x141340ddb",
+      "target": "0x1418f9518"
+    },
+    {
+      "kind": "raw RIP LEA/MOV",
+      "source": "0x141462d1f",
+      "target": "0x1418f9518"
+    },
+    {
+      "kind": "raw RIP LEA/MOV",
+      "source": "0x141462fce",
+      "target": "0x1418f9518"
+    },
+    {
+      "kind": "raw RIP LEA/MOV",
+      "source": "0x14146950b",
+      "target": "0x1418f9518"
+    }
+  ]
+}

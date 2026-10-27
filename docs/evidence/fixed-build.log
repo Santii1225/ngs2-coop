@@ -1,0 +1,13 @@
+[ 20%] Building CXX object CMakeFiles/effect.dir/src/effect/main.cpp.obj
+[ 30%] Built target steam-bugfixes
+[ 40%] Building CXX object CMakeFiles/combat.dir/src/combat/main.cpp.obj
+[ 60%] Building CXX object CMakeFiles/loader.dir/src/loader/main.cpp.obj
+[ 60%] Building CXX object CMakeFiles/core.dir/src/core/main.cpp.obj
+[ 70%] Linking CXX shared module dbghelp.dll
+[ 80%] Linking CXX shared module nmcombat.dll
+[ 90%] Linking CXX shared module nmloader.dll
+[ 90%] Built target combat
+[ 90%] Built target core
+[ 90%] Built target loader
+[100%] Linking CXX shared module nmeffect.dll
+[100%] Built target effect

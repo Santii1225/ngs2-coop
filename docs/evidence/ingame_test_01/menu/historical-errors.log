@@ -1,0 +1,20 @@
+133: 8430.813:0098:00c0:err:hid:get_container_id_for_usb_udev_device Failed to get parent device.
+138: 8430.961:0098:00a4:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\winebth": c0000142
+219: 8431.370:00dc:00e0:trace:seh:dispatch_exception code=6ba (RPC_S_SERVER_UNAVAILABLE) flags=0 addr=00006FFFFFBFD947
+295: 8431.370:00dc:00e0:trace:seh:RtlUnwindEx code=6ba flags=2 end_frame=000000000031ECB0 target_ip=00006FFFFE774E3A
+539: 8431.558:0020:0138:err:vrclient:initialize_vr_data Failed to initialize VR info.
+3944: 8432.444:0140:0144:err:ole:com_get_class_object class {e018945b-aa86-4008-9bd4-6777a1e40c11} not registered
+3945: 8432.444:0140:0144:err:ole:com_get_class_object no class object {e018945b-aa86-4008-9bd4-6777a1e40c11} could be created for context 0x1
+5123: 8477.817:0124:0154:warn:seh:dispatch_exception backtrace: --- Exception 0x6be.
+5132: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFFBFD947: L"kernelbase.dll" + 000000000000D947.
+5138: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFF8E2496: L"rpcrt4.dll" + 0000000000032496.
+5146: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFF8D19E4: L"rpcrt4.dll" + 00000000000219E4.
+5156: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFF8F0BBC: L"rpcrt4.dll" + 0000000000040BBC.
+5173: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFF8D4E92: L"rpcrt4.dll" + 0000000000024E92.
+5183: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFF8B66AB: L"rpcrt4.dll" + 00000000000066AB.
+5189: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFFAAB82B: L"sechost.dll" + 000000000000B82B.
+5200: 8477.817:0124:0154:warn:seh:virtual_unwind backtrace: 00006FFFFFAA98AA: L"sechost.dll" + 00000000000098AA.
+5380: 8477.817:0124:0154:err:service:device_notify_proc failed to get event, error 1726
+5382: 8477.818:0124:0154:trace:seh:dispatch_exception code=6ba (RPC_S_SERVER_UNAVAILABLE) flags=0 addr=00006FFFFFBFD947
+5389: 8477.818:0124:0154:trace:seh:call_vectored_handlers calling handler at 00006FFFFD42F7B0 code=6ba flags=0
+5458: 8477.818:0124:0154:trace:seh:RtlUnwindEx code=6ba flags=2 end_frame=00000000038DFE00 target_ip=00006FFFFFAA325A

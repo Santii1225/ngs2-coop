@@ -1,0 +1,724 @@
+[New LWP 29144]
+[New LWP 14335]
+[New LWP 14225]
+[New LWP 14224]
+[New LWP 14223]
+[New LWP 14222]
+[New LWP 14221]
+[New LWP 14220]
+[New LWP 14219]
+[New LWP 14218]
+[New LWP 14208]
+[New LWP 14207]
+[New LWP 14206]
+[New LWP 14180]
+[New LWP 14164]
+[New LWP 14163]
+[New LWP 14162]
+[New LWP 14161]
+[New LWP 14160]
+[New LWP 14159]
+[New LWP 14158]
+[New LWP 14157]
+[New LWP 14156]
+[New LWP 14155]
+[New LWP 14154]
+[New LWP 14153]
+[New LWP 14152]
+[New LWP 14151]
+[New LWP 14150]
+[New LWP 14149]
+[New LWP 14148]
+[New LWP 14147]
+[New LWP 14146]
+[New LWP 14144]
+[New LWP 14143]
+[New LWP 14142]
+[New LWP 14141]
+[New LWP 14140]
+[New LWP 14137]
+[New LWP 14136]
+[New LWP 14135]
+[New LWP 14134]
+[New LWP 14133]
+[New LWP 14132]
+[New LWP 14131]
+[New LWP 14130]
+[New LWP 14129]
+[New LWP 14128]
+[New LWP 14127]
+[New LWP 14126]
+[New LWP 14125]
+[New LWP 14124]
+[New LWP 14123]
+[New LWP 14122]
+[New LWP 14121]
+[New LWP 14120]
+[New LWP 14119]
+[New LWP 14118]
+[New LWP 14117]
+[New LWP 14116]
+[New LWP 14115]
+[New LWP 14114]
+[New LWP 14111]
+[New LWP 14110]
+[New LWP 14109]
+[New LWP 14108]
+[New LWP 14107]
+[New LWP 14106]
+[New LWP 14105]
+[New LWP 14104]
+[New LWP 14103]
+[New LWP 14102]
+[New LWP 14101]
+[New LWP 14100]
+[New LWP 14099]
+[New LWP 14098]
+[New LWP 14097]
+[New LWP 14096]
+[New LWP 14095]
+[New LWP 14094]
+[New LWP 14093]
+[New LWP 14092]
+[New LWP 14091]
+[New LWP 14090]
+[New LWP 14089]
+[New LWP 14088]
+[New LWP 14087]
+[New LWP 14086]
+[New LWP 14085]
+[New LWP 14084]
+[New LWP 14080]
+[New LWP 14079]
+[New LWP 14077]
+[New LWP 14076]
+[New LWP 14074]
+[New LWP 14064]
+[New LWP 14063]
+[New LWP 14061]
+[New LWP 14057]
+[New LWP 14056]
+[New LWP 14055]
+[New LWP 14054]
+[New LWP 14053]
+[New LWP 14052]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.cachyos.org>
+  <https://debuginfod.archlinux.org>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f3650d49a7f in ioctl () from target:/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/libc.so.6
+Hardware watchpoint 1: *(unsigned long long *)5418486560
+Hardware watchpoint 2: *(unsigned long long *)5418491232
+=== armed WRITE watch (observe only): RYU char0+0x10 @ 0x142f78b20 , MOMIJI char1+0x10 @ 0x142f79d60 ===
+Num     Type           Disp Enb Address            What
+1       hw watchpoint  keep y                      *(unsigned long long *)5418486560
+2       hw watchpoint  keep y                      *(unsigned long long *)5418491232
+[Thread 0x105bff6c0 (LWP 29144) exited]
+[New Thread 0x1007ff6c0 (LWP 29262)]
+[Switching to Thread 0x1025ff6c0 (LWP 14115)]
+HIT  1 [RYU] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f78b10 rbx=0x0 rcx=0x1 rdx=0x0 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc10
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0x143195300
+     [RYU+0x00]=00 01 01 00 06 06 00 00 00 00 00 01 00 01 00 00
+     [RYU+0x10]=00 00 ff 02 01 00 00 00 ff ff 00 00 00 00 00 00  (+0x12=ff +0x13=02 +0x16=00)
+     [RYU+0xF80]=00 00 00 00 00 00 00 0f 00 00 ff 01 00 00 00 00  (+0xF83=00 +0xF85=00 +0xF8A=ff)
+     regmap: rax=CHAR0
+     stack: [+0x38]=0x140f7beb2 [+0x68]=0x140f31acf [+0x98]=0x140f31f33 [+0xf8]=0x140f252fd [+0x188]=0x140f7fc93 [+0x1c8]=0x140f8044a [+0x1f8]=0x140f8c429
+HIT  2 [RYU] pc=0x140f1ed13 rva=0xf1ed13 thr=14115/Updating
+     prev32=0000488bcbe8439f06000fb67c24604885c07504b0ffeb040fb6400741884612
+     here16=8bee4038731a7538807b1f207332b203
+     rax=0x2 rbx=0x143195300 rcx=0x143195300 rdx=0x1 rsi=0x0 rdi=0x20 rbp=0xffff rsp=0x5c92fbb0
+     r8=0x19060dd0 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142f78b10 r15=0x143197100
+     [RYU+0x00]=00 01 01 00 06 06 00 00 00 00 00 01 00 01 00 00
+     [RYU+0x10]=00 00 02 02 01 00 00 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=00)
+     [RYU+0xF80]=00 00 00 00 00 00 00 0f 00 00 ff 01 00 00 00 00  (+0xF83=00 +0xF85=00 +0xF8A=ff)
+     regmap: r14=CHAR0 r15=RYU_OBJ
+     stack: [+0x58]=0x140f24bb6 [+0x98]=0x140f7beb2 [+0xc8]=0x140f31acf [+0xf8]=0x140f31f33 [+0x158]=0x140f252fd [+0x1e8]=0x140f7fc93
+HIT  3 [RYU] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f78b10 rbx=0x0 rcx=0x1 rdx=0x85 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0xffff
+     [RYU+0x00]=00 01 01 00 26 26 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=00 00 02 02 01 00 85 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=85)
+     [RYU+0xF80]=06 06 00 00 00 00 00 0f 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR0
+     stack: [+0x8]=0x140f89f78 [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT  4 [RYU] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f78b10 rbx=0x0 rcx=0x0 rdx=0xf7 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0xffff
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=00 00 02 02 01 00 f7 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=f7)
+     [RYU+0xF80]=26 26 00 00 00 00 00 0f 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR0
+     stack: [+0x8]=0x140f89f78 [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT  5 [RYU] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f78b10 rbx=0x0 rcx=0x0 rdx=0x1c1 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0xffff
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=00 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR0
+     stack: [+0x8]=0x140f89f78 [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT  6 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x1 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=01 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT  7 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x2 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=02 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 01 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT  8 [MOMIJI] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f79d50 rbx=0x0 rcx=0x0 rdx=0x0 rsi=0x0 rdi=0x4 rbp=0xffff rsp=0x5c92fc10
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0x143195300
+     [MOMIJI+0x00]=04 01 01 00 06 06 00 00 00 00 00 01 00 01 00 00
+     [MOMIJI+0x10]=00 00 ff 02 01 00 00 00 ff ff 00 00 00 00 00 00  (+0x12=ff +0x13=02 +0x16=00)
+     [MOMIJI+0xF80]=00 00 00 00 00 00 00 09 00 00 ff 01 00 00 00 00  (+0xF83=00 +0xF85=00 +0xF8A=ff)
+     regmap: rax=CHAR1
+     stack: [+0x38]=0x140f7beb2 [+0x68]=0x140f31acf [+0x98]=0x140f31f33 [+0xf8]=0x140f252fd [+0x188]=0x140f7fc93 [+0x1c8]=0x140f8044a [+0x1f8]=0x140f8c429
+HIT  9 [MOMIJI] pc=0x140f1ed13 rva=0xf1ed13 thr=14115/Updating
+     prev32=0000488bcbe8439f06000fb67c24604885c07504b0ffeb040fb6400741884612
+     here16=8bee4038731a7538807b1f207332b203
+     rax=0x2 rbx=0x1431953c0 rcx=0x1431953c0 rdx=0x1 rsi=0x0 rdi=0x20 rbp=0xffff rsp=0x5c92fbb0
+     r8=0x1a862650 r9=0x82fc8 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142f79d50 r15=0x14319cdb0
+     [MOMIJI+0x00]=04 01 01 00 06 06 00 00 00 00 00 01 00 01 00 00
+     [MOMIJI+0x10]=00 00 02 02 01 00 00 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=00)
+     [MOMIJI+0xF80]=00 00 00 00 00 00 00 09 00 00 ff 01 00 00 00 00  (+0xF83=00 +0xF85=00 +0xF8A=ff)
+     regmap: r14=CHAR1 r15=AI_OBJ
+     stack: [+0x58]=0x140f24bb6 [+0x98]=0x140f7beb2 [+0xc8]=0x140f31acf [+0xf8]=0x140f31f33 [+0x158]=0x140f252fd [+0x1e8]=0x140f7fc93
+HIT 10 [MOMIJI] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f79d50 rbx=0x0 rcx=0x0 rdx=0x11 rsi=0x0 rdi=0x4 rbp=0xffff rsp=0x5c92fc10
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0x143195300
+     [MOMIJI+0x00]=04 01 01 00 06 06 00 00 00 00 00 01 00 01 00 00
+     [MOMIJI+0x10]=00 00 02 02 01 00 11 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=11)
+     [MOMIJI+0xF80]=06 06 00 00 00 00 00 09 00 00 02 01 00 00 00 02  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR1
+     stack: [+0x38]=0x140f7beb2 [+0x68]=0x140f31acf [+0x98]=0x140f31f33 [+0xf8]=0x140f252fd [+0x188]=0x140f7fc93 [+0x1c8]=0x140f8044a [+0x1f8]=0x140f8c429
+HIT 11 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x3 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=03 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 02 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 12 [MOMIJI] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f79d50 rbx=0x0 rcx=0x0 rdx=0x15 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0xffff
+     [MOMIJI+0x00]=04 01 01 00 26 26 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=00 00 02 02 01 00 15 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=15)
+     [MOMIJI+0xF80]=06 06 00 00 00 00 00 09 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR1
+     stack: [+0x8]=0x140f89f78 [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 13 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x4 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=04 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 03 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 14 [MOMIJI] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f79d50 rbx=0x0 rcx=0x1 rdx=0x19 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0xffff
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=00 00 02 02 01 00 19 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=19)
+     [MOMIJI+0xF80]=26 26 00 00 00 00 00 09 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR1
+     stack: [+0x8]=0x140f89f78 [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 15 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x5 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=05 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 04 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 16 [MOMIJI] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f79d50 rbx=0x0 rcx=0x1 rdx=0x22 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0xffff
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=00 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR1
+     stack: [+0x8]=0x140f89f78 [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 17 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x1 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=01 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 18 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x6 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=06 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 05 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 19 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x2 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=02 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 01 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 20 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x7 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=07 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 06 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 21 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x3 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=03 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 02 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 22 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x8 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=08 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 07 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 23 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x4 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=04 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 03 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 24 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x9 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=09 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 08 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 25 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x5 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=05 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 04 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 26 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xa rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=0a 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 09 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 27 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x6 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=06 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 05 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 28 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xb rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=0b 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 0a 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 29 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x7 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=07 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 06 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 30 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xc rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=0c 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 0b 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 31 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x8 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=08 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 07 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 32 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xd rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=0d 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 0c 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 33 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x9 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=09 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 08 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 34 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xe rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=0e 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 0d 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 35 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xa rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=0a 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 09 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 36 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xf rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=0f 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 0e 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 37 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xb rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=0b 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 0a 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 38 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x10 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=10 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 0f 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 39 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xc rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=0c 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 0b 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 40 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x11 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=11 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 10 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 41 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xd rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=0d 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 0c 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 42 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x12 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=12 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 11 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 43 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xe rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=0e 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 0d 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 44 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x13 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=13 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 12 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 45 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0xf rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=0f 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 0e 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 46 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x14 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=14 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 13 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 47 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x10 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=10 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 0f 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 48 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x15 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=15 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 14 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 49 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x11 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=11 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 10 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 50 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x16 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=16 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 15 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 51 [MOMIJI] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x12 rbx=0x0 rcx=0x142f79d50 rdx=0x142f79d50 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x1a8b4390 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=12 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 11 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR1 rdx=CHAR1
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 52 [MOMIJI] pc=0x140f24bfd rva=0xf24bfd thr=14115/Updating
+     prev32=0f0000884210488b0dde1908020fb641103cff730bfec0884110eb0440887210
+     here16=488b15b41908024533c989742428498b
+     rax=0x14319cdb0 rbx=0x0 rcx=0x23 rdx=0x142f79d50 rsi=0x0 rdi=0x4 rbp=0xffff rsp=0x5c92fc10
+     r8=0x1a8b4390 r9=0x82f88 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [MOMIJI+0x00]=04 01 01 00 2a 2a 00 00 00 00 00 01 00 01 00 00
+     [MOMIJI+0x10]=00 00 02 02 01 00 22 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=22)
+     [MOMIJI+0xF80]=28 28 00 00 00 00 00 09 00 12 02 01 00 00 00 00  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=AI_OBJ rdx=CHAR1
+     stack: [+0x38]=0x140f7beb2 [+0x68]=0x140f31acf [+0x98]=0x140f31f33 [+0xf8]=0x140f252fd [+0x188]=0x140f7fc93 [+0x1c8]=0x140f8044a [+0x1f8]=0x140f8c429
+HIT 53 [MOMIJI] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f79d50 rbx=0x0 rcx=0x1 rdx=0x23 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0xffff
+     [MOMIJI+0x00]=04 01 01 00 00 00 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=00 00 02 02 01 00 23 00 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=23)
+     [MOMIJI+0xF80]=2a 00 00 00 00 00 00 09 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rax=CHAR1
+     stack: [+0x8]=0x140f89f78 [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 54 [MOMIJI] pc=0x140f1ed13 rva=0xf1ed13 thr=14115/Updating
+     prev32=0000488bcbe8439f06000fb67c24604885c07504b0ffeb040fb6400741884612
+     here16=8bee4038731a7538807b1f207332b203
+     rax=0xff rbx=0x1431953c0 rcx=0x1431953c0 rdx=0x1 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fbe0
+     r8=0x1a862650 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142f79d50 r15=0x14319cdb0
+     [MOMIJI+0x00]=04 01 01 00 00 00 00 00 00 00 01 00 00 01 00 00
+     [MOMIJI+0x10]=00 00 ff 02 01 00 23 00 ff ff 00 00 00 00 00 00  (+0x12=ff +0x13=02 +0x16=23)
+     [MOMIJI+0xF80]=2a 00 00 00 00 00 00 09 00 00 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: r14=CHAR1 r15=AI_OBJ
+     stack: [+0x58]=0x140f24bb6 [+0x98]=0x140f7be7a [+0xc8]=0x140f31e84 [+0x128]=0x140f252fd [+0x1b8]=0x140f7fc93 [+0x1f8]=0x140f8044a
+HIT 55 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x17 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=17 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 16 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 56 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x18 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=18 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 17 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 57 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x19 rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=19 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 18 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 58 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x1a rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=1a 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 19 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 59 [RYU] pc=0x140f24bf7 rva=0xf24bf7 thr=14115/Updating
+     prev32=75200fb682890f0000884210488b0dde1908020fb641103cff730bfec0884110
+     here16=eb0440887210488b15b41908024533c9
+     rax=0x1b rbx=0x0 rcx=0x142f78b10 rdx=0x142f78b10 rsi=0x0 rdi=0x0 rbp=0xffff rsp=0x5c92fc40
+     r8=0x191b0590 r9=0x0 r10=0x0 r11=0x0 r12=0x10 r13=0x14319531f r14=0x142fa5b20 r15=0x140000000
+     [RYU+0x00]=00 01 01 00 28 28 00 00 00 00 01 00 00 01 00 00
+     [RYU+0x10]=1b 00 02 02 01 00 c1 01 ff ff 00 00 00 00 00 00  (+0x12=02 +0x13=02 +0x16=c1)
+     [RYU+0xF80]=28 28 00 00 00 00 00 0f 00 1a 02 01 00 00 00 01  (+0xF83=00 +0xF85=00 +0xF8A=02)
+     regmap: rcx=CHAR0 rdx=CHAR0
+     stack: [+0x38]=0x140f7be7a [+0x68]=0x140f31e84 [+0xc8]=0x140f252fd [+0x158]=0x140f7fc93 [+0x198]=0x140f8044a [+0x1c8]=0x140f8c429 [+0x1f8]=0x141462167
+HIT 60 [MOMIJI] pc=0x140f2480c rva=0xf2480c thr=14115/Updating
+     prev32=78184c8970e8488b05c71d08020fb794483a5b0000488b05c01d080266895016
+     here16=488b05b51d0802440fb7880c0200000f
+     rax=0x142f79d50 rbx=0x0 rcx=0x1 rdx=0x0 rsi=0x0 rdi=0x4 rbp=0xffff rsp=0x5c92fc10
+     r8=0x140000000 r9=0xf r10=0x0 r11=0x5 r12=0x10 r13=0x14319531f r14=0x140000000 r15=0x143195300
+     [MOMIJI+0x00]=04 01 01 00 48 48 00 00 00 00 00 01 00 01 00 00
+     [MOMIJI+0x10]=00 00 ff 02 01 00 00 00 ff ff 00 00 00 00 00 00  (+0x12=ff +0x13=02 +0x16=00)
+     [MOMIJI+0xF80]=00 00 00 00 00 00 00 09 00 00 ff 01 00 00 00 00  (+0xF83=00 +0xF85=00 +0xF8A=ff)
+     regmap: rax=CHAR1
+     stack: [+0x38]=0x140f7beb2 [+0x68]=0x140f31acf [+0x98]=0x140f31f33 [+0xf8]=0x140f252fd [+0x188]=0x140f7fc93 [+0x1c8]=0x140f8044a [+0x1f8]=0x140f8c429
+=== MAX hits, detaching ===
+[Inferior 1 (process 14042) detached]

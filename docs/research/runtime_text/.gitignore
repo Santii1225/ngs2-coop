@@ -1,0 +1,6 @@
+# Runtime-decrypted executable section dumps are large (~30 MB) and are a
+# derivative of the game binary. They are NOT committed. Regenerate from a
+# live process with tools/runtime_text_dump.py; dump_manifest.json records the
+# exact RVA ranges, segment map and SHA256 of every artifact so a regenerated
+# dump can be verified byte-for-byte.
+*.bin

@@ -1,0 +1,29 @@
+132: 1001.034:0094:00bc:err:hid:get_container_id_for_usb_udev_device Failed to get parent device.
+141: 1001.194:0094:00a0:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\winebth": c0000142
+222: 1001.982:00d8:00dc:trace:seh:dispatch_exception code=6ba (RPC_S_SERVER_UNAVAILABLE) flags=0 addr=00006FFFFFBFD947
+298: 1001.982:00d8:00dc:trace:seh:RtlUnwindEx code=6ba flags=2 end_frame=000000000031ECB0 target_ip=00006FFFFF174E3A
+548: 1002.434:0020:0138:err:vrclient:initialize_vr_data Failed to initialize VR info.
+3944: 1003.254:013c:0140:err:ole:com_get_class_object class {e018945b-aa86-4008-9bd4-6777a1e40c11} not registered
+3945: 1003.254:013c:0140:err:ole:com_get_class_object no class object {e018945b-aa86-4008-9bd4-6777a1e40c11} could be created for context 0x1
+3980: 1003.264:013c:0140:trace:loaddll:build_module Loaded L"S:\\steamapps\\common\\[NINJA GAIDEN Master Collection] NINJA GAIDEN \03a3\ff12\\plugin\\libwinpthread-1.dll" at 00006FFFF9540000: native
+3981: 1003.264:013c:0140:trace:loaddll:build_module Loaded L"S:\\steamapps\\common\\[NINJA GAIDEN Master Collection] NINJA GAIDEN \03a3\ff12\\plugin\\libgcc_s_seh-1.dll" at 00006FFFF9570000: native
+3982: 1003.264:013c:0140:trace:loaddll:build_module Loaded L"S:\\steamapps\\common\\[NINJA GAIDEN Master Collection] NINJA GAIDEN \03a3\ff12\\plugin\\libstdc++-6.dll" at 00006FFFF95B0000: native
+3983: 1003.264:013c:0140:trace:loaddll:build_module Loaded L"S:\\steamapps\\common\\[NINJA GAIDEN Master Collection] NINJA GAIDEN \03a3\ff12\\plugin\\core.dll" at 00006FFFF9830000: native
+3986: 1003.265:013c:018c:warn:debugstr:OutputDebugStringA "NGS2Coop: core plugin loaded\n"
+3987: 1003.265:013c:018c:warn:seh:dispatch_exception "NGS2Coop: core plugin loaded\n"
+4128: 1003.266:013c:018c:warn:debugstr:OutputDebugStringA "NGS2Coop: initialization starting\n"
+4129: 1003.266:013c:018c:warn:seh:dispatch_exception "NGS2Coop: initialization starting\n"
+4270: 1003.266:013c:018c:warn:debugstr:OutputDebugStringA "NGS2Coop: module base = 0000000140000000\n"
+4271: 1003.266:013c:018c:warn:seh:dispatch_exception "NGS2Coop: module base = 0000000140000000\n"
+4413: 1003.266:013c:018c:warn:debugstr:OutputDebugStringA "NGS2Coop: Sigma2 slot = 00000001418F9518 (RVA 0x18F9518)\nNGS2Coop: expected target = 0000000141462A00\n"
+4414: 1003.266:013c:018c:warn:seh:dispatch_exception "NGS2Coop: Sigma2 slot = 00000001418F9518 (RVA 0x18F9518)\nNGS2Coop: expected target = 0000000141462A00\n"
+4555: 1003.267:013c:018c:warn:debugstr:OutputDebugStringA "NGS2Coop: Sigma2 slot current target = 0000000141462A00\n"
+4556: 1003.267:013c:018c:warn:seh:dispatch_exception "NGS2Coop: Sigma2 slot current target = 0000000141462A00\n"
+4698: 1003.267:013c:018c:warn:debugstr:OutputDebugStringA "NGS2Coop: version guard PASS (image and target; CAS rechecks target)\n"
+4699: 1003.267:013c:018c:warn:seh:dispatch_exception "NGS2Coop: version guard PASS (image and target; CAS rechecks target)\n"
+4842: 1003.267:013c:018c:warn:debugstr:OutputDebugStringA "NGS2Coop: Sigma2 hook installed\n"
+4843: 1003.267:013c:018c:warn:seh:dispatch_exception "NGS2Coop: Sigma2 hook installed\n"
+5011: 1003.270:013c:0190:warn:debugstr:OutputDebugStringA "NGS2Coop: Sigma2 hook invoked\n"
+5012: 1003.270:013c:0190:warn:seh:dispatch_exception "NGS2Coop: Sigma2 hook invoked\n"
+5632: 1004.000:013c:0190:warn:debugstr:OutputDebugStringA "NGS2Coop: Sigma2 original returned bool=true; forwarding unchanged\n"
+5633: 1004.000:013c:0190:warn:seh:dispatch_exception "NGS2Coop: Sigma2 original returned bool=true; forwarding unchanged\n"

@@ -1,0 +1,20 @@
+140000000-140001000 r--p 00000000 00:23 2137063                          ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/NINJA GAIDEN SIGMA2.exe
+6ffff8fa0000-6ffff8fa1000 r--p 00000000 00:23 2271549                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/nmsteam-bugfixes.dll
+6ffff8fa8000-6ffff8fa9000 r--p 00003000 00:23 2271549                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/nmsteam-bugfixes.dll
+6ffff8fc0000-6ffff8fc1000 r--p 00000000 00:23 2271548                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/nmloader.dll
+6ffff8fc7000-6ffff8fc8000 r--p 00004000 00:23 2271548                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/nmloader.dll
+6ffff90b0000-6ffff90b1000 r--p 00000000 00:23 2271547                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/nmeffect.dll
+6ffff94e0000-6ffff94e1000 r--p 00000000 00:23 2271546                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/nmcombat.dll
+6ffff94e6000-6ffff94e7000 r--p 00003000 00:23 2271546                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/nmcombat.dll
+6ffff9500000-6ffff9501000 r--p 00000000 00:23 2277068                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/NGS2Coop.dll
+6ffff9540000-6ffff9541000 r--p 00000000 00:23 2322100                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/libwinpthread-1.dll
+6ffff954b000-6ffff954c000 r--p 00009000 00:23 2322100                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/libwinpthread-1.dll
+6ffff9570000-6ffff9571000 r--p 00000000 00:23 2322098                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/libgcc_s_seh-1.dll
+6ffff9598000-6ffff9599000 r--p 00023000 00:23 2322098                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/libgcc_s_seh-1.dll
+6ffff95b0000-6ffff95b1000 r--p 00000000 00:23 2322099                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/libstdc++-6.dll
+6ffff9830000-6ffff9831000 r--p 00000000 00:23 2322097                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/core.dll
+6ffff9840000-6ffff9841000 rw-p 0000a000 00:23 2322097                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/plugin/core.dll
+6ffffc320000-6ffffc321000 r--p 00000000 00:23 2137083                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/steam_api64.dll
+6ffffc363000-6ffffc364000 r--p 0003e000 00:23 2137083                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/steam_api64.dll
+6ffffc4a0000-6ffffc4a1000 r--p 00000000 00:23 2271533                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/dbghelp.dll
+6ffffc4a5000-6ffffc4a6000 rw-p 00003000 00:23 2271533                    ~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN Σ２/dbghelp.dll

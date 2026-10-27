@@ -1,0 +1,9 @@
+*~
+*.swp
+
+/build
+
+/build-codex/
+/dist/
+config/steam_launch_env.txt
+/release/

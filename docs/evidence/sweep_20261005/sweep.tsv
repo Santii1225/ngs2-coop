@@ -1,0 +1,31 @@
+n	mission	started	players	port	split	cam_untagged	cam_repeat	enemies_seen	notes
+0	Acólito 01	yes	2	1	True			5	
+1	Acólito 02	yes	2	1	True			5	
+2	Acólito 03	yes	2	1	True	1	20	5	
+3	Acólito 04	yes	2	1	True			5	
+4	Acólito 05	yes	2	1	True			6	
+5	Acólito 06	yes	2	1	True			5	
+6	Acólito 07	yes	2	1	True			6	
+7	Acólito 08	yes	2	1	True			6	
+8	Acólito 09	yes	2	1	True			6	
+9	Acólito 10	yes	2	1	True			8	
+10	Guerrero 01	yes	2	1	True	1	23	4	
+11	Guerrero 02	yes	2	1	True	0	19	5	
+12	Guerrero 03	yes	2	1	True	1	22	8	
+13	Guerrero 04	yes	2	1	True			4	
+14	Guerrero 05	yes	2	1	True			6	
+15	Guerrero 06	yes	2	1	True			6	
+16	Guerrero 07	yes	2	1	True			6	
+17	Guerrero 08	yes	2	1	True			6	
+18	Guerrero 09	yes	2	1	True			5	
+19	Guerrero 10	yes	2	1	True	1	22	5	
+20	Mentor 01	yes	2	1	True	0	21	7	
+21	Mentor 02	yes	2	1	True	1	19	10	
+22	Mentor 03	yes	2	1	True	1	21	6	
+23	Mentor 04	yes	2	1	True			4	
+24	Mentor 05	yes	2	1	True			7	
+25	Maestro Ninja 01	yes	2	1	True			4	
+26	Maestro Ninja 02	yes	2	1	True			5	
+29	Maestro Ninja 05	yes	2	1	True	1	3	2	
+27	Maestro Ninja 03	yes	2	1	True			1	
+28	Maestro Ninja 04	yes	2	1	True			6	

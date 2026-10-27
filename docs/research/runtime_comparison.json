@@ -1,0 +1,16 @@
+{
+  "capture_size": 896,
+  "rva_start": "0x1462980",
+  "rva_end": "0x1462d00",
+  "runtime_sha256": "9808f7b5676a15e5dfb1f9ffd17d181542806426cd57dab59bdac2441c83e47e",
+  "disk_sha256": "6c90b920a347623a4fdcdc41f9e3c5c12c74080b5e2b89206d5577db450097ea",
+  "differences_full_capture": 893,
+  "requested_window_size": 512,
+  "differences_requested_window": 510,
+  "dir64_in_capture": [],
+  "classification": "PATCHED/DECRYPTED",
+  "interpretation": "transformed code; not relocations only; exact transformer not traced",
+  "second_read_time_utc": "2026-09-06T18:49:31.082253+00:00",
+  "function_capture_still_identical": true,
+  "vtable_still_identical": true
+}

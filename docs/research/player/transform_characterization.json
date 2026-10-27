@@ -1,0 +1,128 @@
+{
+  "phase": "FASE 7 - PLAYER TRANSFORM CHARACTERIZATION",
+  "pid": 16942,
+  "module_base": "0x140000000",
+  "object_addr": "0x143197100",
+  "object_rva": "0x3197100",
+  "character_block": "module_base + 0x2F78B10 + group*0x1240  (group 0)",
+  "position": {
+    "offsets": {
+      "C0": "+0x2B0",
+      "C1": "+0x2B4",
+      "C2": "+0x2B8"
+    },
+    "C0_semantic": "world X",
+    "C1_semantic": "world Y (up)",
+    "C2_semantic": "world Z",
+    "evidence": "C1 vertical from session C height changes; C0/C2 pinned by movement-vs-forward-vector correlation (see below)"
+  },
+  "rotation": {
+    "representation": "3x3 rotation matrix, row-major, rows at char+0x80 / +0x90 / +0xA0 (each 4 floats: xyz + 0 pad)",
+    "address": "module_base + 0x2F78B10 + 0x80",
+    "row0": "local X / right",
+    "row1": "local Y / up (~world +Y, constant)",
+    "row2": "local Z / forward",
+    "det_all_captures": [
+      0.99998,
+      0.99997,
+      0.99999,
+      0.99999,
+      1.0,
+      1.0
+    ],
+    "det_note": "det = +1 in all six captures -> proper rotation, no reflection",
+    "row0_cross_row1_equals_row2": "verified numerically (e.g. ROTATION_TEST_C: row0xrow1=[-0.0496, 0.0098, 0.9987] vs row2=[-0.0496, 0.0098, 0.9987])",
+    "copies": [
+      "char+0x100",
+      "char+0x67c",
+      "char+0x1020",
+      "char+0x1040",
+      "char+0x10ec"
+    ]
+  },
+  "rotation_tests": {
+    "A_to_B": {
+      "dyaw_row0_deg": -173.23,
+      "dyaw_row2_deg": -173.23,
+      "consistent": true,
+      "moved_horiz": 0.65
+    },
+    "B_to_C": {
+      "dyaw_row0_deg": 91.1,
+      "dyaw_row2_deg": 91.1,
+      "consistent": true,
+      "moved_horiz": 0.975
+    },
+    "A_to_C": {
+      "dyaw_row0_deg": -82.13,
+      "dyaw_row2_deg": -82.13,
+      "consistent": true,
+      "moved_horiz": 1.178
+    },
+    "note": "row0 and row2 yield identical yaw deltas -> rigid yaw about vertical; coherent across A/B/C"
+  },
+  "movement_rotation_correlation": [
+    {
+      "move": "AXIS_ORIGIN->AXIS_A",
+      "dC0": -8.730476379394531,
+      "dC1": -4.76837158203125e-07,
+      "dC2": -0.0129547119140625,
+      "horiz": 8.730485990809825,
+      "heading_deg": -90.08501824419018,
+      "end_forward_heading_deg": -87.15,
+      "forward_vs_move_offset_deg": 2.93
+    },
+    {
+      "move": "AXIS_A->AXIS_B",
+      "dC0": 8.734832763671875,
+      "dC1": 9.5367431640625e-07,
+      "dC2": 1.91729736328125,
+      "horiz": 8.942781032126465,
+      "heading_deg": 77.61989984566047,
+      "end_forward_heading_deg": 79.29
+    },
+    {
+      "move": "ROT_A->ROT_B",
+      "dC0": -0.6485137939453125,
+      "dC1": -9.5367431640625e-07,
+      "dC2": -0.039947509765625,
+      "horiz": 0.6497429833971414,
+      "heading_deg": -93.52488322635729,
+      "end_forward_heading_deg": -93.94
+    }
+  ],
+  "handedness": "RIGHT-HANDED, Y-up: det=+1 and row0xrow1=row2 (right-handed triad); row1 ~ world +Y; position and matrix share the basis",
+  "identity": {
+    "resolved_object": "transform/pose data block (no vtable/RTTI/name strings in first 0x400; pure float/int data)",
+    "selection": "game_object table entry 0 (obj_id=0 @ +0x18, group=0 @ +0x1F) -> character table group 0",
+    "tracks_controlled_character": true,
+    "evidence": [
+      "position bit-stable when user idle; moved exactly with deliberate walking; ~0 move during turn-in-place",
+      "rotation pure-yaw, forward vector matches walk heading within ~3 deg across 3 moves",
+      "Y constant on flat ground, rose when user went higher (session C) -> character on terrain, not free camera",
+      "resolver chain uses gameplay tables (is_stationary / character.dead / corpse logic), not render/camera structs",
+      "obj+0x310 near-copy LAGS obj+0x2B0 during motion -> +0x2B0 is the leading/authoritative value, not a smoothed visual proxy"
+    ],
+    "not_established": "that this is specifically Ryu vs other playable characters (no id/name; needs multi-character capture)"
+  },
+  "status": {
+    "position_C0": "RUNTIME VERIFIED as world X (movement-forward correlation, MEDIUM-HIGH)",
+    "position_C1": "RUNTIME VERIFIED as world Y / vertical (session C + Phase 7)",
+    "position_C2": "RUNTIME VERIFIED as world Z (movement-forward correlation, MEDIUM-HIGH)",
+    "rotation": "RUNTIME VERIFIED as player yaw/orientation matrix at char+0x80 (pure-yaw component; pitch/roll not exercised)",
+    "handedness": "CANDIDATE->STRONG: right-handed Y-up (MEDIUM-HIGH)",
+    "character_identity": "CANDIDATE: tracks the controlled character; specific Ryu identity not proven",
+    "another_mission": "CONFIRMED - resolver + rotation work in a second mission (same root/offsets/method)"
+  },
+  "another_mission": {
+    "same_process": "PID 16942 (game not restarted, mission changed)",
+    "root": "module_base + 0x3195300 (unchanged)",
+    "object": "entry 0 -> 0x143197100 (module-relative, unchanged)",
+    "offsets": "+0x2B0/+0x2B4/+0x2B8 (unchanged)",
+    "rotation": "char+0x80 3x3 matrix, det +1, orthonormal, row0xrow1=row2 (found the same way)",
+    "position_region": "different map: C0~106.9, Y~1.20, C2~-75.5 (mission 1 was C0~74, Y~5.22, C2~-136)",
+    "idle_stability": "bit-identical across 12 samples / 11 s once Ryu was on firm ground with controller released; earlier 'drift' was Ryu genuinely moving, not a resolver fault",
+    "obj_vs_char": "<1e-4 constant offset in this mission (exact bit-match in mission 1); both track the same point",
+    "verdict": "Resolver is NOT scenario-specific: works in a second mission with the same root/offsets/method"
+  }
+}

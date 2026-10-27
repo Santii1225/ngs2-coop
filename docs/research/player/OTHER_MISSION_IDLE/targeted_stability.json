@@ -1,0 +1,253 @@
+{
+  "tool": "player_stability_probe",
+  "pid": 16942,
+  "module_base": "0x140000000",
+  "core_base": "0x6ffff9830000",
+  "root_address": "0x143195300",
+  "interval_s": 1.0,
+  "count": 12,
+  "total_bytes_read": 960,
+  "started": "16942 (NINJA GAIDEN SI) S 16828 16942 16942 0 -1 4194304 194152 0 119 0 57643 16283 0 0 15 -5 107 0 448848 9795825664 280596 18446744073709551615 140702689230848 140702689238123 140724110239200 0 0 0 0 4096 1073743614 0 0 0 17 0 0 0 0 0 0 140702689247024 140702689247328 93825212387328 140724110244398 140724110244690 140724110244690 140724110270352 0\n",
+  "samples": [
+    {
+      "i": 0,
+      "time": "2026-09-06T19:34:29.506041-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 1,
+      "time": "2026-09-06T19:34:30.506329-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 2,
+      "time": "2026-09-06T19:34:31.506626-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 3,
+      "time": "2026-09-06T19:34:32.506910-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 4,
+      "time": "2026-09-06T19:34:33.507228-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 5,
+      "time": "2026-09-06T19:34:34.507520-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 6,
+      "time": "2026-09-06T19:34:35.508006-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 7,
+      "time": "2026-09-06T19:34:36.508507-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 8,
+      "time": "2026-09-06T19:34:37.508895-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 9,
+      "time": "2026-09-06T19:34:38.509227-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 10,
+      "time": "2026-09-06T19:34:39.509576-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    },
+    {
+      "i": 11,
+      "time": "2026-09-06T19:34:40.509876-06:00",
+      "slot": "0x6ffff98316f2",
+      "entry0_ptr": "0x143197100",
+      "group": 0,
+      "object_triple": [
+        106.91000366210938,
+        1.1958106756210327,
+        -75.51905059814453
+      ],
+      "object_triple_addr": "0x1431973b0",
+      "character_triple": [
+        106.91000366210938,
+        1.1958105564117432,
+        -75.51905059814453
+      ],
+      "character_triple_addr": "0x142f78e20",
+      "object_eq_character": false
+    }
+  ]
+}

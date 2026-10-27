@@ -1,0 +1,770 @@
+{
+  "tool": "actor_classifier",
+  "captured": "2026-09-06T19:54:36.772521-06:00",
+  "pid": 16942,
+  "module_base": "0x140000000",
+  "core_base": "0x6ffff9830000",
+  "slot_ok": true,
+  "protocol": {
+    "sample_count": 12,
+    "sample_interval_s": 0.5,
+    "horizontal_tolerance": 0.05,
+    "vertical_tolerance": 0.05
+  },
+  "LOCAL_PLAYER_STABLE": true,
+  "local_player": {
+    "index": 0,
+    "obj_rva": "0x3197100",
+    "group": 0,
+    "obj_id": 0,
+    "position": [
+      59.631,
+      5.22,
+      -135.9884
+    ],
+    "h_range": 0.0,
+    "v_range": 0.0
+  },
+  "total_bytes_read": 104168,
+  "sample_times": [
+    "2026-09-06T19:54:31.240500-06:00",
+    "2026-09-06T19:54:31.747770-06:00",
+    "2026-09-06T19:54:32.249994-06:00",
+    "2026-09-06T19:54:32.752154-06:00",
+    "2026-09-06T19:54:33.254355-06:00",
+    "2026-09-06T19:54:33.756627-06:00",
+    "2026-09-06T19:54:34.258952-06:00",
+    "2026-09-06T19:54:34.761152-06:00",
+    "2026-09-06T19:54:35.263317-06:00",
+    "2026-09-06T19:54:35.765511-06:00",
+    "2026-09-06T19:54:36.267694-06:00",
+    "2026-09-06T19:54:36.769847-06:00"
+  ],
+  "actors": [
+    {
+      "index": 0,
+      "obj": 5420708096,
+      "obj_rva": 51998976,
+      "obj_id": 0,
+      "group": 0,
+      "meta": "000000000200ff00",
+      "position_first": [
+        59.631,
+        5.22,
+        -135.9884
+      ],
+      "position_last": [
+        59.631,
+        5.22,
+        -135.9884
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 0.0,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": -123.96,
+      "stable": true,
+      "moving": false,
+      "near_origin": false,
+      "colocated_with_player": true,
+      "classification": "LOCAL_PLAYER"
+    },
+    {
+      "index": 1,
+      "obj": 5421467392,
+      "obj_rva": 52758272,
+      "obj_id": 1,
+      "group": 0,
+      "meta": "0100028002010000",
+      "position_first": [
+        83.9118,
+        8.3055,
+        -130.7947
+      ],
+      "position_last": [
+        83.9118,
+        8.3055,
+        -130.7947
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 25.021,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": -123.96,
+      "stable": true,
+      "moving": false,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "ENEMY_CANDIDATE"
+    },
+    {
+      "index": 2,
+      "obj": 5421490592,
+      "obj_rva": 52781472,
+      "obj_id": 147,
+      "group": 1,
+      "meta": "9300028002020001",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 105.24,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 3,
+      "obj": 5421513792,
+      "obj_rva": 52804672,
+      "obj_id": 5,
+      "group": 2,
+      "meta": "0500028002030002",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": -154.03,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 4,
+      "obj": 5420731824,
+      "obj_rva": 52022704,
+      "obj_id": 219,
+      "group": 1,
+      "meta": "db0000010104ff01",
+      "position_first": [
+        64.9749,
+        5.22,
+        -125.864
+      ],
+      "position_last": [
+        65.71,
+        5.22,
+        -128.9872
+      ],
+      "movement_h_range": 7.96393,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 3.2086,
+      "dist_to_player_mean": 8.269,
+      "dist_to_player_range": 7.549,
+      "group_yaw_deg": 105.24,
+      "stable": false,
+      "moving": true,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "AI_PARTNER_CANDIDATE"
+    },
+    {
+      "index": 5,
+      "obj": 5421536992,
+      "obj_rva": 52827872,
+      "obj_id": 70,
+      "group": 3,
+      "meta": "4601028001050403",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": -94.38,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 6,
+      "obj": 5421560192,
+      "obj_rva": 52851072,
+      "obj_id": 71,
+      "group": 4,
+      "meta": "4701028001060404",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 139.15,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 7,
+      "obj": 5419158112,
+      "obj_rva": 50448992,
+      "obj_id": 109,
+      "group": 0,
+      "meta": "6d0101000107ff00",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": -123.96,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 8,
+      "obj": 5419181568,
+      "obj_rva": 50472448,
+      "obj_id": 108,
+      "group": 1,
+      "meta": "6c0101000108ff01",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 105.24,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 9,
+      "obj": 5420755552,
+      "obj_rva": 52046432,
+      "obj_id": 4,
+      "group": 2,
+      "meta": "040000800909ff02",
+      "position_first": [
+        64.6935,
+        5.22,
+        -126.629
+      ],
+      "position_last": [
+        61.4124,
+        5.22,
+        -125.2033
+      ],
+      "movement_h_range": 5.59607,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 3.5775,
+      "dist_to_player_mean": 9.825,
+      "dist_to_player_range": 3.33,
+      "group_yaw_deg": -154.03,
+      "stable": false,
+      "moving": true,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "AI_PARTNER_CANDIDATE"
+    },
+    {
+      "index": 10,
+      "obj": 5421583392,
+      "obj_rva": 52874272,
+      "obj_id": 23,
+      "group": 5,
+      "meta": "17000280090a0905",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 110.81,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 11,
+      "obj": 5420779280,
+      "obj_rva": 52070160,
+      "obj_id": 4,
+      "group": 3,
+      "meta": "040000810a0bff03",
+      "position_first": [
+        101.1405,
+        9.479,
+        -117.1364
+      ],
+      "position_last": [
+        101.0655,
+        9.4734,
+        -116.2635
+      ],
+      "movement_h_range": 2.43586,
+      "movement_v_range": 0.16909,
+      "first_to_last_disp": 0.876,
+      "dist_to_player_mean": 46.293,
+      "dist_to_player_range": 0.882,
+      "group_yaw_deg": -94.38,
+      "stable": false,
+      "moving": true,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "ENEMY_CANDIDATE"
+    },
+    {
+      "index": 12,
+      "obj": 5421606592,
+      "obj_rva": 52897472,
+      "obj_id": 23,
+      "group": 6,
+      "meta": "170002810a0c0b06",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": -61.02,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 13,
+      "obj": 5421629792,
+      "obj_rva": 52920672,
+      "obj_id": 40,
+      "group": 7,
+      "meta": "28000280010d0b07",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": -81.34,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 14,
+      "obj": 5420874192,
+      "obj_rva": 52165072,
+      "obj_id": 4,
+      "group": 7,
+      "meta": "04000083110eff07",
+      "position_first": [
+        66.2061,
+        5.22,
+        -125.9198
+      ],
+      "position_last": [
+        65.1934,
+        5.22,
+        -129.1501
+      ],
+      "movement_h_range": 7.20512,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 3.3854,
+      "dist_to_player_mean": 10.493,
+      "dist_to_player_range": 6.738,
+      "group_yaw_deg": -81.34,
+      "stable": false,
+      "moving": true,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "AI_PARTNER_CANDIDATE"
+    },
+    {
+      "index": 15,
+      "obj": 5421676192,
+      "obj_rva": 52967072,
+      "obj_id": 41,
+      "group": 9,
+      "meta": "29000280120fff09",
+      "position_first": [
+        75.9194,
+        5.22,
+        -121.0137
+      ],
+      "position_last": [
+        75.9194,
+        5.22,
+        -121.0137
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 22.126,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "ENEMY_CANDIDATE"
+    },
+    {
+      "index": 16,
+      "obj": 5421722592,
+      "obj_rva": 53013472,
+      "obj_id": 41,
+      "group": 11,
+      "meta": "2900028113100b0b",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 17,
+      "obj": 5421652992,
+      "obj_rva": 52943872,
+      "obj_id": 23,
+      "group": 8,
+      "meta": "1700028311110e08",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 18,
+      "obj": 5420850464,
+      "obj_rva": 52141344,
+      "obj_id": 4,
+      "group": 6,
+      "meta": "040000840d12ff06",
+      "position_first": [
+        68.604,
+        5.22,
+        -127.8137
+      ],
+      "position_last": [
+        69.5376,
+        5.22,
+        -129.139
+      ],
+      "movement_h_range": 3.51619,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 1.6211,
+      "dist_to_player_mean": 12.111,
+      "dist_to_player_range": 1.653,
+      "group_yaw_deg": -61.02,
+      "stable": false,
+      "moving": true,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "AI_PARTNER_CANDIDATE"
+    },
+    {
+      "index": 19,
+      "obj": 5421699392,
+      "obj_rva": 52990272,
+      "obj_id": 23,
+      "group": 10,
+      "meta": "170002840d13120a",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    },
+    {
+      "index": 20,
+      "obj": 5420803008,
+      "obj_rva": 52093888,
+      "obj_id": 8,
+      "group": 4,
+      "meta": "0800ff800114ff04",
+      "position_first": [
+        81.4173,
+        8.0,
+        -126.3901
+      ],
+      "position_last": [
+        81.4173,
+        8.0,
+        -126.3901
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 23.969,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 139.15,
+      "stable": true,
+      "moving": false,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "ENEMY_CANDIDATE"
+    },
+    {
+      "index": 21,
+      "obj": 5421745792,
+      "obj_rva": 53036672,
+      "obj_id": 42,
+      "group": 12,
+      "meta": "2a00ff801c15ff0c",
+      "position_first": [
+        80.8257,
+        8.9592,
+        -124.4053
+      ],
+      "position_last": [
+        80.8257,
+        8.9592,
+        -124.4053
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 24.441,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "ENEMY_CANDIDATE"
+    },
+    {
+      "index": 22,
+      "obj": 5421792192,
+      "obj_rva": 53083072,
+      "obj_id": 41,
+      "group": 14,
+      "meta": "2900ff821116ff0e",
+      "position_first": [
+        84.9886,
+        9.1179,
+        -138.54
+      ],
+      "position_last": [
+        84.9886,
+        9.1179,
+        -138.54
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 25.782,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "ENEMY_CANDIDATE"
+    },
+    {
+      "index": 23,
+      "obj": 5421768992,
+      "obj_rva": 53059872,
+      "obj_id": 23,
+      "group": 13,
+      "meta": "1700ff850e17160d",
+      "position_first": [
+        80.8115,
+        9.0374,
+        -128.2766
+      ],
+      "position_last": [
+        80.8115,
+        9.0374,
+        -128.2766
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 22.862,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": false,
+      "colocated_with_player": false,
+      "classification": "ENEMY_CANDIDATE"
+    },
+    {
+      "index": 24,
+      "obj": 5421722592,
+      "obj_rva": 53013472,
+      "obj_id": 22,
+      "group": 11,
+      "meta": "1600ff800118140b",
+      "position_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_last": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_h_range": 0.0,
+      "movement_v_range": 0.0,
+      "first_to_last_disp": 0.0,
+      "dist_to_player_mean": 148.58,
+      "dist_to_player_range": 0.0,
+      "group_yaw_deg": 0.0,
+      "stable": true,
+      "moving": false,
+      "near_origin": true,
+      "colocated_with_player": false,
+      "classification": "OTHER_ACTOR_CANDIDATE"
+    }
+  ]
+}

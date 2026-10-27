@@ -1,0 +1,180 @@
+
+<ruta-del-repo>/dist/plugin/core.dll:     file format pei-x86-64
+
+Characteristics 0x2026
+	executable
+	line numbers stripped
+	large address aware
+	DLL
+
+Time/Date		Sun Sep  6 18:00:46 2026
+Magic			020b	(PE32+)
+MajorLinkerVersion	2
+MinorLinkerVersion	47
+SizeOfCode		0000000000006c00
+SizeOfInitializedData	0000000000003200
+SizeOfUninitializedData	0000000000000200
+AddressOfEntryPoint	00000000000011f0
+BaseOfCode		0000000000001000
+ImageBase		00000003205c0000
+SectionAlignment	00001000
+FileAlignment		00000200
+MajorOSystemVersion	4
+MinorOSystemVersion	0
+MajorImageVersion	0
+MinorImageVersion	0
+MajorSubsystemVersion	5
+MinorSubsystemVersion	2
+Win32Version		00000000
+SizeOfImage		0003a000
+SizeOfHeaders		00000600
+CheckSum		00038790
+Subsystem		00000003	(Windows CUI)
+DllCharacteristics	00000160
+					HIGH_ENTROPY_VA
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve	0000000000200000
+SizeOfStackCommit	0000000000001000
+SizeOfHeapReserve	0000000000100000
+SizeOfHeapCommit	0000000000001000
+LoaderFlags		00000000
+NumberOfRvaAndSizes	00000010
+
+The Data Directory
+Entry 0 000000000000e000 0000004f Export Directory [.edata (or where ever we found it)]
+Entry 1 000000000000f000 000009a8 Import Directory [parts of .idata]
+Entry 2 0000000000000000 00000000 Resource Directory [.rsrc]
+Entry 3 000000000000b000 000006c0 Exception Directory [.pdata]
+Entry 4 0000000000000000 00000000 Security Directory
+Entry 5 0000000000011000 00000044 Base Relocation Directory [.reloc]
+Entry 6 0000000000000000 00000000 Debug Directory
+Entry 7 0000000000000000 00000000 Description Directory
+Entry 8 0000000000000000 00000000 Special Directory
+Entry 9 0000000000009820 00000028 Thread Storage Directory [.tls]
+Entry a 0000000000000000 00000000 Load Configuration Directory
+Entry b 0000000000000000 00000000 Bound Import Directory
+Entry c 000000000000f278 000001d8 Import Address Table Directory
+Entry d 0000000000000000 00000000 Delay Import Directory
+Entry e 0000000000000000 00000000 CLR Runtime Header
+Entry f 0000000000000000 00000000 Reserved
+
+There is an import table in .idata at 0x3205cf000
+
+The Import Tables (interpreted .idata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 0000f000	0000f0a0 00000000 00000000 0000f888 0000f278
+
+	DLL Name: KERNEL32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	0000f278  <none>  0000  AcquireSRWLockExclusive
+	0000f280  <none>  0097  CloseHandle
+	0000f288  <none>  00df  CreateFileW
+	0000f290  <none>  0107  CreateThread
+	0000f298  <none>  0127  DeleteCriticalSection
+	0000f2a0  <none>  0138  DisableThreadLibraryCalls
+	0000f2a8  <none>  014d  EnterCriticalSection
+	0000f2b0  <none>  01ca  FreeLibrary
+	0000f2b8  <none>  0238  GetCurrentProcess
+	0000f2c0  <none>  0239  GetCurrentProcessId
+	0000f2c8  <none>  0288  GetLastError
+	0000f2d0  <none>  029d  GetModuleFileNameW
+	0000f2d8  <none>  029e  GetModuleHandleA
+	0000f2e0  <none>  029f  GetModuleHandleExA
+	0000f2e8  <none>  02a0  GetModuleHandleExW
+	0000f2f0  <none>  02a1  GetModuleHandleW
+	0000f2f8  <none>  02da  GetProcAddress
+	0000f300  <none>  0315  GetSystemTime
+	0000f308  <none>  0396  InitializeCriticalSection
+	0000f310  <none>  03f4  LeaveCriticalSection
+	0000f318  <none>  03f8  LoadLibraryA
+	0000f320  <none>  0452  OutputDebugStringA
+	0000f328  <none>  04b4  ReadProcessMemory
+	0000f330  <none>  04cb  ReleaseSRWLockExclusive
+	0000f338  <none>  055a  SetLastError
+	0000f340  <none>  05a9  Sleep
+	0000f348  <none>  05cd  TlsGetValue
+	0000f350  <none>  05fd  VirtualProtect
+	0000f358  <none>  05ff  VirtualQuery
+	0000f360  <none>  0648  WriteFile
+	0000f368  <none>  0674  lstrlenA
+
+ 0000f014	0000f1a0 00000000 00000000 0000f8a0 0000f378
+
+	DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	0000f378  <none>  0017  calloc
+	0000f380  <none>  0018  free
+
+ 0000f028	0000f1b8 00000000 00000000 0000f8c4 0000f390
+
+	DLL Name: api-ms-win-crt-private-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	0000f390  <none>  043d  memcpy
+
+ 0000f03c	0000f1c8 00000000 00000000 0000f904 0000f3a0
+
+	DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	0000f3a0  <none>  0023  _execute_onexit_table
+	0000f3a8  <none>  0024  _exit
+	0000f3b0  <none>  0034  _initialize_onexit_table
+	0000f3b8  <none>  0036  _initterm
+	0000f3c0  <none>  0037  _initterm_e
+	0000f3c8  <none>  003c  _register_onexit_function
+	0000f3d0  <none>  0054  abort
+
+ 0000f050	0000f208 00000000 00000000 0000f940 0000f3e0
+
+	DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	0000f3e0  <none>  0000  __acrt_iob_func
+	0000f3e8  <none>  0003  __stdio_common_vfprintf
+	0000f3f0  <none>  000d  __stdio_common_vsprintf
+	0000f3f8  <none>  0011  __stdio_common_vswprintf
+	0000f400  <none>  006f  fgetwc
+	0000f408  <none>  007d  getc
+
+ 0000f064	0000f240 00000000 00000000 0000f96c 0000f418
+
+	DLL Name: api-ms-win-crt-string-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	0000f418  <none>  0079  memset
+	0000f420  <none>  0081  strlen
+	0000f428  <none>  0084  strncmp
+
+ 0000f078	0000f260 00000000 00000000 0000f998 0000f438
+
+	DLL Name: libstdc++-6.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	0000f438  <none>  1337  _ZSt21__glibcxx_assert_failPKciS0_S0_
+	0000f440  <none>  1764  __gxx_personality_seh0
+
+ 0000f08c	00000000 00000000 00000000 00000000 00000000
+
+There is an export table in .edata at 0x3205ce000
+
+The Export Tables (interpreted .edata section contents)
+
+Export Flags 			0
+Time/Date stamp 		6a9dfeae
+Major/Minor 			0/0
+Name 				000000000000e032 core.dll
+Ordinal Base 			1
+Number in:
+	Export Address Table 		00000001
+	[Name Pointer/Ordinal] Table	00000001
+Table Addresses
+	Export Address Table 		000000000000e028
+	Name Pointer Table 		000000000000e02c
+	Ordinal Table 			000000000000e030
+
+Export Address Table -- Ordinal Base 1
+	          Ordinal  Address  Type
+	[   0] +base[   1] 00001aea Export RVA
+
+[Ordinal/Name Pointer] Table -- Ordinal Base 1
+	          Ordinal   Hint Name
+	[   0] +base[   1]  0000 NMRestoreSigma2Hook
+

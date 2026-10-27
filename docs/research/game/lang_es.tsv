@@ -1,0 +1,2533 @@
+0	0	
+0	1	Selecciona un escenario y un personaje.
+0	2	Escenario
+0	3	Tiempo límite
+0	4	Personaje
+0	5	Puntos de control
+0	6	Tiempo empleado
+0	7	Combo máximo de muertes
+0	8	Gore
+0	9	Panel táctil trasero
+0	10	Volver a intentar
+0	11	Seleccionar personaje
+0	12	Seleccionar misión
+0	13	Seleccionar modo
+0	14	Volver al menú principal
+0	15	Seleccionar escenario
+0	16	Estilo de juego héroe
+0	17	¡Sigue tocando el panel táctil trasero para que el ataque sea más fuerte!
+0	18	@[pad:Lsud]CAPÍTULO
+0	19	Se han desbloqueado %d nuevas misiones para el modo Misiones en equipo.
+0	20	Has desbloqueado el modo Carrera ninja.
+0	21	Has desbloqueado el modo Turbo para el modo Misiones en equipo.
+0	22	@[pad:Lsud]DIFICULTAD
+0	23	@[pad:Ru]NORMAL
+0	24	@[pad:Ru]TURBO
+0	25	Se han desbloqueado todas las misiones del modo Misiones en equipo.
+0	26	Se ha desbloqueado una nueva misión para el modo Misiones en equipo.
+0	27	Se ha desbloqueado un nuevo escenario en el modo Carrera ninja.
+0	28	Se han desbloqueado todos los escenarios en el modo Carrera ninja.
+1	0	
+1	1	@[pad:Decide]Atrás
+1	2	@[pad:Cancel]Atrás
+1	3	@[pad:Proceed]Continuar
+1	4	@[pad:Rl]Guardar
+1	5	@[pad:Ru]Cargar puntuación Karma
+1	6	@[pad:Ru]Ver marcador
+1	7	@[pad:Rl]Cambiar dispositivo de almacenamiento
+1	8	@[pad:Decide]Confirmar
+1	9	@[pad:Ru]Eliminar
+1	10	@[pad:Ru]RANGO
+1	11	@[pad:Rl]REGISTRO NINJA
+1	12	@[pad:Ru] Mandar invitación
+1	13	@[pad:Decide]Descargar
+1	14	@[pad:Ru]Bazar Xbox LIVE
+1	15	¿Sobrescribir la partida guardada?
+1	16	¿Seguro que quieres eliminarlo?
+1	17	¿Quieres continuar al siguiente capítulo sin guardar?
+1	18	Capítulo
+1	19	Cap.
+1	20	Pts.
+1	21	Ranura
+1	22	Ranura vacía
+1	23	Partida completada
+1	24	???
+1	25	Sí
+1	26	No
+1	27	@[pad:Rl]
+1	28	@[pad:Ru]
+1	29	@[pad:Rr]
+1	30	@[pad:Rd]
+1	31	@[pad:Rl]@[symbol:plus]@[pad:Rd]
+1	32	@[pad:Ru]@[symbol:plus]@[pad:Rr]
+1	33	@[pad:Rl]@[symbol:plus]@[pad:Ru]
+1	34	@[pad:Rd]@[symbol:plus]@[pad:Rr]
+1	35	@[pad:R2]
+1	36	@[pad:L2]
+1	37	@[pad:R1]
+1	38	@[pad:L1]
+1	39	@[pad:Start]
+1	40	@[pad:Select]
+1	41	@[pad:LS]
+1	42	@[pad:RS]
+1	43	@[symbol:plus]
+1	44	Atrás
+1	45	Detalles
+1	46	Equipar
+1	47	Salir
+1	48	Técnicas
+1	49	Usar
+1	50	Ver pergamino
+1	51	Has desbloqueado una nueva imagen de jugador.
+1	52	La dificultad %s se ha desbloqueado.
+1	53	Ha completado la partida con esta dificultad.\nAhora puede empezar una partida nueva con\ntodas las armas y Ninpo que ha recogido.\n@[color:yellow]Sus armas y Ninpo se reducirán a su nivel\nde poder más bajo. Pero todavía podrá cargar\nsu puntuación en el marcador. @[color:resume]
+1	54	¿Quiere empezar una partida nueva\ncon el equipo existente?
+1	55	Volverá a empezar al principio del capítulo 1. \n@[color:yellow]Su personaje mantendrá el mismo estado\nque cuando completó la partida. Sin embargo,\nno podrá cargar su puntuación en el marcador.\nPara empezar una partida nueva que le permita\ncargar su puntuación, vuelva al menú y\nseleccione PARTIDA NUEVA.@[color:resume]
+1	56	¿Quieres empezar la partida?
+1	57	Has batido un nuevo récord.
+1	58	¡Felicidades!
+1	59	Ya has conseguido un rango en el marcador.
+1	60	Por desgracia, no has conseguido un rango en el marcador.
+1	61	Reto Karma
+1	62	Reto velocidad
+1	63	Reto arma
+1	64	Reto misión
+1	65	Maestro de la Espada del Dragón
+1	66	Maestro de la katana doble
+1	67	Maestro de la guadaña
+1	68	Maestro de la tonfa
+1	69	Maestro de la kusari-gama
+1	70	Maestro del báculo
+1	71	Maestro del nunchaku
+1	72	Maestro de la garra
+1	73	Maestro de la Verdadera Espada del Dragón
+1	74	Maestro de Garra del Dragón y Colmillo del Tigre
+1	75	Maestro de la Cuchilla del Archidemonio
+1	76	Maestro de la Guadaña del Eclipse
+1	77	Maestro de las Garras del halcón
+1	78	Maestro de Cuchillas gemelas vigoorianas
+1	79	Maestro del Báculo Lunar
+1	80	Descargando...
+1	81	Error al descargar.
+1	82	Cargando...
+1	83	Error al cargar.
+1	84	Guardando contenido. No apagues el sistema.
+1	85	@[pad:Decide]Guardar
+1	86	@[pad:Decide]Cargar
+1	87	¿Seguro que quieres continuar sin guardar la partida completada?
+1	88	Se ha desbloqueado un nuevo nivel de dificultad.
+1	89	Se ha desbloqueado un nuevo traje.
+1	90	
+1	91	
+1	92	
+1	93	Para continuar la partida guardada, inicia sesión.
+1	94	Debes iniciar sesión para ver el CINE NINJA.
+1	95	
+1	96	Cargar la partida guardada más reciente.
+1	97	Salir a la pantalla inicio.
+1	98	Si sales, perderás los progresos que no hayas guardado.
+1	99	Yas ha autoguardado esta partida para este\nnivel de dificultad. Si empiezas una partida\nnueva con el mismo nivel de dificultad,\ntu anterior partida autoguardada se sobrescribirá.\n¿Empezar una partida nueva?
+1	100	@[pad:Decide]Sí
+1	101	@[pad:Cancel]No
+1	102	@[pad:Decide]Sí
+1	103	@[pad:Cancel]No
+1	104	Ranuras de auto guardado
+1	105	Ranuras de guardado manual
+1	106	Desbloqueaste MISIONES DE EQUIPO
+1	107	Desbloqueaste el modo RETO DE CAPÍTULO.
+1	108	Desbloqueaste el nivel de dificultad SENDA DEL MENTOR.
+1	109	Desbloqueaste el nivel de dificultad SENDA DEL MAESTRO NINJA.
+1	110	Desbloqueaste a Rachel para MISIONES DE EQUIPO.
+1	111	Desbloqueaste a Ayane para MISIONES DE EQUIPO.
+1	112	Desbloqueaste a Momiji para MISIONES DE EQUIPO.
+1	113	Has desbloqueado la siguiente arma para las \nmisiones en equipo:%s
+1	114	Desbloqueaste un traje nuevo para Ryu Hayabusa.
+1	115	Desbloqueaste un traje nuevo para Ayane.
+1	116	Desbloqueaste un traje nuevo para Momiji.
+1	117	Desbloqueaste un traje nuevo para Rachel.
+1	118	@[pad:Ru]Elegir traje @[pad:Proceed]Continuar
+1	119	¿Quieres cargar los resultados obtenidos?
+1	120	Has obtenido el puesto %d en la clasificación.
+1	121	Error al cargar trofeos.\nNo se puede iniciar la partida.
+1	122	-
+1	123	Conecta un mando.
+1	124	No estás conectado a ninguna red. \nDebes iniciar sesión para usar los servicios online.
+1	125	No se ha podido conectar a la red.
+1	126	Se ha añadido Test de música en Opciones - Configuración del audio.
+1	127	¿Salir del juego?
+2	0	Si no inicias sesión con perfil de jugador, no podrás guardar ni cargar juegos. ¿Quieres iniciarla?
+2	1	Sí, registrarme
+2	2	No, no quiero registrarme
+2	3	%s:\nPor favor elija el dispositivo de almacenamiento donde quiere guardar este contenido.
+2	4	Elija un dispositivo
+2	5	Cancelar
+2	6	%s:\nPor favor elija el dispositivo de almacenamiento donde está su partida guardada.
+2	7	Elija un dispositivo
+2	8	Cancelar
+2	9	Por favor elija el dispositivo de almacenamiento que usará para guardar y cargar las partidas guardadas de NINJA GAIDEN Σ2.
+2	10	Elija un dispositivo
+2	11	Cancelar
+2	12	%s:\nNo se guardará su partida. ¿Quiere continuar?
+2	13	Sí
+2	14	No
+2	15	%s:\nNo se puede cargar la partida guardada.\n¿Quiere continuar?
+2	16	Sí
+2	17	No
+2	18	%s:\nNo se ha encontrado la partida guardada. ¿Quiere elegir otro dispositivo de almacenamiento?
+2	19	Sí
+2	20	No
+2	21	No se ha encontrado el fichero de configuración del sistema de NINJA GAIDEN Σ2.\n¿Quiere crear uno?
+2	22	Sí
+2	23	No
+2	24	%s:\nNo hay bastante espacio en el dispositivo de almacenamiento seleccionado. ¿Quiere elegir otro dispositivo de almacenamiento?
+2	25	Sí
+2	26	No
+2	27	Por favor regístrese para guardar %s.
+2	28	Registrarse
+2	29	No registrarse
+2	30	%s:\nPor favor elija el lugar donde quiere guardar la partida.
+2	31	Elija un dispositivo
+2	32	Cancelar
+2	33	%s:\nNo hay bastante espacio en el dispositivo de almacenamiento seleccionado. ¿Quiere elegir otro dispositivo de almacenamiento?
+2	34	Elija un dispositivo
+2	35	Cancelar
+2	36	No se ha encontrado %s.
+2	37	Confirmar
+2	38	Cancelar
+2	39	Se necesita %s para continuar jugando esta partida.
+2	40	Comprobar
+2	41	Volver a la pantalla inicio
+2	42	%s:\nEsta partida guardada está dañada.
+2	43	Confirmar
+2	44	%s:\nEste contenido está dañado.
+2	45	Confirmar
+2	46	No se ha podido encontrar el dispositivo de almacenamiento elegido para guardar %s.
+2	47	Confirmar
+2	48	Actualizando tu perfil de jugador.\nVolverá a la pantalla de inicio.
+2	49	Confirmar
+2	50	No se guardará su progreso.
+2	51	Confirmar
+2	52	%s:\nEste contenido está dañado.
+2	53	Confirmar
+2	54	%s:\nNo se puede usar el siguiente contenido ya que no está.\n%s\n%s
+2	55	Confirmar
+2	56	%s\nPara usar esta partida guardada, debe tener el siguiente contenido descargable.\n%s\n%s\nTiene que actualizar el juego. Por favor descargue la actualización del título.
+2	57	Confirmar
+2	58	Configuración del sistema
+2	59	Partida guardada
+2	60	Vídeo Ninja Cinema
+2	61	Contenido descargable
+2	62	Traje Hayabusa 1 (TBD)
+2	63	Traje Hayabusa 2 (TBD)
+2	64	Modo misión (TBD)
+2	65	Ayane jugable (TBD)
+2	66	No se puede leer el disco. El disco que está usando está sucio o dañado.
+2	67	Vídeo cinemático
+2	68	
+2	69	%s:\n¿Sobrescribir la partida guardada?
+2	70	Sí
+2	71	No
+2	72	ACÓ
+2	73	GUE
+2	74	MEN
+2	75	MN
+2	76	Hayabusa demonio
+2	77	Hayabusa en las sombras
+2	78	Hayabusa biometálico
+2	79	Posiciones de las calaveras de cristal parte 1
+2	80	Posiciones de las calaveras de cristal parte 2
+2	81	Posiciones de las calaveras de cristal parte 3
+2	82	Modo misión
+2	83	Modo misión
+2	84	Modo misión
+2	85	No podrá guardar su partida hasta que no se conecte a un dispositivo de almacenamiento.
+2	86	No ha elegido un dispositivo de almacenamiento.\nSi no elige un dispositivo de almacenamiento,\nno se guardará el progreso que haga en NINJA GAIDEN Σ2.\n¿Continuar sin guardar?
+2	87	Sí
+2	88	Elija un dispositivo
+2	89	No hay bastante espacio en el dispositivo seleccionado para crear una nueva partida guardada.\nSi continua, no se guardará el progreso de su partida.\n¿Continuar sin guardar?
+2	90	Sí
+2	91	Elija un dispositivo
+2	92	
+2	93	Confirmar
+2	94	No puede continuar la partida sin el contenido %s. ¿Quiere volver a comprobar sus dispositivos de almacenamiento?\nSi vuelve al menú inicio, perderá todo el progreso sin guardar.
+2	95	Por favor elija el dispositivo de almacenamiento que usará para guardar y cargar las partidas guardadas de NINJA GAIDEN Σ2.\nNo podrá guardar sus partidas hasta que no se conecte a un dispositivo de almacenamiento.
+2	96	%s:\nEste contenido podría estar dañado.\n¿Quiere dejar de usar el contenido?
+2	97	Si, dejar de usarlo
+2	98	No, vuelve a intentarlo
+2	99	Si sale de la partida, perderá todo el progreso sin guardar.\n¿Quiere salir?
+2	100	Sí
+2	101	No
+2	102	Nueva partida guardada
+2	103	Ya ha creado el número máximo de partidas guardadas.\nPor favor elija una partida guardada para sobrescribirla.
+2	104	%s se ha guardado o modificado en una consola o disco diferentes.\nNo se pueden cargar los datos.
+2	105	%s lo ha creado o modificado otro usuario.\nNo se pueden cargar los datos.
+2	106	¿Guardar %s?
+2	107	¿Seguro que quiere eliminar %s?
+2	108	%s está corrupto.\n¿Quiere borrar %s?
+2	109	Guardado de %s fallido.
+2	110	Puede que %s se restaure con la configuración por defecto durante la partida.\n¿Quiere continuar?
+2	111	%s no se sobrescribirá durante la partida.
+2	112	No hay bastante espacio disponible en el disco duro.\nHacen falta %d MB para instalar este juego.\nPor favor, sal del juego y libera el espacio necesario.
+2	113	No hay bastante espacio disponible en el disco duro.\nHacen falta %d MB para instalar el paquete de los Trofeos.\nPor favor, sal del juego y libera el espacio necesario.
+2	114	Datos de capítulo reto
+2	115	Se restaurará la configuración por defecto de: %s.
+2	116	CAPÍTULO
+2	117	PUNTO DE GUARDADO
+2	118	DATOS DE FIN
+2	119	HORAS DE JUEGO
+2	120	ESENCIA
+2	121	Guardando datos...\nNo apagues el sistema cuando el icono se muestre en la esquina inferior de la pantalla.
+2	122	Este juego guarda datos automáticamente\nen ciertos puntos.\nLos datos de autoguardado anteriores se\nsobrescribirán automáticamente.\nNo apagues el sistema cuando el icono se\nmuestre en la esquina inferior de la pantalla.
+2	123	Los datos del juego están dañados.\nPor favor salga del juego y borre los datos del juego.
+2	124	Ha ocurrido un error durante la instalación.\nPor favor salga del juego y borre los datos del juego.
+2	125	Los datos del contenido descargado dentro de los datos \nde la partida están dañados. \nVuelve a descargar los datos y reinicia la partida.
+2	126	Debe iniciar sesión antes de usar los servicios online.
+2	127	CAPÍTULO RETO
+2	128	MISIONES DE EQUIPO
+2	129	¿Quieres borrar datos o crear espacio libre ahora?
+2	130	Ha ocurrido un error de red.
+2	131	La partida actual terminará, y volverás a la pantalla inicio.
+2	132	PARTIDA GUARDADA
+2	133	@[pad:Select]CAMBIAR PERFIL
+3	0	Configuración del juego
+3	1	Configuración del mando
+3	2	Configuración del audio
+3	3	Configuración de la pantalla
+3	4	Información de copyright
+3	5	Restaurar configuración por defecto
+3	6	Control de la cámara\n1ª persona
+3	7	Control de la cámara\n3ª persona
+3	8	Controles para nadar
+3	9	Volumen de la música
+3	10	Volumen de los efectos de sonido
+3	11	Volumen del diálogo
+3	12	Pantalla Karma
+3	13	Subtítulos
+3	14	Tutorial en el juego
+3	15	Vibración del mando
+3	16	Restaurar la configuración por defecto
+3	17	Método guardar
+3	18	Salir del juego
+3	19	Texto y subtítulos
+3	20	Por defecto
+3	21	Vertical\nInvertido
+3	22	Horizontal\nInvertido
+3	23	Todos invertidos
+3	24	Sí
+3	25	No
+3	26	Automático
+3	27	Manual
+3	28	Sí
+3	29	No
+3	30	Tipo A
+3	31	Tipo B
+3	32	Tipo C
+3	33	Tipo D
+3	34	Inglés
+3	35	Japonés
+3	36	Francés
+3	37	Alemán
+3	38	Italiano
+3	39	Español
+3	40	Chino\ntradicional
+3	41	Coreano
+3	42	Polaco
+3	43	Ruso
+3	44	Normal
+3	45	Texto y subtítulos
+3	46	Idioma voces
+3	47	Horas totales jugadas
+3	48	Seleccionar bandera
+3	49	Botones frontales
+3	50	Botones laterales
+3	51	Test de música
+3	52	
+3	53	
+3	54	
+3	55	
+3	56	
+3	57	Esto reiniciará todas las configuraciones a sus valores por defecto.
+3	58	Sal de esta pantalla y vuelve al menú principal.
+3	59	
+3	60	
+3	61	
+3	62	
+3	63	
+3	64	
+3	65	
+3	66	
+3	67	
+3	68	
+3	69	
+3	70	
+3	71	
+3	72	
+3	73	
+3	74	
+3	75	
+3	76	
+3	77	
+3	78	
+3	79	
+3	80	
+3	81	Gamma
+3	82	Brillo
+3	83	Contraste
+3	84	Posición de la pantalla
+3	85	Ajuste del vídeo
+3	86	4:3
+3	87	16:9
+3	88	Proporción de la orientación
+3	89	Color
+3	90	Monocromo
+3	91	Filtro clásico de películas
+3	92	5.1
+3	93	Estéreo
+3	94	Salida de los altavoces
+3	95	NINJA GAIDEN Sigma 2\nTECMO, LTD. Team NINJA 2009\n\nInformación de copyright\n\nNINJA GAIDEN Sigma 2 y sus contenidos, incluyendo el \ncontenido audio y visual, están protegidos por los \ncopyright y otras leyes de Estados Unidos de América\ny otros países.\n\nNINJA GAIDEN Sigma 2 tiene licencia sólo para uso no comercial.\n\nTodo el contenido audio y visual, incluyendo los\nfotogramas, las imágenes de video streaming y la\nanimación de este software, sólo tienen licencia para\nuso no comercial.\n\nExcepto cuando está autorizado expresamente, está\nestrictamente prohibido reproducir, distribuir, exhibir o\nmodificar este software o su contenido, incluyendo el contenido\naudio y visual. La captura, copia o descarga de cualquier\ncontenido de este software, incluyendo contenido audio y vídeo\nen cualquier equipo u otro software de medio por cualquier\npropósito, a través de Internet u otras fuentes, está estrictamente\nprohibido.\n\nTambién está estrictamente prohibida la ingeniería reversa,\ndescompilar o desmontar este software.\n\nLas leyes federales estipulan penas civiles y criminales\nseveras por la reproducción no autorizada, distribución o\nexhibición de este software con copyright y de fotogramas o\nvídeo streaming (Título 17, Código de Estados Unidos, Secciones\n501 y 506). La Oficina Federal de Investigación (FBI) investiga\nla alegación de violaciones criminales de copyright \n(Título 17, Código de Estados Unidos, Sección 506).\n\nViolar el copyright de forma deliberada puede resultar en\npenas criminales de (1) encarcelamiento de hasta 2 años\npor la primera infracción y hasta 10 años por la segunda o\ninfracciones subsecuentes, (2) una multa de 250.000 dólares\npara un individuo y 500.000 dólares para una organización, o\n(3) ambos, encarcelamiento y multa.
+3	96	Información de Copyright
+3	97	Volver al menú principal
+3	98	NINJA CINEMA
+3	99	Alarma de emergencia
+3	100	Antiguos invasores
+3	101	Sangre del dragón
+3	102	Eclipse
+3	103	Alma luchadora
+3	104	Enfrentamiento
+3	105	Aparición
+3	106	Proliferación
+3	107	Seres malvados
+3	108	Aura oscura
+3	109	Poder impuro
+3	110	Perseguidores
+3	111	La calavera
+3	112	Se acerca el sino
+3	113	Desde la oscuridad
+3	114	Sombras distorsionadas
+3	115	Habitante del infierno
+3	116	El camino del ninja
+3	117	Peligro palpitante
+3	118	Intenciones asesinas
+3	119	Portador
+3	120	Empieza el final
+3	121	Las cosas empiezan a desmoronarse
+3	122	Peligro tronante
+3	123	Erguirse con orgullo
+3	124	Entrar en la pesadilla
+3	125	Rapsodia carmesí
+3	126	La civilización perdida
+3	127	Apocalipsis
+3	128	Precipicio
+3	129	Venganza
+3	130	Se acerca el destino
+3	131	Con honor
+3	132	Escaparse
+3	133	El inframundo
+3	134	Ve delante
+3	135	Anarquía
+3	136	Al acecho
+3	137	Destrucción total
+3	138	Un renacimiento
+3	139	El este se encuentra con el oeste
+3	140	Sol naciente
+3	141	Volar por el cielo
+3	142	Crisis
+3	143	El héroe
+3	144	Alrededor del mundo
+3	145	Poder ilimitado
+3	146	Conflicto mortal
+3	147	Las semillas de vida
+3	148	Tema Ninja Gaiden Σ2
+3	149	Ataque sorpresa
+3	150	El final del túnel
+3	151	Configuración de la cámara
+3	152	
+3	153	
+3	154	Restaurar a la configuración por defecto.
+3	155	Ataque rápido
+3	156	Ataque potente / Técnica de la obliteración
+3	157	Arma de proyectiles
+3	158	Saltar
+3	159	Correr por el agua
+3	160	@[pad:Rd]+@[pad:Rl] Ataque en el agua
+3	161	@[pad:Rr]+@[pad:Rd] Ataque en el agua
+3	162	Bloquear
+3	163	Centrar la cámara
+3	164	Vista de 1ª persona
+3	165	Interactuar
+3	166	@[pad:Ru]+@[pad:Rr] Hacer Ninpo
+3	167	@[pad:Rl]+@[pad:Ru] Hacer Ninpo
+3	168	@[pad:Decide]Confirmar @[pad:Cancel]Atrás
+3	169	@[pad:Rl]Cambiar dispositivo de almacenamiento @[pad:Cancel]Atrás
+3	170	Velocidad de la cam. 1ª persona
+3	171	Velocidad de la cam. 3ª persona
+3	172	Test del volumen
+3	173	Comienzo del capítulo
+3	174	Final del capítulo
+3	175	Después de la batalla
+3	176	Título
+3	177	Sangre
+3	178	Ambiente
+3	179	Viento sobrecogedor
+3	180	Susurro
+3	181	Shuriken / Interacción
+3	182	El Diablo
+3	183	Fuga
+3	184	El sentido de la misión
+3	185	La noche mágica
+3	186	El camino del mal -Sigma Mix-
+3	187	Jintsuriki -Sigma Mix-
+3	188	Botones de acción
+3	189	Botones L1, L2, R1 y R2
+3	190	MODO DE PANTALLA
+3	191	RESOLUCIÓN
+3	192	SINCRONIZACIÓN VERTICAL
+3	193	Triple búfer
+3	194	ANTI-ALIASING
+3	195	PROFUNDIDAD DE CAMPO
+3	196	MOSTRAR EFECTOS
+3	197	MOSTRAR SOMBRAS
+3	198	Ventana
+3	199	Pantalla completa
+3	200	Automático
+3	201	1280x720
+3	202	1920x1080
+3	203	2560x1440
+3	204	3840x2160
+3	205	
+3	206	Rango
+3	207	Bandera
+3	208	
+3	209	Senda
+3	210	Karma
+3	211	Tiempo del juego
+3	212	Eliminados
+3	213	Muertes
+3	214	Calav. cristal
+3	215	Capítulo actual
+3	216	Partidas terminadas
+3	217	TERMINADO
+3	218	Jugadores totales
+3	219	@[pad:Rd]Detalles @[pad:Rl]Filtro @[pad:Ru]Tarjeta del jugador @[pad:Rr]Atrás
+3	220	Marcador         Amigos
+3	221	Marcador         Mi puntuación
+3	222	Marcador         General
+3	223	No tienes un rango en este marcador.
+3	224	Error de conexión.
+3	225	
+3	226	Conectando a los marcadores...
+3	227	@[pad:RS]NINJA CINEMA @[pad:Rd]Detalles @[pad:Rl]Filtro @[pad:Ru]Tarjeta del jugador @[pad:Rr]Atrás
+3	228	@[pad:Rd] Jugar @[pad:Rl] Guardar\n@[pad:Ru] Cambiar dispositivo de almacenamiento @[pad:Rr] Atrás
+3	229	Descargando...
+3	230	Guardando...
+3	231	Error de conexión.　\n@[pad:Rr]Atrás
+3	232	No se puede reproducir este clip porque está dañado. @[pad:Rr]Atrás
+3	233	Se ha completado el guardado. @[pad:Rd]Continuar
+3	234	El guardado no ha tenido éxito. @[pad:Rr]Atrás
+3	235	Este clip no se puede descargar con la actual\nconfiguración familiar. @[pad:Rr]Atrás
+3	236	Este clip no se puede ver.@[pad:Rr]Atrás
+3	237	NINJA CINEMA
+3	238	Detalles
+3	239	Filtro
+3	240	Tarjeta del jugador
+3	241	Atrás
+3	242	Este clip no se puede descargar con la actual configuración familiar.@[pad:Rr] Atrás
+3	243	Este clip no se puede ver ahora mismo. Por favor vuélvelo a intentar más adelante.
+3	244	No se puede acceder a este clip. Por favor vuélvelo a intentar más adelante.
+3	245	 @[pad:Ru]ARRIBA　@[pad:Decide]PUNTUACIÓN NINJA　@[pad:Cancel]Atrás
+3	246	 @[pad:Ru]Tu rango　@[pad:Decide]PUNTUACIÓN NINJA　@[pad:Cancel]Atrás
+3	247	ID online
+3	248	 @[pad:Ru]ARRIBA　@[pad:Rl]Tarjeta del jugador　@[pad:Decide]PUNTUACIÓN NINJA　@[pad:Cancel]Atrás
+3	249	Gamertag
+3	250	Apodo
+3	251	Estos datos no se pueden subir con la configuración de privacidad actual.
+3	252	 @[pad:Ru]ARRIBA　@[pad:Cancel]Atrás
+3	253	 @[pad:Ru]Tu rango　@[pad:Cancel]Atrás
+3	254	 @[pad:Ru]Tu rango　@[pad:Rl]Tarjeta del jugador　@[pad:Decide]PUNTUACIÓN NINJA　@[pad:Cancel]Atrás
+3	255	Se está tardando demasiado tiempo en obtener datos. Inténtalo más tarde.
+3	256	Jugador
+4	0	Selecciona el arma melee que quieras equipar.
+4	1	Selecciona el arma de proyectiles que quieras equipar.
+4	2	Selecciona el Ninpo que quieras equipar.
+4	3	Selecciona el objeto que quieras usar.
+4	4	@[pad:Decide]@[pad:Rl] Confirmar
+4	5	Selecciona el Ninpo que quieras reforzar.
+4	6	
+4	7	Al lado del enemigo derribado
+4	8	Al saltar
+4	9	Al correr
+4	10	Hacia el enemigo embaucado
+4	11	Al bloquear
+4	12	Al saltar
+4	13	Al saltar hacia delante
+4	14	Al saltar cerca de un enemigo
+4	15	En la pared
+4	16	Al correr por la pared
+4	17	Durante la voltereta
+4	18	En la superficie del agua
+4	19	Bajo agua
+4	20	Al nadar en la superficie
+4	21	Al nadar bajo agua
+4	22	Durante Viento invertido
+4	23	Cerca de esencias
+4	24	Durante Carrera en el viento
+4	25	Cerca de un enemigo
+4	26	Cerca de un enemigo sin cabeza
+4	27	Cerca de un enemigo sin brazo derecho
+4	28	Cerca de un enemigo sin brazo izquierdo
+4	29	Cerca de un enemigo sin piernas
+4	30	Durante Disipador de sombras
+4	31	Durante Nubes ocultas
+4	32	Durante ataque combinado
+4	33	Al correr sobre el agua
+4	34	Durante Dragón dorado
+4	35	Durante Fénix danzante
+4	36	Al aterrizar de un salto
+4	37	Mantener mientras golpeas una pared
+4	38	Cuando golpeas una pared
+4	39	Mantener mientras golpeas a un enemigo
+4	40	Pulsar repetitivamente
+4	41	Al saltar hacia el enemigo
+4	42	Durante Justicia divina
+4	43	Gran borde
+4	44	Flor de marfil
+4	45	Caudal de pétalos caídos
+4	46	Salto de Izuna
+4	47	Mil flores
+4	48	Pavo real aleteando
+4	49	Lirio en flor
+4	50	Caída de guirnalda de flores
+4	51	Columna de cipreses
+4	52	Cuna de la luna
+4	53	Borde carmesí
+4	54	Báculos de demonios
+4	55	Diamantes demoníacos
+4	56	Patada Lágrimas de demonio
+4	57	Devorademonios
+4	58	Rueda de hierro
+4	59	Tormenta de los cuatro vientos
+4	60	Abanico bermellón
+4	61	Viento de primavera
+4	62	Florecimiento incontrolado
+4	63	Flores efímeras
+4	64	Rueda giratoria
+4	65	Llamas crepitantes
+4	66	Tormentas continuas
+4	67	Justicia divina
+4	68	Patada Justicia celestial
+4	69	Farol roto
+4	70	Primera tormenta
+4	71	Mil lotos
+4	72	Flor de venganza
+4	73	
+4	74	Flor de marfil
+4	75	Caudal de pétalos caídos
+4	76	Salto de Izuna
+4	77	Flor del olvido
+4	78	Ocho hojas
+4	79	Machacapiedras
+4	80	Caída de guillotina
+4	81	
+4	82	Machacapiedras
+4	83	Grulla aleteando
+4	84	Exorcismo demoníaco
+4	85	Devorademonios
+4	86	Colmillo carmesí
+4	87	Flores efímeras
+4	88	Fénix aleteando
+4	89	Exorcismo demoníaco
+4	90	Devorademonios
+4	91	Colmillo carmesí
+4	92	Flores efímeras
+4	93	
+4	94	Luna en el agua
+4	95	Rotura de compuerta
+4	96	Cardo demoníaco
+4	97	Luna en el agua
+4	98	Lirio carmesí
+4	99	Raspador
+4	100	
+4	101	Viento invertido
+4	102	Senda del viento
+4	103	Carrera en el viento
+4	104	Voltereta de ave
+4	105	Carrera en aguas en calma
+4	106	Pausa en aguas en calma
+4	107	Dragón y fénix
+4	108	Matanza de dragones
+4	109	Ataque violento
+4	110	Salto de Izuna
+4	111	Montaña penetrante
+4	112	Senda abierta
+4	113	Destrucción errante
+4	114	Luz tenue
+4	115	Hoyo para hoguera
+4	116	Destroza-adversarios
+4	117	Niebla inminente
+4	118	Ataque violento
+4	119	Salto de Izuna
+4	120	Alcanzando la luna
+4	121	Cuervo loco
+4	122	Montaña penetrante
+4	123	Olas que fluyen
+4	124	Diablo loco
+4	125	Río interrumpido
+4	126	Cuerno de la quimera
+4	127	Rueda de fuego
+4	128	Cielo brillante
+4	129	Grulla favorable
+4	130	Dragón dorado
+4	131	Dragón dorado aniquilador
+4	132	Fénix danzante
+4	133	Fénix danzante aniquilador
+4	134	Llama que brota
+4	135	Serpiente en ascenso
+4	136	Patada Deformación
+4	137	Patada Rascacielos
+4	138	Patada Sorpresa celestial
+4	139	Barrera de tormentas
+4	140	Mono volador
+4	141	Infierno en llamas
+4	142	Nueve cielos
+4	143	Guerrero de vuelo
+4	144	Patada Anillo celestial
+4	145	Cielo inclinado
+4	146	Cazador de demonios
+4	147	
+4	148	Ataque arrasador
+4	149	Patada Emperador Dragón
+4	150	Hierro al rojo vivo
+4	151	Cuervo loco
+4	152	Montaña penetrante
+4	153	Caída de guillotina
+4	154	
+4	155	Hierro al rojo vivo
+4	156	Cuervo loco
+4	157	Montaña penetrante
+4	158	Patada Roca suelta
+4	159	Grulla de montaña
+4	160	Caída infernal
+4	161	Grulla de montaña
+4	162	
+4	163	Patada Dragón ancestral
+4	164	Fénix ascendente
+4	165	Tambor errante
+4	166	Cielo perturbado
+4	167	Lluvia continua
+4	168	Lirio dorado
+4	169	
+4	170	Viento invertido
+4	171	Senda del viento
+4	172	Carrera en el viento
+4	173	Voltereta de ave
+4	174	Carrera en aguas en calma
+4	175	Pausa en aguas en calma
+4	176	Ataque frontal
+4	177	Gran redada
+4	178	Rebanaorejas
+4	179	Estrella furiosa
+4	180	Serpenteo
+4	181	Espada de medianoche
+4	182	Caída del alcaudón
+4	183	Machacacráneos
+4	184	Vid voladora
+4	185	Cortademonios
+4	186	Cielo cazador
+4	187	Nevada
+4	188	Caída de la campana del templo
+4	189	Cien llamas
+4	190	Vid voladora
+4	191	Cortademonios
+4	192	Vid voladora
+4	193	Cortademonios
+4	194	Cien pies
+4	195	Lanzamiento en Fuji
+4	196	Gorrión de vuelo ensordecedor
+4	197	Ataque en espiral
+4	198	Gran giro inverso
+4	199	Tragedia inmensa
+4	200	Tormenta de 6 flores
+4	201	Puerta pesada
+4	202	Danza de 9 dragones
+4	203	Nubes arrasadoras
+4	204	Arce danzante
+4	205	Caída de campana gigante
+4	206	Vid voladora
+4	207	Cortademonios
+4	208	Grandes tijeras
+4	209	Ausencia de luz
+4	210	Giro continuo
+4	211	Viento furioso
+4	212	Torbellino violento
+4	213	Espada de medianoche
+4	214	Caída del alcaudón
+4	215	Vid voladora
+4	216	Cortademonios
+4	217	Música de la bruma
+4	218	Sauce llorón
+4	219	Cuchillo del cazador
+4	220	
+4	221	Viento cortante
+4	222	Cien llamas
+4	223	Luz aturdidora
+4	224	Giro continuo
+4	225	Caída de guillotina
+4	226	
+4	227	Guadaña voladora
+4	228	Dragón sinuoso
+4	229	Lanzamiento de culebra gigante
+4	230	Dragón sinuoso
+4	231	Lanzamiento de culebra gigante
+4	232	
+4	233	Barrera de cataratas
+4	234	Gorrión trueno
+4	235	Espiral protectora
+4	236	Lanzamiento de sapo gigante
+4	237	Gorrión trueno
+4	238	Devastación superior
+4	239	Inquietud insana
+4	240	
+4	241	Viento invertido
+4	242	Senda del viento
+4	243	Carrera en el viento
+4	244	Voltereta de ave
+4	245	Carrera en aguas en calma
+4	246	Pausa en aguas en calma
+4	247	Luna penetrante
+4	248	Disipador de sombras
+4	249	Corte en la niebla
+4	250	Puerta de la Muerte
+4	251	Pilar de la Muerte
+4	252	Lanzamiento al río Estigia
+4	253	Procesión demoníaca
+4	254	Carro de la muerte
+4	255	Barrido de cadáveres
+4	256	Fauces del demonio
+4	257	Bruma redonda
+4	258	Tsunami invertido
+4	259	Cataratas invertidas
+4	260	Cabezas voladoras
+4	261	Gritos de Ares
+4	262	Maldición de la serpiente
+4	263	Erupción del Inframundo
+4	264	Destrozaimperios
+4	265	Empalamiento de alma
+4	266	Disipador de sombras
+4	267	Nubes ocultas
+4	268	Puerta del Demonio
+4	269	Pilar del Demonio
+4	270	Lanzamiento al río Estigia
+4	271	Estrangulademonios
+4	272	Quimera perseguida
+4	273	Viento de vuelta
+4	274	Anillo de locura
+4	275	Giro en cementerio
+4	276	Masacre total
+4	277	Exterminación total
+4	278	Resistencia inútil
+4	279	Tinieblas de Hades
+4	280	Tajada ritual
+4	281	Oculto en tinieblas
+4	282	
+4	283	Cuervo enorme
+4	284	Lluvia de sangre
+4	285	Sacrificio volador
+4	286	Sacrificio infinito
+4	287	Caída de guillotina
+4	288	
+4	289	Sacrificio volador
+4	290	Sacrificio infinito
+4	291	Viento de venganza
+4	292	Rayo sepultado
+4	293	Cuervo monstruoso
+4	294	
+4	295	Cuchillada acuática
+4	296	Ola del juicio
+4	297	Ataque de lotos
+4	298	Heridas de Poseidón
+4	299	Ilusión acuática
+4	300	Serpiente de mar
+4	301	
+4	302	Viento invertido
+4	303	Senda del viento
+4	304	Carrera en el viento
+4	305	Voltereta de ave
+4	306	Carrera en aguas en calma
+4	307	Pausa en aguas en calma
+4	308	Flores cayendo
+4	309	Espada de Nirvana
+4	310	Espada de Mahayana
+4	311	Espada estilo dharma
+4	312	Ataque de rayo doble
+4	313	Perforación del rayo
+4	314	Rayo penetrante
+4	315	Viento como cuchilla
+4	316	Asesino de reyes
+4	317	Asesina-emperadores
+4	318	Caída al Inframundo
+4	319	Espada de la mente
+4	320	Dragón cayendo
+4	321	Cuchillada doble de Zhong Kui
+4	322	Zhong Kui poderoso
+4	323	Zhong Kui giratorio
+4	324	Zhong Kui Izuna
+4	325	Gorrión celestial de Zhong Kui
+4	326	Gorrión matadragones
+4	327	Matadragones cayendo
+4	328	Matadragones girando
+4	329	Gran matadragones
+4	330	Ave y dragón
+4	331	Zhong Kui en caída
+4	332	Torbellino Zhong Kui
+4	333	Descenso del dragón de fuego
+4	334	Giro Dragón de fuego
+4	335	Corte del purgatorio
+4	336	Viento y nubes
+4	337	Espada divina
+4	338	Caída al Inframundo
+4	339	Espada de la mente
+4	340	Cuchillada gemela continua
+4	341	Corte cruzado gemelo
+4	342	Dragón volador
+4	343	Dragón en descenso
+4	344	Colmillo de dragón en picado
+4	345	Gran abismo
+4	346	Corte Bruma rodante
+4	347	Senda del dragón demoníaco
+4	348	8 dragones celestes
+4	349	Espada de la Tierra en ascenso
+4	350	Corte del purgatorio
+4	351	Vendaval silencioso
+4	352	Corte cruzado de vendaval
+4	353	Corte ascendente de vendaval
+4	354	Corte descendente de vendaval
+4	355	Subida al cielo
+4	356	Espada secreta de Sokaku
+4	357	Disección de Sokaku
+4	358	Onda superficial
+4	359	
+4	360	Cuchillada doble de Zhong Kui
+4	361	Zhong Kui poderoso
+4	362	Zhong Kui giratorio
+4	363	Zhong Kui Izuna
+4	364	Cuchillada giratoria
+4	365	Corte en torbellino
+4	366	Golondrina voladora
+4	367	Caída de guillotina
+4	368	
+4	369	Gorrión afín a halcón divino
+4	370	Espadas idén. de halcón divino
+4	371	Halcón divino en descenso
+4	372	Halcón divino girando
+4	373	Espadas danzantes de Halcón D.
+4	374	Descenso de ave
+4	375	Giro de ave voladora
+4	376	
+4	377	Agua voladora
+4	378	Abismo acuático
+4	379	Halcón volador
+4	380	Abismo acuático
+4	381	Bahía celestial
+4	382	Raíz del loto
+4	383	Espada de dragón de agua
+4	384	
+4	385	Viento invertido
+4	386	Senda del viento
+4	387	Carrera en el viento
+4	388	Voltereta de ave
+4	389	Carrera en aguas en calma
+4	390	Pausa en aguas en calma
+4	391	Giro de colmillo del dragón
+4	392	Giro de talón del dragón
+4	393	Sombra reluciente
+4	394	Empujón infinito
+4	395	Empujón Yin-Yang
+4	396	Empujón de Amitabha
+4	397	Oscuridad total
+4	398	Salto de Izuna
+4	399	Sol y luna
+4	400	Roca fundida
+4	401	Alma desconocida
+4	402	Puerta cerrada
+4	403	León al ataque
+4	404	León fiero
+4	405	Araña como cuchilla
+4	406	Araña como cuchilla
+4	407	Araña como cuchilla
+4	408	Araña como cuchilla
+4	409	Araña como cuchilla
+4	410	Araña como cuchilla
+4	411	Restos de flores
+4	412	Ocho destrucciones
+4	413	Danza de las llamas
+4	414	Luna menguante
+4	415	Primer viento
+4	416	Salto de Izuna
+4	417	Sombra de luz lunar
+4	418	Niebla desvanecida
+4	419	Báculo gemelo de la serpiente
+4	420	Destellos eléctricos
+4	421	Giro de destrucción
+4	422	Mal decreciente
+4	423	Sombra brumosa
+4	424	Sombra celestial
+4	425	Salto de Izuna
+4	426	Reflejo en el espejo
+4	427	Puerta de traición
+4	428	Guerrero caído
+4	429	Luna temblorosa
+4	430	Viento violento
+4	431	Salto de Izuna
+4	432	Luna del alma
+4	433	Demonio asesinado
+4	434	
+4	435	Primer viento
+4	436	Viento del alba
+4	437	Salto de Izuna
+4	438	Luna fantasma
+4	439	Destellos eléctricos
+4	440	Caída de guillotina
+4	441	
+4	442	Cuerno solitario
+4	443	Piedra del pecado
+4	444	Dieciséis noches
+4	445	Cuerno solitario
+4	446	Piedra del pecado
+4	447	Dieciséis noches
+4	448	Dieciséis noches
+4	449	
+4	450	Luna caída
+4	451	Empujón de cuervo
+4	452	Luna brumosa
+4	453	Luna de marfil
+4	454	Empujón de cristal
+4	455	Tormenta del león
+4	456	
+4	457	Viento invertido
+4	458	Senda del viento
+4	459	Carrera en el viento
+4	460	Voltereta de ave
+4	461	Carrera en aguas en calma
+4	462	Pausa en aguas en calma
+4	463	Colmillo del dragón penetrante
+4	464	Lágrima de dragón
+4	465	Separador de acero
+4	466	Rugido de tigre
+4	467	Colmillo del lobo
+4	468	Fénix fortuito
+4	469	Ikaruga
+4	470	Sello de diez
+4	471	Tres luces
+4	472	Ira de Izanagi
+4	473	Espada de Aire Vacío
+4	474	Espada de Susano'o
+4	475	Salto de Izuna
+4	476	Dragón escarlata
+4	477	Golondrina voladora de Dragón
+4	478	Cuchillada Molino de viento
+4	479	Viento intenso
+4	480	Vendaval intenso
+4	481	Viento penetrante
+4	482	Dragón del Cielo
+4	483	Dragón de la Tierra
+4	484	Tempestad carmesí
+4	485	Demonio invencible
+4	486	Cuchillada directa en la bruma
+4	487	Corte cruzado Olvido
+4	488	Espada del Emperador Dragón
+4	489	Espada de escamas del dragón
+4	490	Dragón azul celeste
+4	491	Dragón escarlata
+4	492	Viento intenso
+4	493	Vendaval intenso
+4	494	Viento penetrante
+4	495	Dragón del Cielo
+4	496	Dragón de la Tierra
+4	497	Grulla voladora
+4	498	Espada reluciente
+4	499	Destello crepitante
+4	500	Destello aniquilador
+4	501	Verdadero destello de dragón
+4	502	Carmesí vivo
+4	503	Cruz reluciente
+4	504	Dragón en ascenso
+4	505	
+4	506	Espada de Aire Vacío
+4	507	Espada de Nirrti
+4	508	Salto de Izuna
+4	509	Separador de cascos
+4	510	Corte de destrucción en el aire
+4	511	Espada de dragón cayendo
+4	512	Golondrina voladora
+4	513	Golondrina azul
+4	514	Golondrina divina
+4	515	Espada giratoria
+4	516	Caída de guillotina
+4	517	
+4	518	Golondrina voladora
+4	519	Espada de dragón volador
+4	520	Cuchillada Cigarra
+4	521	Dragón volador divino
+4	522	Corte Cigarra divina
+4	523	
+4	524	Separador de olas
+4	525	Espada de Agua Vacía
+4	526	Espada Mares Vacíos
+4	527	Gorrión acuático
+4	528	Nieblas densas
+4	529	Águila pescadora
+4	530	Tiburón demoníaco
+4	531	Gran tiburón demoníaco
+4	532	
+4	533	Viento invertido
+4	534	Senda del viento
+4	535	Carrera en el viento
+4	536	Voltereta de ave
+4	537	Carrera en aguas en calma
+4	538	Pausa en aguas en calma
+4	539	Rugido del león
+4	540	Lobo celestial
+4	541	Lobo hambriento
+4	542	Patada Cola de pantera
+4	543	Llama en propagación
+4	544	Fauces del tigre
+4	545	Ataque final Ave bermellón
+4	546	Salto de Izuna
+4	547	Alas de Roc fantasma
+4	548	Alas de ave bermellón
+4	549	Ataque Ave bermellón
+4	550	Garra del tigre volador
+4	551	Ataque final Ave bermellón
+4	552	Salto de Izuna
+4	553	Colmillo del lobo penetrante
+4	554	Agitación del tigre blanco
+4	555	Exigencia del tigre blanco
+4	556	Colmillo del león descubierto
+4	557	Rugido ensordecedor del león
+4	558	Exigencia del tigre blanco
+4	559	Rugido ensordecedor del león
+4	560	Ataque de oso
+4	561	Verraco al ataque
+4	562	Garra de tigre feroz
+4	563	Patada Tigre feroz
+4	564	Garra de lobo exigente
+4	565	Rey de las bestias
+4	566	Garras de cien bestias
+4	567	Furia de las bestias divinas
+4	568	Tierra aturdidora
+4	569	Grito del fénix
+4	570	Patada Garra de la bestia
+4	571	Garra de tigre al ataque
+4	572	Patada Tigre al ataque
+4	573	Garra de lobo exigente
+4	574	Anillo de 9 colas
+4	575	Tortuga negra de agua
+4	576	Tortuga negra de viento
+4	577	Garra de Roc fantasma
+4	578	Colmillo del león descubierto
+4	579	Perro cazador
+4	580	
+4	581	Garra del tigre volador
+4	582	Ataque final Ave bermellón
+4	583	Salto de Izuna
+4	584	Ave de tres patas
+4	585	Golondrina voladora
+4	586	Llama de la quimera
+4	587	Salto de Izuna
+4	588	Caída de guillotina
+4	589	
+4	590	Golondrina voladora
+4	591	Llama de la quimera
+4	592	Salto de Izuna
+4	593	Patada Dragón azul
+4	594	Fénix blanco bajando en picado
+4	595	Descenso del dragón
+4	596	Dragón azul cayendo
+4	597	Luna del zorro
+4	598	Fénix blanco bajando en picado
+4	599	
+4	600	Garra de tigre sumergido
+4	601	Fauces sumergidas
+4	602	Dragón azul subiendo
+4	603	Grito del fénix
+4	604	Fauces aplas. de tigre de agua
+4	605	Ataque fantasma
+4	606	Dragón azul subiendo
+4	607	Patada Zorro de agua
+4	608	Colmillos del dragón de agua
+4	609	Corte Reptil de agua
+4	610	
+4	611	Viento invertido
+4	612	Senda del viento
+4	613	Carrera en el viento
+4	614	Voltereta de ave
+4	615	Carrera en aguas en calma
+4	616	Pausa en aguas en calma
+4	617	Pelapieles
+4	618	Molinillo de calaveras
+4	619	Limpiapecados
+4	620	Onda demonio
+4	621	Crisol demoledor
+4	622	Caída de toro
+4	623	Choque salvaje
+4	624	Corte de demonio quejumbroso
+4	625	Cruz del Estigia
+4	626	Corte Karma
+4	627	Verso nirvana
+4	628	Corte trueno
+4	629	Reencarnación rota
+4	630	Cuchilla del trueno danzante
+4	631	Cuchilla del trueno celestial danzante
+4	632	Caída al Hades
+4	633	Salto de Izuna
+4	634	Aguijón alcaudón
+4	635	Caída Tengu
+4	636	Por los seis reinos
+4	637	Cazademonios de fuego
+4	638	Trueno ensordecedor
+4	639	Niebla de guerra
+4	640	Cielo despejado
+4	641	Trueno rugiente
+4	642	Reino del purgatorio
+4	643	Sillar de Hades
+4	644	Caída de guillotina
+4	645	Fuego infernal carmesí
+4	646	Fuego infernal eterno
+4	647	Primera meditación
+4	648	Hielo ártico
+4	649	Cruz del Estígia
+4	650	Cuna de viento
+4	651	Brisas entrecruzadas
+4	652	Salto al umbral
+4	653	Viento de gorrión
+4	654	Muevenubes
+4	655	Flujo de alondra
+4	656	Arce danzante
+4	657	Corte del halcón
+4	658	Giro ciclón
+4	659	Rueda luz de luna
+4	660	Tres mil vientos
+4	661	Corte repetitivo del halcón
+4	662	Corte en picado del halcón
+4	663	Rascacielos del halcón
+4	664	Halcón de Izuna
+4	665	Empujón Ursae
+4	666	Ursae de lujo
+4	667	Corte halo
+4	668	Arce ascendiente
+4	669	Retumbar de los truenos
+4	670	Sombra de luna
+4	671	Cielo ardiente
+4	672	Salto mosquito
+4	673	Posición pica
+4	674	Brillo meteórico
+4	675	Rastro del cometa
+4	676	Pétalo de flor
+4	677	Viento del este
+4	678	Sol, Luna y estrellas
+4	679	Wabisuke
+4	680	Grito solitario
+4	681	Cortahierbas
+4	682	Cazador en el helecho
+4	683	Viento azotapino luz de luna
+4	684	Viento danzante luz de la luna
+4	685	Colmillo derecho
+4	686	Colmillo izquierdo
+4	687	Ataque víbora
+4	688	Mordisco víbora
+4	689	Veneno
+4	690	Grito de dolor
+4	691	Dolor máximo
+4	692	Colmillo oso
+4	693	Disparo mortal
+4	694	Víbora al ataque
+4	695	Vermellón
+4	696	Furia de hidra
+4	697	Serpiente arrasadora
+4	698	Ojos de serpiente
+4	699	Serpiente salvaje
+4	700	Onda víbora
+4	701	Filo cortante
+4	702	Onda cobra
+4	703	Veneno mortal
+4	704	Ouroboros
+4	705	Cortador
+4	706	Martillo serpiente
+4	707	Kukulcan
+4	708	Martillo dragnico
+4	709	Naga invertido
+4	710	Serpiente de cascabel
+4	711	Desliz
+4	712	Midgard
+4	713	Jormungandr
+4	714	Espada de poder
+4	715	Espada inquebrantable
+4	716	Espada garra nula
+4	717	Espada de la mantis religiosa
+4	718	Espada de fuego violeta
+4	719	Hacha Buenpie
+4	720	Empujón de Dios furioso
+4	721	Erupción del fuego marino
+4	722	Espada cielo azul
+4	723	Espada creaolas
+4	724	Espada patada divina
+4	725	Espada rotura divina
+4	726	Espada polvo de Eolo
+4	727	Abrazadera divina eclipse
+4	728	Espada de poder abrazadera celestial
+4	729	Espada de poder abrazadera celestial triple
+4	730	Corte mariposa
+4	731	Corte combinado mariposa
+4	732	Corte combinado mariposa celestial
+4	733	Creatorbellino mariposa
+4	734	Lanza fantasma
+4	735	Tempestad fantasma
+4	736	Espada de sombra neblinosa
+4	737	Espada combinada sombra neblinosa
+4	738	Lanza fantasma
+4	739	Vals fantasma
+4	740	Corte celestial
+4	741	Corte trueno
+4	742	Corte céfiro
+4	743	Abrazadera luminiscente
+4	744	Furia aplastante de Dios
+4	745	Abrazadera arrebol
+4	746	Espada de escamas oscuras
+4	747	Estrella oscura
+4	748	Caída de viento
+4	749	Abrazadera divina eclipse
+4	750	Guardia orquídea descendiente
+4	751	Anillo sombra de luna
+4	752	Cuervo negro
+4	753	Baile del viento divino
+4	754	Baile de la furia divina
+4	755	Durante un salto doble
+4	756	Durante el bloqueo
+4	757	Durante el baile de la furia divina
+4	758	Giro salvaje
+4	759	Danza de la muerte
+4	760	Perro salvaje
+4	761	Perforación lunar
+4	762	Torbellino en cielo abierto
+4	763	Triple torbellino en cielo abierto
+4	764	Garra de tigre continua
+4	765	Garra de tigre celestial
+4	766	Corte en torbellino
+4	767	Molinillo pétreo
+4	768	Rojo oscuro
+4	769	Bola de fuego
+4	770	Sombra de la muerte
+4	771	Onda inversa
+4	772	Conflagración
+4	773	Espada arbórea
+4	774	Cráneo calculador
+4	775	3er. círculo del infierno
+4	776	Gran conflagración
+4	777	Punzón
+4	778	Ala ligera Izuna
+4	779	Izuna Dios furioso
+4	780	Corte de viento
+4	781	Rashomon
+4	782	Empujón meteórico
+4	783	Creador de tempestades
+4	784	Golpe halcón
+4	785	Viento lunar
+4	786	Rompecielos
+4	787	Espiral serpiente
+4	788	El Mazo
+4	789	Golpe pitón
+4	790	Martillo Trauma
+4	791	Martillo dentado
+4	792	Leviatán
+4	793	Perforadora
+4	794	Flanco inverso
+4	795	Tejedora
+4	796	Eclipse decreciente
+4	797	Espada abrazadera gemela
+4	798	Espada momento
+4	799	Tejedora suprema
+4	800	Espadas gemelas supremas
+4	801	Espada huracán
+4	802	Espada vórtice
+4	803	La danza de los dioses
+5	0	Ver manual de juego
+5	1	Controles básicos
+5	2	Control de la cámara
+5	3	Cambiar de arma y\nUsar objetos
+5	4	Esencia
+5	5	En el agua
+5	6	Usar cuerdas
+5	7	Usar el arco
+5	8	La tienda de Muramasa
+5	9	Como guardar
+5	10	Control de la cámara 1ª persona
+5	11	Control de la cámara 3ª persona
+5	12	Control de natación
+5	13	Volumen de la música
+5	14	Volumen de los efectos de sonido
+5	15	Volumen del diálogo
+5	16	Pantalla Karma
+5	17	Subtítulos
+5	18	Tutorial en el juego
+5	19	Vibración del mando
+5	20	Restaurar la configuración por defecto
+5	21	Métodos guardar
+5	22	Salir del juego
+5	23	NINJA CINEMA
+5	24	Volver al juego
+5	25	Por defecto
+5	26	Vertical\nInvertido
+5	27	Horizontal\nInvertido
+5	28	Todos invertidos
+5	29	On (encendido)
+5	30	Off (apagado)
+5	31	Automático
+5	32	Manual
+5	33	Ataque rápido
+5	34	Ataque potente/\nTécnica de la obliteración
+5	35	Arma de proyectil
+5	36	Salto
+5	37	Abrir el menú pausar
+5	38	Abrir el manual del juego y \nOpciones
+5	39	Mover personaje
+5	40	Cambiar de arma y\nUsar objetos
+5	41	Interactuar
+5	42	Bloquear
+5	43	@[pad:Ru]@[symbol:plus]@[pad:Rr] Hacer Ninpo
+5	44	@[pad:Rl]@[symbol:plus]@[pad:Ru] Hacer Ninpo
+5	45	Vista\n1ª persona
+5	46	Centrar la cámara
+5	47	Control de la cámara
+5	48	Entra al modo vista 1ª persona con @[pad:ActLook]\ny usa @[pad:ActCenterCamera] para hacer un primer plano.
+5	49	Cambiar Ninpo
+5	50	Cambiar de arma de proyectil
+5	51	Cambiar de arma melee
+5	52	Usar objeto
+5	53	Mientras juegas, pulsa:\n@[pad:lu] para cambiar de arma melee,\narma de proyectil y Ninpo.\n@[pad:Ld] para ver y usar objetos.
+5	54	La esencia azul restaura \ntu salud.
+5	55	La esencia roja restaura tu\ncapacidad de hacer Ninpo.
+5	56	La esencia amarilla se usa\ncomo moneda en la tienda de Muramasa.
+5	57	Los enemigos vencidos dejan caer\norbes de esencia.\nHay tres colores diferentes de esencia,\ny todas tienen propiedades diferentes.
+5	58	Usa @[pad:LS] para nadar por la\nsuperficie del agua.
+5	59	Mantén pulsado @[pad:ActJump] en la superficie para bucear.\nCuando estés bajo el agua, mantén pulsado @[pad:ActJump]\npara nadar y usa @[pad:LS] para cambiar de dirección.
+5	60	Pulsa @[pad:ActJump] mientras estés\nen el agua para correr por la superficie.\nSigue pulsando @[pad:ActJump] para\ncontinuar corriendo. Pulsa @[pad:ActJump]\ncerca de una pared para saltar hacia ella.
+5	61	Salta hacia una cuerda, poste o un\nbordillo para cogerte y quedar colgado.\nMientras estás colgado, pulsa @[pad:ActProjectile]\npara saltar abajo.
+5	62	Usa @[pad:LSlr] para moverte en una cuerda\ndespués de que la hayas cogido.
+5	63	Mientras estás colgado de un poste,\nempuja @[pad:LS] hacia delante para balancearte.\nPulsa @[pad:ActJump] mientras te\nbalanceas para saltar.
+5	64	Pulsa @[pad:ActProjectile] para preparar el arco\ny soltar una flecha.
+5	65	Mantén pulsado @[pad:ActProjectile] para\nhacer un disparo más potente.
+5	66	Mientras mantienes pulsado @[pad:ActProjectile],\nmueve @[pad:LS] para entrar en el modo apuntar\ncon precisión.\nPulsa @[pad:ActCenterCamera] para hacer un primer \nplano del objetivo para obtener más precisión.
+5	67	Primero asegúrate que no haya\nenemigos alrededor, luego pulsa\n@[pad:Interact] frente a la\nestatua de Muramasa para \nentrar en la tienda de Muramasa.
+5	68	En la sección de la tienda, puedes\nusar esencia amarilla para comprar\nobjetos de curación, munición y otras\nmercancías.
+5	69	En la sección herrería, gasta la \nesencia amarilla que tanto te ha \ncostado ganar mejorando tus \narmas.\n\nUsa @[pad:L2] y @[pad:R2] para cambiar\nentre las dos secciones.
+5	70	Esta es la estatua del Dragón\nterrestre, rodeada de una luz\nmisteriosa. Si no hay enemigos\ncercanos, se puede usar\npara restaurar tu salud.
+5	71	Cuando desaparezca la luz azul\nde la estatua, puedes guardar el\nprogreso que has hecho durante\ntu viaje.
+5	72	Para guardar, pulsa @[pad:R1] y\nluego selecciona un lugar de guardado.\nPuedes tener hasta 20 partidas\nguardadas.\n\nCuando el método de guardado está\nen automático, simplemente pulsa\n@[pad:R1] enfrente de la estatua\npara guardar tu partida de forma\nautomática.
+5	73	
+5	74	@[pad:Decide]Confirmar @[pad:Cancel]Atrás
+5	75	Esto reiniciará todas las configuraciones a sus valores por defecto.
+5	76	Con esto saldrás de la partida y volverás al menú principal.
+5	77	Sí
+5	78	No
+5	79	La barra de salud aparece en la\nesquina superior izquierda de la \npantalla. La parte azul representa tu\nsalud. Si los enemigos te dañan, la parte\nazul se regenerará automáticamente\ncuando venzas a todos los enemigos.
+5	80	Sin embargo, la parte roja representa el daño\nduradero. El daño duradero no se regenera al \nfinal del combate. ¡Ten cuidado cuando tu\nbarra de salud está casi toda en rojo!
+5	81	Para curar daño duradero, usa objetos de curación,\nrecoge esencia azul o visita una estatua de Dragón\nterrestre.
+5	82	Barra de salud
+5	83	Regenerable
+5	84	Duradero
+5	85	Sal de esta pantalla y vuelve a la partida.
+5	86	@[pad:Rl]Cambiar de dispositivo de almacenamiento @[pad:Cancel]Atrás
+5	87	
+5	88	La ranura de auto guardado se sobrescribirá de forma automática.
+5	89	Terminar la partida y volver a la pantalla inicio. \n¿Seguro?
+6	0	
+6	1	Jugar
+6	2	Eliminar
+6	3	Cargar
+6	4	Tiempo de juego
+6	5	Cambiar el dispositivo de almacenamiento
+6	6	Tarjeta del jugador
+6	7	Confirmar
+6	8	Atrás
+6	9	¿Seguro que quieres ver este clip?
+6	10	¿Seguro que quieres eliminar este clip?
+6	11	¿Seguro que quieres cargar este clip?
+6	12	@[pad:Decide]Sí @[pad:Cancel]No
+6	13	Se está cargando ahora...
+6	14	Se ha cargado con éxito el clip.
+6	15	No puedes cargar un clip porque no tienes un rango en este marcador.
+6	16	
+6	17	
+6	18	Ha habido un error mientras se accedía al dispositivo de almacenamiento.
+6	19	Este clip es muy largo para cargarlo.
+6	20	Este clip está dañado.
+6	21	Continuar
+6	22	Reiniciar
+6	23	Volver al menú
+6	24	Pausar
+6	25	Tu clip cargado existente se sobrescribirá.
+6	26	Adjuntar
+7	0	
+8	0	
+8	1	SENDA DEL ACÓLITO
+8	2	SENDA DEL GUERRERO
+8	3	SENDA DEL MENTOR
+8	4	SENDA DEL MAESTRO NINJA
+8	5	SENDA DEL NINJA SUPREMO
+8	6	
+8	7	ACÓLITO
+8	8	GUERRERO
+8	9	MENTOR
+8	10	MAESTRO NINJA
+8	11	NINJA SUPREMO
+8	12	Tokio, Sky City
+8	13	Castillo del Dragón
+8	14	El trueno de la catástrofe
+8	15	Una diosa cautiva
+8	16	La capital acuática
+8	17	El castillo de los licántropos
+8	18	La fortaleza voladora Dédalo
+8	19	¡Ríndete o muere!
+8	20	El corazón de las tinieblas
+8	21	El templo del sacrificio
+8	22	La tumba del asesino
+8	23	Devastación acelerada
+8	24	El abismo del inframundo
+8	25	Sangre envenenada
+8	26	El Archidemonio
+8	27	
+8	28	
+8	29	
+8	30	La batalla en el santuario de las vírgenes
+8	31	La ciudad de la diosa rebelde
+8	32	Noche en la ciudad de agua
+8	33	La bruma de la luz
+8	34	
+8	35	El acólito hace el camino de las sombras por primera vez. No tengas miedo \nde lo que hay delante. Yérguete orgulloso como un ninja.
+8	36	Aquellos hábiles en las batallas hacen el camino del guerrero en todo momento.\nEn la vida de un ninja verdadero, cada día te acerca más a la muerte.
+8	37	Vencedor en la batalla, el ninja diestro se convierte en un mentor, cada vez\nmás cercano a la iluminación que se encuentra entre la vida y la muerte.
+8	38	El mundo de los maestros ninja sólo se conoce en leyendas. Pocos se atreven\na hacer este camino. Delante tendrás retos que no puedes ni imaginar.
+8	39	@[pad:Interact] Interactuar
+8	40	@[pad:Interact] Tienda
+8	41	@[pad:Interact] Guardar
+8	42	@[pad:Interact] Curar
+8	43	@[pad:Interact] Abrir
+8	44	@[pad:Interact] Coger
+8	45	@[pad:Interact] Examinar
+8	46	@[pad:Interact] Curar y guardar
+8	47	@[pad:Interact] Mirar
+8	48	@[pad:Interact] Rescatar
+8	49	Ryu
+8	50	Ayane
+8	51	La agente especial Sonia aparece en la puerta de una pequeña tienda \nescondida entre los rascacielos de Tokio, que lleva el maestro herrero \nMuramasa. Pregunta por el Ninja Ryu Hayabusa, su paradero es un \nmisterio. Trae noticias de una amenaza terrible que se enfrenta al \nmundo; porta un mensaje que debe llegar a Hayabusa a todo coste. \nCuando cae la noche, el malvado clan ninja Araña negra emerge\nde las sombras para infestar las calles de esta ciudad desprevenida.
+8	52	La sombra del clan Araña negra llega al pueblo Hayabusa.\nBuscan la estatua Demonio, la clave para resucitar al \nArchidemonio. Sólo Joe Hayabusa, todavía curándose de la \núltima batalla, se interpone en su camino. Genshin, el líder del \nclan ninja Araña negra, se enfrenta a su rival de toda la vida en \nun duelo funesto. Cuando el Castillo del Dragón se quema, \nElizébet, de otro mundo, sonríe con frialdad. El sello que \nencierra la estatua Demonio se ha roto.
+8	53	El grácil Alexei, uno de los cuatro Demonios Máximos, aparece en el \ncielo de Nueva York, lanzando una lluvia de relámpagos a esta \norgullosa ciudad. Ryu Hayabusa llega a Manhattan buscando a Elizébet, \nque escapó de la aldea Hayabusa con la estatua Demonio. Los \ndemonios ya han empezado a transformar Nueva York en el país \nMaligno. La batalla de Ryu empieza junto con los ecos de truenos y \nrisas del Demonio Máximo.
+8	54	Alexei ha transformado la Estatua de la Libertad en su propia base \npara sus planes retorzidos. Es la fuente de las fuerzas \nsobrenaturales que se entretejen en las calles de la ciudad. Como \nsi se burlasen del concepto de "libertad" los truenos retumban, \nheraldos de la amenaza a la que se enfrenta la civilización. Se tiene \nque recuperar la Estatua o la humanidad sufrirá. Después de llegar a \nla isla de la Libertad, la férrea mirada de Ryu ahora se dirige al \nDemonio Máximo Alexei.
+8	55	Elizébet sigue en paradero desconocido, pero sus malvados planes \nsiguen desarrollándose ya que está liberando el terrífico poder de \nla estatua Demonio. Donde quiera que vaya, su poder despierta a \nuno de los cuatro Demonios Máximos de su largo sueño. El rugido \ndel Demonio Máximo Volf, soberano de la tormenta, hace eco en \nuna bonita ciudad de canales, convirtiendo un castillo gótico en \nuna fortaleza malvada.
+8	56	Los canales que atraviesan la ciudad llevan a un castillo gigante, \nel anteriormente bonito legado arquitectónico se ha transformado \nen la guarida del Demonio Máximo Volf. Volf gobierna un ejército de \nhombres lobo con puño de hierro. Es una furia, tan sangriento como \nlas bestias y su hambre infinita por la batalla le ha llevado a preparar \nun lugar digno de un duelo a muerte con el ninja más poderoso \ndel mundo. 
+8	57	La fortaleza dentada de la bestia-lobo ha sido derribada, \nRyu y Sonia dejan este lugar distorsionado atrás, volando al cielo \nen busca de Elizébet. Yendo siempre hacia el norte, le llevan las \nalas de la oscuridad, atravesando el cielo en la fortaleza voladora \nDédalo. Hay que detenerla, pero el ejército de Genshin, enemigo \njurado del clan Hayabusa, se interpone entre Ryu y su presa.
+8	58	Cientos de kilómetros al norte del lugar nevado donde se ha \nestrellado Dédalo, se ha despertado el Demonio Máximo Zedonius \npara amenazar a una gran potencia militar. El malevolente soberano \nde la llama ha mandado un ultimátum de parte del Sacerdote infernal \nDagra Dai a la gente del mundo: aceptad el yugo del todo poderoso \nArchidemonio o morid. Y así empieza el bautismo de fuego de \nla Tierra. Las provocaciones del Demonio Máximo de la llama invaden \nla mente de Ryu.
+8	59	El rastro de Elizébet lleva a un país de mal agüero en Suramérica. \nEste lugar impuro esconde el componente final para resucitar al \nArchidemonio. Ryu Hayabusa penetra los oscuros manglares repletos \ndel ejército bien armado del clan ninja Araña negra, de camino a la \nguarida del Archidemonio. Ryu viaja a través de una jungla alejada de \nla civilización, un lugar misterioso donde viven los secretos de los antiguos.
+8	60	Una gran cascada se divide delante de Elizébet como si tuviese miedo \nde la estatua Demonio, con la estatua encima de su cabeza, cae una \nlluvia de sangre. Detrás está el agujero de entrada a una inmensa caverna. \nEl olor de sangre proviene de su maloliente interior esculpido. En este \naltar, el Sacerdote infernal Dagra Dai volverá a dotar de vida a la estatua \nDemonio. Ryu Hayabusa se acerca a su presa.
+8	61	Ryu vuelve a la aldea Hayabusa, que descansa bajo la sombra del \nmonte sagrado Fuji. Es su última parada antes de entrar a un terreno \nimpuro, a la fuente de las fuerzas supernaturales que amenazan al \nmundo. Con la Espada del Dragón en mano, el cuerpo de Ryu se \nllena de un poder inconmensurable. Genshin espera en la cima de \nla montaña desde donde sale el mal, decidido a quitar la vida al último \ndel linaje del Dragón. Se acerca el enfrentamiento inevitable entre \nRyu y Genshin.
+8	62	En lo profundo del monte Fuji hay un mundo infernal, mancillado, \ndonde el demente Sacerdote infernal Dagra Dai invoca las oscuras \nceremonias y encantamientos para resucitar al Archidemonio. \nCada latido del feto del gran señor retumba como un presagio \nde la muerte sobre la raza humana. Ryu entra en el inframundo, \ndonde ningún otro humano ha puesto sus pies antes. \nAún no se da cuenta que está en la tierra de los muertos, \ndonde habitan aquellos que han perdido sus restos mortales.
+8	63	Se dice que aquellos que caminan por el helado abismo del \ninframundo están malditos, que tienen prohibido volver a ver \nla luz de los vivos. En su persecución del Archidemonio, \nRyu se encuentra con una prisionera bonita ... ¿o es un mero \nfantasma creado por los demonios? Garras malignas buscan \na Sonia; ha seguido a Ryu hasta aquí. Para volver al mundo de \nlos vivos, Ryu debe romper la barrera que divide ilusión de realidad.
+8	64	Para salvar a Sonia, Ryu luchó a través de un mar de sangre \nlleno de espíritus vengativos, reanimados por el mal del inframundo. \nAhora se enfrenta a la reina de los Demonios Máximos en una \nbatalla final a muerte. Los malvados encantamientos de Dagra Dai \nestán completos; el Archidemonio está a punto de resucitar. \nEl ninja Dragón camina por el hilo que separa la vida de la muerte.
+8	65	
+8	66	
+8	67	Genshin vuelve a batirse sobre la aldea Hayabusa otra vez, \nsu clan Araña negra aplasta a los bravos ninja jóvenes. \nEnfrentada a la devastación de su aldea, Momiji, la virgen del \nsantuario dragón decide liberar a un joven enemigo que estaba \nprisionero. Más allá del brillo sobrenatural de Sky City de Tokio, \nla virgen del santuario se enfrenta a una horda de ninja \nmalvados, sola.
+8	68	La tranquilidad restaurada por los esfuerzos de Ryu, se \nrompe cuando reaparece el Archidemonio del inframundo. \nUna bonita cazademonios desciende entre los rascacielos,\npersiguiendo a las criaturas que ahora infestan la ciudad.\nLuchando contra interminables hordas malvadas intenta \nrestaurar la paz y el orden de nuevo.
+8	69	Una joven ninja se desliza por la ciudad de agua, un lugar \nsilencioso rodeado de luces intermitentes, evadiendo con \ninteligencia las trampas que le han puesto. Es una \n"ku-no-ichi", una ninja mujer, dedicada a recuperar el \ntesoro del linaje del Dragón de los malignos que lo robaron. \nBañada por la luz de la luna, una belleza mortal corre \nhacia su batalla final.
+8	70	@[pad:Interact] Usar objeto
+8	71	El halcón negro legendario
+8	72	Sangre oscura
+8	73	Tipo 20
+8	74	Espíritu tribal
+8	75	Jaguar negro
+8	76	No puedes guardar el juego porque no estás registrado.
+8	77	@[pad:R3] Cambiar la cámara
+8	78	@[pad:Interact] Abrir
+8	79	CAPÍTULO 1 COMPLETADO
+8	80	CAPÍTULO 2 COMPLETADO
+8	81	CAPÍTULO 3 COMPLETADO
+8	82	CAPÍTULO 4 COMPLETADO
+8	83	CAPÍTULO 5 COMPLETADO
+8	84	CAPÍTULO 6 COMPLETADO
+8	85	CAPÍTULO 7 COMPLETADO
+8	86	CAPÍTULO 8 COMPLETADO
+8	87	CAPÍTULO 9 COMPLETADO
+8	88	CAPÍTULO 10 COMPLETADO
+8	89	CAPÍTULO 11 COMPLETADO
+8	90	CAPÍTULO 12 COMPLETADO
+8	91	CAPÍTULO 13 COMPLETADO
+8	92	TODOS LOS CAPÍTULOS COMPLETADOS
+9	0	La legendaria estatua del Dragón terrestre.\nCada estatua rellenará tu salud una vez.
+9	1	Tu progreso se guardará de manera automática.\nPuedes cambiar a guardado manual en Opciones @[pad:Select].
+9	2	Esta es la mundialmente famosa tienda de Muramasa.\nPuedes comprar objetos cuando no hay enemigos alrededor.
+9	3	@[pad:Lu] Cambiar de arma
+9	4	@[pad:Lu] Cambiar de arma de proyectiles
+9	5	@[pad:Lu] Cambiar Ninpo
+9	6	@[pad:Ld] Abrir el menú Objeto
+9	7	Pulsar @[color:tb0l]@[pad:ActJump]@[color:resume] repetitivamente para correr por el agua.\nMantener @[color:tb1l]@[pad:ActJump]@[color:resume] para bucear en el agua.
+9	8	Mantén pulsado @[color:tb0l]@[pad:ActLook]@[color:resume] y usa @[color:tb1l]@[pad:RS]@[color:resume] para apuntar.
+9	9	Ponte delante del poste con @[color:tb0l]@[pad:ActJump]@[color:resume] para cogerlo.
+9	10	@[color:tb0l]@[pad:LS]@[color:resume] Mover\n@[color:tb1s]@[pad:ActJump]@[color:resume] Balancearse @[color:tb2s]@[pad:Interact]@[color:resume] Saltar hacia abajo
+9	11	@[color:tb2l]@[pad:ActGuard]@[color:resume] Bloquear @[color:tb0s]@[pad:ActAttack]@[color:resume] Ataque rápido @[color:tb1s]@[pad:ActStrong]@[color:resume] Ataque potente
+9	12	@[color:tb1l]@[pad:RS]@[color:resume] Control de la cámara\n@[color:tb2l]@[pad:ActCenterCamera]@[color:resume] para reiniciar la cámara detrás de Ryu.
+9	13	La legendaria estatua del Dragón terrestre.\nPuedes usar la estatua cuando no hay enemigos.
+9	14	La estatua está rodeada de una luz misteriosa.\nÚsala para restaurar tu salud.
+9	15	La luz de la estatua ha desaparecido.\nAhora la puedes usar para guardar el progreso de tu viaje.
+9	16	La esencia azul rellena tu salud.
+9	17	La esencia roja te da el poder para hacer un Ninpo.\n@[color:tb0l]@[pad:ActNinpo0]@[color:resume]@[symbol:plus]@[color:tb0l]@[pad:ActNinpo1]@[color:resume] Ninpo
+9	18	La esencia amarilla se usa como dinero en la tienda de Muramasa.
+9	19	¡La defensa es importante! Usa@[color:tb0l]@[pad:ActGuard]@[color:resume] para bloquear al enemigo.
+9	20	¡Tienes poca salud! ¡Usa @[pad:Ld] para acceder a tus objetos de curación!
+9	21	La estatua está brillando con una luz mística.\nSe puede usar para curar tus heridas o grabar tu progreso.
+9	22	La luz misteriosa ha desaparecido, pero la estatua aún \nse puede usar para guardar los detalles de tu viaje.
+9	23	Usa @[color:tb1l]@[pad:ActCenterCamera]@[color:resume] para reiniciar la cámara detrás de Ryu.
+9	24	¡Mueve @[pad:LS] y dale a los botones rápido para escapar de las garras del enemigo!
+9	25	¡Estás en peligro! ¡Mueve @[color:tb0l]@[pad:LS]@[color:resume] y dale a los botones para escapar!
+9	26	Usa @[color:tb0l]@[pad:ActLook]@[color:resume] y @[color:tb1l]@[pad:RS]@[color:resume] para controlar la cámara de primera persona.
+9	27	Pulsa @[color:tb1l]@[pad:ActJump]@[color:resume] durante un salto para hacer un salto aún más alto.
+9	28	Pulsa y mantén pulsado @[color:tb1l]@[pad:ActStrong]@[color:resume] durante un salto doble para hacer la técnica aérea suprema.
+9	29	Pulsa y mantén pulsado @[color:tb0l]@[pad:ActCenterCamera]@[color:resume] para sentir el camino adecuado.
+9	30	¡Pulsa @[color:tb0l]@[pad:ActNinpo0]@[color:resume]@[symbol:plus]@[color:tb0l]@[pad:ActNinpo1]@[color:resume] para hacer un Ninpo definitivo!
+9	31	¡Tu compañero cayó! ¡Revívelo pulsando varias veces @[color:tb0l]@[pad:Interact]@[color:resume]!
+9	32	Las tiendas de Muramasa tienen linternas azules\nEntra para mejorar tus armas.
+9	33	@[color:tb0l]@[pad:ActProjectile]@[color:resume] Atacar @[color:tb1l]@[pad:RS]@[color:resume] Mover cámara\n@[color:tb2l]@[pad:LS]@[color:resume] Mover personaje @[color:tb3l]@[pad:Lu]@[color:resume] Zoom
+9	34	Usa @[pad:ActGuard]@[symbol:plus]@[pad:LS] para salir corriendo\ncomo el rayo hacia la\ndirección que indica el\n@[pad:LS].\n\nÚsalo para esquivar ataques\nenemigos o acercarte a\nellos y matarlos.
+9	35	La técnica Viento invertido
+9	36	@[color:tb0b]@[pad:ActGuard]@[color:resume]@[symbol:plus]@[color:tb1b]@[pad:LS]@[color:resume]
+9	37	Pulsa @[pad:ActGuard] @[symbol:plus] @[pad:LS] mientras\nbloqueas a un enemigo\npara atacar y salir corriendo\ncomo el rayo.\n\nUsa esto cuando han roto\ntu defensa para evitar que\nte hagan más daño.
+9	38	La técnica Viento violento
+9	39	@[color:tb0b]@[pad:ActGuard]@[color:resume] @[symbol:plus] @[color:tb1b]@[pad:LS]@[color:resume] mientras bloqueas
+9	40	Salta con @[pad:ActJump] hacia \nuna pared, mantén pulsado @[pad:LS]\nhacia delante para correr por la pared.\n\nLugares que parecían estar fuera\nde tu alcance, ya no lo están.
+9	41	La técnica Pisadas sin sombra
+9	42	@[color:tb0b]@[pad:ActJump]@[color:resume] de forma diagonal hacia una pared
+9	43	Salta hacia delante y pulsa\n@[pad:ActStrong] para atacar\na enemigos desde arriba.\nCualquier enemigo que esté\nen tu camino será diezmado.\n\nÚsalo en zonas abarrotadas.\n\nPara usar esta técnica, \ndebes tener equipada la\nEspada del Dragón.
+9	44	La técnica Golondrina voladora
+9	45	@[color:tb0b]@[pad:LS]@[color:resume] @[symbol:plus] @[color:tb1b]@[pad:ActStrong]@[color:resume] mientras saltas hacia delante
+9	46	Salta hacia una pared y pulsa\n@[pad:ActJump] repetitivamente\npara escalar dos paredes paralelas.\n\nEsto te permite llegar\nmás alto sin necesidad\nde una escalera.
+9	47	La técnica Pájaro volador
+9	48	Sube corriendo por una pared,\nluego pulsa @[color:tb0b]@[pad:ActJump]@[color:resume] repetitivamente
+9	49	Pulsa @[pad:ActStrong] cerca de un enemigo\nque ha perdido un brazo o\nuna pierna para matarlo.\n\nLos enemigos heridos pueden\nser muy peligrosos.\n¡Mátalos rápido!
+9	50	La técnica de la obliteración
+9	51	@[color:tb0b]@[pad:ActStrong]@[color:resume] cerca de un enemigo herido
+9	52	Mantén pulsado @[pad:ActStrong] para cargar,\nluego suéltalo. Si tienes éxito, \ntus enemigos sufrirán.\n\nCuanto más tiempo cargues,\nmás potente será tu ataque. \n\nSi hay una esencia cerca,\nla absorberás y cargarás más\nrápido.
+9	53	La técnica definitiva
+9	54	Mantén pulsado @[color:tb0b]@[pad:ActStrong]@[color:resume]
+9	55	Mientras bloqueas un\nataque enemigo,\npulsa @[pad:ActAttack] o @[pad:ActStrong] \npara contraatacar. \n\nUsa esto para defenderte,\nincluso cuando te enfrentas\na enemigos insuperables.
+9	56	La técnica del contraataque
+9	57	@[color:tb0b]@[pad:ActAttack]@[color:resume] o @[color:tb1b]@[pad:ActStrong]@[color:resume] mientras bloqueas
+9	58	Mientras corres por una pared, \npulsa @[pad:ActJump] para saltar, luego\nmantén pulsado @[pad:LS] para correr\npor la próxima pared. \n\n¡Puedes alcanzar todos los lugares!
+9	59	La técnica Ascenso inigualable
+9	60	@[color:tb0b]@[pad:ActJump]@[color:resume] mientras corres en una pared
+9	61	Se puede ver en cualquier momento en la sección PERGAMINOS del menú Pausa.
+9	62	Corre por una pared, luego salta y\nmantén pulsado @[pad:LS] para seguir\ncorriendo por la pared de enfrente.\n\n¡Aprovéchate del entorno para\nalcanzar alturas superiores!
+9	63	La técnica Senda invisible
+9	64	@[color:tb0b]@[pad:ActJump]@[color:resume] mientras corres en una pared
+9	65	Cuando hay una esencia cerca,\nmantén pulsado @[color:tb0b]@[pad:ActStrong]@[color:resume] para absorber la esencia y cargar tu técnica definitiva.\n\nTu técnica definitiva se cargará más\nrápido y los enemigos a los que des \ncon el ataque, perderán más esencia\nque de normal. \n¡Usa la esencia que se les ha caído para \nencadenar más técnicas finales!
+9	66	La técnica de guía final
+9	67	Mantén pulsado @[color:tb0b]@[pad:ActStrong]@[color:resume], luego suéltalo
+9	68	Después de pulsar @[pad:ActAttack], @[pad:ActStrong] para levantar a un enemigo,\nusa esta oportunidad para atacar a un enemigo mientras está en el aire.\nSi pulsas @[pad:ActStrong] serán absorbidos por un vórtice.\nEs la esencia de la Salto de Izuna.\n\nEspada del Dragón  @[pad:ActAttack]@[pad:ActStrong]@[pad:ActAttack]@[pad:ActAttack]@[pad:ActAttack]@[pad:ActStrong]\nBáculo Lunar   @[pad:ActAttack]@[pad:ActStrong]@[pad:ActAttack]@[pad:ActAttack]@[pad:ActStrong]\nGarras del halcón @[pad:ActAttack]@[pad:ActStrong]@[pad:ActAttack]@[pad:ActAttack]@[pad:ActAttack]@[pad:ActStrong]\n\nRecuérdalos bien.
+9	69	Salto de Izuna
+9	70	@[pad:ActAttack]@[pad:ActStrong]@[pad:ActAttack]@[pad:ActAttack]@[pad:ActStrong]
+9	71	Pulsa @[pad:ActJump] para correr como el viento,\nluego pulsa @[pad:ActAttack]@[symbol:plus]@[pad:ActJump] cuando estés dentro de la guardia\nde un enemigo para golpearles la cabeza con una fuerza increíble.\nEste movimiento se llama Caída de Guillotina.
+9	72	Caída de guillotina
+9	73	@[color:tb0b]@[pad:ActAttack]@[color:resume]@[symbol:plus]@[color:tb1b]@[pad:ActJump]@[color:resume] mientras saltas hacia delante
+9	74	@[pad:ActNinpo0]@[symbol:plus]@[pad:ActNinpo1]
+9	75	
+9	76	
+9	77	
+9	78	
+9	79	
+9	80	
+9	81	
+9	82	
+9	83	
+9	84	
+9	85	
+9	86	
+10	0	
+10	1	Espada del Dragón
+10	2	Verdadera Espada del Dragón
+10	3	Garra del Dragón y Colmillo del Tigre
+10	4	Cuchilla del Archidemonio
+10	5	Tonfa
+10	6	Guadaña del Eclipse
+10	7	Garras del halcón
+10	8	Kusari-gama
+10	9	Cuchillas gemelas vigoorianas
+10	10	Cuchillas gemelas vigoorianas
+10	11	Báculo Lunar
+10	12	Báculo Lunar
+10	13	Shuriken
+10	14	Flechas
+10	15	Arco de perdición de demonio
+10	16	Shuriken molino de viento
+10	17	Shuriken incendiario
+10	18	Ametralladora Gatling
+10	19	El arte del Infierno
+10	20	El arte de las cuchillas giratorias
+10	21	El arte del vacío penetrante
+10	22	El arte del fénix en llamas
+10	23	
+10	24	Calavera de cristal
+10	25	Calavera de cristal gigante
+10	26	Hierba de vida espiritual
+10	27	Granos de vida espiritual
+10	28	Omusubi de Muramasa
+10	29	Champiñón al estilo diabólico
+10	30	Elixir del gran diablo
+10	31	Talismán del renacimiento
+10	32	Vida de los dioses
+10	33	Vidas de los mil dioses
+10	34	Espíritu de los diablos
+10	35	Joya del sello diabólico
+10	36	Pergamino de técnica: Salto de Izuna
+10	37	Pergamino de técnica: Contraataque
+10	38	Pergamino de técnica: Lanzamiento de guillotina
+10	39	La técnica del viento invertido
+10	40	La técnica del viento violento
+10	41	La técnica de las pisadas sin sombra
+10	42	La técnica del pájaro volador
+10	43	La técnica de la obliteración
+10	44	La técnica definitiva
+10	45	La técnica del contraataque
+10	46	La técnica de la golondrina voladora
+10	47	La técnica del ascenso inigualable
+10	48	La técnica de la senda invisible
+10	49	La técnica de guía final
+10	50	La técnica del salto de Izuna
+10	51	La técnica de la caída de guillotina
+10	52	Llave de tarjeta rota
+10	53	Joya bermellón
+10	54	Joya ultramarina
+10	55	Vara de las pruebas
+10	56	Llave de la puerta del puente
+10	57	Llave de cobre
+10	58	Llave de bronce
+10	59	Llave de hierro procesado
+10	60	Llave de oro
+10	61	Llave tarjeta
+10	62	Llave de la campana
+10	63	Llave del águila de tres cabezas
+10	64	Tarjeta de identidad del dignatario
+10	65	Máscara de jade
+10	66	Máscara de jade
+10	67	Máscara de jade
+10	68	Relieve de hueso
+10	69	Ojo del Dragón
+10	70	Ramo
+10	71	Llave de la habitación de Kureha\n
+10	72	Llave de la armería
+10	73	Corazón de sangre carmesí
+10	74	Corazón de tormenta salvaje
+10	75	Corazón de llama malévola
+10	76	Corazón de relámpago azul celeste
+10	77	Cabeza de estatua de Jizo
+10	78	Llave de la calavera
+10	79	Oración del Necromantale
+10	80	Cuaderno: \nTécnica definitiva
+10	81	Cuaderno: \nTécnica de la obliteración
+10	82	Cuaderno: \nPisadas sin sombra
+10	83	Cuaderno: Viento violento
+10	84	Cuaderno: Ave voladora
+10	85	Cuaderno: \nGolondrina voladora
+10	86	Cuaderno: Viento invertido
+10	87	Cuaderno: Contraataque
+10	88	Cuaderno: \nAscenso inigualable
+10	89	Cuaderno: \nAscenso inigualable
+10	90	Cuaderno: Contraataque
+10	91	Cuaderno: Senda invisible
+10	92	Cuaderno: Guía final
+10	93	Cuaderno de Yogenta
+10	94	Cuaderno de Hachijuro
+10	95	Cuaderno de Inukoma
+10	96	Cuaderno de Izo
+10	97	Cuaderno de Koshimaru (1)
+10	98	Cuaderno de Koshimaru (2)
+10	99	Cuaderno de Denji
+10	100	Cuaderno de Hinomaru
+10	101	Historia del \nCastillo del Dragón
+10	102	Los cuatro Demonios \nMáximos, 1ª parte
+10	103	Los cuatro Demonios \nMáximos, 2ª parte
+10	104	Los cuatro Demonios \nMáximos, 3ª parte
+10	105	El gobierno del \nRey de la Oscuridad
+10	106	La mitología vigooriana
+10	107	
+10	108	Espada del \nDragón
+10	109	Verdadera Espa-\nda del Dragón
+10	110	Garra de Dragón\nColmillo Tigre
+10	111	La Cuchilla del\nArchidemonio
+10	112	Tonfa
+10	113	Guadaña del \nEclipse
+10	114	Garras del \nHalcón
+10	115	Kusari-gama
+10	116	Cuchillas geme-\nlas vigoorianas
+10	117	Cuchillas geme-\nlas vigoorianas
+10	118	Báculo Lunar
+10	119	Báculo Lunar
+10	120	Shuriken
+10	121	Flechas
+10	122	Arco de perdi-\nción de demonio
+10	123	Shuriken Molino\nde Viento
+10	124	Shuriken\nincendiario
+10	125	Ametralladora\nGatling
+10	126	El arte del\nInfierno
+10	127	El arte de las \ncuchillas gir.
+10	128	El arte del\nvacío penetr.
+10	129	El arte del\nfénix en llamas
+10	130	
+10	131	Calavera \nde cristal
+10	132	Calavera de\ncristal gigante
+10	133	Hierba de\nvida espiritual
+10	134	Granos de\nvida espiritual
+10	135	Omusubi de\nMuramasa
+10	136	Champiñón\na lo diabólico
+10	137	Elixir del gran\ndiablo
+10	138	Talismán del\nrenacimiento
+10	139	Vida de los\ndioses
+10	140	Vidas de los\nmil dioses
+10	141	Espíritu de los\ndiablos
+10	142	Joya del \nsello diabólico
+10	143	Salto de Izuna
+10	144	Contraataque
+10	145	Caída de\nguillotina
+10	146	Viento \ninvertido
+10	147	Viento violento
+10	148	Pisadas sin\nsombra
+10	149	Ave voladora
+10	150	Técnica de la\nobliteración
+10	151	Técnica\ndefinitiva
+10	152	Contraataque
+10	153	Golondrina \nvoladora
+10	154	Ascenso\ninigualable
+10	155	Senda invisible
+10	156	Guía\nfinal
+10	157	Salto de Izuna
+10	158	Caída de guillotina
+10	159	Llave de \ntarjeta rota
+10	160	Joya\nbermellón
+10	161	Joya\nultramarina
+10	162	Vara de las \npruebas
+10	163	Llave de puerta\ndel puente
+10	164	Llave de cobre
+10	165	Llave de bronce
+10	166	Llave de \nhierro colado
+10	167	Llave de oro
+10	168	Llave tarjeta
+10	169	Llave de la \ncampana
+10	170	Llave de águila\nde tres cabezas
+10	171	Tarjeta de ID\ndel dignatario
+10	172	Máscara de jade
+10	173	Máscara de jade
+10	174	Máscara de jade
+10	175	Relieve de \nhueso
+10	176	Ojo del \nDragón
+10	177	Ramo
+10	178	Llave de cuarto\nde Kureha
+10	179	Llave de la \narmería
+10	180	Corazón de\nsangre carmesí
+10	181	Corazón de tor-\nmenta salvaje
+10	182	Corazón de\nllama malévola
+10	183	Corazón de rayo\nazul celeste
+10	184	Cabeza de\nestatua de Jizo
+10	185	Llave de la \ncalavera
+10	186	Oración del\nNecromantale
+10	187	Cuaderno: TD
+10	188	Cuaderno: TO
+10	189	Cuaderno: PSS
+10	190	Cuaderno: VV
+10	191	Cuaderno: AV
+10	192	Cuaderno: GV
+10	193	Cuaderno: VI
+10	194	Cuaderno: CA
+10	195	Cuaderno: AI
+10	196	Cuaderno: AI
+10	197	Cuaderno: CA
+10	198	Cuaderno: SI
+10	199	Cuaderno: GF
+10	200	Cuaderno de\nYogenta
+10	201	Cuaderno de\nHachijuro
+10	202	Cuaderno de\nInukoma
+10	203	Cuaderno de Izo
+10	204	Cuaderno de\nKoshimaru (1)
+10	205	Cuaderno de\nKoshimaru (2)
+10	206	Cuaderno de\nDenji
+10	207	Cuaderno de\nHinomaru
+10	208	Historia del\nCas. del Dragón
+10	209	Los 4 Demonios\nMáximos, 1ª p.
+10	210	Los 4 Demonios\nMáximos, 2ª p.
+10	211	Los 4 Demonios\nMáximos, 3ª p.
+10	212	El gobierno del\nRey de la Osc.
+10	213	La mitología\nvigooriana
+10	214	Fuma Kodachi
+10	215	Flash Kunai
+10	216	Arte dios de la montaña furioso
+10	217	Naginata del dragón celestial
+10	218	Arco de la canción celestial
+10	219	Arte del loto carmesí
+10	220	Martillo del infierno
+10	221	Rifle pesado tipo 666
+10	222	La magia de Afrodita furiosa
+10	223	Colmillo de Enma
+10	224	Cañón rugiente
+10	225	Hechizo de la espada doble
+10	226	Fuma Kodachi
+10	227	Flash Kunai
+10	228	Arte dios de la montaña furioso
+10	229	Naginata del dragón celestial
+10	230	Arco de la canción celestial
+10	231	Arte del loto carmesí
+10	232	Martillo del infierno
+10	233	Rifle pesado tipo 666
+10	234	La magia de Afrodita furiosa
+10	235	Colmillo de Enma
+10	236	Cañón rugiente
+10	237	Hechizo de la espada doble
+11	0	
+11	1	Esta legendaria espada japonesa ha pasado de generación en\ngeneración del linaje del Dragón, hasta su heredero actual. Su ace-\nro muy afilado, tallado del colmillo de un viejo dragón\nes responsable de la muerte de numerosos seres malvados.\nMientras la espada esté en este mundo, sólo la puede empuñar un\ndescendiente de línea de sangre del Dragón. Ahora Ryu Hayabusa\nlleva la espada, igual que su padre Joe Hayabusa lo hizo antes que\nél.\nDurante el incidente Espada del Dragón oscuro hace 1 año,\nRyu cogió la Espada del Dragón en la ausencia de su padre.\nRyu venció a muchos enemigos poderosos y vengó a su clan, pero\naún no era el poseedor verdadero de la Espada del Dragón. Joe,\nsano y fuerte, no quería precipitarse innecesariamente a pasar\nla espada sagrada. Sin embargo, tras ver la valentía, el valor y \nla fuerza de Ryu después de este incidente, Joe transmitió la\nespada legendaria a su hijo.\n\n
+11	2	Cuando el Ojo del Dragón se pone en el puño de la Espada del \nDragón, desata el verdadero poder del Dragón oculto en la vaina.\nEl arma en este estado se llama Verdadera Espada del Dragón, \ny su increíble poder no tiene rival. El portador de este arma\ndivina debe tener fuerza física, un espíritu recto y una\ntécnica competente para usarla de forma apropiada. Si un ente más\ndébil intentase usarla, la vaina podría consumir el alma del\nportador.\nEl poder inmenso de la Verdadera Espada del Dragón \nno puede evitar alterar el delicado equilibrio de la paz. Con la\nesperanza que el mundo no necesitaría un arma tan peligrosa,\nEspada del Dragón y Ojo del Dragón están en lugares\nseparados.\n\n
+11	3	Estas 2 espadas japonesas grandes se usan juntas. Las \nkatanas estándar son difíciles de usar con 1 mano, pero estas\nse han modificado especialmente para su uso conjunto. El tsuba, \no guarda, de cada arma tiene agujeros para reducir el peso\ncerca de la mano de la espada. Este diseño, conocido como\nMusashi-tsuba, lo creó por 1ª vez el legendario espadachín\nMiyamoto Musashi. Nadie sabe cuando se forjaron, pero\nse rumorea que cada vaina tiene inscrito "Muramasa."\n\n
+11	4	Cuando la Espada del Dragón y la Cuchilla del Archidemonio\nse usan juntas, la bastedad de su antiguo poder combinado no\nse puede medir.\nA pesar que la maldita Cuchilla del Archidemonio se ha descrito\nen las leyendas desde la antigüedad, se desconocen las circuns- \ntancias de su origen. Dicen que la vaina se forjó \nde un meteorito de hierro, que el aliento del Archidemonio fundió.\nCuando la magia oscura atrapada dentro de la espada resuena\ncon el poder de su portador, aparecen chispas en la vaina. \nLa inscripción en la superficie de la vaina está escrita con\ncaracteres divinos que los humanos no entienden. Una\ninterpretación dice:\n"Alabad el orden que trae la vanguardia del caos."\nLa Cuchilla del Archidemonio ha pasado de generación en\ngeneración a los miembros más despiadados y poderosos del\nclan Araña Negra y ha sido el arma favorita de su líder, el\nseñor ninja Genshin.\n\n
+11	5	La tonfa es un arma que se usa en las artes marciales\nRyuku. Aunque tiene poco alcance, es muy rápida y excelente \nen ofensa y en defensa. A menudo se usa como porra de\npolicía. Esta tonfa en particular tiene un chapado de tungsteno\nde carbono de alta densidad, muy fuerte por toda la superficie de\nimpacto incluyendo las puntas. Esto le da inmenso poder des-\ntructivo aún siendo compacta. Como la tonfa no tiene vaina, \nno puede usar ataques cortantes, pero su poder puro de fuerza bruta\nlo recompensa. Como esta tonfa especialmente modificada es\nmucho más pesada que las típicas, sólo los artistas\nmarciales con más talento pueden usarla.\n\n
+11	6	Esta guadaña gigantesca la ha heredado la tribu \nde demonios licántropos.\nSu diseño está inspirado en el fenómeno del eclipse solar. \nSu origen se remonta a un antiguo sacrificio ritual. El cuerpo del\nviejo rey licántropo se lanzaba dentro de una cuba llena de\nacero de Damasco fundido, de ahí se forjaba la guadaña. Después\nde darle una forma tosca pero sólida con el martillo, la vaina se\nenfriaba hundiéndola repetitivamente en cuerpos de humanos vivos. Se\ndice que a la vaina le costó nueve días enfriarse por completo.\nLa estructura granular característica del acero de Damasco debería\nverse en su superficie, pero hasta ahora esta textura no se ve en\nningún lado.\n\n
+11	7	Este arma es una versión mejorada de la garra, o \nteko-kagi, que ha formado parte desde hace tiempo del arsenal\ndel ninja.\nEl diseño de las garras encarna la fuerza de las ave depre-\ndadoras. Este arma no sólo tiene garras de acero sujetas a \nlas manos, también tiene sujeciones cortantes para los pies.\nEste arma permite a su portador convertir de forma instantánea\nmovimientos marciales estándar en ataques cortantes. La \nfalta de longitud de las vainas está más que compensada por su\nnúmero; su superficie de corte produce un ataque devastador. Se\nteme a sus portadores.\nAdemás, su guantelete protectivo le da a este arma una gran\ncapacidad defensiva, lo que le da mucho equilibrio.\n\n
+11	8	El kusari-gama, u hoz con cadena, consiste en un peso de hierro\nen una cadena sujeto al mango de una hoz.\nEl kusari-gama es capaz de una gran variedad de técnicas de \nataque libres, pero es difícil de controlar y casi inútil en la batalla\nsi no se usa con habilidad. Hechas por el habilidoso artífice\nShishido Tessai, su longitud y peso en particular tienen unas\nproporciones extremas, lo que lo hace aún más impredecible \ny difícil de usar que de normal.\nEl herrero legendario Shishido es conocido por crear este arma\nextraña y única, pero por una extraña razón Muramasa \nlo trata con desprecio.\n\n
+11	9	Cuchilla doble poco convencional creada en el Im. de Vigoor\ndurante la E.M.\nSe cree que las 1ª versiones de esta arma tenían grandes púas en\ncada lado, pero se cambiaron por vainas de forma gradual. Se usa \nde forma parecida al nunchaku, aunque no estén relacionadas.\nLas Cuchillas gemelas vigoorianas no se usaban como arma de\nguerra oficial. Escritos dicen que era el arma favorita de los\nparticipantes de los Juegos Div. de Vigoor, un sangriento combate\nde los ss XIII y XIV.\nEl famoso ninja Ryu Hayabusa usó este arma hace un año\ndurante el incidente Espada del Dragón oscuro. Cuando se le \npreguntó sobre su opinión, contestó: "No están mal." \nParece que le gusta bastante.\n\n
+11	10	Cuchilla doble poco convencional creada en el Im. de Vigoor\ndurante la E.M.\nSe cree que las 1ª versiones de esta arma tenían grandes púas en\ncada lado, pero se cambiaron por vainas de forma gradual. Se usa \nde forma parecida al nunchaku, aunque no estén relacionadas.\nLas Cuchillas gemelas vigoorianas no se usaban como arma de\nguerra oficial. Escritos dicen que era el arma favorita de los\nparticipantes de los Juegos Div. de Vigoor, un sangriento combate\nde los ss XIII y XIV.\nEl famoso ninja Ryu Hayabusa usó este arma hace un año\ndurante el incidente Espada del Dragón oscuro. Cuando se le \npreguntó sobre su opinión, contestó: "No están mal." \nParece que le gusta bastante.\n\n
+11	11	El Báculo Lunar es una vara de estilo asiático que se dice que\nalberga los poderes místicos de la luna.\nCuando la luna entra en fase llena o nueva, la densidad del\nmango del báculo aumenta y por ello se vuelve más pesado.\nEl mango del arma esta hecho de un trozo de sauce, tratado con\naceites especiales y ceras para que sea un material excepcional-\nmente duro. Se han enrollado tendones de animales en el mango\n y una capa de cola de hueso lo une todo. Para terminar, un\nchapado externo de acero cubre el mango.\nLas puntas de ambos finales están hechas de una aleación pe-\nsada que contiene Iridio obtenido de meteoritos.\nMuramasa insiste que los tendones de los animales que se han\nusado para juntarlo son los tendones de Aquiles de Quilín, un\nanimal mítico conocido en las culturas de Asia del Este.\n\n
+11	12	El Báculo Lunar es una vara de estilo asiático que se dice que\nalberga los poderes místicos de la luna.\nCuando la luna entra en fase llena o nueva, la densidad del\nmango del báculo aumenta y por ello se vuelve más pesado.\nEl mango del arma esta hecho de un trozo de sauce, tratado con\naceites especiales y ceras para que sea un material excepcional-\nmente duro. Se han enrollado tendones de animales en el mango\n y una capa de cola de hueso lo une todo. Para terminar, un\nchapado externo de acero cubre el mango.\nLas puntas de ambos finales están hechas de una aleación pe-\nsada que contiene Iridio obtenido de meteoritos.\nMuramasa insiste que los tendones de los animales que se han\nusado para juntarlo son los tendones de Aquiles de Quilín, un\nanimal mítico conocido en las culturas de Asia del Este.\n\n
+11	13	Un gran espada sólida capaz de pulverizar casi todos los ob-\njetivos. El extraño lustro de su vaina recuerda a la cerámica.\nPero en realidad es metal, forjado y trabajado muy bien.\n\nLos análisis metalúrgicos revelan que la matriz cristalina de\nla vaina se hace más dura en presencia de la sangre. Recha-\nzada por esta característica inquietante y aspecto aterro-\nrizador, durmió durante muchos años en el baúl de cierta\nfamilia real hasta que la descubrió un herrero japonés que la\nrebautizó Enma, por el nombre del gobernante del inframundo.\n\nAlgunos dicen que el herrero era el propio Muramasa, aunque\nsi le preguntan, siempre contesta de manera indirecta que\nya no se acuerda.\n\n
+11	14	Un par de espadas cortas que se dan en la escuela Tenjin.\n"Kodachi" es el termino usado para todas las espadas \njaponesas cortas. Fácil de manipular, son las armas ideales \npara ataques cortantes rápidos para tener la iniciativa y\ndetener al enemigo.\n\nSon ideales en particular como complemento a los ataques\nfísicos, ya que te permiten juntar patadas y cortes en una\nofensiva combinada que no le permite al enemigo contraatacar.\nForjadas con vainas lo más delgadas posible para que sean\nligeras; lo que les falta en alcance, lo compensan con el \ndaño que causan a corto alcance.\n\nSu nombre proviene del legendario clan Fuma, un famoso\ngrupo de ninjas medievales que las utilizaban.\n\n
+11	15	Una pértiga de unos 2 m. de altura (6 pies). \nUsada tradicionalmente por mujeres, muchas nanigata\nson del tipo "Tomoe", con un agarre pequeño de fácil uso.\nPero el Dragón Cel. es del tipo "Shizuka", más larga,\npermitiendo a Momiji usar una combinación integrada de \nfuerza centrífuga y destreza física para cortar grandes \nbandas de enemigos con cada golpe.\n\nSe dice que la vaina y la pértiga se han tallado de los\nhuesos de la cola de un dragón. Este arma se enorgullece\nde fuerza y flexibilidad sin igual con poco peso, lo que per-\nmite golpes delicados imposibles con una nanigata\nnormal. Es una reliquia sagrada que han heredado las\nvírgenes del santuario Dragón.\n\n
+11	16	Un aterrador martillo de guerra a 2 manos.\nSe creó tratando la cabeza de un antiguo martillo de guerra con\nun baño de grafeno y poniéndole un nuevo agarre de acero.\n\nAunque es potente cuando se usa normalmente, con la fuerza\ncentrífuga añadida devasta a cualquier desafortunado en su\ncamino. La cabeza está hecha de una sustancia exótica que\nrivaliza con el osmio por su densidad. Las leyendas cuentan\nque se formó cuando una parte de obsidiana del círculo interno\ndel infierno se hundió en el Cocito, enfriándola y cristalizándola\ncon su forma actual.\n\n
+11	17	No es una exageración decir que este arma es la quintaesencia del\nNinja. Los shuriken son complementos diseñados para hacer daño\ncuando se lanzan, muchos ninja los llevan siempre.\nEste tipo particular de shuriken, que dispone de 6 cuchillas, se\nconoce oficialmente como roppoken, o estrella de 6 lados, y \npertenece a la categoría kurumaken (redondo) de shurikens que\ndan vueltas cuando se lanza. \nComo es un arma de usar y tirar, casi nunca se usan materiales\ncaros en su construcción. Sin embargo, se hacen con mucha precisión\npara estabilizar la trayectoria.\n\n
+11	18	Tipo único de flecha japonesa que prefieren ciertos\nninja. La cabeza de la saeta altera el flujo del\naire por donde vuela la flecha, perturbando los\nsentidos de cualquier ser malvado cercano. La ca-\nbeza de dos puntas de la flecha destroza su objetivo\nen lugar de sólo atravesarlo.\n\n
+11	19	Arco poderoso tallado con 2 dragones gemelos. Este arco\nsilencioso es el arma indispensable de los ninja ya que tienen\nque ser sigilosos. El Arco de perdición de demonio, desarrollado\nen la aldea Hayabusa, es un arco hecho con lo más novedoso\ncon una precisión que rivaliza con la de un rifle.\nHecho gran parte con fibra de carbono, el alcance de sus proyectiles\ny su velocidad no tienen igual a pesar de su poco peso. Contra un\nobjetivo humano, tiene una precisión de 500 metros y sus flechas\nson capaces de penetrar un chaleco antibalas de 40 milímetros.\n\n
+11	20	Un shuriken único y de gran tamaño que se ha ido legando \nentre los miembros del clan Hayabusa durante generaciones.\nDebido a su enorme masa, el Shuriken Molino de Viento puede \ngolpear a varios enemigos sin perder velocidad y regresar al \nlanzador como un bumerán. Sus cuatro cuchillas se pueden plegar \nunas sobre otras girándolas sobre el eje central. Se lleva \nplegado, enganchado a la protección para el antebrazo del \nportador. Se cuenta que el legendario ninja Fuma Kotaro llevaba \nun arma similar inspirada en el original del clan Hayabusa.\n\n
+11	21	Este shuriken tiene forma de kunai (o cuchillo arrojadizo) \ny lleva una pequeña carga explosiva.\nEl shuriken incendiario se ha diseñado para que explote cuando \nse clava en el cuerpo del objetivo. Para conseguirlo, el \nlanzador debe quitar el pequeño anillo metálico del extremo del \narma. De este modo, se enciende la mecha. Aunque la historia de \nesta arma es tan antigua como la de la pólvora, hoy día es mucho\nmás letal gracias a mejoras recientes inspiradas en el diseño \nde la granada moderna.\n\n
+11	22	Una ametralladora tipo Gatling diseñada para luchar bajo el \nagua. Es prácticamente inútil en tierra firme. \nLa ametralladora Gatling, un ejemplo perfecto de artefacto para \nusar en un medio específico, se fabricó por primera vez en la \nEuropa del siglo X. Se dispara girando la manivela, que activa \nuna bomba de agua de alta presión para forzar la expulsión de \nlos arpones del cañón. A primera vista, podría pensarse que los \narpones tienen que superar muchísima resistencia, pero en \nrealidad pueden "volar" por el agua debido al fenómeno de la \nsupercavitación. Los arpones están cargados de material \nexplosivo y estallan después de alcanzar su objetivo, \ntriturándolo desde dentro.\n\n
+11	23	Un rifle de mecha enorme que lanza proyectiles con un\nrugido ensordecedor. Con más de 1 m. de longitud y calibre\nde 50 cm, es más cercano a un "cañón" que a un "arma de fuego".\n\nSu origen se remonta al siglo XVI, cuando su terrible alcance\ny su capacidad de destrucción le ganaron el apodo de\n"destruye-naciones."\n\nModificado y mejorado con el paso del tiempo para ser un\narma más potente, su sonido retumbante y retroceso fuerte \nnecesitan mucha concentración y fuerza.\n\n
+11	24	Cuchillos arrojadizos que explotan cuando penetran el obje-\ntivo. Cuando se lanza, da vueltas y enciende una mecha que\nal impactar se pone en contacto con material explosivo\nmontado en el agarre, detonándolo.\n\nLa punta tiene púas reversibles diseñadas para que sea\ndifícil de quitar cuando impacta, eso lo hace más efectivo.\nEs un arma de belleza y brutalidad.\n\n
+11	25	Arco japonés de la virgen del santuario Dragón, Momiji.\nDesde la antigüedad, el Arco de la canción celest. ha sido\ncentral en el rito canción celest. donde las vírgenes del santuario\npuntean la cuerda del arco para echar a los seres malignos.\n\nLas flechas son lanzadas con un increíble poder gracias a la \ncuerda del arco de lana resistente, un milagro en sí; y el arco, tallado\nde un árbol sagrado, está envuelto con una tela que los niños\nde la aldea le dieron a Momiji, para rezar por su seguridad.\n\n
+11	26	La metralleta favorita de Rachel.\n\nMuchos la consideran pesada y difícil de manejar, pero los\nbrazos de Rachel igualan a este monstruo. El cañón y munición\nestán estampados con un icono antidemonio llamado "Señal\nantigua", que mejora su potencia contra demonios de nivel\nbajo. Diseñada para disparar rápido, tiene un sistema seguro\ncon poco retroceso. Es elegante, inflexible, bien hecha.\n\n
+11	27	Este Ninpo usa el poder de la telequinesia para lanzar una masa\nllameante de energía piroquinética. \nEl Arte del infierno es muy efectivo contra los enemigos que están \nenfrente del hechicero. Las pobres víctimas de este Ninpo se ven\ncompletamente envueltas en llamas. El fuego que desencadena\nno es una llama ordinaria, parece la llama de un dragón,\npor lo que no sorprende que no se mencionen supervivientes\nal inmenso calor del infierno.\n\n
+11	28	Este Ninpo aumenta las cortantes ondas de vacío que crean los\nmovimientos de los brazos.\nCuchillas de vacío irradian del hechicero, cortando a cualquier\norganismo a su alrededor. Claramente, este Ninpo es muy\nútil cuando el hechicero está rodeado de enemigos. Aunque no\nestá diseñado para ataques exactos, este letal ataque no\ndebería subestimarse. En el raro caso que las víctimas\nsobrevivan, habrán perdido sin dudar al menos una de sus ex-\ntremidades, lo que les deja con poca capacidad ofensiva.\n\n
+11	29	En pocas palabras, este Ninpo permite al hechicero crear un agu-\njero negro. Su ángulo de efecto es estrecho, pero concentra\nsu poder destructivo, creando un proyectil devastador que\npuede penetrar múltiples objetivos antes de disiparse. El punto \nfuerte de este arte es su gran capacidad de penetración.\nEl Ninpo enfoca la energía telequinética creada por las\nvibraciones centrípetas del bajo tanden (pto focal del Ki) del hechi-\ncero y luego dirige la energía usando ondas gravitacionales que\npropaga el espíritu consciente del hechicero. Crea una anoma-\nlia gravitacional: un agujero negro atrapado dentro de un\ncampo espiritual permeable. Como este campo de fuerza es un poco\npermeable, tiene fluctuaciones extremas espacio-tiempo\ncerca de la superficie del proyectil Ninpo que pulverizan la ma-\nteria viva cercana.\n\n
+11	30	Este Ninpo convoca el espíritu de los fénixes sagrados para que\nrodeen al hechicero y le protejan con su llama.\nLos fénixes se asocian con el elemento del fuego y son conocidos\npor su capacidad de renacer de sus propias cenizas. En la mito-\nlogía china, el fénix es una de las cuatro criaturas de buena\nsuerte y representa el concepto de paz. Con este Ninpo\nequipado el hechicero encuentra paz incluso en medio de una ba-\ntalla cruenta.\n\n
+11	31	Arte del dios furioso de la montaña es una técnica Ten Jin se-.\ncreta. Pronunciar las palabras y hacer los movimientos, imbuye\nlos puños con el aura de la naturaleza y creación: permite lan-\nzar una onda de choque terremoto que golpea a los oponentes.\n\nLa cantidad actual generada es directamente proporcional a la\nenergía psíquica del usuario; un individuo de alta concentración\npuede usarlo para mover cielo y tierra, mientras que uno con\nuna espiritualidad menos avanzada puede ser tragado por el\nrugiente vórtice de energía pura que se genera.\n\n
+11	32	Es un arte que permite generar y canalizar un torbellino de \nfuego a voluntad. Si se gesticulan los caracteres "rin," "byo,"\n"to", "sha", "kai," "jin," "retsu," "zai," y "zen" en secuencia\nse activa el hechizo, transformando las hojas danzantes del\ncírculo mágico en bolas de fuego infernales que incineran \na los enemigos en su camino. Sus llamas divinas sólo queman\na los malditos, los puros salen ilesos.\n\n
+11	33	Es un hechizo antiguo para convocar una rosa del inframun-\ndo. Estas rosas sangrientas generan una fuente de es-\npinas que gira a una velocidad increíble, desgarrando\na los enemigos cercanos.\n\nLas rosas demoníacas que bailan sobre la carni-\ncería descrita son las lágrimas carmesíes de la diosa\nAfrodita de las leyendas.\n\n
+11	34	
+11	35	Una calavera humana de cristal sólido.\nSe dice que están esparcidas por todo el mundo esperando a \nalguien digno para encontrarlas. Las leyendas cuentan que\ncuando se juntan todas, se crea un evento terrorífico pero\nmaravilloso, aunque nadie sabe que. Algunos dicen que las\ncalaveras traerán riquezas inimaginables, otros creen que su\ndueño sufrirá por todos los pecados de la humanidad.\n\n
+11	36	Es una calavera gigante de antiguas leyendas.\nSegún la leyenda, esta inmensa calavera era de un gigante\nque vivió en la Tierra hace tiempo. En aquella época, el mundo \nno conocía la paz, las tribus luchaban unas contra otras casi\nextinguiéndose. Nadie veía fin a este círculo de sufrimiento,\nhasta que apareció el gigante. Prometió llevar los pecados\nhumanos en su alma y se ofreció como sacrificio a los dioses.\nSu calavera se encerró en una sala llena del sufrimiento\nhumano. La leyenda termina así: "El que posea esta\ncalavera debe aceptar el destino del gigante como desti-\nno propio."\n\n
+11	37	Es una hierba medicinal seca con poderes curativos notables.\nLa Hierba de vida espiritual parece estar relacionada con el\nYarsta Gunbu, u hongo de oruga, pero es mucho más raro y se\nenorgullece de una eficacia instantánea. Esta hierba no crece\ncomo un parásito en los insectos, como el hongo de oruga, pero\nse sabe poco sobre su ciclo de vida. Aunque en el mercado hay\ndisponibles limitados elixires de su extracto, siendo los \nespecímenes secos los más efectivos.\n\n
+11	38	Es un medicamento muy potente que cura el cuerpo.\nPequeños granos de medicina con una fórmula potente\nque consiste básicamente en 2 ingredientes: la rara Hierba de vida\nespirit. mezclada con polvo de hueso de dragón, aún más raro.\nEl polvo de hueso de dragón es un catalizador que reacciona\ncon otros ingredientes para aumentar de una manera asombrosa la \npotencia de la medicación, esto le da un efecto de curación mucho\nmayor que la Hierba de vida espirit.\nEsta medicina también se conoce como  "Granos Horai espiritual"\nen algunos círculos. Horai es una montaña mística donde viven\nlos ermitaños. Estos ermitaños dedican su tiempo a buscar el\nsecreto de la inmortalidad y se piensa que este medicamento repre-\nsenta el resultado de su alquimia.\n\n
+11	39	Es un paquete de Omusubi, o bolas de arroz, hechas a mano\npor Muramasa. Son deliciosas. \nAunque este plato también se llama "Onigiri" o "Omusubi" en\njaponés, es importante tener en cuenta que los productos de Mura-\nmasa son definitivamente "Omusubi." Para ver la diferen-\ncia, hay que examinar la etimología de ambas palabras.\nMientras que "Onigiri" viene de un verbo que significa "coger o \nagarrar," "Omusubi" viene de un verbo que significa "atar o\nunir." Esta es la clave. Un "Omusubi" verdadero, no solo está\nhecho de arroz, sino que de energía espiritual que une al univer-\nso. Es el símbolo del alma que lucha contra la entropía por desen-\ntrañar el mundo. Por ello, no se trata sólo de una fuente de carbo-\nhidratos equilibrados, sino de un poder sagrado inmenso.\n\n
+11	40	Es un champiñón con gran cantidad de una sustancia conocida\npor reponer el Ki, esencia del Ninpo.\nCrece salvaje en remotos acantilados de montañas, lugares de muy\ndifícil acceso. La mayoría los recogen seguidores de Shugendo \ncuando peregrinan por las montañas. Este champiñón es\nrico en alcaloides que son venenosos para la mayoría de gente, pero\nlos que son tenaces como para aprender a tolerarlo, lo aprecian\npor su propiedades para regenerar Ki. Además, aquellos que\nconsumen este champiñón dicen que es delicioso.\n\n
+11	41	
+11	42	Dicen que este talismán resucita a sus dueños.\nLos efectos del talismán se desencadenan automáticamente cuan-\ndo su poseedor está herido de muerte, aunque se dice que se desinte-\ngra después de un solo uso. Defensores del talismán hablan de\nmilagros y muchos confían en su poder. Creado en \nla profundidades de las cuevas sagradas, bajo un templo secreto \nShinto. Este evita que su portador baje el Yomotsu Hirasaka,\nla cuesta que divide a los vivos de los muertos. El portador del\ntalismán es lanzado a la tierra de los vivos con gran cantidad\nde salud y Ki restaurados.\n\n
+11	43	Se dice que recoger nueve de estas joyas azules aumentan el lími- \nte de tu resistencia.\nEstas joyas se cuentan con el orden de los nueve símbolos del \nKuji-In, o nueve caracteres sello, cuyo mantra se ha usado durante\nsiglos para proteger y desviar el mal. El orden es el siguiente:\n@[symbol:rin] (Rin), @[symbol:byo] (Byo),  @[symbol:to] (To), @[symbol:sya] (Sha), @[symbol:kai] (Kai), @[symbol:zin] (Jin),\n@[symbol:retsu] (Retsu), @[symbol:zai] (Zai), @[symbol:zen] (Zen).\nLas joyas, con forma de bola de billar, pulidas, son esferas\nperfectas ocultas en todo el mundo.\nNumerosas teorías nos explican sus orígenes. Algunos sugieren\nque son excrementos que se formaron de secreciones de \ndragones que cayeron al suelo y se cristalizaron. Otros dicen que\nson restos pulidos del bezoar de dragón. Pero no hay pruebas\nconcretas que respalden ninguna. Su estructura cristalina\napoya la teoría de los excrementos, pero muchos dudan de\nesta hipótesis debido a la edad estimada que se ha derivado del\nneptunio 236 que se ha encontrado en grandes cantidades en\nsu interior.\n\n
+11	44	Un collar de 9 de las joyas Vida de los dioses. Con uno de\nestos aumenta de forma inmediata tu resistencia. Su nombre\nexagerado proviene de su eficacia inmediata. Como es difí-\ncil encontrar la joya Vida de los dioses, recibir 9 a la vez\nparece aumentar su valor mil veces. \nSe sugiere que este objeto tuvo origen cuando alguien se dio\ncuenta del poder de la joya Vida de los dioses y decidió po-\nnerlas juntas en un collar. La mayoría se crearon en Japón\ndurante el siglo XV, pero desde entonces, han viajado a otros\npaíses a través del comercio. La mayoría se exportaron como\nobjetos decorativos y los documentos muestran que se inter-\ncambiaban por muchas monedas de plata.\n\n
+11	45	Una joya roja que repone y aumenta tu capacidad de Ki, la esen-\ncia de todo Ninpo.\nAl igual que la Vida de los dioses, hay muchas historias sobre el\norigen de las joyas, pero no se ha demostrado ninguna. Una vez\nmás se ha aplicado la teoría de excrementos de dragón a la joya\nEspíritu de los diablos. Sin embargo, recientemente, un análisis\ndetallado ha mostrado que la joya está formada de una sustan-\ncia tipo ámbar diferente de cualquier joya de dragón, lo que\nha desacreditado esta historia. Otra teoría dice que las joyas\nestán hechas de la savia del Árbol del mundo, Yggdrasil,\npero aún no se ha demostrado. \n\n
+11	46	Una joya violeta que puede aumentar el nivel de cualquier técnica\nNinpo. La joya resuena con la conciencia humana, inspirando un\nnivel superior de control sobre el Ki. Consiste en secreciones\nde dragón (excrementos) selladas y estabilizadas en una\nmatriz de calcedonia de cristal, un mineral raro. La Joya\ndel sello diabólico ha sido muy buscada por aquellos que quieren\nllegar a un plano espiritual más elevado, como por ej. los adivi-\nnos y los que meditan.\n\n
+11	47	
+11	48	
+11	49	
+11	50	
+11	51	
+11	52	
+11	53	
+11	54	
+11	55	
+11	56	
+11	57	
+11	58	
+11	59	
+11	60	
+11	61	Una llave tipo tarjeta que abre la sala de control de ascensores\ndel gigantesco rascacielos Twin Horn, que destaca en el perfil \nde la ciudad de Tokio.\nEstá rota y le falta un trozo, pero aún así, funciona \nperfectamente. Está manchada de sangre seca y tiene la \nsuperficie marcada con una huella dactilar de color carmesí (tal\nvez de su antiguo propietario).\n\n
+11	62	Una joya de color rosa con forma de pétalo de flor.\nSe rumorea que esta joya se talló de una escama del Dragón \nCarmesí y que contiene la sangre del mismo dragón. Es un tesoro\nde valor incalculable que ha ido transmitiéndose entre los \nmiembros del Linaje del Dragón durante generaciones \ny generaciones.\nSe dice que es una de las llaves importantes que se utilizan \nen el Castillo del Dragón.\n\n
+11	63	El tinte azul intenso de esta joya evoca imágenes del mar.\nSe rumorea que la joya se talló de una escama del Dragón Azul \nCeleste y que contiene las lágrimas del mismo dragón. Es un \ntesoro de valor incalculable que ha ido transmitiéndose entre \nlos miembros del Linaje del Dragón durante generaciones \ny generaciones.\nSe dice que es una de las llaves importantes que se utilizan \nen el Castillo del Dragón.\n\n
+11	64	Una vara que simboliza el espíritu de lucha, moldeada del oro \nmás puro.\nAquellos a quienes les es concedida afrontan una senda \ninterminable de lucha, como si caminasen por el mismísimo \nInframundo. Se dice que quienes la portan deben enfrentarse \na hordas de adversarios en un combate a muerte conocido como \nprueba de valor.\nSegún la leyenda, este tesoro estuvo una vez en manos \ndel mismísimo dios de la guerra.\n\n
+11	65	Una llave para el enorme puente que lleva al Coliseo.\nLa llave es del tamaño adecuado, de unos 30centímetros \nde longitud. El propio puente es un vestigio de arquitectura \nantigua que se ha mantenido en pie junto a las ruinas \ndel Coliseo desde la época del Imperio Romano.\nAunque cueste creerlo, esta llave parece ser un original que se \nha conservado durante milenios, lo que la convierte en una \nantigüedad de valor incalculable.\n\n
+11	66	Una llave de una bodega, moldeada a partir de una aleación de \ncobre única llamada Shakudo.\nEl tono distintivo entre negro y rojo del metal es \ncaracterístico de artefactos creados a partir de aleaciones \ntradicionales japonesas. Por supuesto, resulta extraño que una \nantigüedad japonesa de tal valor haya aparecido aquí, \nen occidente.\nSegún una teoría, un herrero oriental visitó esta área durante el\nRenacimiento y dejó muchos objetos de metal al partir, uno de \nellos esta misteriosa llave.\n\n
+11	67	Una llave hecha de bronce y cubierta de una bonita pátina verde\nazulada propia de su antigüedad. \nSu laca está desgastada, aparentemente por muchos años de uso \nfrecuente, y eso da a la superficie un brillo cálido.\nEl bronce es una aleación de cobre y estaño. Cuando se moldea, \nbrilla con un elegante color amarillo oscuro. La pátina verde \nazulada se suele describir como oxidación, pero en realidad es \nun compuesto químico distinto, que consiste fundamentalmente en un \ncarbonato de cobre básico.\n\n
+11	68	Una llave moldeada a partir de hierro negro, que funciona \nperfectamente pese a su antigüedad. \nComparado con otros metales, el hierro negro es un material \nestable y resistente y, cuando se procesa, es muy insensible al \nóxido. La superficie negra característica se crea sumergiendo \nel hierro caliente en agua para que se enfríe rápido. Aunque \nnormalmente las llaves se fabrican con metales más fuertes, \nexiste una leyenda que explica por qué se empleó hierro para \nesta llave en particular.\nA mediados del siglo XVIII, se confió a un hombre la llave del \nCastillo de los Colmillos (si hubiese sido en la época actual, \nse le podría considerar el jefe de seguridad). Este hombre \nestaba comprometido para casarse con una hermosa joven a la que \namaba profundamente. En una de sus citas, encontró las manos de \nsu amada cubiertas de un terrible sarpullido.\n"¡Dios se niega a reconocer nuestra promesa de matrimonio! \n¡Debemos romper nuestro compromiso!", decía llorando \ndesesperada. El hombre se retiró confundido ante esta repentina \nmanifestación de enfermedad y se topó con un diminuto visitante \nanciano del Lejano Oriente, que se definía a él mismo como \nerudito y a quien confió toda su tragedia. El erudito habló \npoco, pero cuando vio la colección de llaves del hombre, se puso \na crear un duplicado de hierro de cada una de ellas.\nEste extraño recurso pronto curó el sarpullido de las manos de \nla novia del pretendiente. Rebosantes de alegría, la pareja \nretomó sus planes inmediatamente y se casaron. El anciano \nerudito se despidió y nunca se le volvió a ver, pero dejó \nsolamente la admonición de que el hombre debía evitar tocar \notros metales en la medida de lo posible. \nVarias de las llaves forjadas por el anciano siguen existiendo y\nutilizándose hoy día. Algunos eruditos modernos tienen la teoría\nde que la joven novia simplemente sufrió una reacción alérgica \nal cobre.\n\n
+11	69	La llave de una sala del trono, moldeada de oro puro.\nTiene un acabado de rubíes y diamantes que le dan una magnífica \napariencia de realeza y la zona de agarre lleva grabado un \nresalte con forma de colmillo. Basta una mirada rápida para \ndarse cuenta de que no se trata de un instrumento corriente para\nabrir puertas. Es un tesoro de valor incalculable por derecho \npropio.\nAunque nunca se ha confirmado, una teoría defiende que la llave \nes obra de Filippo Brunelleschi (1377-1446), un genial \narquitecto de comienzos del Renacimiento italiano. Famoso por \ninventar el concepto de la perspectiva lineal en el arte, su \nenorme influencia sigue notándose en la época actual. Además de \narquitecto, fue escultor y trataba metales preciosos.\nNo hay documentos oficiales que lo relacionen con el Castillo de\nlos Colmillos y, hasta para un genio como Brunelleschi, es poco \nprobable que pudiese lograr un trabajo tan detallado a la edad \navanzada que debía tener cuando se creó la llave. No obstante, \nentre la correspondencia que sobrevivió a su muerte se encontró \nun recibo exorbitantemente caro que no se ha podido asociar a \nninguna obra de arte conocida, lo que ha dado lugar a la teoría \nde que fue en compensación por crear esta llave. El debate entre\nlos eruditos continúa hoy día.\n\n
+11	70	
+11	71	Esta llave moldeada de latón e inscrita con la imagen de una \ncampana no parece ser especialmente rara o valiosa.\nSin embargo, como artefacto del maquiavélico reino del Rey de la\nOscuridad, alcanzaría un precio asombroso en ciertos lugares. \nCasi todas las trazas del soberano que reinaba a principios del \nsiglo XX fueron destruidas por sus sucesores como represalia, lo\nque dio a su época un aire de misterio que ha incrementado \nconsiderablemente el valor de los pocos vestigios que se\nconservan hoy día.\nLa sola idea de hacerse con la llave de la campana hace temblar de \nansiedad a cualquier coleccionista de objetos antiguos del Rey \nde la Oscuridad. El hecho de que nunca haya aparecido en el \nmercado libre se debe a que todavía se sigue usando en \nla actualidad.\n\n
+11	72	Llave de un altar.\nEs una obra magnífica, exquisitamente moldeada de oro puro. \nEl nombre del creador está grabado en la superficie: "Filippo".\nSe rumorea que este artesano aprendió su oficio de un maestro\noriental ambulante llamado "Murra Massa".\nEl águila de tres cabezas tallada en la zona de agarre es el \nblasón de la familia real que gobernó estas tierras en una época\npasada. Su longeva dinastía fue derrocada cuando el maquiavélico\nRey de la Oscuridad usurpó el poder, pese a ser el decimoquinto \nen la línea sucesoria.\n\n
+11	73	Una tarjeta de identidad emitida para los dignatarios \ndel gobierno.\nIncorpora un microchip y sirve para abrir puertas de seguridad\nde toda la capital. Su propietario anterior debía ser de muy \nbuena posición y tener magníficos contactos, ya que la tarjeta \npermite el acceso incluso a los aposentos presidenciales. No \nobstante, en vista de que las tarjetas de identidad pueden ser \nrobadas o falsificadas, se cree que el gobierno ha instituido \nrecientemente un sistema de acceso más seguro basado en el \nreconocimiento del rostro.\n\n
+11	74	Disco de piedra con una máscara de jade incrustada.\nAunque se parece mucho a las máscaras de jade que se han ex-\ncavado en las ruinas maya de Palenque, este espécimen es más\nantiguo. Este sorprendente hecho lo podrían explicar teorías\nrecientes que sugieren que el arte de Centro y Sur de América se\noriginaron en las antiguas ruinas de pirámides amazonas conocidas\ncomo "Necromantale."\nEs una región céntrica de las leyendas necromantale. Una varie-\ndad de cuentos que han llegado a través de la tradición oral\nsugieren lugares potenciales de esta estructura misteriosa, pero\nla pirámide gigante Necromantale sigue sin descubrirse. Se\ncree que se desintegró o que se quedó enterrada bajo los escom-\nbros de muchos milenios.\n\n
+11	75	Disco de piedra con una máscara de jade incrustada.\nAunque se parece mucho a las máscaras de jade que se han ex-\ncavado en las ruinas maya de Palenque, este espécimen es más\nantiguo. Este sorprendente hecho lo podrían explicar teorías\nrecientes que sugieren que el arte de Centro y Sur de América se\noriginaron en las antiguas ruinas de pirámides amazonas conocidas\ncomo "Necromantale."\nEs una región céntrica de las leyendas necromantale. Una varie-\ndad de cuentos que han llegado a través de la tradición oral\nsugieren lugares potenciales de esta estructura misteriosa, pero\nla pirámide gigante Necromantale sigue sin descubrirse. Se\ncree que se desintegró o que se quedó enterrada bajo los escom-\nbros de muchos milenios.\n\n
+11	76	Disco de piedra con una máscara de jade incrustada.\nAunque se parece mucho a las máscaras de jade que se han ex-\ncavado en las ruinas maya de Palenque, este espécimen es más\nantiguo. Este sorprendente hecho lo podrían explicar teorías\nrecientes que sugieren que el arte de Centro y Sur de América se\noriginaron en las antiguas ruinas de pirámides amazonas conocidas\ncomo "Necromantale."\nEs una región céntrica de las leyendas necromantale. Una varie-\ndad de cuentos que han llegado a través de la tradición oral\nsugieren lugares potenciales de esta estructura misteriosa, pero\nla pirámide gigante Necromantale sigue sin descubrirse. Se\ncree que se desintegró o que se quedó enterrada bajo los escom-\nbros de muchos milenios.\n\n
+11	77	Un relieve inscrito con la imagen de huesos. \nLos historiadores creen que se creo como un ídolo de fertilidad, \nun objeto sagrado a una religión que adoraba la sangre y los\nsacrificios humanos. Según la leyenda, sólo los que\nposeían este relieve podían llegar hasta el lugar donde está\nla pirámide Necromantale. Otras leyendas dicen que el\nrelieve se otorgaba a los que no podían escapar del karma \nde muchos asesinatos.\n\n
+11	78	Un joya antigua, una reliquia del linaje del Dragón.\nCuando se engarfia en el pomo de la Espada del Dragón,\nforma la Verdadera Espada del Dragón.\nLa Verdadera Espada del Dragón tiene la habilidad de recoger\nenergía del caos, lo que la hace muy temible. Sólo aquellos que\nhan conseguido la suficiente habilidad, pueden portarla.\n\nSe talló de un "ryugyoku", las joyas esféricas en ocasiones portadas\npor los dragones en sus garras. Debido a su increíble poder,\ndesde la antigüedad, la protección del Ojo del Dragón se ha \nencomendado al linaje de las vírgenes del santuario dragón, que lo\nprotegen en lo profundo de la aldea Hayabusa.\nSin embargo, Kureha, la virgen más reciente, murió en combate con \nel Demonio Máximo Doku durante el incidente de la Espada del Dragón\nOscuro de hace un año. Muerta en lo mejor de su vida, no dejó\nninguna sucesora.\n\nEn estos momentos, el Ojo está al cuidado de Joe Hayabusa, el líder\nde la aldea Hayabusa, pero es algo temporal.\nYa que es imposible que un hombre pueda dominar las furias\nque habitan en la joya. El único hombre que puede usarla, es el\nelegido para usar la Verdadera Espada del Dragón.\n\n
+11	79	
+11	80	Una llave de hermoso diseño, que brilla con el reconfortante \ncalor del marfil, el ámbar y el coral.\nAbre la puerta de la habitación de la difunta Kureha: doncella \ndel santuario y amiga íntima de la infancia de Ryu Hayabusa. \nEl año pasado, bajo las órdenes del perverso Sagrado Emperador \nde Vigoor, Doku, Señor de los Demonios Máximos, atacó la aldea \nHayabusa. Sus órdenes eran conseguir la Espada del Dragón \nOscuro, que llevaba generaciones oculta en la aldea. Conociendo \nel potencial tan enormemente malévolo de la espada, el Emperador\nbuscaba el arma sagrada para él mismo.\nUna protectora solitaria se interponía entre Doku y la Espada \ndel Dragón Oscuro: la doncella del Santuario del Dragón, Kureha.\nComo guardiana de los rituales y las enseñanzas del Linaje del \nDragón, había jurado proteger los tesoros antiguos transmitidos \nde generación en generación por línea familiar. Una vez en \nposesión de los propios dragones, los tesoros de la aldea \nHayabusa eran verdaderos regalos de los dioses.\nDesgraciadamente, Kureha demostró no estar a la altura del Señor\nde los Demonios Máximos. Éste la derrotó en el mismo sitio donde\nse hallaba y reclamó como trofeo la Espada del Dragón Oscuro.\nKureha sabía que la Espada del Dragón Oscuro y su homóloga, la \nEspada del Dragón de Ryu, estaban equilibradas tan perfectamente\ncomo el yin y el yang. Sin embargo, también sabía que si se \ncombinaba el Ojo del Dragón con la Espada del Dragón, tendría el\npoder suficiente para vencer a su rival. Con el destino del \nLinaje en sus manos, Kureha hizo acopio de los últimos vestigios\nde su fuerza y se agarró bien al Ojo del Dragón.\nKureha, que con tanta voluntad dio su propia vida para proteger \nel Ojo del Dragón (y, con ello, el mundo), ha sido declarada \nsanta por el Linaje, que la venera como la eterna Doncella del \nSantuario del Dragón. Sus aposentos en vida han sido \ntransformados en un lugar de culto donde se consagran los \ntesoros de los dragones.\n\n
+11	81	La llave de la armería de Hayabusa.\nEs una llave de aspecto antiguo que se ha usado desde mediados\nde 1920. A primera vista, parece ser una llave ordinaria de \nlas que se pueden copiar con facilidad, pero no es una llave\nnormal. Creada por y para los ninja, se ha afinado con una\ntorsión imperceptible que la inutiliza si la pones en el \ncierre y la giras.\nLas paredes de la armería parecen ser de madera, pero en\nrealidad, están chapadas con acero de alta densidad lo que las\nhace casi inmunes. De hecho, nunca se ha penetrado en la\narmería. Sin embargo, no se sabe si esta armería se\nusaba para almacenar tipos de arma realmente peligrosos \no muy raros.\n\n
+11	82	Corazón de la Demonio Máximo, Elizébet, soberana sangre.\nEste corazón metálico, cristalino tiene un brillo que recuerda a la \nsangre fresca. Transformado en su estado actual tras la muerte de\nElizébet, su consistencia actual es un misterio. La energía vital\nalmacenada en la sangre de los Demonios Máximos se disipó con\nsu muerte, pero se dice que aún queda un poco, lo que le da a este\ncorazón su brillo apagado.\n\n
+11	83	Corazón del Demonio Máximo Volf, soberano tormenta.\nEste corazón metálico, cristalino tiene el color amarillento de\nun cielo lleno de arena. Su gran tamaño es testamento del poder\nde este Demonio Máximo cuando vivía. La terrorífica e increíble vitali-\ndad de Volf aún brilla débilmente desde este objeto, aún en \nsu estado actual inorgánico.\n\n
+11	84	Corazón del Demonio Máximo Zedonius, soberano llama.\nEste corazón metálico, cristalino tiene el color del fuego deborando \nuna mancha de aceite, en su momento batía dentro del pecho del\nDemonio Máximo Zedonius. Mantiene su aspecto original a pesar\nque el cuerpo de su dueño se convirtió en cenizas quemado\npor el infierno. La llama de Zedonius no se apagó con su\nmuerte y aún ilumina este objeto.\n\n
+11	85	Corazón del Demonio Máximo Alexei, soberano trueno.\nEste corazón metálico, cristalino se ilumina con el azulado de\nun relámpago potente. Mantuvo su forma aunque el resto del cuer-\npo de Alexei se desintegró. Una pequeña porción de electricidad\nresidual da poder al brillo nebuloso que emite este arte-\nfacto.\n\n
+11	86	La cabeza decapitada de una estatua Jizo que se rompió hace\ntiempo. De vez en cuando, sobre todo en tiempos de guerra,\nsinvergüenzas crueles han cometido tales profanacio-\nnes infames.\nLas estatuas Jizo, que estaban a lo largo de las carreteras en \nJapón desde tiempos antiguos, son tótems misteriosos que guían\ny protegen a viajeros. Se creen encantadas.\n\n
+11	87	Llave de hueso tallado.\nLa calavera en el agarre parece humanoide, pero es mucho más \npequeña que la de un adulto normal. Los dientes de la llave pare-\ncen estar hechas de los restos de una criatura extraña, aparente-\nmente extinto hace tiempo. Podría ser un fósil.\nExaminada de cerca, es obvio que los dientes de la llave\nno están tallados sino que tienen la forma de su material.\nEl cierre se crearía para ajustarse al contorno de este extraño\nhueso.\n\n
+11	88	Oración al Archidemonio\nBendito seas sagrado Vigoor que nos trajiste tu progenie.\nBendito sea tu sucesor, el Archidemonio Vazdah, que está\nsobre todos, Señor de la orden.\n\nSus brazos nacieron del brazo derecho de Vigoor,\nsus piernas de la pierna izquierda de Vigoor, \ny sus huesos del cuerpo sagrado de Vigoor.\nBendita sea la mente de Vazdah, que salió de la mente de\nVigoor.\n\nEscucha los latidos de corazón que hacen eco en todo el\ninframundo.\nSomos los seguidores supremos del señor Vazdah.\nBajo la gracia terrible de los Archidemonios, encontraremos la\nfelicidad real.\n\nA los que viven sin estar vivos, reuníos en la\nsagrada guarida del Archidemonio, esculpida por el \nDemonio Máximo Gogohn.\nRezamos por el retorno de la tierra sagrada de Vigoor, que\ngobernó Gogohn, errante por la Tierra.\nSigue hasta la cima de la montaña ardiente en la\ntierra donde se alza el sol.\n\nEn este templo, lugar de descanso de Gogohn, traemos los\ncuerpos sacrificados inocentes.\nReúnelos a los pies de la hermosa reina Sangre. Devolvemos\nel evangelio del Archidemonio aquí a su sitio, a\nNecromantale, donde pertenece.\n\nArchidemonio Vazdah, sal de tu sueño profundo.\nQue la princesa Gogohn, virgen del santuario, nos guíe.\nNos reunimos aquí en Necromantale, dispuestos a derramar\nla sangre de inocentes.\nAunque pasen milenios, nuestras plegarías nunca\ncesarán.\n\n
+11	89	Son recuerdos del padre de Sanji, un maestro de las técnicas de\nlas espadas dobles. Un ninja de 1ª, perdió su vida durante el in-\ncidente de la Espada del Dragón negro. Sanji ansía\ndominar las técnicas de esgrima de su padre. Lleva este\nhechizo y un par de espadas, que aún no está listo para usar, \ndonde vaya.\n\n
+11	90	
+11	91	El símbolo del ninja del\ndragón, heredado desde\ngeneraciones.
+11	92	La forma real de la\nEspada del Dragón, llena\nde poder sagrado.
+11	93	Son unas espadas japo-\nnesas largas, se usan \nen pareja.
+11	94	La Verdadera Espada del \nDragón y la Cuchilla del \nArchidemonio, usadas\njuntas. 
+11	95	Un arma potente de\nartes marciales de \nRyukyu.
+11	96	Guadaña gigante que ha\nheredado la tribu de demonios\nlicántropos.
+11	97	Versión muy mejorada\nde las garras de mano \ntradicionales.
+11	98	Arma ninja formada \npor una hoz con cadena\ny un peso sujeto.
+11	99	Cuchillas gemelas feroces que\nse hicieron en la Edad Media\nen el imperio Vigoor.
+11	100	Cuchillas gemelas feroces que\nse hicieron en la Edad Media\nen el imperio Vigoor.
+11	101	Un báculo que se dice que\ntiene poderes misteriosos\nde la luna.
+11	102	Un báculo que se dice que\ntiene poderes misteriosos\nde la luna.
+11	103	Un arma ninja\nestándar de tiro.
+11	104	Flechas que se usan\ncon el Arco de perdición de\ndemonios.
+11	105	Arco poderoso,\ndecorado con dos\ncabezas de dragón.
+11	106	
+11	107	
+11	108	
+11	109	La llama del infierno reduce\ntus enemigos a cenizas.\n\nPara equipar el Ninpo, pulsa @[pad:Lu] \npara abrir el menú teclas rápidas.\n\nLas llamas debajo de barra salud\nrepresentan tu Ki. Se usa para\nhacer Ninpo. Recoge esencias rojas \npara reponer tu Ki.
+11	110	Estas cortantes cuchillas de aire\nrebanan a tus enemigos. \n\nPara equipar el Ninpo, pulsa @[pad:Lu] \npara abrir el menú teclas rápidas. \n\nLas llamas debajo barra de salud\nrepresentan tu Ki. Se usa para\nhacer Ninpo. Recoge esencias rojas\npara reponer tu Ki.
+11	111	Lanza una oleada de vacíos\npara perforar a tus enemigos\nhasta el centro.\n\nPara equipar el Ninpo, pulsa @[pad:Lu] \npara abrir el menú de teclas rápidas. \n\nLas llamas debajo barra de salud\nrepresentan tu Ki. Se usa para\nhacer Ninpo. Recoge esencias rojas \npara reponer tu Ki.
+11	112	Convoca pájaros de fuego para defen-\nderte e incendia a tus enemigos.\n\nPara equipar el Ninpo, pulsa @[pad:Lu] \npara abrir el menú de teclas rápidas. \n\nLas llamas debajo barra de salud\nrepresentan tu Ki. Se usa para\nhacer Ninpo. Recoge esencias rojas \npara reponer tu Ki.
+11	113	
+11	114	Artefacto legendario\nconocido antiguamente.
+11	115	Artefacto legendario que\nsólo obtienen aquellos\ncon poderes de obser-\nvación sobrehumanos.
+11	116	Restaura poca cantidad de\nsalud.\n\nEste objeto puede curar el daño \nduradero marcado en rojo en la\nbarra de salud.\n\nPara usar el objeto, pulsa @[pad:Ld]\npara abrir el menú teclas rápidas.
+11	117	Restaura una salud moderada.\n\nEste objeto puede curar el daño \nduradero marcado en rojo en la\nbarra de salud.\n\nPara usar el objeto, pulsa @[pad:Ld]\npara abrir el menú teclas rápidas.
+11	118	Restaura por completo la salud\ny cura todo el daño\nduradero.\n\nPara usar el objeto, pulsa @[pad:Ld]\npara abrir el menú teclas rápidas.
+11	119	Restaura poco Ki.\n\nPara usar el objeto, pulsa @[pad:Ld]\npara abrir el menú de teclas rápidas.
+11	120	
+11	121	Devuelve la vida una vez.\n\nPara equipar el objeto, pulsa @[pad:Start]\npara abrir el menú pausa y ve a\nOBJETOS.
+11	122	Recoge y usa nueve de estas\npara aumentar de forma per-  \nmanente tu salud máx.
+11	123	Aumenta de forma permanente\ntu salud máxima.
+11	124	Aumenta permanentemente tu\nKi máximo.\n\nPara usar el objeto, pulsa @[pad:Start]\npara abrir el menú pausa y ve a \nOBJETOS.
+11	125	Aumenta permanentemente el nivel del \nhechizo Ninpo.\n\nPara usar el objeto, pulsa @[pad:Start]\npara abrir el menú pausa y ve a\nOBJETOS. Cuando uses el objeto, te\npedirá que hechizo Ninpo quieres\nreforzar.
+11	126	
+11	127	
+11	128	
+11	129	
+11	130	
+11	131	
+11	132	
+11	133	
+11	134	
+11	135	
+11	136	
+11	137	
+11	138	
+11	139	
+11	140	Esta parece ser la llave de la sala de control de ascensores.
+11	141	La joya roja tiene un saliente para insertarse en algún lugar.
+11	142	La joya azul tiene un saliente para insertarse en algún lugar.
+11	143	Instrumento legendario que da acceso a las pruebas de valor.
+11	144	Llave adornada con un diseño romano antiguo.
+11	145	Llave de cobre con el asa adornada con un motivo de uvas.
+11	146	Llave antigua de bronce con una pátina fina.
+11	147	Llave de hierro procesado que seguramente se usaba en el castillo.
+11	148	Llave de oro macizo muy decorada, usada en el castillo.
+11	149	
+11	150	Llave moldeada de latón y decorada con la imagen de una campana.
+11	151	Llave adornada con un blasón real que le da un aire majestuoso.
+11	152	Tarjeta de identidad para oficiales de alto rango del gobierno.
+11	153	Máscara de jade \nusada como\ndecoración.
+11	154	Máscara de jade \nusada como\ndecoración.
+11	155	Máscara de jade \nusada como\ndecoración.
+11	156	Placa con un relieve\ntallado, sus imágenes \nson inquietantes.
+11	157	
+11	158	
+11	159	Llave del cuarto de Kureha donde se guardan preciadas reliquias.
+11	160	
+11	161	Objeto espantoso obtenido al derrotar a Elizébet.
+11	162	Objeto espantoso obtenido al derrotar a Volf.
+11	163	Objeto espantoso obtenido al derrotar a Zedonius.
+11	164	Objeto espantoso obtenido al derrotar a Alexei.
+11	165	Cabeza de piedra,\nse cortó sin\nmiramientos de una \nestatua Jizo.
+11	166	Llave hecha de hueso.\nEl diseño es bastante\nperturbador. 
+11	167	Una extraña tabla de\nmadera que tiene la\noración de adorar al\nArchidemonio.
+11	168	Cuaderno que detalla las dificultades de un ninja.
+11	169	Cuaderno que detalla las privaciones de un ninja.
+11	170	Cuaderno que muestra las dificultades del ninja.
+11	171	Cuaderno que ilustra las tribulaciones del ninja.
+11	172	Cuaderno que ilustra las frustraciones de un ninja.
+11	173	Cuaderno que ilustra las frustraciones del ninja.
+11	174	Cuaderno que detalla las frustraciones del ninja.
+11	175	Cuaderno que muestra los problemas del ninja.
+11	176	Cuaderno que detalla las dificultades de un ninja.
+11	177	Cuaderno que detalla las dificultades de un ninja.
+11	178	Cuaderno que muestra los problemas del ninja.
+11	179	Cuaderno que explica los problemas de un ninja.
+11	180	Cuaderno que detalla las tribulaciones de un ninja.
+11	181	Cuaderno propiedad del fallecido ninja Araña Negra Yogenta.
+11	182	Cuaderno propiedad del fallecido ninja Araña Negra Hachijuro.
+11	183	Cuaderno propiedad del fallecido ninja Araña Negra Inukoma.
+11	184	Cuaderno propiedad del fallecido ninja Araña Negra Izo.
+11	185	Cuaderno propiedad del ninja de la Araña Negra Koshimaru.
+11	186	Cuaderno propiedad del fallecido ninja Araña Negra Koshimaru.
+11	187	Cuaderno propiedad del fallecido ninja Araña Negra Denji.
+11	188	Cuaderno propiedad del fallecido ninja Araña Negra Hinomaru.
+11	189	Texto antiguo que detalla la historia del Castillo del Dragón.
+11	190	Un pergamino antiguo que\nrecita la historia de los 4\nDemonios Máximos.
+11	191	Un pergamino antiguo que\nrecita la historia de los 4\nDemonios Máximos.
+11	192	Un pergamino antiguo que\nrecita la historia de los 4\nDemonios Máximos.
+11	193	Documento histórico\nque describe el gobierno\ndel Rey de la Oscuridad.
+11	194	Mitos legendarios del\nimperio Vigoor.
+11	195	Para equipar el arma, pulsa \n@[pad:Lu] para abrir el menú \nteclas rápidas.
+11	196	Para equipar el arma, pulsa \n@[pad:Lu] para abrir el menú \nteclas rápidas.
+11	197	
+11	198	
+11	199	
+11	200	
+11	201	
+11	202	Para ver el objeto, pulsa @[pad:Start]\npara abrir el menú pausa y ve a \nOBJETOS.
+11	203	El libro del Génesis\n\nAl principio, una gran inconsistencia fluía en la\nnada; una nada que tenía miedo de sí misma.\nUn terror puro sin colores, sonidos, ni olores,\nformó las raíces de todos los dioses y al final\nse fusionó en forma de la primera deidad, Gurdu.\nGurdu, dio a luz a todos los elementos y les proveyó\ncon orden y funciones. En una zona remota donde\nGurdu proveyó orden, existía un territorio de caos\nque se formó de los elementos sin forma. Este\ncaos, que había sido olvidado en las bendiciones\nde Gurdu, existió al principio sólo como un miedo\ninstintivo pero eventualmente el caos comenzó a\ntomar forma y dentro empezó a formarse una con-\nciencia.\nPrimero, fue una pequeña presencia envidiosa, pero\nfinalmente creció y se hizo más clara. Esto marcó\nla aparición del Odio. La naturaleza caótica del Odio\nevolucionó todavía más, convirtiéndolo en una deidad.\nAsí fue como vino al mundo el ancestro de todos los \nArchidemonios, Vigoor, y se puso en movimiento el \nprimer conflicto.
+11	204	El libro de deidades malignas\n\nEl ancestro de los Archidemonios, Vigoor,\nempezó devorando el territorio de Gurdu, comen- \nzando por el centro. Durante interminables eclipses\nsolares y lunares, la tierra tembló, se dividió; mares\nse secaron para volver a fluir. Vientos intensos\nazotaron todo en su camino y el fuego quemó toda\nexistencia, ignorando incluso el tiempo. Por fin, Gurdu\nperdió su fuerza y el mundo volvió a hundirse en el\ncaos del que provino.\nEntonces, ocurrió un gran cambio. En medio de la agonía\nde una destrucción sin fin, el cuerpo de Gurdu se dividió\nen cuatro. Cada parte se convirtió en una deidad que\ncontrolaba Sentir, Sabiduría, Inmortalidad y Creación.\nAl final, volverían a juntarse para volver a restaurar\nla forma del mundo, pero en su estado aterrorizado\ndespués de nacer, tenían poco poder. 
+11	205	El libro de los dragones\n\nEn esta época de pandemónium, la Serpiente, la\ndeidad de Creación, fue la única que consiguió\nmantener una apariencia de cordura. La Ser-\npiente dio a luz a una pequeña presencia, algo de\nlo que ningún otro ser se diese cuenta... las semi-\nllas de la vida. Éstas se hicieron fuertes y cre-\ncieron en la tormenta del caos. Poco a poco\nevolucionaron y al final se convirtieron en 13\ndragones, cuyos destinos estaban en la batalla.\nLos dragones lucharon en una guerra infinita contra\nVigoor, que siempre intentó llevar al mundo a\nuna vorágine de destrucción. Al final los dragones \npudieron desterrar a Vigoor hasta el fin del mundo.\nSin embargo, fue en esta época cuando el dragón\nmás joven, con la posición más baja, el Oscuro, \ninvocó al Odio con sus sentimientos inferiores.\nDebido a esta traición, Vigoor evitó que le des-\ntruyeran por completo.
+11	206	El libro de los demonios\n\nEl dragón Oscuro, lleno de malas intenciones, se\nunió a Vigoor y su progenie de deidades malignas\npara avanzar aún más en el territorio de Gurdu. Este\nconflicto continuó durante los eones de historia, \ny en medio de esta lucha apareció la primera chispa\nde vida humana en la forma de tribus antiguas.\nPor supuesto, estos conflictos no se resuelven con\ncon facilidad, e incluso en la edad de las tribus antiguas\nel linaje Dragón y los Archidemonios siguieron su\nguerra durante miles de años. La lucha terminó por\nfin, cuando el linaje Dragón fue capaz de sellar\na los Archidemonios y a su progenie.\nSin embargo, durante esta época de caos todas las líneas\nde las tribus antiguas estaban mezclada y el legado de\nlos antiguos lo hemos mantenido nosotros, los Demonios.
+11	207	El libro del futuro \n\nEl país que el Archidemonio Vigoor una vez tuvo\ncomo tierra se ha convertido en esto, el país\nde Vigoor. Fue en este país también que el dragón\nOscuro cometió su  traición y donde vivían las\ntribus antiguas. Por ello, sus descendientes,\nnosotros los demonios, controlamos estos países.\nCon él como frontera, el poder de Vigoor está\nlimitado sólo a la Tierra, por ahora.\nVigoor es el Demonio de la Destrucción, y deidad\nde la historia; cuando la decadencia de este mundo\nhaya llegado a su límite, volverá como una ardiente\nllama purificadora y volverá a crear el mundo. El Caos,\ncomo una riada que llena la rivera de un gran río, volverá\na llenar este mundo una vez más y será el primer reci-\npiente de esta recompensa. La evolución ha empezado\ny siempre empezará aquí, en Vigoor.\nHan pasado cientos de años desde que el Demonio \nSupremo Gogohn estableció lo que se convertiría\nen el imperio Vigoor. Si apareciese un nuevo gue-\nrrero del linaje Dragón, el sagrado emperador será\ninfundido con el poder de los Archidemonios. Después\nde siete días de reunión de su majestad con el dragón\nOscuro, nosotros los Demonios seremos benditos con \narmonía exquisita.\n\n
+11	208	Un par de espadas cortas que los\nninja legendarios suelen usar.
+11	209	Dardos kunai explosivos con fusibles\nen forma de iris giratorios.
+11	210	Una onda de choque potente que\nconsume todo lo que está en su camino.\nNada puede resistir su impacto.\nÚsalo cuando estés rodeado.\n\nUsa tu Ki para invocar el poder de \nincontables almas muertas.\nSin esencia roja, no podrás volver\na hacerlo una segunda vez.
+11	211	La querida pértiga de Momiji,\ntallada de la rabadilla de un dragón.
+11	212	Arco japonés otorgado a las\nvírgenes desde la antigüedad. 
+11	213	Un torbellino de fuego que envuelve\ne incinera al enemigo.\nEl destino de los malos de corazón es\nsufrir la agonía del fuego purificador.\n\nCuando hayas hecho el hechizo, usa \n@[pad:LSlr] para dirigir la llamarada\nal enemigo deseado.\n\nEl vórtice es una mezcla de Ki y carmesí.\nEncuentra y coge esencia roja para\ncastigar a los malvados con fuego sagrado.
+11	214	El martillo de guerra favorito de\nRachel. Es muy pesado y potente.
+11	215	Una metralleta pesada con inscripciones \núnicas, creada para cortar a los Demonios.
+11	216	Las espinas ultra-afiladas de esta rosa\nsupernatural, desgarra a los oponentes\nen pedacitos. Un hechizo antiguo que \nse usa cuando estás rodeado.\n\nUsa Ki para traer una rosa mortal del\ninframundo y deriva su poder de la\nesencia roja.
+11	217	Una espada muy pesada que es capaz\nde derribar casi cualquier objetivo. 
+11	218	Un rifle de mecha enorme con un\nalcance y poder sin igual.
+11	219	Un recuerdo del padre de Sanji.
+12	0	
+12	1	El símbolo del ninja del dragón, heredado desde generaciones.
+12	2	La forma real de la Espada del Dragón, llena de poder sagrado.
+12	3	Son unas espadas japonesas largas, se usan en pareja.
+12	4	La Verdadera Espada del Dragón y la Cuchilla del Archidemonio, usadas juntas. 
+12	5	Un arma potente de artes marciales de Ryukyu.
+12	6	Guadaña gigante que ha heredado la tribu de demonios licántropos.
+12	7	Versión muy mejorada de las garras de mano tradicionales.
+12	8	Arma ninja formada por una hoz con cadena y un peso sujeto.
+12	9	Cuchillas gemelas feroces que se hicieron en la Edad Media en el imperio Vigoor.
+12	10	Cuchillas gemelas feroces que se hicieron en la Edad Media en el imperio Vigoor.
+12	11	Un báculo que se dice que tiene poderes misteriosos de la luna.
+12	12	Un báculo que se dice que tiene poderes misteriosos de la luna.
+12	13	Un arma ninja estándar de tiro.
+12	14	Flechas que se usan con el Arco de perdición de demonios.
+12	15	Arco poderoso, decorado con dos cabezas de dragón.
+12	16	
+12	17	
+12	18	
+12	19	Un Ninpo que convierte el Ki del hechicero en llamas carmesíes.
+12	20	Un Ninpo que convierte el Ki del hechicero en cuchillas de viento.
+12	21	Un Ninpo que permite al hechicero controlar y proyectar gravedad.
+12	22	Un Ninpo que convierte el Ki del hechicero en espíritus de fénixes que le protegen.
+12	23	
+12	24	Un artefacto legendario fuera de lugar conocido desde la antigüedad.
+12	25	Sólo lo pueden obtener aquellos que tienen poderes de observación sobrehumanos.
+12	26	Restaura una pequeña cantidad de salud.
+12	27	Restaura una cantidad moderada de salud.
+12	28	Restaura por completo la salud de Ryu y cura todo el daño duradero.
+12	29	Restaura una pequeña cantidad de Ki.
+12	30	Restaura una cantidad moderada de Ki.
+12	31	Devuelve la vida a Ryu una vez.
+12	32	Usa nueve de estos para aumentar de manera permanente tu salud máxima.
+12	33	Aumenta de manera permanente tu salud máxima.
+12	34	Aumenta de manera permanente tu Ki máximo.
+12	35	Aumenta de manera permanente tu nivel de hechizo Ninpo.
+12	36	
+12	37	
+12	38	
+12	39	Un pergamino ninja que enseña un método para evitar ataques enemigos.
+12	40	Un pergamino ninja que enseña un método avanzado para esquivar.
+12	41	Un pergamino ninja que enseña a correr en la superficie de la pared.
+12	42	Un pergamino ninja que muestra como subir paredes opuestas.
+12	43	Un pergamino ninja que enseña como matar a enemigos heridos.
+12	44	Un pergamino ninja que muestra como hacer un ataque potente.
+12	45	Un pergamino ninja que muestra como contraatacar cuando te golpea el enemigo.
+12	46	Un pergamino ninja que enseña un ataque cortante aéreo.
+12	47	Un pergamino ninja que enseña a correr por las pared en una espiral ascendente.
+12	48	Un pergamino ninja que enseña como usar dos paredes para cruzar un abismo.
+12	49	Un pergamino ninja que muestra como hacer la técnica definitiva.
+12	50	
+12	51	
+12	52	
+12	53	
+12	54	
+12	55	
+12	56	
+12	57	
+12	58	
+12	59	
+12	60	
+12	61	
+12	62	
+12	63	Máscara de jade usada como decoración.
+12	64	Máscara de jade usada como decoración.
+12	65	Máscara de jade usada como decoración.
+12	66	Placa con un relieve tallado, sus imágenes son inquietantes.
+12	67	
+12	68	
+12	69	Llave del cuarto de Kureha donde se guardan preciadas reliquias.
+12	70	
+12	71	Objeto espantoso obtenido al derrotar a Elizébet.
+12	72	Objeto espantoso obtenido al derrotar a Volf.
+12	73	Objeto espantoso obtenido al derrotar a Zedonius.
+12	74	Objeto espantoso obtenido al derrotar a Alexei.
+12	75	Cabeza de piedra, se cortó sin miramientos de una estatua Jizo.
+12	76	Llave hecha de hueso. El diseño es bastante perturbador. 
+12	77	Una extraña tabla de madera que tiene la oración de adorar al Archidemonio.
+12	78	Cuaderno que detalla las dificultades de un ninja.
+12	79	Cuaderno que detalla las privaciones de un ninja.
+12	80	Cuaderno que muestra las dificultades del ninja.
+12	81	Cuaderno que ilustra las tribulaciones del ninja.
+12	82	Cuaderno que ilustra las frustraciones de un ninja.
+12	83	Cuaderno que ilustra las frustraciones del ninja.
+12	84	Cuaderno que detalla las frustraciones del ninja.
+12	85	Cuaderno que muestra los problemas del ninja.
+12	86	Cuaderno que detalla las dificultades de un ninja.
+12	87	Cuaderno que detalla las dificultades de un ninja.
+12	88	Cuaderno que muestra los problemas del ninja.
+12	89	Cuaderno que explica los problemas de un ninja.
+12	90	Cuaderno que detalla las tribulaciones de un ninja.
+12	91	Cuaderno propiedad del fallecido ninja Araña Negra Yogenta.
+12	92	Cuaderno propiedad del fallecido ninja Araña Negra Hachijuro.
+12	93	Cuaderno propiedad del fallecido ninja Araña Negra Inukoma.
+12	94	Cuaderno propiedad del fallecido ninja Araña Negra Izo.
+12	95	Cuaderno propiedad del ninja de la Araña Negra Koshimaru.
+12	96	Cuaderno propiedad del fallecido ninja Araña Negra Koshimaru.
+12	97	Cuaderno propiedad del fallecido ninja Araña Negra Denji.
+12	98	Cuaderno propiedad del fallecido ninja Araña Negra Hinomaru.
+12	99	Texto antiguo que detalla la historia del Castillo del Dragón.
+12	100	Un pergamino antiguo que recita la historia de los 4 Demonios Máximos.
+12	101	Un pergamino antiguo que recita la historia de los 4 Demonios Máximos.
+12	102	Un pergamino antiguo que recita la historia de los 4 Demonios Máximos.
+12	103	Documento histórico que describe el gobierno del Rey de la Oscuridad.
+12	104	Mitos legendarios del imperio Vigoor.
+12	105	Una pareja de espadas cortas usada por ninja legendarios.
+12	106	Dardos kunai explosivos con fusibles de iris giratorios.
+12	107	Un Ninpo que pulveriza a los enemigos con una onda de choque.
+12	108	Pértiga favorita de Momiji, tallada de rabadilla de dragón.
+12	109	Arco japonés que suelen llevan las vírgenes del santuario.
+12	110	Un Ninpo que incinera a los enemigos con un vórtice de fuego.
+12	111	Martillo favorito de Rachel, grande y potente.
+12	112	Una metralleta antidemonios con caracteres especiales.
+12	113	Hechizo que evapora a los enemigos con espinas de rosas mortales.
+12	114	Una inmensa espada poderosa capaz de pulverizar enemigos.
+12	115	Un rifle de mecha enorme con un alcance y poder sin igual.
+12	116	Un recuerdo del padre de Sanji.
+12	117	Un pergamino ninja que enseña como agarrar a un enemigo en el aire y estrellarlo contra el suelo.
+12	118	Un pergamino ninja que enseña como saltar encima de un enemigo y tirarlo inmediatamente.
+13	0	
+13	1	
+13	2	¿Golondrina voladora?\n¡Es justo lo que necesito!\n¡Rápido como el águila!\n¡Afilado como un cuchillo!\n¡Un poder explosivo que da vueltas!\n\nHoy empiezo mi régimen de entrenamiento:\nMil saltos en el aire de lo más alto,\nseguidos por mil cortes con mi espada. \nUn día, seré capaz de combinarlos ambos:\n¡Bajar y cortar! \n\n¡Seré imparable!\n\nTori-no-Shin
+13	3	
+13	4	Soy incompetente, un fracaso.\nMi maestro me enseñó la técnica del Viento invertido,\npero no soy digno de su tutela.\n\nEntiendo que 1º tengo que adoptar una posición de bloqueo,  \npero, ¿cómo mover mis pies tan rápido en otra dirección?\nSiempre termino con la cara roja, las piernas cruzadas, el\npecho dolorido después de caerme al suelo.\n\nTiene que haber algo más, algo más grande que el \nViento Invertido que estoy destinado a dominar.\nDespués de todo, valgo para artista, quizás incluso hechicería.\nDebo seguir mi destino.\n\nSanyodo
+13	5	¿Por qué? Me pregunto\n¿Por qué no domino la técnica del Viento violento?\n¡He andado por el sendero del ninja durante más de 20 años!\n¿Estoy ciego a los matices de la postura defensiva?\n¿No estoy atento al movimiento de mis enemigos?\n¿Soy incapaz de ajustar mi ritmo interno al tempo de los\nataques de mis oponentes?\n\nLos que hacen Viento violento lo hacen parecer tan fácil.\nYo, al contrario, llevo las cicatrices de mi fracaso, \nnumerosas cicatrices por los golpes que he sufrido\ncuando intento moverme y debería bloquear.\n\nDebo perfeccionar Viento violento.\n¡Lo haré esta noche, aunque me mate!\n\nHayate-maru
+13	6	Mi maestro me dice que Pisadas sin sombra es una\nmaniobra ninja básica. Dice: "¡Está en el espíritu del \nninja andar por donde no se ve un sendero!" En ese caso, \nme debe faltar espíritu ninja porque soy totalmente incapaz \nde hacer esta sencilla técnica.\n\nMe caigo de la pared, me golpeo la frente contra su superficie.\nDe cualquier modo, parezco un idiota. Si no fuese por mi \nbanda de metal, me abría abierto la cabeza.\n\n¿Qué honor puede tener un ninja tan torpe como yo?\nMis compañeros llegan al valle, yo les ralentizo.\nEstamos enfrente de un castillo, tienen que subirme.\nDicen que en la vida, uno debe aprender a superar obstáculos.\nYo prefiero tirar las paredes. No quiero volver a ver una\npared en toda mi vida.\n\nHikage-o
+13	7	
+13	8	Hermano, escúchame.\nNo importa lo que intente, no soy capaz de hacer la\nvoltereta de Ave voladora. A pesar del entrenamiento \nque me has dado, hermano, soy inepto.\n\nMe has explicado el Ave voladora sólo como una\nserie de saltos: uno, dos, tres. Sin embargo esta\ntécnica que haces con naturalidad a mi me parece \ntan difícil como subir al Midoriyama. \n\nEntreno sin cesar, acuciado por un sólo objetivo:\ntener un día los pies tan ligeros como tú, hermano...\nMe digo una y otra vez que es una cuestión de práctica, \nque debo aferrarme a tus sabias instrucciones.\nProméteme que me entrenarás cuando vuelva a casa.\nTe veré pronto. \n\nTuyo,\nTu hermano menor Mogura
+13	9	¿Por qué?, te pregunto, ¿Por qué?\n¿Por qué no puedo matar a mis enemigos?\nLos otros aprendices cortan sus cabezas. \nPero, y yo, ¿qué? \n\nCuando tengo a un oponente enfrente,\nsangrando por sus heridas mortales,\npidiéndome la clemencia. Me quedo \ntan parado como un maniquí. No soy\ncapaz de usar la Técnica de la obliteración.\n\nAhora que lo pienso, mi vida está llena de tragedias.\nVi demasiados días llenos de sangre en mi juventud. \nQuizá sufrí un trauma mental que hizo que mi mente\nhuyese de la violencia en lo profundo del subconsciente.\n\n¡No! ¡Despierta!\n¡Destruye! ¡Debes destruir! \n¡Abre los ojos y destruye, maldito seas!\n\nZenimaru
+13	10	Si pudiese dominar la Técnica definitiva, vence- \nría con facilidad a ese puñetero, el ninja Dragón.\n\nSí sólo fuese más sencilla. Sabes, soy inepto.\nNo puedo hacer la Técnica definitiva.\nNo siento las ondas de energía que invaden el viento. \nNo sé ni por donde empezar.\n\nTodo lo que hago es mirar desde lejos cuando el maestro \nGenshin lanza una ráfaga de ataques. ¡Qué concentración \ntan sorprendente! Se para, en medio de un combate\nintenso y centra toda su energía en su arma.\nPero soy un cobarde, tengo demasiado miedo\ncomo para bajar la guardia un instante.\n\n1º debo encontrar mi valor. \nEntonces será una cuestión de matar o que te maten. \nSi mi destino está en el inframundo, que así sea.\n\nTsunekichi
+13	11	Soy incapaz de hacer un contraataque.\nSu poder oculto, que se desencadena cuando el enemigo \nmenos lo espera, hace que el contraataque sea una de las \ntécnicas más valiosas.\n\nSin embargo, su ejecución sigue eludiéndome. \nReacciono demasiado rápido;\nme falta paciencia cuando el enemigo golpea.\n\nMis compañeros dicen que el contraataque es fácil:\nun simple movimiento de la cuchilla después que el arma \nenemiga se recupere del bloqueo. Sin embargo, cuanto más\nme concentro en la exactitud, más veces caigo víctima del enemigo.\n\nLos ninjas habilidosos contraatacan con la misma\nfacilidad con la que respiran. Reaccionan con reflejos,\nno se mueven pensando sino por instinto.\n\nMi maestro dice que incluso los jóvenes aprendices, \n"Empiezan con algo fácil, como el contraataque." \n\nDebo perseverar, no debo abandonar así.\n\nInoshishi
+13	12	Parece ser que la técnica está más allá de mis habilidades. \nSé que Ascenso inigualable es sencillamente una repetición\nde la técnica Pisadas sin sombra, una pared tras otra.\nSin embargo, cuando intento saltar de pared a pared, siempre \npierdo el equilibrio. Cuando subo las paredes en espiral, la \nsangre se me sube a la cabeza, me mareo, me desoriento\ny me pego el batacazo. \n\nSi pudiese estar tranquilo y concentrado mientras corro \npor la pared, llegaría hasta arriba. Pero, ¿como tranquili-\nzarme cuando sólo pensarlo me da náuseas?\n\nHeijuro
+13	13	¡No me lo creo!\n¡No puedo dominar Arte de la Senda invisible!\n¡Yo, el maestro de Pisadas sin sombra!\n¿Cómo es posible?\n\nMi cuerpo se desvía hacia la derecha. ¿Por qué?\nSé que tengo que saltar a la derecha, luego la\nizquierda, etc. Pero se me hace tan raro, y\ncuando intento darme prisa, termino resbalando y \ncayéndome como un muñeco.\n\nMi sendero está claro.\nDebo azotarme a mi mismo, entrar en las llamas,\ntumbarme en una cama de agujas, hacer lo necesario para\nser más fuerte. Debo tragarme el orgullo, ya que sólo creceré\ncon dedicación. ¡Lucharé contra mi mismo y lucharé como si\nfuese mi último día!\n\nSadamichi
+13	14	No soy bueno con la técnica Guía final... \nSeguramente soy el peor del clan.\n\nCuando veo una esencia cerca, cojo mi espada, cierro\nlos ojos y centro mi energía Ki, pero la esencia no se \nmueve. En su lugar, acabo con la cara partida.\n\nUna vez en medio de la batalla hice una técnica de Guía \nfinal verdadera. Es cierto que sólo conseguí hacer un ataque\nde primer nivel. Pero nunca he visto el 2º y 3º nivel.\n\nLos maestros de la Guía final absorben la esencia que crea\nsu Técnica definitiva. Es sorprendente como crean una \nonda de energía de ataque que se repite una y otra vez,  \nsiendo más fuerte cada vez. \n\nYo, por el contrario, soy el maestro de la cara partida.\n\nOshi-no-Jyo
+13	15	23 de marzo\nHe oído que el maestro Genshin liderará el ataque de hoy.\nSe ha fortalecido mi determinación. Ha llegado la hora que los \nodiados ninja Dragón paguen por la humillación que nos han\ncausado. ¡Joe Hayabusa, morirás!\n\n24 de marzo\n¿Quién es Ryu Hayabusa? ¿El hijo de Joe?\n¡Puede que su padre fuese fuerte en su juventud,\npero pensar que ese mozalbete podría ser un ninja Dragón \nes simplemente imposible!\n\n31 de marzo\nHan asesinado al terrorífico Rasetsu y al poderoso Gyuki de secta\nOscura. Si venció a esos monstruos, entonces ese joven Ryu,\na pesar de ser malvado, debe ser digno del título ninja Dragón.\nSecta Oscura hace lo que le ordena el clan Araña negra, envuel-\ntos en las sombras. ¿Igual no son tan terroríficos como parecen?\nNo, lo dudo; nacen y se crían como basiliscos. \n¿Puede que el ninja tuviese suerte?\n\n11 de abril\nAparentemente, han ejecutado a los equipos tácticos ninja que \nse habían desplegado en la capital Acua. Se lo merecen por\nconfiar en armas de fuego.\n\n22 de abril\nMe han dicho que Koshimaru ha fallecido. Me cuesta mucho \ncreer que él, con el "Ojo interior", pudiera caer con tanta \nfacilidad. Aunque era un hombre lógico, parece que sus\nfanfarroneos sobre el Ojo interior eran sólo teorías.\nYo, Yogenta, mostraré a mis compañeros que es ser un \nverdadero ninja del clan Araña negra.\n\n23 de abril\nOs he fallado, hermanos. Adiós. \n¡Que el clan Araña negra florezca por la eternidad!
+13	16	20 de marzo\nEl maestro Genshin es muy diferente del maestro anterior, \nque descanse en paz. El viejo hacia que nosotros los ninja \nbuscásemos por todo el mundo huesos de dragón para curar su\ncuerpo envejecido y luego vendía el resto por mucho dinero.\nClaro que el dinero es importante, incluso para el ninja. Pero me \nduele el corazón por esos hermanos, buenas almas como Gen y Dai, \nque murieron en Vigoor perdiendo el tiempo.\n\n12 de abril \nEl maestro Genshin es el verdadero señor del clan Araña negra.\nDaría mi vida por él, sólo tiene que decírmelo.\n\nAhora que lo pienso, esa Obaba era una vieja de terror cuando\naún estaba viva. Se me ponía la piel de gallina cuando la veía \nhacer su hechicería infernal.\nSe salió con la suya porque estaba en el lugar adecuado en el\nmomento adecuado. Si el maestro Genshin hubiese estado aquí,\nla hubiera puesto en su lugar.\n\n14 de abril\n¡Malditas seais, bestias infernales! Estos demonios atacan a \ncualquiera, devorando amigo y enemigo. ¡Criaturas estúpidas!\nNo me creo que esté destinado a morir de esta manera. \nEstoy malherido. El dolor no conoce fin.\n\n15 de abril\nPierdo la conciencia. Debo seguir escribiendo. \nLa sangre no para.\nPerdonadme, hermanos.  \nTengo frío\n\n19 de abril\nMe desperté en la tierra de los vivos.\nInukoma me habrá dado la Hierba de la vida espiritual.\n¡Soy una desgracia!\n\nMe han dicho que Inukoma falleció. \nDicen que murió el 16.\n\n4 de mayo\nMe ha llegado la hora.\nSoy feliz muriendo bajo las órdenes del maestro Genshin. \nDesearía haber matado a ese maldito ninja Dragón.\nMuero con pesar. Adiós.
+13	17	18 de marzo\nVoy resuelto, sabiendo que seguramente me espera la muerte.\nMi destino no será diferente que esas almas valientes que \ndescansan en los pies del Monte Fuji; innumerables espadas \nhundidas en el suelo sirven como tumbas allí, en el cementerio \nde la Araña negra.\n\n25 de marzo\nNo lucho por la justicia ni por el mal. \nSólo me niego a desviarme de mi sendero destinado.\n\n2 de abril\nMe cuesta creer que un hombre tan poderoso como el maestro\nGenshin permita que los Demonios le traten como un mero\npeón. Aunque es cierto que nuestro clan está vagamente empa-\nrentado con la línea de los Demonios, me pregunto si es apropiado \nayudarles de este modo. Estoy tan cerca del maestro Genshin \ncomo cualquier otro aprendiz del clan, y cuantas más cosas \naprendo sobre él, más me desconcierta.\n\n13 de abril\nNo estoy de acuerdo con el anciano Koshimaru. Puede que\nKoshimaru tenga el "Ojo interior," pero el maestro Genshin que\nconozco no tiene miedo a nada. Confía en su vasto poder. Nada \nle perturba.\n\n15  de abril\nMe encontré a Hachijuro inconsciente en el suelo con una \nherida muy grave. Le di de comer a la fuerza lo que me quedaba \nde Hierba de vida espiritual.\nEspero que sobreviva, aunque sé que no lo hará. \nAl igual que sé que pronto sufriré su suerte.\n\n16 de abril \n¡Qué mala suerte! Un Demonio inferior me ha atacado por atrás. \nAunque no son inteligentes, lo compensan con una ferocidad\nincontenible. Parece que su instinto les lleva a atacar a humanos.\nEste es territorio de Demonios. Sabía que esto podía pasarme\nen cualquier momento. Me duele saber que dejaré este mundo sin \nhaber puesto un dedo encima del ninja Dragón.\nEmpiezo a perder la fuerza de mis manos.
+13	18	20/02\nNo puedo dejar de reírme de mi mismo, escribiendo en \neste estúpido cuaderno.\n\n17/03\nNo pienso poner "Querido diario".\nNi siquiera me creo que lo haya actualizado.\n\n20/03\nMiré a los ojos del maestro Genshin durante un minuto.\nHay que tener agallas para mirar a ese tipo. No sé que le\npasa, pero sin lugar a dudas es mucho más de lo que\nparece. Sonríe de una manera, como si hubiese estado en\nel infierno, vuelto y hubiese mandado una postal desde allí.\nEspero tener tan malas pulgas algún día.\n\n07/04\nTío, el Dédalo es toda una obra de arte. Quiero decir,\nya sé que el clan Araña negra tiene que actuar junto, pero\naún así, encontrar una fábrica de armamento lo bastante grande\ncomo para construir ese bicho habrá sido difícil. Dicen que \nusaron los beneficios del contrabando del anterior maestro. \nNo es que yo fuese un gran fan del tipo, para ser honesto.\nNunca me pareció que fuese un ninja.\n\n15/04\nHe encontrado el cuaderno de Koshimaru.\nYa lo sé, ya lo sé, se supone que no debería leerlo. Pero lo hice. \n¡Eh! ¿Quién me hecha la culpa?\nAl menos ahora ya sé lo que piensa. Quiero decir, incluso\nmenciona mi nombre, ¿te lo puedes creer? ¿Quién se cree \nque es mi profesor de primaria? ¡Qué te den morcillas, Señor Yo-lo-sé-\ntodo-porque- tengo-el-Ojo-interior Koshimaru!\nDa igual, creo que será mejor que se lo devuelva.\n"No señor, no lo he leído, ni una página." \n¡Ja! ¡Qué gran mentira!\n\n19/04\nParece que el maestro Genshin tiene un pasado con este\nninja Dragón malas pulgas y su familia. Aparentemente, un tipo\nllamado Murai mató al hermano menor del maestro Genshin.\n¡Mira, estoy escribiendo en el diario! ¡Ya sabes!\n¿Me pregunto que mosca me ha picado?\nYa sé, voy a morir pronto, ¿no?\n¡Ja, ja!  ¡Seguro que sí!
+13	19	Quince de marzo\nLos jóvenes de hoy no saben nada del verdadero sendero ninja. \nLas cosas están realmente negras.\nComo a mis compañeros les parece apropiado otorgarme el \ntítulo "Koshimaru del Ojo interior," he jurado conservar el\ncamino del guerrero y servir como bastión para aquellos que \nquieren aprender el verdadero sendero del ninja.\nMi consciencia me dice lo siguiente: los jóvenes de nuestro \nclan no tienen un espíritu verdadero. Se creen habilidosos sólo \nporque pueden hacer unos pocos trucos. Su arrogancia será  \nsu perdición.\nSin espíritu, no hay dedicación. No veo el sendero que llevará \na estos jóvenes al crecimiento y la madurez.\n\nDieciséis de marzo\nGuardaré estos escritos con la esperanza que algún día \nsobrevivan mis pergaminos para sabiduría de generaciones futuras.\n\nVeintinueve de marzo\nLos jóvenes son demasiado rápidos en abrazar el sendero del mal.\nMira Izo: apenas un hombre, sin embargo fanfarronea como si \nfuese el maestro de la oscuridad. Es precisamente porque los jó- \nvenes no conocen la brutalidad real que piensan que el sendero  \ndel mal es algo a la moda. \nAquellos que parecen malvados lo hacen porque entienden\nlos horrores que ofrece este mundo.\nEn nombre de nuestro clan Araña negra, rezo por que nuestros\njóvenes no crean que el camino oscuro es el más fácil.\n\nTrece de abril\nInukoma, te equivocas, amigo. Si poseyeses un Ojo \ninterior como el mío, también verías la verdad como si \nestuviese escrita en la palma de tu mano.\nEl maestro Genshin es humano, como el resto de nosotros.\nTiene un alma y por consiguiente, miedo.\nDebes entender que, para conseguir grandes objetivos, a veces \nes necesario vender tu alma. Esto es, claramente, lo que el \nmaestro Genshin está haciendo.\nSin embargo temo el perfume morboso que emana de la mujer\nvestida de rojo; temo que el maestro Genshin sea vulnerable \na su hechizo.
+13	20	Catorce de abril\nNo sé donde dejé el cuaderno que usaba para escribir \nmis pensamientos. ¡Qué deprimente!\n\nDeiciséis de abril\nHoy vi la cara de Yogenta.\nEs demasiado apasionado para el combate. Debe aprender que\nun ninja verdadero se enfrenta a su destino con indiferencia y \nsilencio frío. Yogenta, si dejas que tu sed de sangre se suba a \nla cabeza, incluso un combatiente habilidoso como tú no durará \nmucho en el mundo sangriento en el que vivimos.\n\nInukoma ha muerto.\nNunca aprendió que la compasión es para los débiles.\nSi se hubiese quedado su Hierba de la vida espiritual en \nlugar de dársela a Hachijuro, aún estaría vivo.\n\nDieciocho de abril\nHay una mujer aquí, una rubia.\nPrecaución con las mujeres. Perseverancia, paciencia.\n\nVeintiuno de abril\nHe encontrado la debilidad del joven ninja Dragón.\nLa próxima vez que le vea, atacaré. Tened por seguro,  \nque seré yo quien tenga el honor de vencer al enemigo jurado.\nAhora, ninja Dragón, prepárate. ¡Mi Ojo interior me ha mostrado \nexactamente que debo hacer para destruirte!\n\n... de abril\n\n
+13	21	3 de marzo\nEntreno de manera intensiva todos los días mientras espero\na que me manden al frente. Nunca me han elegido para las misiones\nimportantes. Me han dejado en la estancada durante 15 años.\n\n12 de marzo \nÚltimamente he perdido peso. Me pregunto si tiene que ver con \nlos dolores de estómago que he tenido. ¡Da igual, ahora \nque peso menos, puedo correr más rápido y creo que salto mejor!\n\n25 de marzo \nMe han dado órdenes para una misión secreta especial.\nLa estrategia actual del clan nos llevará por todo el mundo. \nMi deber es ir por delante, ver como es el terreno de cada uno \nde nuestros destinos y preparar la llegada del resto. \nEsta es la oportunidad de mi vida.\nClaro que no soy el único al que le han asignado una misión tan\nimportante... otros se unirán. Aún así, es una gran oportunidad,\ny tengo que aprovecharla al 100%. ¡Mis veloces piernas me llevarán \npor todo el mundo!\n\n4 de abril\nHemos entrado en territorio Demonio. Han surgido plagas\nde Demonios por todo el mundo y hay un grupo esperándonos\ndonde nos dirigimos. \nDicen que son aliados, ... aún así, son Demonios.\nMuchas de esas bestias se comerán cualquier cosa que se mueva.\nNo es que yo no lo entienda. En el frenesí del combate, los\nmiembros de la secta Oscura también se vuelven locos.\n\n9 de abril\nEsos malditos Demonios, se comen a los muertos.\nChupan todos los fluidos, desgarran la piel y arrancan \nla carne. \nLos que moriremos en nuestros viajes seremos reducidos  \na esqueletos en horas.\nEspero no sufrir ese destino.\n\n20 de abril\nLlevo abriendo camino a machazos por esta jungla durante días y\nme parece que tengo la malaria. Se me desgarran los intestinos.\nNo me quedan provisiones, no tengo energía para encontrar más.\nHe luchado contra una creciente multitud de Demonios según\nme acerco a mi destino final, la pirámide legendaria Necromantale.\nSólo un poco más, me siento muy cansado para andar ahora. \nCreo que dormiré un rato.
+13	22	16 de marzo\nLucho. Es todo lo que sé, todo lo que hago.\n\n30 de marzo\nEsta noche mi sendero está delante mia.\nA los del frente: luchad y hacedlo bien.\nSi este es el lugar donde moriréis, hacedlo defendiéndolo.\n\n6 de abril\nUna mujer, pelo color oro.\n\n9 de abril\nUn guerrero no puede vivir luchando con su mente.\n¿Qué es un hombre?\n¿Qué es el orgullo?
+13	23	Sobre el sendero del Dragón terrestre que fluye por las tierras\ndel Fuji, hay una montaña que saca espíritu. Por las noches,\nuna apagada corona de luz blanca ilumina su pico.\n\nEl señor Nobunaga, retó al cielo por el control de la tierra,\nordenó que se construyese un fuerte en la cima de esta\nmontaña sagrada. El señor Nobunaga, que había diezmado\nla provincia ninja de Iga, ahora buscaba el apoyo de un grupo\nselecto de ninjas. En aquella época de guerras, incluso los\nmás poderosos temían a las criaturas que habitaban en los\ndensos bosques del Fuji.\n\nEl señor Nobunaga sabía de un clan superior, guerreros que\nhabían luchado contra los demonios durante generaciones. Cono-\ncidos como el clan Hayabusa, estos descendientes del linaje\nDragón vivían desde hacia tiempo en el bosque, matando a los\nespíritus malignos que osaban entrar en la tierra sagrada del Fuji.\n\nAsí es como se concibió el Castillo del Dragón: una fortaleza\nimpenetrable para destruir a los malignos. El líder del clan\nHayabusa Shunden, dio la mano al señor Nobunaga y le prometió\nque lo construiría.\n\nEl castillo se construyó, una fortaleza que miraba la amenaza\nmaligna. Así documenta la historia este evento justo antes\ndel incidente en Honno-ji, donde el señor Nobunaga murió.
+13	24	Hace muchos milenios, mucho antes de la existencia de los\notros Demonios poderosos, ascendieron al poder 4 grandes\nseres. Conocidos por ser reyes y reinas de Demonios, juntos\ndividieron el inframundo en 4 secciones y cada uno gobernaba\nsu dominio.\n\nUno, el soberano llama. \nDespués, el soberano tormenta.\nEl tercero, el soberano trueno.\nY la última, la soberana sangre.
+13	25	Al final la tensión entre los 4 soberanos Demonio se convir-\ntió en una batalla cruenta. El mundo se hundió en el caos,\ncomo si el infierno hubiese caído a la Tierra.\n\nEste conflicto interno atrajo la atención de unos de los\nArchidemonios conocido como Vazdah. Lentamente,\nse despertó de su sueño profundo para observar la conmoción.\n\nLa mirada del señor Vazdah se posó en un hombre, un humano\nsolitario que cayó en picado en el abismo del Archidemonio.
+13	26	El gran filósofo Dagra Dai vagaba por la tierra devastada, \nindiferente a la destrucción que veían sus ojos. \nDeambulando mientras estaba pensando, tropezó con el fondo\nde un pozo oscuro, profundo y se encontró mirando directamente\na los malignos ojos del Archidemonio Vazdah. La horrible luz\nde su mirada quemó su frente.\n\nCuando Dagra Dai se despertó, estaba maldito con un\n3º ojo y una epifanía terrible. El filósofo humano ya no\nexistía. \n\nRenacido como Sacerdote infernal Dagra Dai, su ferocidad y\nmaldad casi igualaban la de los Archidemonios Con una fuerza\nrecién descubierta, forzó a los cuatro soberanos Demonio a\ncumplir sus órdenes.\n\nLos apodó los 4 Demonios Máximos y cogió el trono para\ngobernar sobre ellos. Así empezo la era del Sacerdote infernal.
+13	27	A principios del siglo XX, ascendió al poder un gobernante\npopularmente conocido como el Rey de la Oscuridad. Su reino\ncomenzó con una extraña serie de eventos: los herederos\nal trono fallecieron de forma sospechosa en unos años. Durante su\nreinado, el Rey de la Oscuridad mantuvo a su lado a un extraño\ngigante con su cara cubierta por un velo púrpura. La voz del gigante\nllenó la cabeza del rey, y con el tiempo, él comenzó a adorar a\nla estatua de un ser llamado "Vazdah."\n\nDurante el reinado del Rey de la Oscuridad, por el país apare-\ncieron criaturas  "Demonios" ,  que devoraban a los humanos\nque encontraban. El rey loco, sentado en su trono, estaba eufórico\nmientras veía como su país se derrumbaba. El horror terminó cuando \nel Rey de la Oscuridad y su compañero colosal fueron asesinados\npor un maestro vestido de negro. El guerrero de negro, un extranjero\nde otro país, recordado como un héroe valiente, aunque su identidad \nes un misterio perdido en los anales de la historia.\n\nDos semanas después del asesinato del Rey de la Oscuridad,\nel general llevo al ejército restante a la capital y anunció que\nforjaría un nuevo gobierno a partir de las ruinas de la ciudad.\nLos caciques aún tenían poder en las pequeñas provincias\nesparcidas por el país y pasaron varios meses antes de poder\ngobernarlos a todos, y entonces el general formó la primera\nsuperpotencia militar moderna. 
+13	28	El libro del Génesis\n\nAl principio, una gran inconsistencia fluía en la\nnada; una nada que tenía miedo de sí misma.\nUn terror puro sin colores, sonidos, ni olores,\nformó las raíces de todos los dioses y al final\nse fusionó en forma de la primera deidad, Gurdu.\nGurdu, dio a luz a todos los elementos y les proveyó\ncon orden y funciones. En una zona remota donde\nGurdu proveyó orden, existía un territorio de caos\nque se formó de los elementos sin forma. Este\ncaos, que había sido olvidado en las bendiciones\nde Gurdu, existió al principio sólo como un miedo\ninstintivo pero eventualmente el caos comenzó a\ntomar forma y dentro empezó a formarse una con-\nciencia.\nPrimero, fue una pequeña presencia envidiosa, pero\nfinalmente creció y se hizo más clara. Esto marcó\nla aparición del Odio. La naturaleza caótica del Odio\nevolucionó todavía más, convirtiéndolo en una deidad.\nAsí fue como vino al mundo el ancestro de todos los \nArchidemonios, Vigoor, y se puso en movimiento el \nprimer conflicto.
+13	29	\n\nEl libro de deidades malignas\n\nEl ancestro de los Archidemonios, Vigoor,\nempezó devorando el territorio de Gurdu, comen- \nzando por el centro. Durante interminables eclipses\nsolares y lunares, la tierra tembló, se dividió; mares\nse secaron para volver a fluir. Vientos intensos\nazotaron todo en su camino y el fuego quemó toda\nexistencia, ignorando incluso el tiempo. Por fin, Gurdu\nperdió su fuerza y el mundo volvió a hundirse en el\ncaos del que provino.\nEntonces, ocurrió un gran cambio. En medio de la agonía\nde una destrucción sin fin, el cuerpo de Gurdu se dividió\nen cuatro. Cada parte se convirtió en una deidad que\ncontrolaba Sentir, Sabiduría, Inmortalidad y Creación.\nAl final, volverían a juntarse para volver a restaurar\nla forma del mundo, pero en su estado aterrorizado\ndespués de nacer, tenían poco poder. 
+13	30	El libro de los dragones\n\nEn esta época de pandemónium, la Serpiente, la\ndeidad de Creación, fue la única que consiguió\nmantener una apariencia de cordura. La Ser-\npiente dio a luz a una pequeña presencia, algo de\nlo que ningún otro ser se diese cuenta... las semi-\nllas de la vida. Éstas se hicieron fuertes y cre-\ncieron en la tormenta del caos. Poco a poco\nevolucionaron y al final se convirtieron en 13\ndragones, cuyos destinos estaban en la batalla.\nLos dragones lucharon en una guerra infinita contra\nVigoor, que siempre intentó llevar al mundo a\nuna vorágine de destrucción. Al final los dragones \npudieron desterrar a Vigoor hasta el fin del mundo.\nSin embargo, fue en esta época cuando el dragón\nmás joven, con la posición más baja, el Oscuro, \ninvocó al Odio con sus sentimientos inferiores.\nDebido a esta traición, Vigoor evitó que le des-\ntruyeran por completo.
+13	31	\n\nEl libro de los demonios\n\nEl dragón Oscuro, lleno de malas intenciones, se\nunió a Vigoor y su progenie de deidades malignas\npara avanzar aún más en el territorio de Gurdu. Este\nconflicto continuó durante los eones de la historia, \ny enmedio de esta lucha apareció la primera chispa\nde vida humana en la forma de tribus antiguas.\nPor supuesto, los conflictos antiguos no se resuelven\ncon facilidad, e incluso en la edad de las tribus antiguas\nel linaje Dragón y los Archidemonios continuaron su\nguerra durante miles de generaciones. La lucha terminó\npor fin, cuando el linaje Dragón fue capaz de sellar\na los Archidemonios y a su progenie.\nSin embargo, durante esta época de caos todas las líneas\nde las tribus antiguas estaban mezclada y el legado de\nlos antiguos lo hemos mantenido nosotros, los Demonios.
+13	32	El libro del futuro \n\nEl país que el Archidemonio Vigoor una vez tuvo\ncomo tierra se ha convertido en esto, el país\nde Vigoor. Fue en este país también que el dragón\nOscuro cometió su  traición y donde vivían las\ntribus antiguas. Por ello, sus descendientes,\nnosotros los demonios, controlamos estos países.\nCon él como frontera, el poder de Vigoor está\nlimitado sólo a la Tierra, por ahora.\nVigoor es el Demonio de la Destrucción, y deidad\nde la historia; cuando la decadencia de este mundo\nhaya llegado a su límite, volverá como una ardiente\nllama purificadora y volverá a crear el mundo. El Caos,\ncomo una riada que llena la rivera de un gran río, volverá\na llenar este mundo una vez más y será el primer reci-\npiente de esta recompensa. La evolución ha empezado\ny siempre empezará aquí, en Vigoor.\nHan pasado cientos de años desde que el Demonio \nSupremo Gogohn estableció lo que se convertiría\nen el imperio Vigoor. Si apareciese un nuevo gue-\nrrero del linaje Dragón, el sagrado emperador será\ninfundido con el poder de los Archidemonios. Después\nde siete días de reunión de su majestad con el dragón\nOscuro, nosotros los Demonios seremos benditos con \narmonía exquisita.
+13	33	Oración al Archidemonio\nBendito seas sagrado Vigoor que nos trajiste tu progenie.\nBendito sea tu sucesor, el Archidemonio Vazdah, que está\nsobre todos, Señor de la orden.\n\nSus brazos nacieron del brazo derecho de Vigoor,\nsus piernas de la pierna izquierda de Vigoor, \ny sus huesos del cuerpo sagrado de Vigoor.\nBendita sea la mente de Vazdah, que salió de la mente de\nVigoor.\n\nEscucha los latidos de corazón que hacen eco en todo el\ninframundo.\nSomos los seguidores supremos del señor Vazdah.\nBajo la gracia terrible de los Archidemonios, encontraremos la\nfelicidad real.\n\nA los que viven sin estar vivos, reuníos en la\nsagrada guarida del Archidemonio, esculpida por el \nDemonio Máximo Gogohn.\nRezamos por el retorno de la tierra sagrada de Vigoor, que\ngobernó Gogohn, errante por la Tierra.\nSigue hasta la cima de la montaña ardiente en la\ntierra donde se alza el sol.\n\nEn este templo, lugar de descanso de Gogohn, traemos los\ncuerpos sacrificados inocentes.\nReúnelos a los pies de la hermosa reina Sangre. Devolvemos\nel evangelio del Archidemonio aquí a su sitio, a\nNecromantale, donde pertenece.\n\nArchidemonio Vazdah, sal de tu sueño profundo.\nQue la princesa Goghn, virgen del santuario, nos guíe.\nNos reunimos aquí en Necromantale, dispuestos a derramar\nla sangre de inocentes.\nAunque pasen milenios, nuestras plegarías nunca\ncesarán.
+13	34	El libro del Génesis\n\nAl principio, una gran inconsistencia fluía en la\nnada; una nada que tenía miedo de sí misma.\nUn terror puro sin colores, sonidos, ni olores,\nformó las raíces de todos los dioses y al final\nse fusionó en forma de la primera deidad, Gurdu.\nGurdu, dio a luz a todos los elementos y les proveyó\ncon orden y funciones. En una zona remota donde\nGurdu proveyó orden, existía un territorio de caos\nque se formó de los elementos sin forma. Este\ncaos, que había sido olvidado en las bendiciones\nde Gurdu, existió al principio sólo como un miedo\ninstintivo pero eventualmente el caos comenzó a\ntomar forma y dentro empezó a formarse una con-\nciencia.\nPrimero, fue una pequeña presencia envidiosa, pero\nfinalmente creció y se hizo más clara. Esto marcó\nla aparición del Odio. La naturaleza caótica del Odio\nevolucionó todavía más, convirtiéndolo en una deidad.\nAsí fue como vino al mundo el ancestro de todos los \nArchidemonios, Vigoor, y se puso en movimiento el \nprimer conflicto.\n\n\nEl libro de deidades malignas\n\nEl ancestro de los Archidemonios, Vigoor,\nempezó devorando el territorio de Gurdu, comen- \nzando por el centro. Durante interminables eclipses\nsolares y lunares, la tierra tembló, se dividió; mares\nse secaron para volver a fluir. Vientos intensos\nazotaron todo en su camino y el fuego quemó toda\nexistencia, ignorando incluso el tiempo. Por fin, Gurdu\nperdió su fuerza y el mundo volvió a hundirse en el\ncaos del que provino.\nEntonces, ocurrió un gran cambio. En medio de la agonía\nde una destrucción sin fin, el cuerpo de Gurdu se dividió\nen cuatro. Cada parte se convirtió en una deidad que\ncontrolaba Sentir, Sabiduría, Inmortalidad y Creación.\nAl final, volverían a juntarse para volver a restaurar\nla forma del mundo, pero en su estado aterrorizado\ndespués de nacer, tenían poco poder. \nEl libro de los dragones\n\nEn esta época de pandemónium, la Serpiente, la\ndeidad de Creación, fue la única que consiguió\nmantener una apariencia de cordura. La Ser-\npiente dio a luz a una pequeña presencia, algo de\nlo que ningún otro ser se diese cuenta... las semi-\nllas de la vida. Éstas se hicieron fuertes y cre-\ncieron en la tormenta del caos. Poco a poco\nevolucionaron y al final se convirtieron en 13\ndragones, cuyos destinos estaban en la batalla.\nLos dragones lucharon en una guerra infinita contra\nVigoor, que siempre intentó llevar al mundo a\nuna vorágine de destrucción. Al final los dragones \npudieron desterrar a Vigoor hasta el fin del mundo.\nSin embargo, fue en esta época cuando el dragón\nmás joven, con la posición más baja, el Oscuro, \ninvocó al Odio con sus sentimientos inferiores.\nDebido a esta traición, Vigoor evitó que le des-\ntruyeran por completo.\n\n\nEl libro de los demonios\n\nEl dragón Oscuro, lleno de malas intenciones, se\nunió a Vigoor y su progenie de deidades malignas\npara avanzar aún más en el territorio de Gurdu. Este\nconflicto continuó durante los eones de la historia, \ny enmedio de esta lucha apareció la primera chispa\nde vida humana en la forma de tribus antiguas.\nPor supuesto, los conflictos antiguos no se resuelven\ncon facilidad, e incluso en la edad de las tribus antiguas\nel linaje Dragón y los Archidemonios continuaron su\nguerra durante miles de generaciones. La lucha terminó\npor fin, cuando el linaje Dragón fue capaz de sellar\na los Archidemonios y a su progenie.\nSin embargo, durante esta época de caos todas las líneas\nde las tribus antiguas estaban mezclada y el legado de\nlos antiguos lo hemos mantenido nosotros, los Demonios.\nEl libro del futuro \n\nEl país que el Archidemonio Vigoor una vez tuvo\ncomo tierra se ha convertido en esto, el país\nde Vigoor. Fue en este país también que el dragón\nOscuro cometió su  traición y donde vivían las\ntribus antiguas. Por ello, sus descendientes,\nnosotros los demonios, controlamos estos países.\nCon él como frontera, el poder de Vigoor está\nlimitado sólo a la Tierra, por ahora.\nVigoor es el Demonio de la Destrucción, y deidad\nde la historia; cuando la decadencia de este mundo\nhaya llegado a su límite, volverá como una ardiente\nllama purificadora y volverá a crear el mundo. El Caos,\ncomo una riada que llena la rivera de un gran río, volverá\na llenar este mundo una vez más y será el primer reci-\npiente de esta recompensa. La evolución ha empezado\ny siempre empezará aquí, en Vigoor.\nHan pasado cientos de años desde que el Demonio \nSupremo Gogohn estableció lo que se convertiría\nen el imperio Vigoor. Si apareciese un nuevo gue-\nrrero del linaje Dragón, el sagrado emperador será\ninfundido con el poder de los Archidemonios. Después\nde siete días de reunión de su majestad con el dragón\nOscuro, nosotros los Demonios seremos benditos con \narmonía exquisita.\n
+13	35	Cuaderno: \nTécnica definitiva
+13	36	Cuaderno: \nTécnica de la obliteración
+13	37	Cuaderno: \nPisadas sin sombra
+13	38	Cuaderno: Viento violento
+13	39	Cuaderno: Ave voladora
+13	40	Cuaderno: \nGolondrina voladora
+13	41	Cuaderno: Viento invertido
+13	42	Cuaderno: Contraataque
+13	43	Cuaderno: \nAscenso inigualable
+13	44	Cuaderno: \nAscenso inigualable
+13	45	Cuaderno: Contraataque
+13	46	Cuaderno: Senda invisible
+13	47	Cuaderno: Guía final
+13	48	Cuaderno de Yogenta
+13	49	Cuaderno de Hachijuro
+13	50	Cuaderno de Inukoma
+13	51	Cuaderno de Izo
+13	52	Cuaderno de Koshimaru (1)
+13	53	Cuaderno de Koshimaru (2)
+13	54	Cuaderno de Denji
+13	55	Cuaderno de Hinomaru
+13	56	Historia del \nCastillo del Dragón
+13	57	Los cuatro Demonios \nMáximos, 1ª parte
+13	58	Los cuatro Demonios \nMáximos, 2ª parte
+13	59	Los cuatro Demonios \nMáximos, 3ª parte
+13	60	El gobierno del \nRey de la Oscuridad
+13	61	La mitología vigooriana
+13	62	La mitología vigooriana
+13	63	La mitología vigooriana
+13	64	La mitología vigooriana
+13	65	La mitología vigooriana
+13	66	Oración del Necromantale
+13	67	La mitología vigooriana
+14	0	Se ha obtenido @[arg:1].
+14	1	No puedes llevar más de este objeto.
+14	2	Se ha usado @[arg:1].
+14	3	¿Quieres empezar la prueba de valor?
+14	4	La puerta está cerrada.
+14	5	La puerta está cerrada. Cerca del ojo de la cerradura, hay visible un símbolo [arg:1].
+14	6	Has obtenido una llave.
+14	7	Has obtenido una llave. Está decorada con el símbolo [arg:1].
+14	8	Parece ser móvil.
+14	9	Ya está muerto...
+14	10	Alguien ha profanado la estatua sagrada.
+14	11	¿Quieres empujar [arg:1]?
+14	12	el interruptor
+14	13	el botón
+14	14	la cubierta
+14	15	La puerta está cerrada firmemente.
+15	0	Selecciona el arma que quieres reforzar.
+15	1	Selecciona el objeto que quieres comprar.
+15	2	@[pad:Rl]@[pad:Decide]Confirmar@[pad:Cancel]Salir
+15	3	Herrero
+15	4	Comprar
+15	5	Seleccionar
+15	6	Tienda
+15	7	Aumentar de nivel
+15	8	No tienes bastante esencia amarilla.
+15	9	Este objeto ya está vendido.
+15	10	No puedes llevar más de este objeto.
+15	11	Este arma ya no se puede reforzar más.
+15	12	Este arma no se puede reforzar más en este momento.
+15	13	Puedes reforzar tus armas en la herrería.\n@[pad:R2]@[pad:Ru]Cambiar de pantalla
+15	14	¡Vaya, Ryu! ¡Has encontrado una calavera de cristal!\nLas he buscado por todos lados.\n¡Cuántas más me traigas, más descuento te haré!
+15	15	He recogido los materiales para una mejora.\nEsto te permitirá dominar un arma.\nSólo lo puedes usar una vez en un arma determinada.
+15	16	¡Sólo puedes mejorar un arma a la vez!
+15	17	@[pad:Decide]Saltar
+15	18	Mejorar armas desbloquea nuevas técnicas.\nPero solo puedo mejorar un arma cada vez.\nEstos viejos huesos ya no son tan rápidos.
+16	0	Tiempo
+16	1	Selecciona un modo de misión en equipo.
+16	2	Modo de misión normal.
+16	3	Los personajes resucitan automáticamente.
+16	4	Juega a una velocidad 1,5 veces más rápida de lo normal.
+16	5	Armas
+16	6	Ninpo
+16	7	Trajes
+16	8	Por favor elige a un personaje.
+16	9	Por favor elige cada personaje.
+16	10	Pulsa @[pad:Cancel] para cancelar la búsqueda
+16	11	No se ha encontrado compañero.
+16	12	Jugar con cualquiera
+16	13	Invitar solo
+16	14	Jugar solo
+16	15	¿Deseas jugar una partida cooperativa?
+16	16	Nivel de dificultad
+16	17	País y región
+16	18	Sólo mi país y región
+16	19	Todos
+16	20	Todos
+16	21	Especifica criterios de búsqueda.
+16	22	Buscar un compañero.
+16	23	Buscando un compañero.
+16	24	Selecciona un compañero.
+16	25	ID online
+16	26	Nivel de dificultad
+16	27	Misiones
+16	28	País y región
+16	29	Conexión
+16	30	Nivel de dificultad
+16	31	País y región
+16	32	Estado de la conexión
+16	33	Chat de voz
+16	34	Óptima
+16	35	Buena
+16	36	Mala
+16	37	Habilitado
+16	38	Inhabilitado
+16	39	¿Quieres volver a jugar la misión?
+16	40	Sí
+16	41	No
+16	42	Seleccionando un compañero.
+16	43	¡Seamos ninjas!
+16	44	Imposible unir a la sala.
+16	45	Esperando petición de juego en equipo.
+16	46	Petición de juego en equipo rechazada.
+16	47	Petición de juego en equipo recibida de %s.\nPulse @[pad:Select] para responder.
+16	48	¿Desea jugar en equipo con \n%s?
+16	49	Jugar en equipo.
+16	50	Rechazar petición
+16	51	Petición de juego en equipo cancelada.
+16	52	Tu compañero está subiendo datos.
+16	53	Tu compañero está guardando.
+16	54	Tu compañero está eligiendo.
+16	55	De\n%s
+16	56	El chat está deshabilitado en tu cuenta de PlayStation®Network a causa de las restricciones de esta.
+16	57	Busca y destruye a los ninja Araña negra!
+16	58	Elimina a los equipos tácticos ninja!
+16	59	Elimina a los ninja Araña negra \ndel Castillo del Dragón!
+16	60	Destruye a los demonios del inframundo!
+16	61	Elimina a los hombres lobo!
+16	62	Limpia la ciudad del agua de demonios!
+16	63	Encuentra y destruye a todos los enemigos \nde la fortaleza voladora!
+16	64	Elimina a todos los equipos tácticos ninja!
+16	65	Elimina a todos los ninja Araña negra!
+16	66	Encuentra y destruye a todos los demonios \nentre las ruinas!
+16	67	Destruye la estatua gigante \nen Tokio!
+16	68	Machaca a la estatua gigante!
+16	69	Destruye al demonio gigante en el Coliseo!
+16	70	Destruye al Demonio Máximo del Rayo!
+16	71	Elimina al Demonio Máximo de la Sangre!
+16	72	Destruye al dragón en el campo helado!
+16	73	Extermina a los demonios \nentre los rascacielos!
+16	74	Destruye al Demonio Máximo alado!
+16	75	Elimina al malvado ninja \nde la ciudad del agua!
+16	76	Destruye al demonio Araña negra!
+16	77	Elimina a todos los ninja Araña negra!
+16	78	Extermina a todos los equipos tácticos ninja!
+16	79	Extermina a los demonios de la ciudad!
+16	80	Elimina al malvado ninja caído, Genshin!
+16	81	Destruye al par de demonios gigantes!
+16	82	Elimina a todos los demonios del Coliseo!
+16	83	Destruye a los dragones voladores \nen el cañon!
+16	84	Destruye a todos los Demonios Máximos!
+16	85	Vence a 100 demonios!
+16	86	Elimina a todos los demonios \nen la tierra y el cielo!
+16	87	Vence a los 4 Demonios Máximos!
+16	88	Extermina al clan ninja Araña negra!
+16	89	Machaca las estatuas gigantes!
+16	90	Vence al misterioso Maestro ninja!
+16	91	Destruye al misterioso Maestro ninja!
+16	92	Conexión con el servidor perdida.
+16	93	Conexión con el compañero perdida.
+16	94	Actualmente jugando con otro jugador.
+16	95	Tu compañero se ha desconectado.
+16	96	Conexión con el compañero perdida.\nDeseas continuar jugando con un NPC?
+16	97	Sí
+16	98	No
+16	99	Si te desconectas durante el juego, saldrás\ndel juego y volverás a la pantalla de título.
+16	100	Para utilizar las funciones online, debes\nvolver a la pantalla de título.
+16	101	Tu compañero está eligiendo una misión…
+16	102	No puedes usar los servicios online debido a la configuración parental de tu cuenta de PlayStation®Network.
+16	103	Un error inesperado ha ocurrido.
+16	104	No tiene permiso para entrar en esta sala.
+16	105	Cancelado.
+16	106	Desconectado.
+16	107	No hay sala disponible.
+16	108	La sala está llena.
+16	109	Tu compañero no está listo aun.
+16	110	Por favor espere...
+16	111	Esperando a tu compañero...
+16	112	Tu compañero está comprobando los resultados...
+16	113	Tu invitación ha sido rechazada.
+16	114	%s no se unió.
+16	115	El jugador no se unió.
+16	116	%s acaba de unirse a la partida.
+16	117	%s abandonó la partida.
+16	118	Imposible unirse
+17	0	Capítulo anterior
+17	1	Capítulo siguiente
+17	2	Selecciona el capítulo para jugar.
+17	3	Selecciona nivel de dificultad.
+17	4	Nivel de dificultad
+17	5	Rango de jugador
+17	6	Karma
+17	7	Rango
+17	8	Partida guardada
+17	9	Ninguna
+17	10	¿Seguir desde el último punto de guardado?
+17	11	Maestro ninja
+17	12	Adepto
+17	13	Mentor
+17	14	Acólito
+17	15	Principiante
+17	16	Por favor elige un traje.
+18	0	Página anterior
+18	1	Página siguiente
+18	2	Capítulo
+18	3	Enemigos obliterados
+18	4	Técnicas finales con éxito
+18	5	Número de Saltos Izuna
+18	6	Número de Caídas de Guillotina
+18	7	Combo máximo
+18	8	Número de rescates
+18	9	Infierno
+18	10	Cuchillas giratorias
+18	11	Fénix en llamas
+18	12	Vacío penetrante
+18	13	Dios de la montaña furioso
+18	14	Loto carmesí
+18	15	Afrodita furiosa
+18	16	Combos Ninpo
+18	17	Enemigos vencidos
+18	18	Espada del Dragón
+18	19	Báculo Lunar
+18	20	Garras del halcón
+18	21	Garra del Dragón y Colmillo del Tigre
+18	22	Kusari-gama
+18	23	Guadaña del Eclipse
+18	24	Tonfa
+18	25	Cuchillas gemelas vigoorianas
+18	26	Colmillo de Enma
+18	27	Ayane
+18	28	Momiji
+18	29	Rachel
+18	30	Total
+18	31	Nivel de dificultad
+18	32	Nombre de la misión
+18	33	Karma máximo y compañero
+18	34	Récord
+18	35	Completado
+18	36	Rango del jugador
+18	37	Karma más alto
+18	38	Tiempo más rápido
+18	39	Principiante
+18	40	Acólito
+18	41	Mentor
+18	42	Adepto
+18	43	Maestro ninja
+18	44	Flechas disparadas
+18	45	Flechas certeras
+18	46	Shuriken lanzados
+18	47	Shuriken certeros
+18	48	Sprint más largo sobre agua
+18	49	Enemigos suicidas
+18	50	Visitas a la tienda de Muramasa
+18	51	???
+18	52	misiones
+18	53	Seleccione el video que desea ver.
+18	54	ID online
+18	55	Personaje
+18	56	Último visto
+18	57	@[pad:Rl]Otros
+18	58	@[pad:Rl]Amigos
+18	59	Descargar Vídeo Ninja Cinema?
+18	60	Descargando...
+18	61	Descarga completa.\nPuede ver el video en el NINJA\nCINEMA
+18	62	Verdadera Espada del Dragón
+18	63	Cuchilla del Archidemonio
+18	64	Fallo descargando las PUNTUACIONES NINJA.
+18	65	No se puede encontrar las PUNTUACIONES NINJA.
+18	66	Se está tardando demasiado tiempo en obtener datos. Inténtalo más tarde.

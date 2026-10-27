@@ -1,0 +1,17 @@
+{
+  "instance_vptr": {
+    "address": "0x141e66d00",
+    "bytes": "18 95 8f 41 01 00 00 00",
+    "value": "0x1418f9518"
+  },
+  "global_instance_pointer": {
+    "address": "0x141e66e60",
+    "bytes": "00 6d e6 41 01 00 00 00",
+    "value": "0x141e66d00"
+  },
+  "instance_status": {
+    "address": "0x141e66e58",
+    "bytes": "01",
+    "value": "0x1"
+  }
+}

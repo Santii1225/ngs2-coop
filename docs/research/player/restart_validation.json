@@ -1,0 +1,127 @@
+{
+  "validation": "PLAYER RESTART VALIDATION",
+  "generated": "2026-09-06",
+  "previous_session": {
+    "pid": 12404,
+    "example_object_addr": "0x143197100"
+  },
+  "current_session": {
+    "pid": 16942,
+    "module_base": "0x140000000",
+    "core_base": "0x6ffff9830000",
+    "aslr_delta": "0x0",
+    "hook_slot_va": "0x1418f9518",
+    "hook_slot_value": "0x6ffff98316f2",
+    "hook_expected": "core_base + 0x16f2",
+    "hook_continuity": "PASS",
+    "exe_sha256": "a66daf011d22dd6fd6676e0b8ccc68e85448d4570bbac635e25adc1f2d06ffef",
+    "core_sha256": "ca2849b56c3543351f8a56556e80424cc42cdd685ac8a962543384f726e1db1d"
+  },
+  "resolver_chain": {
+    "root_rva": "0x3195300",
+    "root_address": "0x143195300",
+    "root_note": "module_base + 0x3195300  (game_object table, legacy stride 0x30)",
+    "step1": "obj = u64[root + 0*0x30]        -> 0x143197100",
+    "step2": "group = u8[root + 0*0x30 + 0x1F] -> 0",
+    "step3": "pos  = f32x3[obj + 0x2B0]",
+    "corroboration": "f32x3[module_base + 0x2F78B10 + group*0x1240 + 0x310]",
+    "object_address": "0x143197100",
+    "object_rva": "0x3197100",
+    "object_class": "IMAGE-RELATIVE (inside EXE image body 0x141c4b000-0x146e94000, RVA < SizeOfImage 0x72ce000). NOT heap.",
+    "position_triple_addr": "0x1431973b0",
+    "corroboration_addr": "0x142f78e20",
+    "position_offsets": [
+      "+0x2B0",
+      "+0x2B4",
+      "+0x2B8"
+    ]
+  },
+  "readings": {
+    "RESTART_IDLE": {
+      "captured": "2026-09-06T19:04:15-06:00",
+      "note": "user reported idle but X/Z drifted; Y pinned ~5.2200",
+      "snapshot_s0": [
+        70.39479064941406,
+        5.21999979019165,
+        -123.64601135253906
+      ],
+      "snapshot_s1": [
+        69.55887603759766,
+        5.220000743865967,
+        -124.53655242919922
+      ],
+      "probe_x_range": [
+        59.59413146972656,
+        60.38707733154297
+      ],
+      "probe_y_range": [
+        5.219999313354492,
+        5.220000267028809
+      ],
+      "probe_z_range": [
+        -96.3119125366211,
+        -94.55998229980469
+      ],
+      "stability": "NOT CLEAN (user not fully still)"
+    },
+    "RESTART_MOVED": {
+      "captured": "2026-09-06T19:09:08-06:00",
+      "value": [
+        74.63035583496094,
+        5.219999313354492,
+        -135.9777069091797
+      ],
+      "snapshot_s0_eq_s1": true,
+      "probe_8_samples_over_7s": "bit-identical on all 3 axes",
+      "object_eq_character": "exact on all 10 reads",
+      "stability": "CLEAN"
+    }
+  },
+  "movement": {
+    "delta_idleS0_to_moved": [
+      4.235565185546875,
+      -4.76837158203125e-07,
+      -12.331695556640625
+    ],
+    "horizontal_magnitude": 13.039,
+    "dY": 0.0,
+    "interpretation": "coherent single-direction horizontal move on flat ground; Y constant, consistent with A/B/C within-floor moves"
+  },
+  "abc_reference": {
+    "A": [
+      65.14528656,
+      5.21999979,
+      -109.88428497
+    ],
+    "B": [
+      81.99269867,
+      6.41679859,
+      -92.92471313
+    ],
+    "C": [
+      109.80220032,
+      7.99999952,
+      -138.06065369
+    ],
+    "note": "RESTART Y (5.2200) matches A ground-plane Y to ~4 decimals; same object+0x2B0 / character+0x310 coincident pair; same offsets"
+  },
+  "criteria": {
+    "different_pid": "YES (16942 != 12404)",
+    "heap_addr_rediscovered": "N/A - chain is module-relative, object is inside EXE image, not heap",
+    "no_reuse_of_0x143197100": "YES - rediscovered from static root, not reused",
+    "resolver_from_stable_module_relative_state": "YES (module_base + 0x3195300)",
+    "object_found_automatically": "YES",
+    "plausible_float3": "YES",
+    "idle_stability": "YES in a genuinely stable window (RESTART_MOVED); RESTART_IDLE drift not attributed to a single cause (input / gameplay / enemies / knockback / fall / physics)",
+    "coherent_movement_change": "YES",
+    "consistent_with_abc": "YES"
+  },
+  "verdict": {
+    "player_resolver": "RUNTIME VERIFIED",
+    "position_float3": "RUNTIME VERIFIED (position-linked float3; stable at rest, moves with player, corroborated across 2 tables and 2 processes)",
+    "xyz_axis_semantics": "CANDIDATE (component 1 = vertical confirmed via session C; components 0/2 horizontal but individual axis label / handedness not isolated)",
+    "generality": "CANDIDATE (only entry 0 / group 0 / Ryu solo / this mission; not generalized to other characters, missions, or Team Missions)",
+    "confidence": "MEDIUM-HIGH"
+  },
+  "idle_stability_note": "RESTART_IDLE drift is NOT attributable to a single cause: it could come from user input, external gameplay, enemies, knockback, a fall, or environment physics (LOCAL_PLAYER_IDLE != GAME_WORLD_IDLE). Position was demonstrated by the genuinely stable windows (RESTART_MOVED, later OTHER_MISSION on firm ground). Criterion formalized in Phase 8 as LOCAL_PLAYER_STABLE."
+}

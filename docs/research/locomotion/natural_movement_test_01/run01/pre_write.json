@@ -1,0 +1,97 @@
+{
+  "stage": "pre_write",
+  "phase": "16 NATURAL_MOVEMENT_TEST_01",
+  "captured": "2026-09-07T19:56:40.401049-06:00",
+  "pid": 14042,
+  "starttime": "108576",
+  "module_base": "0x140000000",
+  "core_base": "0x6ffff9830000",
+  "slot_value": "0x6ffff98316f2",
+  "object": "0x143197100",
+  "object_rva": "0x3197100",
+  "obj_id": 0,
+  "group": 0,
+  "raw_addr": "0x14319bc90",
+  "cmd5000_addr": "0x14319c100",
+  "canon_addr": "0x14319bc80",
+  "obs_addr": "0x1431973b0",
+  "vel_addr": "0x14319bcc0",
+  "char_base": "0x142f78b10",
+  "char_class": 0,
+  "char_dir_addr": "0x142f78b40",
+  "char_state_addr": "0x142f78b14",
+  "gate_5b56": 1,
+  "idle_raw_4b90": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "idle_raw_4b90_bytes": "00000000000000000000000000000000",
+  "idle_cmd_5000": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "idle_char_dir_30": [
+    -2.802596928649634e-45,
+    2.802596928649634e-45,
+    2.802596928649634e-45,
+    2.802596928649634e-45
+  ],
+  "idle_char_state_04": 0,
+  "char_fa0": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orig_canon_xyz": [
+    -106.01631164550781,
+    4.287815045245225e-06,
+    24.105234146118164
+  ],
+  "obs_xyz": [
+    -106.01631164550781,
+    4.287815045245225e-06,
+    24.105234146118164
+  ],
+  "chain_dist": 0.0,
+  "corrob": [
+    -106.01631164550781,
+    4.287815045245225e-06,
+    24.105234146118164
+  ],
+  "stable": {
+    "h_range": 0.0,
+    "v_range": 0.0,
+    "first_last_h": 0.0,
+    "first_last_v": 0.0,
+    "vel_max": 0.0,
+    "x_first": -106.01631164550781,
+    "x_last": -106.01631164550781,
+    "z_first": 24.105234146118164,
+    "z_last": 24.105234146118164,
+    "y": 4.287815045245225e-06
+  },
+  "captured_command": [
+    -0.0689832866191864,
+    0.000631876930128783,
+    -0.0010778214782476425,
+    1.0
+  ],
+  "captured_command_bytes": "1c478dbd8ba4253ab0458dba0000803f",
+  "captured_from": {
+    "file": "docs/research/locomotion/natural_movement_test_01/capture_fwd2/capture.json",
+    "sample_i": 1691,
+    "sample_t": 28.1834,
+    "sample_state": 38,
+    "vel_mag": 0.7695067524909973
+  },
+  "backup_matches_memory": true,
+  "inject_max_s": 2.0,
+  "write_interval_s": 0.008,
+  "ai_partner_selected": false,
+  "gates": "ALL PASS"
+}

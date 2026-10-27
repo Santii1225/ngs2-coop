@@ -1,0 +1,69 @@
+{
+  "captured": "2026-09-06T18:23:14.042566-06:00",
+  "user_confirmation": "JUEGO CERRADO NORMALMENTE",
+  "previous_pid": 8894,
+  "previous_pid_exists": false,
+  "active_game_processes": [],
+  "core_log_size": 460,
+  "core_log_sha256": "c813689df355ad0565b41d97b4f8dffa365f1ad77c05d9b0721831199fc4a257",
+  "core_log_unchanged": true,
+  "proton_size": 970161,
+  "proton_sha256": "8102d3d912cd2a1d81fb466facd83595531b151468ac9c9d50071216bc0735bf",
+  "new_matching_lines": 13,
+  "installed_files": [
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/core.dll",
+      "sha256": "ca2849b56c3543351f8a56556e80424cc42cdd685ac8a962543384f726e1db1d",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/libgcc_s_seh-1.dll",
+      "sha256": "6d4d1e8b48a06a591cf60599ec6e3dd2ba31e0bf5e81dd198ed25cfea9a86117",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/libstdc++-6.dll",
+      "sha256": "055d42d37df160bc1d2bae503363fc49b64becb495b32f2efb6de50c3411f466",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/libwinpthread-1.dll",
+      "sha256": "9230fabfb5b5909d6f223327d2ac72cf17e161dfe51e9c7537517ae61a05e62e",
+      "matches": true
+    }
+  ],
+  "historical_files": [
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/NINJA GAIDEN SIGMA2.exe",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/dbghelp.dll",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/steam_api64.dll",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/NGS2Coop.dll",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmcombat.dll",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmeffect.dll",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmloader.dll",
+      "matches": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/nmsteam-bugfixes.dll",
+      "matches": true
+    }
+  ]
+}

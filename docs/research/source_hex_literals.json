@@ -1,0 +1,2330 @@
+[
+  {
+    "source": "src/combat/main.cpp",
+    "line": 51,
+    "literal": "0x1829080",
+    "context": "patch_story = new Patch {0x1829080, arr};"
+  },
+  {
+    "source": "src/combat/main.cpp",
+    "line": 53,
+    "literal": "0x1829110",
+    "context": "patch_challenge = new Patch {0x1829110, arr};"
+  },
+  {
+    "source": "src/combat/main.cpp",
+    "line": 57,
+    "literal": "0x1e26440",
+    "context": "//*reinterpret_cast <float *> (base_of_image + 0x1e26440 + 4) = 1;"
+  },
+  {
+    "source": "src/combat/main.cpp",
+    "line": 60,
+    "literal": "0x1e26440",
+    "context": "//*reinterpret_cast <float *> (base_of_image + 0x1e26440 + 8) = 1;"
+  },
+  {
+    "source": "src/combat/main.cpp",
+    "line": 64,
+    "literal": "0x0f4bfcd",
+    "context": "patch2 = new Patch {0x0f4bfcd, uint8_t {0x77}};"
+  },
+  {
+    "source": "src/combat/main.cpp",
+    "line": 64,
+    "literal": "0x77",
+    "context": "patch2 = new Patch {0x0f4bfcd, uint8_t {0x77}};"
+  },
+  {
+    "source": "src/combat/main.cpp",
+    "line": 65,
+    "literal": "0x0f73607",
+    "context": "patch3 = new Patch {0x0f73607 + 1, uint8_t {0x87}};"
+  },
+  {
+    "source": "src/combat/main.cpp",
+    "line": 65,
+    "literal": "0x87",
+    "context": "patch3 = new Patch {0x0f73607 + 1, uint8_t {0x87}};"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 86,
+    "literal": "0x4d",
+    "context": "constexpr auto XOR_R8_NOP4 = make_bytes (0x4d, 0x31, 0xc0,  0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 86,
+    "literal": "0x31",
+    "context": "constexpr auto XOR_R8_NOP4 = make_bytes (0x4d, 0x31, 0xc0,  0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 86,
+    "literal": "0xc0",
+    "context": "constexpr auto XOR_R8_NOP4 = make_bytes (0x4d, 0x31, 0xc0,  0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 86,
+    "literal": "0x0f",
+    "context": "constexpr auto XOR_R8_NOP4 = make_bytes (0x4d, 0x31, 0xc0,  0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 86,
+    "literal": "0x1f",
+    "context": "constexpr auto XOR_R8_NOP4 = make_bytes (0x4d, 0x31, 0xc0,  0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 86,
+    "literal": "0x40",
+    "context": "constexpr auto XOR_R8_NOP4 = make_bytes (0x4d, 0x31, 0xc0,  0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 86,
+    "literal": "0x00",
+    "context": "constexpr auto XOR_R8_NOP4 = make_bytes (0x4d, 0x31, 0xc0,  0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 87,
+    "literal": "0xb5c460",
+    "context": "check_dlls_hook = new SimpleInlineHook {0xb5c460, check_dlls};"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 88,
+    "literal": "0x1340d3b",
+    "context": "patch1 = new Patch {0x1340d3b, XOR_R8_NOP4};"
+  },
+  {
+    "source": "src/core/main.cpp",
+    "line": 89,
+    "literal": "0x1462a00",
+    "context": "Sigma2_vfunction1_hook = new VFPHook {0x1462a00, Sigma2_vfunction1};"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 19,
+    "literal": "0x0",
+    "context": "uintptr_t data_ptr0x0;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 20,
+    "literal": "0x8",
+    "context": "uintptr_t data_ptr0x8;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 21,
+    "literal": "0x10",
+    "context": "uintptr_t data_ptr0x10;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 23,
+    "literal": "0x19",
+    "context": "uint8_t data0x19;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 24,
+    "literal": "0x1a",
+    "context": "uint8_t data0x1a;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 25,
+    "literal": "0x1b",
+    "context": "uint8_t data0x1b;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 26,
+    "literal": "0x1c",
+    "context": "uint8_t data0x1c;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 27,
+    "literal": "0x1d",
+    "context": "uint8_t data0x1d;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 28,
+    "literal": "0x1e",
+    "context": "uint8_t data0x1e;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 43,
+    "literal": "0x38",
+    "context": "uintptr_t ptr0x38;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 44,
+    "literal": "0x40",
+    "context": "uintptr_t ptr0x40;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 45,
+    "literal": "0x48",
+    "context": "uintptr_t data0x48;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 48,
+    "literal": "0x52",
+    "context": "uint16_t data0x52;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 49,
+    "literal": "0x54",
+    "context": "uint32_t data0x54;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 50,
+    "literal": "0x58",
+    "context": "uintptr_t data0x58;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 51,
+    "literal": "0x60",
+    "context": "uint64_t data0x60;"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 76,
+    "literal": "0x0",
+    "context": "auto n = reinterpret_cast <struct node_layer **> (obj.data_ptr0x0 + offsets[48][obj.data0x1a])[nodeobj_idx];"
+  },
+  {
+    "source": "src/effect/dismember.hpp",
+    "line": 76,
+    "literal": "0x1a",
+    "context": "auto n = reinterpret_cast <struct node_layer **> (obj.data_ptr0x0 + offsets[48][obj.data0x1a])[nodeobj_idx];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 29,
+    "literal": "0x0",
+    "context": "uintptr_t data_ptr0x0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 30,
+    "literal": "0x8",
+    "context": "uintptr_t data_ptr0x8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 31,
+    "literal": "0x10",
+    "context": "uintptr_t data_ptr0x10;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 33,
+    "literal": "0x19",
+    "context": "uint8_t data0x19;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 34,
+    "literal": "0x1a",
+    "context": "uint8_t data0x1a;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 35,
+    "literal": "0x1b",
+    "context": "uint8_t data0x1b;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 36,
+    "literal": "0x1c",
+    "context": "uint8_t data0x1c;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 38,
+    "literal": "0x1e",
+    "context": "uint8_t data0x1e;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 40,
+    "literal": "0x20",
+    "context": "uint8_t data0x20[0x10];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 40,
+    "literal": "0x10",
+    "context": "uint8_t data0x20[0x10];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 57,
+    "literal": "0x0",
+    "context": "uint8_t data0x0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 58,
+    "literal": "0x8",
+    "context": "alignas (8) uintptr_t ptr0x8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 59,
+    "literal": "0x10",
+    "context": "uintptr_t ptr0x10;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 60,
+    "literal": "0x100",
+    "context": "} corpse_obj_data[0x100];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 67,
+    "literal": "0x1824",
+    "context": "uint32_t padding0x1824;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 72,
+    "literal": "0x0",
+    "context": "uint16_t data0x0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 73,
+    "literal": "0x2",
+    "context": "uint16_t data0x2;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 74,
+    "literal": "0x8",
+    "context": "float data0x8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 75,
+    "literal": "0xc",
+    "context": "float data0xc;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 76,
+    "literal": "0x10",
+    "context": "float data0x10;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 77,
+    "literal": "0x14",
+    "context": "uint32_t data0x14;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 78,
+    "literal": "0x18",
+    "context": "uint8_t data0x18[0x188][0x30];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 78,
+    "literal": "0x188",
+    "context": "uint8_t data0x18[0x188][0x30];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 78,
+    "literal": "0x30",
+    "context": "uint8_t data0x18[0x188][0x30];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 79,
+    "literal": "0x4998",
+    "context": "float *data0x4998[5];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 80,
+    "literal": "0x49b8",
+    "context": "//uint64_t padding0x49b8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 81,
+    "literal": "0x49c0",
+    "context": "float data0x49c0[3][0x20c];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 81,
+    "literal": "0x20c",
+    "context": "float data0x49c0[3][0x20c];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 82,
+    "literal": "0x6250",
+    "context": "int8_t data0x6250[0x4b0];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 82,
+    "literal": "0x4b0",
+    "context": "int8_t data0x6250[0x4b0];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 83,
+    "literal": "0x6700",
+    "context": "int8_t data0x6700;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 84,
+    "literal": "0x6701",
+    "context": "int8_t data0x6701;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 85,
+    "literal": "0x6702",
+    "context": "int8_t padding0x6702[0xe];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 85,
+    "literal": "0xe",
+    "context": "int8_t padding0x6702[0xe];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 88,
+    "literal": "0xa0",
+    "context": "struct game_model game_model_data_manager[0xa0];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 96,
+    "literal": "0x0f",
+    "context": "constexpr auto NOP3 = make_bytes (0x0f, 0x1f, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 96,
+    "literal": "0x1f",
+    "context": "constexpr auto NOP3 = make_bytes (0x0f, 0x1f, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 96,
+    "literal": "0x00",
+    "context": "constexpr auto NOP3 = make_bytes (0x0f, 0x1f, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 97,
+    "literal": "0x0f",
+    "context": "constexpr auto NOP4 = make_bytes (0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 97,
+    "literal": "0x1f",
+    "context": "constexpr auto NOP4 = make_bytes (0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 97,
+    "literal": "0x40",
+    "context": "constexpr auto NOP4 = make_bytes (0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 97,
+    "literal": "0x00",
+    "context": "constexpr auto NOP4 = make_bytes (0x0f, 0x1f, 0x40, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 98,
+    "literal": "0x0f",
+    "context": "constexpr auto NOP5 = make_bytes (0x0f, 0x1f, 0x44, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 98,
+    "literal": "0x1f",
+    "context": "constexpr auto NOP5 = make_bytes (0x0f, 0x1f, 0x44, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 98,
+    "literal": "0x44",
+    "context": "constexpr auto NOP5 = make_bytes (0x0f, 0x1f, 0x44, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 98,
+    "literal": "0x00",
+    "context": "constexpr auto NOP5 = make_bytes (0x0f, 0x1f, 0x44, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 98,
+    "literal": "0x00",
+    "context": "constexpr auto NOP5 = make_bytes (0x0f, 0x1f, 0x44, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 99,
+    "literal": "0x0f",
+    "context": "constexpr auto NOP7 = make_bytes (0x0f, 0x1f, 0x80, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 99,
+    "literal": "0x1f",
+    "context": "constexpr auto NOP7 = make_bytes (0x0f, 0x1f, 0x80, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 99,
+    "literal": "0x80",
+    "context": "constexpr auto NOP7 = make_bytes (0x0f, 0x1f, 0x80, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 99,
+    "literal": "0x00",
+    "context": "constexpr auto NOP7 = make_bytes (0x0f, 0x1f, 0x80, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 99,
+    "literal": "0x00",
+    "context": "constexpr auto NOP7 = make_bytes (0x0f, 0x1f, 0x80, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 99,
+    "literal": "0x00",
+    "context": "constexpr auto NOP7 = make_bytes (0x0f, 0x1f, 0x80, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 99,
+    "literal": "0x00",
+    "context": "constexpr auto NOP7 = make_bytes (0x0f, 0x1f, 0x80, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x0f",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x1f",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x84",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x00",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x00",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x00",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x00",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 100,
+    "literal": "0x00",
+    "context": "constexpr auto NOP8 = make_bytes (0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x66",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x0f",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x1f",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x84",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x00",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x00",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x00",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x00",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 101,
+    "literal": "0x00",
+    "context": "constexpr auto NOP9 = make_bytes (0x66, 0x0f, 0x1f, 0x84, 0x00, 0x00, 0x00, 0x00, 0x00);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 129,
+    "literal": "0x8",
+    "context": "uint64_t data0x8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 130,
+    "literal": "0x10",
+    "context": "uintptr_t *ptr0x10;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 131,
+    "literal": "0x18",
+    "context": "uint64_t data0x18;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 132,
+    "literal": "0x20",
+    "context": "uintptr_t *vft0x20;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 138,
+    "literal": "0x0",
+    "context": "uint64_t data0x0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 144,
+    "literal": "0x0",
+    "context": "uintptr_t *vft0x0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 145,
+    "literal": "0x8",
+    "context": "uint8_t data0x8[0x168];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 145,
+    "literal": "0x168",
+    "context": "uint8_t data0x8[0x168];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 200,
+    "literal": "0x0",
+    "context": "uint32_t unknown0x0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 202,
+    "literal": "0x10",
+    "context": "alignas(0x10) float distorted_image_colors_rgb[3];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 207,
+    "literal": "0x10",
+    "context": "float unknown0x10;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 230,
+    "literal": "0x38",
+    "context": "uintptr_t ptr0x38;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 231,
+    "literal": "0x40",
+    "context": "uintptr_t ptr0x40;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 232,
+    "literal": "0x48",
+    "context": "uintptr_t data0x48;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 235,
+    "literal": "0x52",
+    "context": "uint16_t data0x52;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 236,
+    "literal": "0x54",
+    "context": "uint32_t data0x54;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 237,
+    "literal": "0x58",
+    "context": "uintptr_t data0x58;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 238,
+    "literal": "0x60",
+    "context": "uint64_t data0x60;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 245,
+    "literal": "0x8",
+    "context": "uint32_t data0x8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 249,
+    "literal": "0x18",
+    "context": "uint32_t padding0x18;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 252,
+    "literal": "0x20",
+    "context": "float data0x20;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 253,
+    "literal": "0x24",
+    "context": "float data0x24;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 259,
+    "literal": "0x8",
+    "context": "uint32_t data0x8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 260,
+    "literal": "0xc",
+    "context": "uint32_t padding0xc;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 262,
+    "literal": "0x18",
+    "context": "uintptr_t ptr0x18;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 263,
+    "literal": "0x10",
+    "context": "struct lump_data lump_data0[0x10];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 265,
+    "literal": "0x2a4",
+    "context": "uint32_t padding0x2a4;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 266,
+    "literal": "0x20",
+    "context": "alignas (8) struct lump_data data1[0x20];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 267,
+    "literal": "0x7a8",
+    "context": "uint32_t data0x7a8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 268,
+    "literal": "0x7ac",
+    "context": "uint32_t padding0x7ac;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 273,
+    "literal": "0x0",
+    "context": "uint32_t data0x0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 274,
+    "literal": "0x4",
+    "context": "uint32_t data0x4;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 275,
+    "literal": "0x8",
+    "context": "uint32_t data0x8;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 280,
+    "literal": "0x40",
+    "context": "uint32_t data0x40;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 281,
+    "literal": "0x44",
+    "context": "int32_t data0x44;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 282,
+    "literal": "0x48",
+    "context": "uint64_t data0x48;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 283,
+    "literal": "0x50",
+    "context": "uint64_t data0x50;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 284,
+    "literal": "0x58",
+    "context": "uint64_t data0x58;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 285,
+    "literal": "0x60",
+    "context": "uint32_t data0x60;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 286,
+    "literal": "0x64",
+    "context": "uint32_t data0x64;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 287,
+    "literal": "0x68",
+    "context": "uint64_t data0x68;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 292,
+    "literal": "0x0",
+    "context": "uint8_t data0x0[0x210];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 292,
+    "literal": "0x210",
+    "context": "uint8_t data0x0[0x210];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 294,
+    "literal": "0x211",
+    "context": "uint8_t data0x211[0x102f];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 294,
+    "literal": "0x102f",
+    "context": "uint8_t data0x211[0x102f];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 297,
+    "literal": "0x80",
+    "context": "uint32_t (*rigidbody_id_table_ptr)[0x80];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 354,
+    "literal": "0x1f",
+    "context": "// the original function has a bug, which return immedeately search first 0x1f nodes."
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 363,
+    "literal": "0x0",
+    "context": "uint8_t data0x0[8];"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 367,
+    "literal": "0x0",
+    "context": "uintptr_t tmc = reinterpret_cast <struct object_data **> (obj.data_ptr0x0 + object_data_offset_table[65][obj.data0x1a])[0]->tmc;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 367,
+    "literal": "0x1a",
+    "context": "uintptr_t tmc = reinterpret_cast <struct object_data **> (obj.data_ptr0x0 + object_data_offset_table[65][obj.data0x1a])[0]->tmc;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 369,
+    "literal": "0x20",
+    "context": "uint32_t *offset_table = reinterpret_cast<uint32_t *> (tmc + *reinterpret_cast<uintptr_t *>(tmc + 0x20));"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 370,
+    "literal": "0x40",
+    "context": "uint32_t start_of_optional_data = *reinterpret_cast<uint32_t *>(tmc + 0x40);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 391,
+    "literal": "0x0fffffff",
+    "context": "uintptr_t y = reinterpret_cast <uintptr_t> (&x) + (x & 0x0fffffff);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 475,
+    "literal": "0x8",
+    "context": "if (!obj.data_ptr0x8)"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 481,
+    "literal": "0x1a",
+    "context": "if (obj.data0x1a == 0)"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 483,
+    "literal": "0x34",
+    "context": "uint32_t node_index = *reinterpret_cast <uint32_t *> (nl.nodeobj + 0x34);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 485,
+    "literal": "0x20",
+    "context": "int n = L.total_lump_count - 0x20;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 511,
+    "literal": "0x310",
+    "context": "if (L[i].rigidbody_id != -1 && *reinterpret_cast <uint8_t *> (p-0x310))"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 518,
+    "literal": "0x20",
+    "context": "int n = L.total_lump_count - 0x20;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 578,
+    "literal": "0x140",
+    "context": "auto &x = *reinterpret_cast <float (*)[0x140]> (base_address + 0x219bff0);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 578,
+    "literal": "0x219bff0",
+    "context": "auto &x = *reinterpret_cast <float (*)[0x140]> (base_address + 0x219bff0);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 580,
+    "literal": "0x219c4f0",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x219c4f0) = reinterpret_cast <uintptr_t> (game_model_data_manager);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 585,
+    "literal": "0x6701",
+    "context": "i.data0x6701 = 0xa0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 585,
+    "literal": "0xa0",
+    "context": "i.data0x6701 = 0xa0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 593,
+    "literal": "0x1f",
+    "context": "case 0x1f: // quadrupedal bone enemy."
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 594,
+    "literal": "0x33",
+    "context": "case 0x33: // turret on the airship."
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 595,
+    "literal": "0x83",
+    "context": "case 0x83: // human skull ghostfish."
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 596,
+    "literal": "0xa2",
+    "context": "case 0xa2: // quadrupedal robot."
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 597,
+    "literal": "0xb2",
+    "context": "case 0xb2: // fish skull ghostfish."
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 606,
+    "literal": "0x1e38710",
+    "context": "object_data_offset_table = reinterpret_cast <uintptr_t (*)[4]> (base_address + 0x1e38710);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 607,
+    "literal": "0x3195300",
+    "context": "game_object_ptr = reinterpret_cast <struct game_object *> (base_address + 0x3195300);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 608,
+    "literal": "0x211e753",
+    "context": "in_pause_ptr = reinterpret_cast <uint8_t *> (base_address + 0x211e753);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 609,
+    "literal": "0x211e990",
+    "context": "vanish_timer_table_ptr = reinterpret_cast <int32_t *> (base_address + 0x211e990);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 617,
+    "literal": "0x1048888",
+    "context": "patch1 = new Patch {0x1048888, make_bytes (0x83, 0xe0, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 617,
+    "literal": "0x83",
+    "context": "patch1 = new Patch {0x1048888, make_bytes (0x83, 0xe0, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 617,
+    "literal": "0xe0",
+    "context": "patch1 = new Patch {0x1048888, make_bytes (0x83, 0xe0, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 617,
+    "literal": "0x00",
+    "context": "patch1 = new Patch {0x1048888, make_bytes (0x83, 0xe0, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 620,
+    "literal": "0x1002",
+    "context": "// 0x1002 which is needed to make EFF_ArrowHitBlood work."
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 621,
+    "literal": "0x17f25c8",
+    "context": "patch2 = new Patch {0x17f25c8, uint16_t {0x1002}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 621,
+    "literal": "0x1002",
+    "context": "patch2 = new Patch {0x17f25c8, uint16_t {0x1002}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 622,
+    "literal": "0x17f0428",
+    "context": "patch3 = new Patch {0x17f0428, uint16_t {0x1002}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 622,
+    "literal": "0x1002",
+    "context": "patch3 = new Patch {0x17f0428, uint16_t {0x1002}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 623,
+    "literal": "0x17f3ca8",
+    "context": "patch4 = new Patch {0x17f3ca8, uint16_t {0x1002}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 623,
+    "literal": "0x1002",
+    "context": "patch4 = new Patch {0x17f3ca8, uint16_t {0x1002}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 628,
+    "literal": "0x1457f6d",
+    "context": "patch5 = new Patch {0x1457f6d + 6, 0};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 631,
+    "literal": "0xa0",
+    "context": "// jmp 0xa0"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 632,
+    "literal": "0x0f29437",
+    "context": "patch6 = new Patch {0x0f29437, make_bytes (0xe9, 0xa0, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 632,
+    "literal": "0xe9",
+    "context": "patch6 = new Patch {0x0f29437, make_bytes (0xe9, 0xa0, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 632,
+    "literal": "0xa0",
+    "context": "patch6 = new Patch {0x0f29437, make_bytes (0xe9, 0xa0, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 632,
+    "literal": "0x00",
+    "context": "patch6 = new Patch {0x0f29437, make_bytes (0xe9, 0xa0, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 632,
+    "literal": "0x00",
+    "context": "patch6 = new Patch {0x0f29437, make_bytes (0xe9, 0xa0, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 632,
+    "literal": "0x00",
+    "context": "patch6 = new Patch {0x0f29437, make_bytes (0xe9, 0xa0, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 634,
+    "literal": "0x0f294dc",
+    "context": "patch7 = new Patch {0x0f294dc, make_bytes (0x31, 0xc0)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 634,
+    "literal": "0x31",
+    "context": "patch7 = new Patch {0x0f294dc, make_bytes (0x31, 0xc0)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 634,
+    "literal": "0xc0",
+    "context": "patch7 = new Patch {0x0f294dc, make_bytes (0x31, 0xc0)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 639,
+    "literal": "0x120a13f",
+    "context": "patch1 = new Patch {0x120a13f + 1, 0x075f720 - (0x120a13f + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 639,
+    "literal": "0x075f720",
+    "context": "patch1 = new Patch {0x120a13f + 1, 0x075f720 - (0x120a13f + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 639,
+    "literal": "0x120a13f",
+    "context": "patch1 = new Patch {0x120a13f + 1, 0x075f720 - (0x120a13f + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 640,
+    "literal": "0x120a0f0",
+    "context": "patch2 = new Patch {0x120a0f0 + 1, 0x075fd20 - (0x120a0f0 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 640,
+    "literal": "0x075fd20",
+    "context": "patch2 = new Patch {0x120a0f0 + 1, 0x075fd20 - (0x120a0f0 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 640,
+    "literal": "0x120a0f0",
+    "context": "patch2 = new Patch {0x120a0f0 + 1, 0x075fd20 - (0x120a0f0 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 645,
+    "literal": "0x12058c9",
+    "context": "patch3 = new Patch {0x12058c9 + 3, uint8_t {0x4u}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 645,
+    "literal": "0x4",
+    "context": "patch3 = new Patch {0x12058c9 + 3, uint8_t {0x4u}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 646,
+    "literal": "0x1c8e218",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c8e218) = base_address + 0x12058b0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 646,
+    "literal": "0x12058b0",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c8e218) = base_address + 0x12058b0;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 647,
+    "literal": "0x1205899",
+    "context": "patch4 = new Patch {0x1205899 + 3, uint8_t {0x5u}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 647,
+    "literal": "0x5",
+    "context": "patch4 = new Patch {0x1205899 + 3, uint8_t {0x5u}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 648,
+    "literal": "0x1c8e1f8",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c8e1f8) = base_address + 0x1205880;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 648,
+    "literal": "0x1205880",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c8e1f8) = base_address + 0x1205880;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 657,
+    "literal": "0x120cc1d",
+    "context": "patch1 = new Patch {0x120cc1d + 1, 0x077b010 - (0x120cc1d + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 657,
+    "literal": "0x077b010",
+    "context": "patch1 = new Patch {0x120cc1d + 1, 0x077b010 - (0x120cc1d + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 657,
+    "literal": "0x120cc1d",
+    "context": "patch1 = new Patch {0x120cc1d + 1, 0x077b010 - (0x120cc1d + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 658,
+    "literal": "0x120cbe1",
+    "context": "patch2 = new Patch {0x120cbe1 + 1, 0x077b010 - (0x120cbe1 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 658,
+    "literal": "0x077b010",
+    "context": "patch2 = new Patch {0x120cbe1 + 1, 0x077b010 - (0x120cbe1 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 658,
+    "literal": "0x120cbe1",
+    "context": "patch2 = new Patch {0x120cbe1 + 1, 0x077b010 - (0x120cbe1 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 660,
+    "literal": "0x120c82d",
+    "context": "patch3 = new Patch {0x120c82d + 1, 0x077b010 - (0x120c82d + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 660,
+    "literal": "0x077b010",
+    "context": "patch3 = new Patch {0x120c82d + 1, 0x077b010 - (0x120c82d + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 660,
+    "literal": "0x120c82d",
+    "context": "patch3 = new Patch {0x120c82d + 1, 0x077b010 - (0x120c82d + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 661,
+    "literal": "0x120c7f1",
+    "context": "patch4 = new Patch {0x120c7f1 + 1, 0x077b010 - (0x120c7f1 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 661,
+    "literal": "0x077b010",
+    "context": "patch4 = new Patch {0x120c7f1 + 1, 0x077b010 - (0x120c7f1 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 661,
+    "literal": "0x120c7f1",
+    "context": "patch4 = new Patch {0x120c7f1 + 1, 0x077b010 - (0x120c7f1 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 663,
+    "literal": "0x120daa5",
+    "context": "patch5 = new Patch {0x120daa5 + 1, 0x077ce10 - (0x120daa5 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 663,
+    "literal": "0x077ce10",
+    "context": "patch5 = new Patch {0x120daa5 + 1, 0x077ce10 - (0x120daa5 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 663,
+    "literal": "0x120daa5",
+    "context": "patch5 = new Patch {0x120daa5 + 1, 0x077ce10 - (0x120daa5 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 664,
+    "literal": "0x120da69",
+    "context": "patch6 = new Patch {0x120da69 + 1, 0x077ce10 - (0x120da69 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 664,
+    "literal": "0x077ce10",
+    "context": "patch6 = new Patch {0x120da69 + 1, 0x077ce10 - (0x120da69 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 664,
+    "literal": "0x120da69",
+    "context": "patch6 = new Patch {0x120da69 + 1, 0x077ce10 - (0x120da69 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 667,
+    "literal": "0x120cafe",
+    "context": "patch7 = new Patch {0x120cafe, concat (NOP7, uint8_t {0xeb})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 667,
+    "literal": "0xeb",
+    "context": "patch7 = new Patch {0x120cafe, concat (NOP7, uint8_t {0xeb})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 668,
+    "literal": "0x120c70e",
+    "context": "patch8 = new Patch {0x120c70e, concat (NOP7, uint8_t {0xeb})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 668,
+    "literal": "0xeb",
+    "context": "patch8 = new Patch {0x120c70e, concat (NOP7, uint8_t {0xeb})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 670,
+    "literal": "0x188a890",
+    "context": "BloodStampEffectManager_vfunction2_hook = new VFPHook {0x188a890, BloodStampEffectManager_vfunction2};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 671,
+    "literal": "0x18c5578",
+    "context": "SphericalResourceGenerator_vfunction2_hook = new VFPHook {0x18c5578, SphericalResourceGenerator_vfunction2};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 677,
+    "literal": "0x1455880",
+    "context": "update_SUP_NodeObj_visibility_hook = new SimpleInlineHook {0x1455880, update_SUP_NodeObj_visibility <0x1e38710>};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 677,
+    "literal": "0x1e38710",
+    "context": "update_SUP_NodeObj_visibility_hook = new SimpleInlineHook {0x1455880, update_SUP_NodeObj_visibility <0x1e38710>};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 678,
+    "literal": "0x144cb00",
+    "context": "get_OPTscat_indices_hook = new SimpleInlineHook {0x144cb00, get_OPTscat_indices};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 682,
+    "literal": "0x145866a",
+    "context": "patch1 = new Patch {0x145866a + 1, 0x1220060 - (0x145866a + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 682,
+    "literal": "0x1220060",
+    "context": "patch1 = new Patch {0x145866a + 1, 0x1220060 - (0x145866a + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 682,
+    "literal": "0x145866a",
+    "context": "patch1 = new Patch {0x145866a + 1, 0x1220060 - (0x145866a + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 686,
+    "literal": "0x12201f6",
+    "context": "patch2 = new Patch {0x12201f6 + 1, 0x1206ec0 - (0x12201f6 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 686,
+    "literal": "0x1206ec0",
+    "context": "patch2 = new Patch {0x12201f6 + 1, 0x1206ec0 - (0x12201f6 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 686,
+    "literal": "0x12201f6",
+    "context": "patch2 = new Patch {0x12201f6 + 1, 0x1206ec0 - (0x12201f6 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 688,
+    "literal": "0x1207430",
+    "context": "patch3 = new Patch {0x1207430, *reinterpret_cast <uint32_t (*)[4]> (base_address + 0x1207430 + 4 * 0x10)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 688,
+    "literal": "0x1207430",
+    "context": "patch3 = new Patch {0x1207430, *reinterpret_cast <uint32_t (*)[4]> (base_address + 0x1207430 + 4 * 0x10)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 688,
+    "literal": "0x10",
+    "context": "patch3 = new Patch {0x1207430, *reinterpret_cast <uint32_t (*)[4]> (base_address + 0x1207430 + 4 * 0x10)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 692,
+    "literal": "0x1458761",
+    "context": "patch4 = new Patch {0x1458761 + 1, 0x121fe20 - (0x1458761 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 692,
+    "literal": "0x121fe20",
+    "context": "patch4 = new Patch {0x1458761 + 1, 0x121fe20 - (0x1458761 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 692,
+    "literal": "0x1458761",
+    "context": "patch4 = new Patch {0x1458761 + 1, 0x121fe20 - (0x1458761 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 696,
+    "literal": "0x1460d34",
+    "context": "patch5 = new Patch {0x1460d34, concat (NOP9, NOP9, NOP9, NOP7, uint8_t {0xeb})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 696,
+    "literal": "0xeb",
+    "context": "patch5 = new Patch {0x1460d34, concat (NOP9, NOP9, NOP9, NOP7, uint8_t {0xeb})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 700,
+    "literal": "0x144c0d0",
+    "context": "patch7 = new Patch {0x144c0d0, concat (NOP5, NOP5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 706,
+    "literal": "0x145a338",
+    "context": "patch8 = new Patch {0x145a338, concat (make_bytes (0x31, 0xc0), NOP4)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 706,
+    "literal": "0x31",
+    "context": "patch8 = new Patch {0x145a338, concat (make_bytes (0x31, 0xc0), NOP4)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 706,
+    "literal": "0xc0",
+    "context": "patch8 = new Patch {0x145a338, concat (make_bytes (0x31, 0xc0), NOP4)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 709,
+    "literal": "0x144ae80",
+    "context": "patch9 = new Patch {0x144ae80, concat (make_bytes (0x31, 0xc0), NOP4)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 709,
+    "literal": "0x31",
+    "context": "patch9 = new Patch {0x144ae80, concat (make_bytes (0x31, 0xc0), NOP4)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 709,
+    "literal": "0xc0",
+    "context": "patch9 = new Patch {0x144ae80, concat (make_bytes (0x31, 0xc0), NOP4)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 714,
+    "literal": "0x1c74980",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c74980) = base_address + 0x100a990;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 714,
+    "literal": "0x100a990",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c74980) = base_address + 0x100a990;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 718,
+    "literal": "0x1c74900",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c74900) = base_address + 0x100a990;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 718,
+    "literal": "0x100a990",
+    "context": "*reinterpret_cast <uintptr_t *> (base_address + 0x1c74900) = base_address + 0x100a990;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 724,
+    "literal": "0x1e39b40",
+    "context": "afterimage::update_afterimage_params <0x1e39b40> ();"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 726,
+    "literal": "0x1053d20",
+    "context": "patch1 = new Patch {0x1053d20 + 2, uint8_t {0}};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0x145e67a",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0x0f",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0x57",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0xc0",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0x0f",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0x57",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0xc9",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0x66",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 734,
+    "literal": "0x90",
+    "context": "patch1 = new Patch {0x145e67a, make_bytes(0x0f, 0x57, 0xc0, 0x0f, 0x57, 0xc9, 0x66, 0x90)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 736,
+    "literal": "0x6439cc0",
+    "context": "corpse_table_ptr = reinterpret_cast <struct corpse_object *> (base_address + 0x6439cc0);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 737,
+    "literal": "0x13ffb50",
+    "context": "FUN_13ffb50_hook = new SimpleInlineHook {0x13ffb50, FUN_13ffb50};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 741,
+    "literal": "0x145d60a",
+    "context": "patch2_1 = new Patch {0x145d60a,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 742,
+    "literal": "0x66",
+    "context": "make_bytes (0x66, 0x90,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 742,
+    "literal": "0x90",
+    "context": "make_bytes (0x66, 0x90,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 743,
+    "literal": "0x48",
+    "context": "0x48, 0x8d, 0x83, 0x08, 0x18, 0x00, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 743,
+    "literal": "0x8d",
+    "context": "0x48, 0x8d, 0x83, 0x08, 0x18, 0x00, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 743,
+    "literal": "0x83",
+    "context": "0x48, 0x8d, 0x83, 0x08, 0x18, 0x00, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 743,
+    "literal": "0x08",
+    "context": "0x48, 0x8d, 0x83, 0x08, 0x18, 0x00, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 743,
+    "literal": "0x18",
+    "context": "0x48, 0x8d, 0x83, 0x08, 0x18, 0x00, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 743,
+    "literal": "0x00",
+    "context": "0x48, 0x8d, 0x83, 0x08, 0x18, 0x00, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 743,
+    "literal": "0x00",
+    "context": "0x48, 0x8d, 0x83, 0x08, 0x18, 0x00, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 744,
+    "literal": "0x48",
+    "context": "0x48, 0x83, 0x38, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 744,
+    "literal": "0x83",
+    "context": "0x48, 0x83, 0x38, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 744,
+    "literal": "0x38",
+    "context": "0x48, 0x83, 0x38, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 744,
+    "literal": "0x00",
+    "context": "0x48, 0x83, 0x38, 0x00,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 745,
+    "literal": "0x74",
+    "context": "0x74, 0x11,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 745,
+    "literal": "0x11",
+    "context": "0x74, 0x11,"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 746,
+    "literal": "0x48",
+    "context": "0x48, 0x8b, 0x00)"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 746,
+    "literal": "0x8b",
+    "context": "0x48, 0x8b, 0x00)"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 746,
+    "literal": "0x00",
+    "context": "0x48, 0x8b, 0x00)"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 748,
+    "literal": "0x145d60a",
+    "context": "// jne 0x145d60a;"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 749,
+    "literal": "0x145d635",
+    "context": "patch2_2 = new Patch {0x145d635 + 1, concat (uint8_t {0xd5})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 749,
+    "literal": "0xd5",
+    "context": "patch2_2 = new Patch {0x145d635 + 1, concat (uint8_t {0xd5})};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 753,
+    "literal": "0x145d7d8",
+    "context": "patch3 = new Patch {0x145d7d8, concat (NOP5, NOP5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 758,
+    "literal": "0x145f584",
+    "context": "patch4 = new Patch {0x145f584, concat (make_bytes (0x31, 0xc0), NOP3)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 758,
+    "literal": "0x31",
+    "context": "patch4 = new Patch {0x145f584, concat (make_bytes (0x31, 0xc0), NOP3)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 758,
+    "literal": "0xc0",
+    "context": "patch4 = new Patch {0x145f584, concat (make_bytes (0x31, 0xc0), NOP3)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 760,
+    "literal": "0x145dde0",
+    "context": "release_corpse = reinterpret_cast <decltype (release_corpse)> (base_address + 0x145dde0);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 762,
+    "literal": "0x80",
+    "context": "rigidbody_id_table_ptr = reinterpret_cast <uint32_t (*)[0x80]> (base_address + 0x64b4850);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 762,
+    "literal": "0x64b4850",
+    "context": "rigidbody_id_table_ptr = reinterpret_cast <uint32_t (*)[0x80]> (base_address + 0x64b4850);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 763,
+    "literal": "0x2f78b10",
+    "context": "character_ptr = reinterpret_cast <struct character *> (base_address + 0x2f78b10);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 764,
+    "literal": "0x21b3000",
+    "context": "limb_count_ptr = reinterpret_cast <uint32_t *> (base_address + 0x21b3000);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 765,
+    "literal": "0x6426880",
+    "context": "limb_manager_ptr = reinterpret_cast <struct limb_data (*)[4]> (base_address + 0x6426880);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 766,
+    "literal": "0x642a6b0",
+    "context": "lump_manager_ptr = reinterpret_cast <lump_manager *> (base_address + 0x642a6b0);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 767,
+    "literal": "0x144a330",
+    "context": "get_lump_pose_matrix = reinterpret_cast <decltype (get_lump_pose_matrix)> (base_address + 0x144a330);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 768,
+    "literal": "0xc0fdc0",
+    "context": "get_pose_matrix_hook = new SimpleInlineHook {0xc0fdc0, get_pose_matrix};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 770,
+    "literal": "0x0f87410",
+    "context": "is_stationary_hook = new SimpleInlineHook {0x0f87410, is_stationary};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 773,
+    "literal": "0xf291de",
+    "context": "patch5 = new Patch {0xf291de, concat (NOP9, NOP8, NOP3)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 774,
+    "literal": "0x1635e60",
+    "context": "is_to_be_vanished_hook = new SimpleInlineHook {0x1635e60, is_to_be_vanished};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 776,
+    "literal": "0x141b6d0",
+    "context": "init_game_model_data_manager_hook = new SimpleInlineHook {0x141b6d0, init_game_model_data_manager};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 778,
+    "literal": "0x90",
+    "context": "auto NOP_CMP_CL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xf9, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 778,
+    "literal": "0x80",
+    "context": "auto NOP_CMP_CL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xf9, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 778,
+    "literal": "0xf9",
+    "context": "auto NOP_CMP_CL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xf9, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 778,
+    "literal": "0xa0",
+    "context": "auto NOP_CMP_CL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xf9, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 778,
+    "literal": "0x72",
+    "context": "auto NOP_CMP_CL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xf9, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 779,
+    "literal": "0x90",
+    "context": "auto NOP_CMP_DL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xfa, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 779,
+    "literal": "0x80",
+    "context": "auto NOP_CMP_DL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xfa, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 779,
+    "literal": "0xfa",
+    "context": "auto NOP_CMP_DL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xfa, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 779,
+    "literal": "0xa0",
+    "context": "auto NOP_CMP_DL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xfa, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 779,
+    "literal": "0x72",
+    "context": "auto NOP_CMP_DL_IMM_JB_IMM = make_bytes (0x90, 0x80, 0xfa, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 780,
+    "literal": "0x41",
+    "context": "auto CMP_R8B_IMM_JB_IMM = make_bytes (0x41, 0x80, 0xf8, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 780,
+    "literal": "0x80",
+    "context": "auto CMP_R8B_IMM_JB_IMM = make_bytes (0x41, 0x80, 0xf8, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 780,
+    "literal": "0xf8",
+    "context": "auto CMP_R8B_IMM_JB_IMM = make_bytes (0x41, 0x80, 0xf8, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 780,
+    "literal": "0xa0",
+    "context": "auto CMP_R8B_IMM_JB_IMM = make_bytes (0x41, 0x80, 0xf8, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 780,
+    "literal": "0x72",
+    "context": "auto CMP_R8B_IMM_JB_IMM = make_bytes (0x41, 0x80, 0xf8, 0xa0, 0x72);"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 781,
+    "literal": "0x0f896d0",
+    "context": "patch6_1 = new Patch {0x0f896d0, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 782,
+    "literal": "0x0f89700",
+    "context": "patch6_2 = new Patch {0x0f89700, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 783,
+    "literal": "0x1377bb0",
+    "context": "patch6_3 = new Patch {0x1377bb0, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 784,
+    "literal": "0x1381ce5",
+    "context": "//patch6_4 = new Patch {0x1381ce5, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 785,
+    "literal": "0x14075d0",
+    "context": "patch6_5 = new Patch {0x14075d0, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 786,
+    "literal": "0x140b805",
+    "context": "//patch6_6 = new Patch {0x140b805, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 787,
+    "literal": "0x140c8e0",
+    "context": "patch6_7 = new Patch {0x140c8e0, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 788,
+    "literal": "0x141a257",
+    "context": "patch6_8 = new Patch {0x141a257, NOP_CMP_DL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 789,
+    "literal": "0x141b0d6",
+    "context": "//patch6_9 = new Patch {0x141b0d6, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 790,
+    "literal": "0x141ba79",
+    "context": "//patch6_10 = new Patch {0x141ba79, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 791,
+    "literal": "0x15f1e08",
+    "context": "patch6_11 = new Patch {0x15f1e08, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 792,
+    "literal": "0x15f2ad2",
+    "context": "patch6_12 = new Patch {0x15f2ad2, NOP_CMP_CL_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 793,
+    "literal": "0x163507a",
+    "context": "patch6_13 = new Patch {0x163507a, CMP_R8B_IMM_JB_IMM};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 796,
+    "literal": "0x146794d",
+    "context": "patch7 = new Patch {0x146794d + 1, 0x800000u};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 796,
+    "literal": "0x800000",
+    "context": "patch7 = new Patch {0x146794d + 1, 0x800000u};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 799,
+    "literal": "0x1444f23",
+    "context": "patch8 = new Patch {0x1444f23 + 1, 0x145dde0 - (0x1444f23 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 799,
+    "literal": "0x145dde0",
+    "context": "patch8 = new Patch {0x1444f23 + 1, 0x145dde0 - (0x1444f23 + 5)};"
+  },
+  {
+    "source": "src/effect/main.cpp",
+    "line": 799,
+    "literal": "0x1444f23",
+    "context": "patch8 = new Patch {0x1444f23 + 1, 0x145dde0 - (0x1444f23 + 5)};"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 30,
+    "literal": "0x0",
+    "context": "uintptr_t *vft0x0;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 39,
+    "literal": "0x10",
+    "context": "uint32_t data0x10;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 40,
+    "literal": "0x14",
+    "context": "uint16_t data0x14;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 41,
+    "literal": "0x16",
+    "context": "uint8_t data0x16;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 42,
+    "literal": "0x17",
+    "context": "uint8_t data0x17;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 44,
+    "literal": "0x18",
+    "context": "uint8_t data0x18;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 45,
+    "literal": "0x19",
+    "context": "uint8_t data0x19;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 46,
+    "literal": "0x1a",
+    "context": "uint8_t data0x1a;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 47,
+    "literal": "0x1b",
+    "context": "uint8_t data0x1b;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 48,
+    "literal": "0x1c",
+    "context": "uint32_t data0x1c;"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 76,
+    "literal": "0x1a",
+    "context": "if (ci->data0x1a == 0x11)"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 76,
+    "literal": "0x11",
+    "context": "if (ci->data0x1a == 0x11)"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 81,
+    "literal": "0x0",
+    "context": "auto init_ngs1_tmcl_buf = reinterpret_cast<void (*)(ProductionPackage *, void *, void*)>(*(thisptr->vft0x0 + 1));"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 174,
+    "literal": "0x91aa00",
+    "context": "NGS1SteamAE = 0x91aa00,"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 175,
+    "literal": "0x179c400",
+    "context": "NGS2SteamAE = 0x179c400,"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 176,
+    "literal": "0x179c000",
+    "context": "NGS2SteamJP = 0x179c000,"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 184,
+    "literal": "0x0994b50",
+    "context": "load_data_hook = new VFPHook {0x0994b50, load_data_ngs1};"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 185,
+    "literal": "0x0994b58",
+    "context": "get_chunk_info_hook = new VFPHook {0x0994b58, get_chunk_info};"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 186,
+    "literal": "0x07e5630",
+    "context": "tmcl_malloc = reinterpret_cast<decltype (tmcl_malloc)>(base_address + 0x07e5630);"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 189,
+    "literal": "0x18ef6f0",
+    "context": "load_data_hook = new VFPHook {0x18ef6f0, load_data};"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 190,
+    "literal": "0x18ef6f8",
+    "context": "get_chunk_info_hook = new VFPHook {0x18ef6f8, get_chunk_info};"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 193,
+    "literal": "0x18ee6f0",
+    "context": "load_data_hook = new VFPHook {0x18ee6f0, load_data};"
+  },
+  {
+    "source": "src/loader/main.cpp",
+    "line": 194,
+    "literal": "0x18ee6f8",
+    "context": "get_chunk_info_hook = new VFPHook {0x18ee6f8, get_chunk_info};"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 32,
+    "literal": "0x13ddfa6",
+    "context": "patch1 = new Patch {0x13ddfa6 + 3, uint8_t {7}};"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 35,
+    "literal": "0xde",
+    "context": "// jmp 0xde"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 36,
+    "literal": "0xC43060",
+    "context": "patch2 = new Patch {0xC43060, make_bytes (0xe9, 0xde, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 36,
+    "literal": "0xe9",
+    "context": "patch2 = new Patch {0xC43060, make_bytes (0xe9, 0xde, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 36,
+    "literal": "0xde",
+    "context": "patch2 = new Patch {0xC43060, make_bytes (0xe9, 0xde, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 36,
+    "literal": "0x00",
+    "context": "patch2 = new Patch {0xC43060, make_bytes (0xe9, 0xde, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 36,
+    "literal": "0x00",
+    "context": "patch2 = new Patch {0xC43060, make_bytes (0xe9, 0xde, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/steam-bugfixes/main.cpp",
+    "line": 36,
+    "literal": "0x00",
+    "context": "patch2 = new Patch {0xC43060, make_bytes (0xe9, 0xde, 0x00, 0x00, 0x00)};"
+  },
+  {
+    "source": "src/util.hpp",
+    "line": 183,
+    "literal": "0x48",
+    "context": "return concat(make_bytes (0x48, 0xb8), m_callback_func, make_bytes (0xff, 0xe0));"
+  },
+  {
+    "source": "src/util.hpp",
+    "line": 183,
+    "literal": "0xb8",
+    "context": "return concat(make_bytes (0x48, 0xb8), m_callback_func, make_bytes (0xff, 0xe0));"
+  },
+  {
+    "source": "src/util.hpp",
+    "line": 183,
+    "literal": "0xff",
+    "context": "return concat(make_bytes (0x48, 0xb8), m_callback_func, make_bytes (0xff, 0xe0));"
+  },
+  {
+    "source": "src/util.hpp",
+    "line": 183,
+    "literal": "0xe0",
+    "context": "return concat(make_bytes (0x48, 0xb8), m_callback_func, make_bytes (0xff, 0xe0));"
+  }
+]

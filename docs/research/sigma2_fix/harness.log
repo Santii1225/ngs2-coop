@@ -1,0 +1,1 @@
+PASS: 13 scenarios (bool forwarding, guards, duplicate/reentry, CAS races, protection failures, restore)

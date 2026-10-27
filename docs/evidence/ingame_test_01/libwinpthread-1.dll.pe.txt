@@ -1,0 +1,520 @@
+
+<ruta-del-repo>/dist/libwinpthread-1.dll:     file format pei-x86-64
+
+Characteristics 0x2226
+	executable
+	line numbers stripped
+	large address aware
+	debugging information removed
+	DLL
+
+Time/Date		Fri Mar 27 08:24:45 2026
+Magic			020b	(PE32+)
+MajorLinkerVersion	2
+MinorLinkerVersion	46
+SizeOfCode		0000000000008a00
+SizeOfInitializedData	0000000000005200
+SizeOfUninitializedData	0000000000000200
+AddressOfEntryPoint	00000000000011f0
+BaseOfCode		0000000000001000
+ImageBase		00000002e3650000
+SectionAlignment	00001000
+FileAlignment		00000200
+MajorOSystemVersion	4
+MinorOSystemVersion	0
+MajorImageVersion	0
+MinorImageVersion	0
+MajorSubsystemVersion	5
+MinorSubsystemVersion	2
+Win32Version		00000000
+SizeOfImage		00016000
+SizeOfHeaders		00000400
+CheckSum		00011f3d
+Subsystem		00000003	(Windows CUI)
+DllCharacteristics	00000160
+					HIGH_ENTROPY_VA
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve	0000000000200000
+SizeOfStackCommit	0000000000001000
+SizeOfHeapReserve	0000000000100000
+SizeOfHeapCommit	0000000000001000
+LoaderFlags		00000000
+NumberOfRvaAndSizes	00000010
+
+The Data Directory
+Entry 0 0000000000010000 0000136b Export Directory [.edata (or where ever we found it)]
+Entry 1 0000000000012000 00000dc0 Import Directory [parts of .idata]
+Entry 2 0000000000014000 00000480 Resource Directory [.rsrc]
+Entry 3 000000000000d000 00000bdc Exception Directory [.pdata]
+Entry 4 0000000000000000 00000000 Security Directory
+Entry 5 0000000000015000 00000054 Base Relocation Directory [.reloc]
+Entry 6 0000000000000000 00000000 Debug Directory
+Entry 7 0000000000000000 00000000 Description Directory
+Entry 8 0000000000000000 00000000 Special Directory
+Entry 9 000000000000b400 00000028 Thread Storage Directory [.tls]
+Entry a 0000000000000000 00000000 Load Configuration Directory
+Entry b 0000000000000000 00000000 Bound Import Directory
+Entry c 0000000000012360 000002c0 Import Address Table Directory
+Entry d 0000000000000000 00000000 Delay Import Directory
+Entry e 0000000000000000 00000000 CLR Runtime Header
+Entry f 0000000000000000 00000000 Reserved
+
+There is an import table in .idata at 0x2e3662000
+
+The Import Tables (interpreted .idata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 00012000	000120a0 00000000 00000000 00012c64 00012360
+
+	DLL Name: KERNEL32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00012360  <none>  0097  CloseHandle
+	00012368  <none>  00d0  CreateEventA
+	00012370  <none>  00fe  CreateSemaphoreA
+	00012378  <none>  0127  DeleteCriticalSection
+	00012380  <none>  0145  DuplicateHandle
+	00012388  <none>  014d  EnterCriticalSection
+	00012390  <none>  0188  FileTimeToSystemTime
+	00012398  <none>  01ca  FreeLibrary
+	000123a0  <none>  0238  GetCurrentProcess
+	000123a8  <none>  0239  GetCurrentProcessId
+	000123b0  <none>  023c  GetCurrentThread
+	000123b8  <none>  023d  GetCurrentThreadId
+	000123c0  <none>  0288  GetLastError
+	000123c8  <none>  029e  GetModuleHandleA
+	000123d0  <none>  02da  GetProcAddress
+	000123d8  <none>  02db  GetProcessAffinityMask
+	000123e0  <none>  02eb  GetProcessTimes
+	000123e8  <none>  0316  GetSystemTimeAdjustment
+	000123f0  <none>  0317  GetSystemTimeAsFileTime
+	000123f8  <none>  0327  GetThreadContext
+	00012400  <none>  0332  GetThreadPriority
+	00012408  <none>  0337  GetThreadTimes
+	00012410  <none>  0339  GetTickCount
+	00012418  <none>  0396  InitializeCriticalSection
+	00012420  <none>  03f4  LeaveCriticalSection
+	00012428  <none>  03f8  LoadLibraryA
+	00012430  <none>  0449  OpenProcess
+	00012438  <none>  0452  OutputDebugStringA
+	00012440  <none>  0489  QueryPerformanceCounter
+	00012448  <none>  048a  QueryPerformanceFrequency
+	00012450  <none>  04a0  RaiseException
+	00012458  <none>  04cd  ReleaseSemaphore
+	00012460  <none>  04df  ResetEvent
+	00012468  <none>  04e6  ResumeThread
+	00012470  <none>  053d  SetEvent
+	00012478  <none>  055a  SetLastError
+	00012480  <none>  0565  SetProcessAffinityMask
+	00012488  <none>  0579  SetSystemTime
+	00012490  <none>  057f  SetThreadContext
+	00012498  <none>  0589  SetThreadPriority
+	000124a0  <none>  05a9  Sleep
+	000124a8  <none>  05b2  SuspendThread
+	000124b0  <none>  05cb  TlsAlloc
+	000124b8  <none>  05cd  TlsGetValue
+	000124c0  <none>  05cf  TlsSetValue
+	000124c8  <none>  05d5  TryEnterCriticalSection
+	000124d0  <none>  05fd  VirtualProtect
+	000124d8  <none>  05ff  VirtualQuery
+	000124e0  <none>  0606  WaitForMultipleObjects
+	000124e8  <none>  0608  WaitForSingleObject
+
+ 00012014	00012238 00000000 00000000 00012c78 000124f8
+
+	DLL Name: api-ms-win-crt-convert-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000124f8  <none>  0054  mbsrtowcs
+
+ 00012028	00012248 00000000 00000000 00012cac 00012508
+
+	DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00012508  <none>  0017  calloc
+	00012510  <none>  0018  free
+	00012518  <none>  0019  malloc
+	00012520  <none>  001a  realloc
+
+ 0001203c	00012270 00000000 00000000 00012cdc 00012530
+
+	DLL Name: api-ms-win-crt-private-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00012530  <none>  043a  longjmp
+	00012538  <none>  043d  memcpy
+	00012540  <none>  043e  memmove
+	00012548  <none>  044a  __intrinsic_setjmp
+
+ 00012050	00012298 00000000 00000000 00012d30 00012558
+
+	DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00012558  <none>  0001  _assert
+	00012560  <none>  0015  _beginthreadex
+	00012568  <none>  0021  _endthreadex
+	00012570  <none>  0022  _errno
+	00012578  <none>  0023  _execute_onexit_table
+	00012580  <none>  0024  _exit
+	00012588  <none>  0034  _initialize_onexit_table
+	00012590  <none>  0036  _initterm
+	00012598  <none>  0037  _initterm_e
+	000125a0  <none>  003c  _register_onexit_function
+	000125a8  <none>  0045  _set_errno
+	000125b0  <none>  0054  abort
+
+ 00012064	00012300 00000000 00000000 00012d6c 000125c0
+
+	DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000125c0  <none>  0000  __acrt_iob_func
+	000125c8  <none>  0003  __stdio_common_vfprintf
+	000125d0  <none>  000d  __stdio_common_vsprintf
+	000125d8  <none>  004c  _setmode
+	000125e0  <none>  006b  fflush
+	000125e8  <none>  00b9  _fileno
+
+ 00012078	00012338 00000000 00000000 00012d9c 000125f8
+
+	DLL Name: api-ms-win-crt-string-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000125f8  <none>  0079  memset
+	00012600  <none>  0081  strlen
+	00012608  <none>  0084  strncmp
+	00012610  <none>  00c4  _strdup
+
+ 0001208c	00000000 00000000 00000000 00000000 00000000
+
+There is an export table in .edata at 0x2e3660000
+
+The Export Tables (interpreted .edata section contents)
+
+Export Flags 			0
+Time/Date stamp 		69c6932d
+Major/Minor 			0/0
+Name 				0000000000010640 libwinpthread-1.dll
+Ordinal Base 			1
+Number in:
+	Export Address Table 		0000009c
+	[Name Pointer/Ordinal] Table	0000009c
+Table Addresses
+	Export Address Table 		0000000000010028
+	Name Pointer Table 		0000000000010298
+	Ordinal Table 			0000000000010508
+
+Export Address Table -- Ordinal Base 1
+	          Ordinal  Address  Type
+	[   0] +base[   1] 00006710 Export RVA
+	[   1] +base[   2] 00006ec0 Export RVA
+	[   2] +base[   3] 00007800 Export RVA
+	[   3] +base[   4] 000071b0 Export RVA
+	[   4] +base[   5] 0000f0a0 Export RVA
+	[   5] +base[   6] 00007810 Export RVA
+	[   6] +base[   7] 00007f20 Export RVA
+	[   7] +base[   8] 00001d80 Export RVA
+	[   8] +base[   9] 00001e20 Export RVA
+	[   9] +base[  10] 00001db0 Export RVA
+	[  10] +base[  11] 00001d90 Export RVA
+	[  11] +base[  12] 00001e70 Export RVA
+	[  12] +base[  13] 00001dc0 Export RVA
+	[  13] +base[  14] 00001d40 Export RVA
+	[  14] +base[  15] 00001f80 Export RVA
+	[  15] +base[  16] 00001de0 Export RVA
+	[  16] +base[  17] 00001da0 Export RVA
+	[  17] +base[  18] 00001ee0 Export RVA
+	[  18] +base[  19] 00001dd0 Export RVA
+	[  19] +base[  20] 00003d70 Export RVA
+	[  20] +base[  21] 00003d90 Export RVA
+	[  21] +base[  22] 00003d80 Export RVA
+	[  22] +base[  23] 00007850 Export RVA
+	[  23] +base[  24] 00007890 Export RVA
+	[  24] +base[  25] 000078d0 Export RVA
+	[  25] +base[  26] 00005570 Export RVA
+	[  26] +base[  27] 000055b0 Export RVA
+	[  27] +base[  28] 00007910 Export RVA
+	[  28] +base[  29] 00007920 Export RVA
+	[  29] +base[  30] 00007950 Export RVA
+	[  30] +base[  31] 00007970 Export RVA
+	[  31] +base[  32] 00007830 Export RVA
+	[  32] +base[  33] 00007860 Export RVA
+	[  33] +base[  34] 000078a0 Export RVA
+	[  34] +base[  35] 00005550 Export RVA
+	[  35] +base[  36] 00005590 Export RVA
+	[  36] +base[  37] 000078e0 Export RVA
+	[  37] +base[  38] 00007940 Export RVA
+	[  38] +base[  39] 00007960 Export RVA
+	[  39] +base[  40] 00007980 Export RVA
+	[  40] +base[  41] 000015f0 Export RVA
+	[  41] +base[  42] 000016f0 Export RVA
+	[  42] +base[  43] 00001810 Export RVA
+	[  43] +base[  44] 00001930 Export RVA
+	[  44] +base[  45] 000019a0 Export RVA
+	[  45] +base[  46] 00001900 Export RVA
+	[  46] +base[  47] 00001970 Export RVA
+	[  47] +base[  48] 00007500 Export RVA
+	[  48] +base[  49] 00002930 Export RVA
+	[  49] +base[  50] 00002610 Export RVA
+	[  50] +base[  51] 000021b0 Export RVA
+	[  51] +base[  52] 000027c0 Export RVA
+	[  52] +base[  53] 000030f0 Export RVA
+	[  53] +base[  54] 00003070 Export RVA
+	[  54] +base[  55] 000030b0 Export RVA
+	[  55] +base[  56] 00003060 Export RVA
+	[  56] +base[  57] 000030a0 Export RVA
+	[  57] +base[  58] 00003100 Export RVA
+	[  58] +base[  59] 00002a80 Export RVA
+	[  59] +base[  60] 000020e0 Export RVA
+	[  60] +base[  61] 00002140 Export RVA
+	[  61] +base[  62] 00002120 Export RVA
+	[  62] +base[  63] 00002100 Export RVA
+	[  63] +base[  64] 00002160 Export RVA
+	[  64] +base[  65] 00002180 Export RVA
+	[  65] +base[  66] 00007ac0 Export RVA
+	[  66] +base[  67] 000061c0 Export RVA
+	[  67] +base[  68] 000074b0 Export RVA
+	[  68] +base[  69] 000074e0 Export RVA
+	[  69] +base[  70] 000074f0 Export RVA
+	[  70] +base[  71] 00008110 Export RVA
+	[  71] +base[  72] 00006eb0 Export RVA
+	[  72] +base[  73] 00007020 Export RVA
+	[  73] +base[  74] 00007000 Export RVA
+	[  74] +base[  75] 00006fc0 Export RVA
+	[  75] +base[  76] 00008280 Export RVA
+	[  76] +base[  77] 00006f30 Export RVA
+	[  77] +base[  78] 00006f70 Export RVA
+	[  78] +base[  79] 00008430 Export RVA
+	[  79] +base[  80] 000055d0 Export RVA
+	[  80] +base[  81] 00006d00 Export RVA
+	[  81] +base[  82] 00007d80 Export RVA
+	[  82] +base[  83] 00006a60 Export RVA
+	[  83] +base[  84] 00006c10 Export RVA
+	[  84] +base[  85] 00007760 Export RVA
+	[  85] +base[  86] 00003ad0 Export RVA
+	[  86] +base[  87] 00003a80 Export RVA
+	[  87] +base[  88] 000036f0 Export RVA
+	[  88] +base[  89] 00003690 Export RVA
+	[  89] +base[  90] 000038c0 Export RVA
+	[  90] +base[  91] 00003860 Export RVA
+	[  91] +base[  92] 000039e0 Export RVA
+	[  92] +base[  93] 00003920 Export RVA
+	[  93] +base[  94] 00003b30 Export RVA
+	[  94] +base[  95] 00003c20 Export RVA
+	[  95] +base[  96] 00003bf0 Export RVA
+	[  96] +base[  97] 00003b90 Export RVA
+	[  97] +base[  98] 00003b40 Export RVA
+	[  98] +base[  99] 00003b20 Export RVA
+	[  99] +base[ 100] 00003c30 Export RVA
+	[ 100] +base[ 101] 00003c00 Export RVA
+	[ 101] +base[ 102] 00003bc0 Export RVA
+	[ 102] +base[ 103] 00003b60 Export RVA
+	[ 103] +base[ 104] 00006760 Export RVA
+	[ 104] +base[ 105] 000068b0 Export RVA
+	[ 105] +base[ 106] 00004460 Export RVA
+	[ 106] +base[ 107] 000041c0 Export RVA
+	[ 107] +base[ 108] 000045b0 Export RVA
+	[ 108] +base[ 109] 000043c0 Export RVA
+	[ 109] +base[ 110] 000046b0 Export RVA
+	[ 110] +base[ 111] 00004670 Export RVA
+	[ 111] +base[ 112] 00004400 Export RVA
+	[ 112] +base[ 113] 00004ad0 Export RVA
+	[ 113] +base[ 114] 00004a70 Export RVA
+	[ 114] +base[ 115] 000046f0 Export RVA
+	[ 115] +base[ 116] 000047b0 Export RVA
+	[ 116] +base[ 117] 00004880 Export RVA
+	[ 117] +base[ 118] 00004930 Export RVA
+	[ 118] +base[ 119] 00004b30 Export RVA
+	[ 119] +base[ 120] 00004b60 Export RVA
+	[ 120] +base[ 121] 00004b40 Export RVA
+	[ 121] +base[ 122] 00004b80 Export RVA
+	[ 122] +base[ 123] 00006ee0 Export RVA
+	[ 123] +base[ 124] 00007010 Export RVA
+	[ 124] +base[ 125] 000067c0 Export RVA
+	[ 125] +base[ 126] 00007990 Export RVA
+	[ 126] +base[ 127] 00007a20 Export RVA
+	[ 127] +base[ 128] 00008290 Export RVA
+	[ 128] +base[ 129] 000082a0 Export RVA
+	[ 129] +base[ 130] 00005650 Export RVA
+	[ 130] +base[ 131] 00006d90 Export RVA
+	[ 131] +base[ 132] 00005420 Export RVA
+	[ 132] +base[ 133] 00005410 Export RVA
+	[ 133] +base[ 134] 00005430 Export RVA
+	[ 134] +base[ 135] 00005450 Export RVA
+	[ 135] +base[ 136] 00005470 Export RVA
+	[ 136] +base[ 137] 000072a0 Export RVA
+	[ 137] +base[ 138] 00006750 Export RVA
+	[ 138] +base[ 139] 00005b50 Export RVA
+	[ 139] +base[ 140] 00005520 Export RVA
+	[ 140] +base[ 141] 000054f0 Export RVA
+	[ 141] +base[ 142] 00005700 Export RVA
+	[ 142] +base[ 143] 00005780 Export RVA
+	[ 143] +base[ 144] 00005820 Export RVA
+	[ 144] +base[ 145] 00005340 Export RVA
+	[ 145] +base[ 146] 00004dd0 Export RVA
+	[ 146] +base[ 147] 00005380 Export RVA
+	[ 147] +base[ 148] 00004ce0 Export RVA
+	[ 148] +base[ 149] 00005320 Export RVA
+	[ 149] +base[ 150] 000051c0 Export RVA
+	[ 150] +base[ 151] 00005270 Export RVA
+	[ 151] +base[ 152] 00005180 Export RVA
+	[ 152] +base[ 153] 00005170 Export RVA
+	[ 153] +base[ 154] 00004e80 Export RVA
+	[ 154] +base[ 155] 00005360 Export RVA
+	[ 155] +base[ 156] 00004f10 Export RVA
+
+[Ordinal/Name Pointer] Table -- Ordinal Base 1
+	          Ordinal   Hint Name
+	[   0] +base[   1]  0000 __pth_gpointer_locked
+	[   1] +base[   2]  0001 _pthread_cleanup_dest
+	[   2] +base[   3]  0002 _pthread_get_state
+	[   3] +base[   4]  0003 _pthread_invoke_cancel
+	[   4] +base[   5]  0004 _pthread_key_dest
+	[   5] +base[   6]  0005 _pthread_set_state
+	[   6] +base[   7]  0006 _pthread_tryjoin
+	[   7] +base[   8]  0007 clock_getres
+	[   8] +base[   9]  0008 clock_getres32
+	[   9] +base[  10]  0009 clock_getres64
+	[  10] +base[  11]  000a clock_gettime
+	[  11] +base[  12]  000b clock_gettime32
+	[  12] +base[  13]  000c clock_gettime64
+	[  13] +base[  14]  000d clock_nanosleep
+	[  14] +base[  15]  000e clock_nanosleep32
+	[  15] +base[  16]  000f clock_nanosleep64
+	[  16] +base[  17]  0010 clock_settime
+	[  17] +base[  18]  0011 clock_settime32
+	[  18] +base[  19]  0012 clock_settime64
+	[  19] +base[  20]  0013 nanosleep
+	[  20] +base[  21]  0014 nanosleep32
+	[  21] +base[  22]  0015 nanosleep64
+	[  22] +base[  23]  0016 pthread_attr_destroy
+	[  23] +base[  24]  0017 pthread_attr_getdetachstate
+	[  24] +base[  25]  0018 pthread_attr_getinheritsched
+	[  25] +base[  26]  0019 pthread_attr_getschedparam
+	[  26] +base[  27]  001a pthread_attr_getschedpolicy
+	[  27] +base[  28]  001b pthread_attr_getscope
+	[  28] +base[  29]  001c pthread_attr_getstack
+	[  29] +base[  30]  001d pthread_attr_getstackaddr
+	[  30] +base[  31]  001e pthread_attr_getstacksize
+	[  31] +base[  32]  001f pthread_attr_init
+	[  32] +base[  33]  0020 pthread_attr_setdetachstate
+	[  33] +base[  34]  0021 pthread_attr_setinheritsched
+	[  34] +base[  35]  0022 pthread_attr_setschedparam
+	[  35] +base[  36]  0023 pthread_attr_setschedpolicy
+	[  36] +base[  37]  0024 pthread_attr_setscope
+	[  37] +base[  38]  0025 pthread_attr_setstack
+	[  38] +base[  39]  0026 pthread_attr_setstackaddr
+	[  39] +base[  40]  0027 pthread_attr_setstacksize
+	[  40] +base[  41]  0028 pthread_barrier_destroy
+	[  41] +base[  42]  0029 pthread_barrier_init
+	[  42] +base[  43]  002a pthread_barrier_wait
+	[  43] +base[  44]  002b pthread_barrierattr_destroy
+	[  44] +base[  45]  002c pthread_barrierattr_getpshared
+	[  45] +base[  46]  002d pthread_barrierattr_init
+	[  46] +base[  47]  002e pthread_barrierattr_setpshared
+	[  47] +base[  48]  002f pthread_cancel
+	[  48] +base[  49]  0030 pthread_cond_broadcast
+	[  49] +base[  50]  0031 pthread_cond_destroy
+	[  50] +base[  51]  0032 pthread_cond_init
+	[  51] +base[  52]  0033 pthread_cond_signal
+	[  52] +base[  53]  0034 pthread_cond_timedwait
+	[  53] +base[  54]  0035 pthread_cond_timedwait32
+	[  54] +base[  55]  0036 pthread_cond_timedwait32_relative_np
+	[  55] +base[  56]  0037 pthread_cond_timedwait64
+	[  56] +base[  57]  0038 pthread_cond_timedwait64_relative_np
+	[  57] +base[  58]  0039 pthread_cond_timedwait_relative_np
+	[  58] +base[  59]  003a pthread_cond_wait
+	[  59] +base[  60]  003b pthread_condattr_destroy
+	[  60] +base[  61]  003c pthread_condattr_getclock
+	[  61] +base[  62]  003d pthread_condattr_getpshared
+	[  62] +base[  63]  003e pthread_condattr_init
+	[  63] +base[  64]  003f pthread_condattr_setclock
+	[  64] +base[  65]  0040 pthread_condattr_setpshared
+	[  65] +base[  66]  0041 pthread_create
+	[  66] +base[  67]  0042 pthread_create_wrapper
+	[  67] +base[  68]  0043 pthread_delay32_np
+	[  68] +base[  69]  0044 pthread_delay64_np
+	[  69] +base[  70]  0045 pthread_delay_np
+	[  70] +base[  71]  0046 pthread_detach
+	[  71] +base[  72]  0047 pthread_equal
+	[  72] +base[  73]  0048 pthread_exit
+	[  73] +base[  74]  0049 pthread_get_concurrency
+	[  74] +base[  75]  004a pthread_getclean
+	[  75] +base[  76]  004b pthread_getconcurrency
+	[  76] +base[  77]  004c pthread_getevent
+	[  77] +base[  78]  004d pthread_gethandle
+	[  78] +base[  79]  004e pthread_getname_np
+	[  79] +base[  80]  004f pthread_getschedparam
+	[  80] +base[  81]  0050 pthread_getspecific
+	[  81] +base[  82]  0051 pthread_join
+	[  82] +base[  83]  0052 pthread_key_create
+	[  83] +base[  84]  0053 pthread_key_delete
+	[  84] +base[  85]  0054 pthread_kill
+	[  85] +base[  86]  0055 pthread_mutex_destroy
+	[  86] +base[  87]  0056 pthread_mutex_init
+	[  87] +base[  88]  0057 pthread_mutex_lock
+	[  88] +base[  89]  0058 pthread_mutex_timedlock
+	[  89] +base[  90]  0059 pthread_mutex_timedlock32
+	[  90] +base[  91]  005a pthread_mutex_timedlock64
+	[  91] +base[  92]  005b pthread_mutex_trylock
+	[  92] +base[  93]  005c pthread_mutex_unlock
+	[  93] +base[  94]  005d pthread_mutexattr_destroy
+	[  94] +base[  95]  005e pthread_mutexattr_getprioceiling
+	[  95] +base[  96]  005f pthread_mutexattr_getprotocol
+	[  96] +base[  97]  0060 pthread_mutexattr_getpshared
+	[  97] +base[  98]  0061 pthread_mutexattr_gettype
+	[  98] +base[  99]  0062 pthread_mutexattr_init
+	[  99] +base[ 100]  0063 pthread_mutexattr_setprioceiling
+	[ 100] +base[ 101]  0064 pthread_mutexattr_setprotocol
+	[ 101] +base[ 102]  0065 pthread_mutexattr_setpshared
+	[ 102] +base[ 103]  0066 pthread_mutexattr_settype
+	[ 103] +base[ 104]  0067 pthread_num_processors_np
+	[ 104] +base[ 105]  0068 pthread_once
+	[ 105] +base[ 106]  0069 pthread_rwlock_destroy
+	[ 106] +base[ 107]  006a pthread_rwlock_init
+	[ 107] +base[ 108]  006b pthread_rwlock_rdlock
+	[ 108] +base[ 109]  006c pthread_rwlock_timedrdlock
+	[ 109] +base[ 110]  006d pthread_rwlock_timedrdlock32
+	[ 110] +base[ 111]  006e pthread_rwlock_timedrdlock64
+	[ 111] +base[ 112]  006f pthread_rwlock_timedwrlock
+	[ 112] +base[ 113]  0070 pthread_rwlock_timedwrlock32
+	[ 113] +base[ 114]  0071 pthread_rwlock_timedwrlock64
+	[ 114] +base[ 115]  0072 pthread_rwlock_tryrdlock
+	[ 115] +base[ 116]  0073 pthread_rwlock_trywrlock
+	[ 116] +base[ 117]  0074 pthread_rwlock_unlock
+	[ 117] +base[ 118]  0075 pthread_rwlock_wrlock
+	[ 118] +base[ 119]  0076 pthread_rwlockattr_destroy
+	[ 119] +base[ 120]  0077 pthread_rwlockattr_getpshared
+	[ 120] +base[ 121]  0078 pthread_rwlockattr_init
+	[ 121] +base[ 122]  0079 pthread_rwlockattr_setpshared
+	[ 122] +base[ 123]  007a pthread_self
+	[ 123] +base[ 124]  007b pthread_set_concurrency
+	[ 124] +base[ 125]  007c pthread_set_num_processors_np
+	[ 125] +base[ 126]  007d pthread_setcancelstate
+	[ 126] +base[ 127]  007e pthread_setcanceltype
+	[ 127] +base[ 128]  007f pthread_setconcurrency
+	[ 128] +base[ 129]  0080 pthread_setname_np
+	[ 129] +base[ 130]  0081 pthread_setschedparam
+	[ 130] +base[ 131]  0082 pthread_setspecific
+	[ 131] +base[ 132]  0083 pthread_spin_destroy
+	[ 132] +base[ 133]  0084 pthread_spin_init
+	[ 133] +base[ 134]  0085 pthread_spin_lock
+	[ 134] +base[ 135]  0086 pthread_spin_trylock
+	[ 135] +base[ 136]  0087 pthread_spin_unlock
+	[ 136] +base[ 137]  0088 pthread_testcancel
+	[ 137] +base[ 138]  0089 pthread_timechange_handler_np
+	[ 138] +base[ 139]  008a pthread_tls_init
+	[ 139] +base[ 140]  008b sched_get_priority_max
+	[ 140] +base[ 141]  008c sched_get_priority_min
+	[ 141] +base[ 142]  008d sched_getscheduler
+	[ 142] +base[ 143]  008e sched_setscheduler
+	[ 143] +base[ 144]  008f sched_yield
+	[ 144] +base[ 145]  0090 sem_close
+	[ 145] +base[ 146]  0091 sem_destroy
+	[ 146] +base[ 147]  0092 sem_getvalue
+	[ 147] +base[ 148]  0093 sem_init
+	[ 148] +base[ 149]  0094 sem_open
+	[ 149] +base[ 150]  0095 sem_post
+	[ 150] +base[ 151]  0096 sem_post_multiple
+	[ 151] +base[ 152]  0097 sem_timedwait32
+	[ 152] +base[ 153]  0098 sem_timedwait64
+	[ 153] +base[ 154]  0099 sem_trywait
+	[ 154] +base[ 155]  009a sem_unlink
+	[ 155] +base[ 156]  009b sem_wait
+

@@ -1,0 +1,38 @@
+{
+  "tool": "player_transform_probe",
+  "captured": "2026-09-06T19:27:47.116860-06:00",
+  "pid": 16942,
+  "module_base": "0x140000000",
+  "core_base": "0x6ffff9830000",
+  "slot": "0x6ffff98316f2",
+  "index": 0,
+  "object_addr": "0x143197100",
+  "object_rva": "0x3197100",
+  "group": 0,
+  "char_addr": "0x142f78b10",
+  "position_addr": "0x1431973b0",
+  "interval_s": 2.0,
+  "samples": [
+    {
+      "time": "2026-09-06T19:27:47.117127-06:00",
+      "position": [
+        73.91547393798828,
+        5.219999313354492,
+        -133.14068603515625
+      ],
+      "object_sha256": "f4b30de9e9ca42c603b9012f9576ec634ab3984980f798ff320723dece0676ed",
+      "character_sha256": "3d43b85d04ae73db6ae0d3b52c78d33514ee8522ecf9029508bc72876958b7b1"
+    },
+    {
+      "time": "2026-09-06T19:27:49.117565-06:00",
+      "position": [
+        73.91547393798828,
+        5.219999313354492,
+        -133.14068603515625
+      ],
+      "object_sha256": "f4b30de9e9ca42c603b9012f9576ec634ab3984980f798ff320723dece0676ed",
+      "character_sha256": "6b097ff5f559864f9b7af02a01235a5e0eb4f553e228eedd53b1c14f2d24d247"
+    }
+  ],
+  "total_bytes_read": 17592
+}

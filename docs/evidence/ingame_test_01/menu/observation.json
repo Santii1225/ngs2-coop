@@ -1,0 +1,39 @@
+{
+  "captured": "2026-09-06T18:06:22.261514-06:00",
+  "pid": 8894,
+  "proc_stat": "8894 (NINJA GAIDEN SI) S 8776 8894 8894 0 -1 4194304 118787 0 45 0 1448 552 0 0 15 -5 107 0 100278 9718153216 202395 18446744073709551615 139826784030720 139826784037995 140731447938928 0 0 0 0 4096 1073743614 0 0 0 17 9 0 0 0 0 0 139826784046896 139826784047200 93825656205312 140731447941678 140731447941970 140731447941970 140731447967632 0\n",
+  "status": [
+    "Name:\tNINJA GAIDEN SI",
+    "State:\tS (sleeping)",
+    "Pid:\t8894",
+    "PPid:\t8776",
+    "TracerPid:\t0"
+  ],
+  "log": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/ngs2coop-core-20260907-000515-563-316.log",
+  "log_sha256": "c813689df355ad0565b41d97b4f8dffa365f1ad77c05d9b0721831199fc4a257",
+  "log_size": 460,
+  "files": [
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/core.dll",
+      "sha256": "ca2849b56c3543351f8a56556e80424cc42cdd685ac8a962543384f726e1db1d",
+      "matches_installed": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/libgcc_s_seh-1.dll",
+      "sha256": "6d4d1e8b48a06a591cf60599ec6e3dd2ba31e0bf5e81dd198ed25cfea9a86117",
+      "matches_installed": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/libstdc++-6.dll",
+      "sha256": "055d42d37df160bc1d2bae503363fc49b64becb495b32f2efb6de50c3411f466",
+      "matches_installed": true
+    },
+    {
+      "path": "~/.local/share/Steam/steamapps/common/[NINJA GAIDEN Master Collection] NINJA GAIDEN \u03a3\uff12/plugin/libwinpthread-1.dll",
+      "sha256": "9230fabfb5b5909d6f223327d2ac72cf17e161dfe51e9c7537517ae61a05e62e",
+      "matches_installed": true
+    }
+  ],
+  "user_menu_confirmation": "YA EST\u00c1 EN EL MEN\u00da",
+  "runtime_memory_read": false
+}

@@ -1,0 +1,54 @@
+{
+  "session": "ACTOR_RESTART (Fase 9) \u2014 full game restart",
+  "captured": "2026-09-06T20:25:30.089278-06:00",
+  "pid": 29318,
+  "module_base": "0x140000000",
+  "core_base": "0x6ffff9830000",
+  "previous_pid": 16942,
+  "previous_pid_reused": false,
+  "gates": {
+    "exe_sha256": "a66daf...OK",
+    "core_sha256": "ca2849...OK",
+    "hook_slot": "core+0x16f2 LIVE",
+    "aslr_delta": "0x0 (deterministic base; no ASLR under this Proton)"
+  },
+  "mission": "Misi\u00f3n Ac\u00f3lito 01; AI partner = Ayane",
+  "LOCAL_PLAYER": {
+    "entry": 0,
+    "object_rva": "0x3197100",
+    "group": 0,
+    "obj_id": 0,
+    "position": [
+      88.2174,
+      8.0,
+      -130.3655
+    ],
+    "live_char_layout": true,
+    "char_hdr0": 0,
+    "char_dead_byte": 0,
+    "stable": true,
+    "structural_id": "only live-character game_object entry with char[grp]+0x00 == 0 (not just 'entry 0')",
+    "status": "RUNTIME VERIFIED (re-resolved from scratch after restart)"
+  },
+  "AI_PARTNER_A": {
+    "entry": 4,
+    "object_rva": "0x319cdb0",
+    "group": 1,
+    "obj_id": 220,
+    "position": [
+      88.069,
+      6.2862,
+      -122.359
+    ],
+    "dist_to_player": 8.191,
+    "live_char_layout": true,
+    "char_hdr0": 4,
+    "char_hdr4": "0909",
+    "char_enemy_hdr": false,
+    "char_dead_byte": 0,
+    "group_yaw_deg": -179.8,
+    "note": "entry 4 / obj RVA 0x319cdb0 again \u2014 3rd Team Mission, now across a FULL RESTART; stable role AND (this session) stable index/RVA. Base is deterministic (no ASLR) so RVA identity is expected; role identity is the meaningful result.",
+    "status": "STRONG CANDIDATE (pending 2 post-restart movement correlations)"
+  },
+  "other_actors": "21 further entries: enemies (live=n / enemy char header / dead byte), (0,0,0) managers, static player-group marker id 1"
+}

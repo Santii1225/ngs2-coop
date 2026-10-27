@@ -1,0 +1,11 @@
+# P1 = keyboard pad (slot 0), P2 = virtual pad slot 2 joined with BACK; enemies on port 3
+idle                                     P1 moved  0.00   P2 moved  0.00   padmap=[0, 2]
+teclado W 1.2s (P1)                      P1 moved  6.18   P2 moved  0.00   padmap=[0, 2]
+mando ranura 2 stick 1.2s (P2)           P1 moved  0.00   P2 moved  1.26   padmap=[0, 2]
+teclado J ataque (P1)                    P1 moved  1.04   P2 moved  0.00   padmap=[0, 2]
+mando ranura 2 A salto (P2)              P1 moved  0.00   P2 moved  0.28   padmap=[0, 2]
+idle                                     P1 moved  0.00   P2 moved  0.00   padmap=[0, 2]
+teclado W 1.2s (P1)                      P1 moved  5.51   P2 moved  0.00   padmap=[0, 2]
+mando ranura 2 stick 1.2s (P2)           P1 moved  0.00   P2 moved  0.84   padmap=[0, 2]
+teclado J ataque (P1)                    P1 moved  1.29   P2 moved  0.00   padmap=[0, 2]
+mando ranura 2 A salto (P2)              P1 moved  0.00   P2 moved  0.29   padmap=[0, 2]

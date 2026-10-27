@@ -1,0 +1,50 @@
+{
+  "stage": "pre_write",
+  "mvp": "2B",
+  "captured": "2026-09-07T17:58:36.063744-06:00",
+  "pid": 14042,
+  "starttime": "108576",
+  "module_base": "0x140000000",
+  "core_base": "0x6ffff9830000",
+  "slot_value": "0x6ffff98316f2",
+  "index": 0,
+  "object": "0x143197100",
+  "object_rva": "0x3197100",
+  "obj_id": 0,
+  "group": 0,
+  "target": "object + 0x4B80 (CANONICAL world X)",
+  "canonical_address": "0x14319bc80",
+  "observable_address": "0x1431973b0",
+  "original_x": -110.71110534667969,
+  "original_y": -1.1835247278213501e-05,
+  "original_z": 71.27787017822266,
+  "original_x_bytes": "166cddc2",
+  "observable_xyz": [
+    -110.71110534667969,
+    -1.1835247278213501e-05,
+    71.27787017822266
+  ],
+  "chain_dist_4B80_vs_2B0": 0.0,
+  "backup_matches_memory": true,
+  "char_hdr0": 0,
+  "char_dead_byte": 0,
+  "obj_quat_norm": 1.00218,
+  "corroboration": [
+    -110.71110534667969,
+    -1.1835247278213501e-05,
+    71.27787017822266
+  ],
+  "stable": {
+    "h_range": 0.0,
+    "v_range": 0.0,
+    "first_last_h": 0.0,
+    "first_last_v": 0.0,
+    "vel_max": 0.0,
+    "x_first": -110.71110534667969,
+    "x_last": -110.71110534667969
+  },
+  "ai_partner_selected": false,
+  "proposed_x": -110.41110534667969,
+  "delta": 0.3,
+  "gates": "ALL PASS"
+}

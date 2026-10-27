@@ -1,0 +1,10 @@
+NGS2Coop: core plugin loaded
+NGS2Coop: initialization starting
+NGS2Coop: module base = 0000000140000000
+NGS2Coop: Sigma2 slot = 00000001418F9518 (RVA 0x18F9518)
+NGS2Coop: expected target = 0000000141462A00
+NGS2Coop: Sigma2 slot current target = 0000000141462A00
+NGS2Coop: version guard PASS (image and target; CAS rechecks target)
+NGS2Coop: Sigma2 hook installed
+NGS2Coop: Sigma2 hook invoked
+NGS2Coop: Sigma2 original returned bool=true; forwarding unchanged

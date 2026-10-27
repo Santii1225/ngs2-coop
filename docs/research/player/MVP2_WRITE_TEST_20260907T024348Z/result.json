@@ -1,0 +1,119 @@
+{
+  "stage": "armed",
+  "evidence_dir": "docs/research/player/MVP2_WRITE_TEST_20260907T024348Z",
+  "confirm": "AUTORIZO WRITE +0.30 X",
+  "pid": 29318,
+  "starttime": "920438",
+  "module_base": "0x140000000",
+  "object": "0x143197100",
+  "position_address": "0x1431973b0",
+  "original_x": 67.84577941894531,
+  "original_y": 5.219999313354492,
+  "original_z": -95.8218994140625,
+  "original_x_bytes": "0ab18742",
+  "requested_x": 68.14577941894531,
+  "requested_x_bytes": "a44a8842",
+  "delta": 0.3,
+  "stable_pre": {
+    "h_range": 0.0,
+    "v_range": 0.0,
+    "first_last_h": 0.0,
+    "first_last_v": 0.0,
+    "x_first": 67.84577941894531,
+    "x_last": 67.84577941894531
+  },
+  "write_timestamp": "2026-09-06T20:44:40.500384-06:00",
+  "immediate_readback_x": 68.14578247070312,
+  "immediate_readback_bytes": "a44a8842",
+  "immediate_diff_from_requested": 3.051757815342171e-06,
+  "observation": [
+    {
+      "t": "2026-09-06T20:44:40.650620-06:00",
+      "x": 67.84577941894531,
+      "y": 5.219999313354492,
+      "z": -95.8218994140625,
+      "bytes": "0ab18742"
+    },
+    {
+      "t": "2026-09-06T20:44:40.800734-06:00",
+      "x": 67.84577941894531,
+      "y": 5.219999313354492,
+      "z": -95.8218994140625,
+      "bytes": "0ab18742"
+    },
+    {
+      "t": "2026-09-06T20:44:40.950867-06:00",
+      "x": 67.84577941894531,
+      "y": 5.219999313354492,
+      "z": -95.8218994140625,
+      "bytes": "0ab18742"
+    },
+    {
+      "t": "2026-09-06T20:44:41.100998-06:00",
+      "x": 67.84577941894531,
+      "y": 5.219999313354492,
+      "z": -95.8218994140625,
+      "bytes": "0ab18742"
+    },
+    {
+      "t": "2026-09-06T20:44:41.251120-06:00",
+      "x": 67.84577941894531,
+      "y": 5.219999313354492,
+      "z": -95.8218994140625,
+      "bytes": "0ab18742"
+    }
+  ],
+  "anomaly": null,
+  "engine_response": "REVERTED toward original (engine overwrote)",
+  "restoration": {
+    "attempted": true,
+    "n": 4,
+    "timestamp": "2026-09-06T20:44:41.256568-06:00",
+    "readback_bytes": "0ab18742",
+    "readback_x": 67.84577941894531,
+    "exact": true,
+    "within_tol": true,
+    "result": "EXACT"
+  },
+  "process_alive": true,
+  "process_starttime_now": "920438",
+  "process_starttime_stable": true,
+  "ai_partner_affected": false,
+  "log": [
+    {
+      "t": "2026-09-06T20:44:40.500278-06:00",
+      "ev": "revalidated",
+      "pid": 29318,
+      "starttime": "920438",
+      "object": "0x143197100",
+      "addr": "0x1431973b0",
+      "x0": 67.84577941894531,
+      "cur_bytes": "0ab18742",
+      "dryrun_bytes": "0ab18742",
+      "cur_matches_dryrun": true
+    },
+    {
+      "t": "2026-09-06T20:44:40.500384-06:00",
+      "ev": "write",
+      "addr": "0x1431973b0",
+      "bytes": "a44a8842",
+      "n": 4
+    },
+    {
+      "t": "2026-09-06T20:44:40.500402-06:00",
+      "ev": "readback_immediate",
+      "x": 68.14578247070312,
+      "bytes": "a44a8842"
+    },
+    {
+      "t": "2026-09-06T20:44:41.256568-06:00",
+      "ev": "restore",
+      "bytes": "0ab18742",
+      "n": 4,
+      "readback": "0ab18742",
+      "result": "EXACT"
+    }
+  ],
+  "finished": "2026-09-06T20:44:41.261886-06:00",
+  "verdict": "PARTIAL (engine overwrote X quickly, restored cleanly)"
+}

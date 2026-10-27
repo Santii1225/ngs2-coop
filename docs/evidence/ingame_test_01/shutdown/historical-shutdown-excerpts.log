@@ -1,0 +1,5 @@
+5123: 8477.817:0124:0154:warn:seh:dispatch_exception backtrace: --- Exception 0x6be.
+5124: 8477.817:0124:0154:trace:seh:dispatch_exception code=6be (unknown) flags=0 addr=00006FFFFFBFD947
+5130: 8477.817:0124:0154:trace:seh:call_vectored_handlers calling handler at 00006FFFFD42F7B0 code=6be flags=0
+5216: 8477.817:0124:0154:trace:seh:RtlUnwindEx code=6be flags=2 end_frame=00000000038DFCD0 target_ip=00006FFFFFAA325A
+5380: 8477.817:0124:0154:err:service:device_notify_proc failed to get event, error 1726

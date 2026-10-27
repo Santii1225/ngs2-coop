@@ -1,0 +1,8 @@
+idle                               P1 moved  0.00   P2(partner) moved  0.00   ports P1=0 P2=1 padmap=[0, 1] states 0x0/0x0
+P1 stick only                      P1 moved  2.42   P2(partner) moved  0.00   ports P1=0 P2=1 padmap=[0, 1] states 0x6/0x0
+P2 stick only                      P1 moved  0.05   P2(partner) moved  1.51   ports P1=0 P2=1 padmap=[0, 1] states 0x0/0xa
+P1 left + P2 right                 P1 moved  2.51   P2(partner) moved  4.10   ports P1=0 P2=1 padmap=[0, 1] states 0x8/0x2a
+idle                               P1 moved  0.01   P2(partner) moved  0.00   ports P1=0 P2=1 padmap=[0, 1] states 0x0/0x0
+P1 stick only                      P1 moved  2.22   P2(partner) moved  0.00   ports P1=0 P2=1 padmap=[0, 1] states 0x8/0x0
+P2 stick only                      P1 moved  0.01   P2(partner) moved  0.55   ports P1=0 P2=1 padmap=[0, 1] states 0x0/0xa
+P1 left + P2 right                 P1 moved  0.03   P2(partner) moved  4.02   ports P1=0 P2=1 padmap=[0, 1] states 0xa/0x2a

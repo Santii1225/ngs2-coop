@@ -1,0 +1,744 @@
+{
+  "executable_sha256": "a66daf011d22dd6fd6676e0b8ccc68e85448d4570bbac635e25adc1f2d06ffef",
+  "scope": "RTTI-like names in non-executable file-backed sections; not exhaustive type recovery",
+  "hits": [
+    {
+      "name": ".?AUIThreadProxyFactory@details@Concurrency@@",
+      "rva": "0x1f5e1c0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFreeThreadProxyFactory@details@Concurrency@@",
+      "rva": "0x1f5e200",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@",
+      "rva": "0x1f5e250",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVUMSFreeThreadProxyFactory@details@Concurrency@@",
+      "rva": "0x1f5e3f0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$ThreadProxyFactory@VUMSFreeThreadProxy@details@Concurrency@@@details@Concurrency@@",
+      "rva": "0x1f5e440",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@V?$BillboardTexture@UDefaultCustomized@BasicEffect@@@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f5fc30",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SimpleArcWaveBlinkerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f60ad0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$EFF_CommonReviveMain@UStickyTransformRegistryPolicy@?A0xffd49879@@@?A0xffd49879@@",
+      "rva": "0x1f60d80",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$RandomFlickerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyTransformPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f619a0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$RandomTriangularWaveBlinkerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f621e0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$RandomTriangularWaveBlinkerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyTransformPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f622b0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$RandomFlickerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f62f40",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$NoneAnimationPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f63e30",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@",
+      "rva": "0x1f64080",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$FreezeTriangularWaveBlinkerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f64310",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$NoneAnimationPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyTransformPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f655e0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$FreezeTriangularWaveBlinkerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyTransformPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f66a90",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformShared@VTextureParticle@BasicEffect@@@BasicEffect@@",
+      "rva": "0x1f66e10",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SimpleArcWaveBlinkerPointLightEffect@V?$TransformSharedRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyTransformPolicy@Needle@@@GameEffect@@@@",
+      "rva": "0x1f67810",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@V?$BillboardTexture@UDefaultCustomized@BasicEffect@@@2@VIgnoreZRegistry@eff_rtm_mom_01_10_amulet_detail@@@BasicEffect@@",
+      "rva": "0x1f6ac30",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@V?$BillboardObject@UDefaultCustomized@BasicEffect@@@2@VIgnoreZRegistry@eff_rtm_mom_01_10_amulet_detail@@@BasicEffect@@",
+      "rva": "0x1f6e210",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM_YTransformBlood@@",
+      "rva": "0x1f71158",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM17_10_RyuEyeFlash@@",
+      "rva": "0x1f738a8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM15_30_GairaPresentRyuLight@@",
+      "rva": "0x1f73c40",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM20_40_RyuFootDust@@",
+      "rva": "0x1f74398",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM17_10_RyuFingerBlood@@",
+      "rva": "0x1f749c8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM16_30_DogCrackToRyu@@",
+      "rva": "0x1f75198",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@V?$IgnoreZRegistry@VStickyTransformPolicy@Needle@@@@@BasicEffect@@",
+      "rva": "0x1f75ef0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f75ff0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f771f0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@VTextureResource@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f773e0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VTextureParticle@BasicEffect@@@BasicEffect@@VTextureResource@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f77980",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_ADWORM_Child_AcidBall_Hit_Ryu@@",
+      "rva": "0x1f782d8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@V?$IgnoreZRegistry@VStickyTransformPolicy@Needle@@@@@BasicEffect@@",
+      "rva": "0x1f788a0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_ADWORM_Hit_Ryu@@",
+      "rva": "0x1f795e0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_MAJINGAIRA_FireKunaiPlayerHit@@",
+      "rva": "0x1f79980",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$NoneAnimationPointLightEffect@V?$TransformSharedSectionalRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@@@@",
+      "rva": "0x1f7b5b0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@V?$YAxialBillboardObject@UDefaultCustomized@BasicEffect@@@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f7c040",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@V?$BillboardObject@UDefaultCustomized@BasicEffect@@@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f7ccb0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$RandomTriangularWaveBlinkerPointLightEffect@V?$TransformSharedSectionalRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@@@@",
+      "rva": "0x1f7d780",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@Vinsert_to_final_registry@eff_std_tokyo_detail@@@BasicEffect@@",
+      "rva": "0x1f7e740",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@Vinsert_to_final_registry@EFF_CH5_WATERFALL_Effect@@@BasicEffect@@",
+      "rva": "0x1f7ee70",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@Vinsert_to_final_registry@EFF_CH5_WATERFALL_Effect@@@BasicEffect@@",
+      "rva": "0x1f7fc80",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@V?$BillboardTexture@UDefaultCustomized@BasicEffect@@@2@VSpiralRegistry@EFF_CH14_WARP_Effect@@@BasicEffect@@",
+      "rva": "0x1f7fe50",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$RandomFlickerPointLightEffect@V?$TransformSharedSectionalRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@@@@",
+      "rva": "0x1f80750",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$FreezeTriangularWaveBlinkerPointLightEffect@V?$TransformSharedSectionalRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@@@@",
+      "rva": "0x1f812d0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@Vinsert_to_final_registry@eff_std_tokyo_detail@@@BasicEffect@@",
+      "rva": "0x1f81560",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SimpleArcWaveBlinkerPointLightEffect@V?$TransformSharedSectionalRegistry@V?$EffectRegistry@VAnyAllocator@GameEffect@@@BasicEffect@@VStickyPositionPolicy@Needle@@@@@@",
+      "rva": "0x1f820f0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM05_80_RyuKickBone@@",
+      "rva": "0x1f82bb0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@Vblood_stamp_effect_registry@blood_stamp_manager_detail@@@BasicEffect@@",
+      "rva": "0x1f87da0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@VTextureResource@2@Vblood_stamp_effect_registry@blood_stamp_manager_detail@@@BasicEffect@@",
+      "rva": "0x1f87e50",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@V?$EffectRegistry@VAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f881b0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@VTextureResource@2@V?$EffectRegistry@VAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f88270",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@V?$EffectRegistry@VAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f88310",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@Vblood_stamp_effect_registry@blood_stamp_manager_detail@@@BasicEffect@@",
+      "rva": "0x1f883b0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VTextureParticle@BasicEffect@@@BasicEffect@@VTextureResource@2@V?$EffectRegistry@VAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f88480",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_RTM07_30_RyuSmoke@@",
+      "rva": "0x1f889c8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@V?$BillboardTexture@UDefaultCustomized@BasicEffect@@@2@V?$EffectRegistry@VAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f88f00",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@VObjectParticle@BasicEffect@@V?$BillboardObject@UDefaultCustomized@BasicEffect@@@2@V?$IgnoreZRegistry@VStickyTransformPolicy@Needle@@@@@BasicEffect@@",
+      "rva": "0x1f88fd0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@VObjectParticle@BasicEffect@@VObjectResource@2@V?$IgnoreZRegistry@VStickyTransformPolicy@Needle@@@@@BasicEffect@@",
+      "rva": "0x1f89100",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VShimmerObject@GameEffect@@V?$EffectRegistry@VAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f892d0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VShimmerObject@GameEffect@@V?$IgnoreZRegistry@VStickyTransformPolicy@Needle@@@@@BasicEffect@@",
+      "rva": "0x1f893a0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@VTextureParticle@BasicEffect@@V?$BillboardTexture@UDefaultCustomized@BasicEffect@@@2@V?$IgnoreZRegistry@VStickyTransformPolicy@Needle@@@@@BasicEffect@@",
+      "rva": "0x1f89450",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VShimmerObject@GameEffect@@V?$EffectRegistry@VAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f896e0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@V?$BillboardObject@UDefaultCustomized@BasicEffect@@@2@V?$IgnoreZRegistry@VStickyTransformPolicy@Needle@@@@@BasicEffect@@",
+      "rva": "0x1f8a1a0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@VObjectParticle@BasicEffect@@VObjectResource@2@V?$IgnoreZRegistry@UDefaultTransformTraits@BasicEffect@@@@@BasicEffect@@",
+      "rva": "0x1f8a600",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$VanishCrushTrailTemplate@VVanishCrushAuraFactor@?A0x477411e7@@@?A0x477411e7@@",
+      "rva": "0x1f8a6b0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$VanishCrushTrailTemplate@VVanishCrushDustFactor@?A0x477411e7@@@?A0x477411e7@@",
+      "rva": "0x1f8ad90",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$VanishCrushTrailPoint@VVanishCrushDustFactor@?A0x477411e7@@@?A0x477411e7@@",
+      "rva": "0x1f8af50",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$VanishCrushTrailPoint@VVanishCrushAuraFactor@?A0x477411e7@@@?A0x477411e7@@",
+      "rva": "0x1f8afc0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_DEATHMEGARO_ChildCharaHit@@",
+      "rva": "0x1f8d378",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_DEATHMEGARO_ChildCharaHitShimmer@@",
+      "rva": "0x1f8dd40",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_DEATHMEGARO_ChildCharaHitParts@@",
+      "rva": "0x1f8e2a8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_NITOUNINJA_FirearrowCharaHit@@",
+      "rva": "0x1f92440",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_SKELETON_SlaverCharaHit@@",
+      "rva": "0x1f92eb0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$CircularResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@V?$EffectRegistry@VAnyAllocator@GameEffect@@@2@@BasicEffect@@",
+      "rva": "0x1f93820",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVEFF_WATERDRAGON_NeedleHitPlayer@@",
+      "rva": "0x1f93cc0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@Vsort_offset_registry@eff_coop_ninpo_cloud_detail@@@BasicEffect@@",
+      "rva": "0x1f94490",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@Vsort_offset_registry@eff_coop_ninpo_bg_detail@@@BasicEffect@@",
+      "rva": "0x1f94650",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@V?$BillboardObject@UDefaultCustomized@BasicEffect@@@2@Vsort_offset_registry@eff_coop_ninpo_cloud_detail@@@BasicEffect@@",
+      "rva": "0x1f94720",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VTextureParticle@BasicEffect@@V?$BillboardTexture@UDefaultCustomized@BasicEffect@@@2@Vsort_offset_registry@eff_coop_ninpo_cloud_detail@@@BasicEffect@@",
+      "rva": "0x1f94a30",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SphericalResourceGenerator@V?$TransformShared@VObjectParticle@BasicEffect@@@BasicEffect@@VObjectResource@2@Vsort_offset_registry@eff_coop_ninpo_bg_detail@@@BasicEffect@@",
+      "rva": "0x1f94b00",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$TransformSharedResourceMove@VObjectParticle@BasicEffect@@VObjectResource@2@Vsort_offset_registry@eff_coop_ninpo_cloud_detail@@@BasicEffect@@",
+      "rva": "0x1f94e40",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVSelectMenu@CoopCharaSelectMenu@@",
+      "rva": "0x1f9c338",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVConnectMenu@CoopCharaSelectMenu@@",
+      "rva": "0x1f9c4b8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVCharaSelectMenu@CoopMenu@@",
+      "rva": "0x1f9c7c0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVSigma2@?A0xdaaade58@@",
+      "rva": "0x1fa27f0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$SingletonPtr@VSigma2@?A0xdaaade58@@@memory@@",
+      "rva": "0x1fa2ab0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AV?$StoragePtr@VSigma2@?A0xdaaade58@@@memory@@",
+      "rva": "0x1fa2b40",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVSpecialCharAttributeEurope@?A0x7bc6a921@GameSprite@@",
+      "rva": "0x1fa3f70",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVSpecialCharAttribute@?A0x7bc6a921@GameSprite@@",
+      "rva": "0x1fa4040",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVSpecialCharAttributeBase@?A0x7bc6a921@GameSprite@@",
+      "rva": "0x1fa4820",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVRankingFactor@@",
+      "rva": "0x1fa6e30",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixPlayerGauge@@",
+      "rva": "0x1fa8000",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixNinjaCoopPlayerCursor@@",
+      "rva": "0x1fa80c0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelect@?A0x4d47a74c@@",
+      "rva": "0x1fa91e0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelectUnloaderForPrologue@?A0x4d47a74c@@",
+      "rva": "0x1fa9290",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVCharaSelect@?A0x4d47a74c@@",
+      "rva": "0x1fa9348",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelectFadeOut@?A0x4d47a74c@@",
+      "rva": "0x1fa93b0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelectCapture@?A0x4d47a74c@@",
+      "rva": "0x1fa9450",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelectUnloader@?A0x4d47a74c@@",
+      "rva": "0x1fa9490",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelectLoader@?A0x4d47a74c@@",
+      "rva": "0x1fa94d0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelectFadeIn@?A0x4d47a74c@@",
+      "rva": "0x1fa9510",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopCharaSelectLoaderForPrologue@?A0x4d47a74c@@",
+      "rva": "0x1fa9590",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVNinjaRaceSetupItemCharaObject@@",
+      "rva": "0x1fa9e68",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVNinjaRaceSetupItemChara@@",
+      "rva": "0x1fa9fc0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVFixCoopPlayerGauge@@",
+      "rva": "0x1faa200",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVNG2NormalCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1faaf30",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVHairCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1faaf78",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVStringCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1faafb8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVCylinderCreator@CollisionFactory@Accessory@@",
+      "rva": "0x1fab000",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVCubeCreator@CollisionFactory@Accessory@@",
+      "rva": "0x1fab048",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVLClothCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1fab088",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVBreastCreator@CollisionFactory@Accessory@@",
+      "rva": "0x1fab0c8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVNG2BonedCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1fab110",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVSphereCreator@CollisionFactory@Accessory@@",
+      "rva": "0x1fab158",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVLStringCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1fab1a0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVNG2SkirtCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1fab1e0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVAccessoryCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1fab230",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVClothCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1fab278",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVMixerCreator@AccessoryFactory@Accessory@@",
+      "rva": "0x1fab2b8",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVCollisionCreator@CollisionFactory@Accessory@@",
+      "rva": "0x1fab300",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    },
+    {
+      "name": ".?AVCSoundATStreamPlayer@ktgl@@",
+      "rva": "0x1facdb0",
+      "section": ".data",
+      "status": "STATIC CANDIDATE"
+    }
+  ]
+}

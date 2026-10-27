@@ -1,0 +1,18 @@
+{
+  "time": "2026-09-06T20:20:54.856392-06:00",
+  "user_confirmation": "JUEGO CERRADO PARA REVALIDACION",
+  "previous_session": {
+    "pid": 16942,
+    "pid_exists": false,
+    "scope": "Phases 7-8: player XYZ+rotation RUNTIME VERIFIED; AI partner STRONG CANDIDATE (game_object[4] / obj RVA 0x319cdb0, 2 Team Missions)"
+  },
+  "do_not_reuse": [
+    "PID 16942",
+    "module base example 0x140000000 as absolute",
+    "object 0x143197100",
+    "object 0x319cdb0",
+    "group 1 for AI partner",
+    "obj_id 219/220"
+  ],
+  "next": "new full launch -> Team Mission -> LOCAL stable -> re-resolve from scratch"
+}

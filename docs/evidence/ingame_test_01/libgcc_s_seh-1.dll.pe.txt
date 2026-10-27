@@ -1,0 +1,426 @@
+
+<ruta-del-repo>/dist/libgcc_s_seh-1.dll:     file format pei-x86-64
+
+Characteristics 0x222e
+	executable
+	line numbers stripped
+	symbols stripped
+	large address aware
+	debugging information removed
+	DLL
+
+Time/Date		Sun Aug 30 17:13:29 2026
+Magic			020b	(PE32+)
+MajorLinkerVersion	2
+MinorLinkerVersion	47
+SizeOfCode		000000000001ee00
+SizeOfInitializedData	0000000000005800
+SizeOfUninitializedData	0000000000000200
+AddressOfEntryPoint	00000000000011f0
+BaseOfCode		0000000000001000
+ImageBase		00000001e0140000
+SectionAlignment	00001000
+FileAlignment		00000200
+MajorOSystemVersion	4
+MinorOSystemVersion	0
+MajorImageVersion	0
+MinorImageVersion	0
+MajorSubsystemVersion	5
+MinorSubsystemVersion	2
+Win32Version		00000000
+SizeOfImage		0002c000
+SizeOfHeaders		00000400
+CheckSum		0002d6f7
+Subsystem		00000003	(Windows CUI)
+DllCharacteristics	00000160
+					HIGH_ENTROPY_VA
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve	0000000000200000
+SizeOfStackCommit	0000000000001000
+SizeOfHeapReserve	0000000000100000
+SizeOfHeapCommit	0000000000001000
+LoaderFlags		00000000
+NumberOfRvaAndSizes	00000010
+
+The Data Directory
+Entry 0 0000000000028000 00000b90 Export Directory [.edata (or where ever we found it)]
+Entry 1 0000000000029000 00000810 Import Directory [parts of .idata]
+Entry 2 0000000000000000 00000000 Resource Directory [.rsrc]
+Entry 3 0000000000025000 00000ae0 Exception Directory [.pdata]
+Entry 4 0000000000000000 00000000 Security Directory
+Entry 5 000000000002b000 0000004c Base Relocation Directory [.reloc]
+Entry 6 0000000000000000 00000000 Debug Directory
+Entry 7 0000000000000000 00000000 Description Directory
+Entry 8 0000000000000000 00000000 Special Directory
+Entry 9 0000000000021b00 00000028 Thread Storage Directory [.tls]
+Entry a 0000000000000000 00000000 Load Configuration Directory
+Entry b 0000000000000000 00000000 Bound Import Directory
+Entry c 0000000000029228 00000188 Import Address Table Directory
+Entry d 0000000000000000 00000000 Delay Import Directory
+Entry e 0000000000000000 00000000 CLR Runtime Header
+Entry f 0000000000000000 00000000 Reserved
+
+There is an import table in .idata at 0x1e0169000
+
+The Import Tables (interpreted .idata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 00029000	000290a0 00000000 00000000 000296e0 00029228
+
+	DLL Name: KERNEL32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00029228  <none>  0127  DeleteCriticalSection
+	00029230  <none>  014d  EnterCriticalSection
+	00029238  <none>  01ca  FreeLibrary
+	00029240  <none>  0288  GetLastError
+	00029248  <none>  029e  GetModuleHandleA
+	00029250  <none>  02da  GetProcAddress
+	00029258  <none>  0396  InitializeCriticalSection
+	00029260  <none>  03f4  LeaveCriticalSection
+	00029268  <none>  03f8  LoadLibraryA
+	00029270  <none>  04a0  RaiseException
+	00029278  <none>  04e8  RtlCaptureContext
+	00029280  <none>  04f0  RtlLookupFunctionEntry
+	00029288  <none>  04f6  RtlUnwindEx
+	00029290  <none>  04f7  RtlVirtualUnwind
+	00029298  <none>  05a9  Sleep
+	000292a0  <none>  05cd  TlsGetValue
+	000292a8  <none>  05fd  VirtualProtect
+	000292b0  <none>  05ff  VirtualQuery
+
+ 00029014	00029138 00000000 00000000 00029700 000292c0
+
+	DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000292c0  <none>  0017  calloc
+	000292c8  <none>  0018  free
+	000292d0  <none>  0019  malloc
+	000292d8  <none>  001a  realloc
+
+ 00029028	00029160 00000000 00000000 00029724 000292e8
+
+	DLL Name: api-ms-win-crt-private-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000292e8  <none>  043d  memcpy
+
+ 0002903c	00029170 00000000 00000000 00029764 000292f8
+
+	DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000292f8  <none>  0023  _execute_onexit_table
+	00029300  <none>  0024  _exit
+	00029308  <none>  0034  _initialize_onexit_table
+	00029310  <none>  0036  _initterm
+	00029318  <none>  0037  _initterm_e
+	00029320  <none>  003c  _register_onexit_function
+	00029328  <none>  0054  abort
+
+ 00029050	000291b0 00000000 00000000 00029790 00029338
+
+	DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00029338  <none>  0000  __acrt_iob_func
+	00029340  <none>  0003  __stdio_common_vfprintf
+
+ 00029064	000291c8 00000000 00000000 000297bc 00029350
+
+	DLL Name: api-ms-win-crt-string-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00029350  <none>  0079  memset
+	00029358  <none>  0081  strlen
+	00029360  <none>  0084  strncmp
+
+ 00029078	000291e8 00000000 00000000 000297fc 00029370
+
+	DLL Name: libwinpthread-1.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00029370  <none>  0050  pthread_getspecific
+	00029378  <none>  0052  pthread_key_create
+	00029380  <none>  0056  pthread_mutex_init
+	00029388  <none>  0057  pthread_mutex_lock
+	00029390  <none>  005c  pthread_mutex_unlock
+	00029398  <none>  0068  pthread_once
+	000293a0  <none>  0082  pthread_setspecific
+
+ 0002908c	00000000 00000000 00000000 00000000 00000000
+
+There is an export table in .edata at 0x1e0168000
+
+The Export Tables (interpreted .edata section contents)
+
+Export Flags 			0
+Time/Date stamp 		6a94b919
+Major/Minor 			0/0
+Name 				0000000000028528 libgcc_s_seh-1.dll
+Ordinal Base 			1
+Number in:
+	Export Address Table 		00000080
+	[Name Pointer/Ordinal] Table	00000080
+Table Addresses
+	Export Address Table 		0000000000028028
+	Name Pointer Table 		0000000000028228
+	Ordinal Table 			0000000000028428
+
+Export Address Table -- Ordinal Base 1
+	          Ordinal  Address  Type
+	[   0] +base[   1] 0001c9a0 Export RVA
+	[   1] +base[   2] 0001ce50 Export RVA
+	[   2] +base[   3] 0001ce30 Export RVA
+	[   3] +base[   4] 0001c950 Export RVA
+	[   4] +base[   5] 0001ce00 Export RVA
+	[   5] +base[   6] 0001c8f0 Export RVA
+	[   6] +base[   7] 0001c980 Export RVA
+	[   7] +base[   8] 0001c8b0 Export RVA
+	[   8] +base[   9] 0001c900 Export RVA
+	[   9] +base[  10] 0001c910 Export RVA
+	[  10] +base[  11] 0001c930 Export RVA
+	[  11] +base[  12] 0001c940 Export RVA
+	[  12] +base[  13] 0001c990 Export RVA
+	[  13] +base[  14] 0001cc30 Export RVA
+	[  14] +base[  15] 0001cc70 Export RVA
+	[  15] +base[  16] 0001cdb0 Export RVA
+	[  16] +base[  17] 0001c8d0 Export RVA
+	[  17] +base[  18] 0001c920 Export RVA
+	[  18] +base[  19] 000018e0 Export RVA
+	[  19] +base[  20] 00001900 Export RVA
+	[  20] +base[  21] 00001910 Export RVA
+	[  21] +base[  22] 00009f60 Export RVA
+	[  22] +base[  23] 00001950 Export RVA
+	[  23] +base[  24] 00001960 Export RVA
+	[  24] +base[  25] 00001970 Export RVA
+	[  25] +base[  26] 000015e0 Export RVA
+	[  26] +base[  27] 00001650 Export RVA
+	[  27] +base[  28] 00006180 Export RVA
+	[  28] +base[  29] 00006170 Export RVA
+	[  29] +base[  30] 00001740 Export RVA
+	[  30] +base[  31] 00006190 Export RVA
+	[  31] +base[  32] 000061b0 Export RVA
+	[  32] +base[  33] 00001ca0 Export RVA
+	[  33] +base[  34] 00001cb0 Export RVA
+	[  34] +base[  35] 000016d0 Export RVA
+	[  35] +base[  36] 00001cd0 Export RVA
+	[  36] +base[  37] 00001ce0 Export RVA
+	[  37] +base[  38] 00003eb0 Export RVA
+	[  38] +base[  39] 00007970 Export RVA
+	[  39] +base[  40] 00003b50 Export RVA
+	[  40] +base[  41] 00004970 Export RVA
+	[  41] +base[  42] 0000b3f0 Export RVA
+	[  42] +base[  43] 000075d0 Export RVA
+	[  43] +base[  44] 00004410 Export RVA
+	[  44] +base[  45] 0001d550 Export RVA
+	[  45] +base[  46] 0001d7b0 Export RVA
+	[  46] +base[  47] 0001c620 Export RVA
+	[  47] +base[  48] 0000c1e0 Export RVA
+	[  48] +base[  49] 00010a90 Export RVA
+	[  49] +base[  50] 00010770 Export RVA
+	[  50] +base[  51] 000108c0 Export RVA
+	[  51] +base[  52] 00010c70 Export RVA
+	[  52] +base[  53] 00001c40 Export RVA
+	[  53] +base[  54] 00001c60 Export RVA
+	[  54] +base[  55] 00006ca0 Export RVA
+	[  55] +base[  56] 00006c40 Export RVA
+	[  56] +base[  57] 0000f1e0 Export RVA
+	[  57] +base[  58] 0000ee80 Export RVA
+	[  58] +base[  59] 0000f660 Export RVA
+	[  59] +base[  60] 00006b90 Export RVA
+	[  60] +base[  61] 00006e20 Export RVA
+	[  61] +base[  62] 00006b60 Export RVA
+	[  62] +base[  63] 00006d60 Export RVA
+	[  63] +base[  64] 0000f380 Export RVA
+	[  64] +base[  65] 0000efb0 Export RVA
+	[  65] +base[  66] 0000f8a0 Export RVA
+	[  66] +base[  67] 00006bc0 Export RVA
+	[  67] +base[  68] 00006ee0 Export RVA
+	[  68] +base[  69] 00006d00 Export RVA
+	[  69] +base[  70] 0000f4c0 Export RVA
+	[  70] +base[  71] 0000f0b0 Export RVA
+	[  71] +base[  72] 00007210 Export RVA
+	[  72] +base[  73] 000070c0 Export RVA
+	[  73] +base[  74] 0000fa60 Export RVA
+	[  74] +base[  75] 00007360 Export RVA
+	[  75] +base[  76] 0000f5b0 Export RVA
+	[  76] +base[  77] 0000f150 Export RVA
+	[  77] +base[  78] 00007490 Export RVA
+	[  78] +base[  79] 000073a0 Export RVA
+	[  79] +base[  80] 0000fe00 Export RVA
+	[  80] +base[  81] 00007580 Export RVA
+	[  81] +base[  82] 0001d490 Export RVA
+	[  82] +base[  83] 0000c410 Export RVA
+	[  83] +base[  84] 0000c410 Export RVA
+	[  84] +base[  85] 0001c660 Export RVA
+	[  85] +base[  86] 0000c720 Export RVA
+	[  86] +base[  87] 00001560 Export RVA
+	[  87] +base[  88] 0000c720 Export RVA
+	[  88] +base[  89] 00007790 Export RVA
+	[  89] +base[  90] 00002510 Export RVA
+	[  90] +base[  91] 00002190 Export RVA
+	[  91] +base[  92] 00002e50 Export RVA
+	[  92] +base[  93] 0000ca20 Export RVA
+	[  93] +base[  94] 000014d0 Export RVA
+	[  94] +base[  95] 000019f0 Export RVA
+	[  95] +base[  96] 00001a00 Export RVA
+	[  96] +base[  97] 00001a10 Export RVA
+	[  97] +base[  98] 00002970 Export RVA
+	[  98] +base[  99] 0000d640 Export RVA
+	[  99] +base[ 100] 00001510 Export RVA
+	[ 100] +base[ 101] 00001be0 Export RVA
+	[ 101] +base[ 102] 00001bf0 Export RVA
+	[ 102] +base[ 103] 00001c00 Export RVA
+	[ 103] +base[ 104] 0000c1e0 Export RVA
+	[ 104] +base[ 105] 00001df0 Export RVA
+	[ 105] +base[ 106] 00001e30 Export RVA
+	[ 106] +base[ 107] 00001d00 Export RVA
+	[ 107] +base[ 108] 00001d60 Export RVA
+	[ 108] +base[ 109] 00001f10 Export RVA
+	[ 109] +base[ 110] 00001e80 Export RVA
+	[ 110] +base[ 111] 00002030 Export RVA
+	[ 111] +base[ 112] 00001fa0 Export RVA
+	[ 112] +base[ 113] 0001c7e0 Export RVA
+	[ 113] +base[ 114] 0001c800 Export RVA
+	[ 114] +base[ 115] 0001c7f0 Export RVA
+	[ 115] +base[ 116] 0000d6c0 Export RVA
+	[ 116] +base[ 117] 000019a0 Export RVA
+	[ 117] +base[ 118] 000019b0 Export RVA
+	[ 118] +base[ 119] 000019c0 Export RVA
+	[ 119] +base[ 120] 00012f40 Export RVA
+	[ 120] +base[ 121] 00013580 Export RVA
+	[ 121] +base[ 122] 000128d0 Export RVA
+	[ 122] +base[ 123] 00013c90 Export RVA
+	[ 123] +base[ 124] 00001710 Export RVA
+	[ 124] +base[ 125] 00007eb0 Export RVA
+	[ 125] +base[ 126] 00007b90 Export RVA
+	[ 126] +base[ 127] 00007cd0 Export RVA
+	[ 127] +base[ 128] 0000eca0 Export RVA
+
+[Ordinal/Name Pointer] Table -- Ordinal Base 1
+	          Ordinal   Hint Name
+	[   0] +base[   1]  0000 _GCC_specific_handler
+	[   1] +base[   2]  0001 _Unwind_Backtrace
+	[   2] +base[   3]  0002 _Unwind_DeleteException
+	[   3] +base[   4]  0003 _Unwind_FindEnclosingFunction
+	[   4] +base[   5]  0004 _Unwind_ForcedUnwind
+	[   5] +base[   6]  0005 _Unwind_GetCFA
+	[   6] +base[   7]  0006 _Unwind_GetDataRelBase
+	[   7] +base[   8]  0007 _Unwind_GetGR
+	[   8] +base[   9]  0008 _Unwind_GetIP
+	[   9] +base[  10]  0009 _Unwind_GetIPInfo
+	[  10] +base[  11]  000a _Unwind_GetLanguageSpecificData
+	[  11] +base[  12]  000b _Unwind_GetRegionStart
+	[  12] +base[  13]  000c _Unwind_GetTextRelBase
+	[  13] +base[  14]  000d _Unwind_RaiseException
+	[  14] +base[  15]  000e _Unwind_Resume
+	[  15] +base[  16]  000f _Unwind_Resume_or_Rethrow
+	[  16] +base[  17]  0010 _Unwind_SetGR
+	[  17] +base[  18]  0011 _Unwind_SetIP
+	[  18] +base[  19]  0012 __absvdi2
+	[  19] +base[  20]  0013 __absvsi2
+	[  20] +base[  21]  0014 __absvti2
+	[  21] +base[  22]  0015 __addtf3
+	[  22] +base[  23]  0016 __addvdi3
+	[  23] +base[  24]  0017 __addvsi3
+	[  24] +base[  25]  0018 __addvti3
+	[  25] +base[  26]  0019 __ashlti3
+	[  26] +base[  27]  001a __ashrti3
+	[  27] +base[  28]  001b __bswapdi2
+	[  28] +base[  29]  001c __bswapsi2
+	[  29] +base[  30]  001d __clear_cache
+	[  30] +base[  31]  001e __clrsbdi2
+	[  31] +base[  32]  001f __clrsbti2
+	[  32] +base[  33]  0020 __clzdi2
+	[  33] +base[  34]  0021 __clzti2
+	[  34] +base[  35]  0022 __cmpti2
+	[  35] +base[  36]  0023 __ctzdi2
+	[  36] +base[  37]  0024 __ctzti2
+	[  37] +base[  38]  0025 __divdc3
+	[  38] +base[  39]  0026 __divmodti4
+	[  39] +base[  40]  0027 __divsc3
+	[  40] +base[  41]  0028 __divtc3
+	[  41] +base[  42]  0029 __divtf3
+	[  42] +base[  43]  002a __divti3
+	[  43] +base[  44]  002b __divxc3
+	[  44] +base[  45]  002c __emutls_get_address
+	[  45] +base[  46]  002d __emutls_register_common
+	[  46] +base[  47]  002e __enable_execute_stack
+	[  47] +base[  48]  002f __eqtf2
+	[  48] +base[  49]  0030 __extenddftf2
+	[  49] +base[  50]  0031 __extendsfdf2
+	[  50] +base[  51]  0032 __extendsftf2
+	[  51] +base[  52]  0033 __extendxftf2
+	[  52] +base[  53]  0034 __ffsdi2
+	[  53] +base[  54]  0035 __ffsti2
+	[  54] +base[  55]  0036 __fixdfti
+	[  55] +base[  56]  0037 __fixsfti
+	[  56] +base[  57]  0038 __fixtfdi
+	[  57] +base[  58]  0039 __fixtfsi
+	[  58] +base[  59]  003a __fixtfti
+	[  59] +base[  60]  003b __fixunsdfdi
+	[  60] +base[  61]  003c __fixunsdfti
+	[  61] +base[  62]  003d __fixunssfdi
+	[  62] +base[  63]  003e __fixunssfti
+	[  63] +base[  64]  003f __fixunstfdi
+	[  64] +base[  65]  0040 __fixunstfsi
+	[  65] +base[  66]  0041 __fixunstfti
+	[  66] +base[  67]  0042 __fixunsxfdi
+	[  67] +base[  68]  0043 __fixunsxfti
+	[  68] +base[  69]  0044 __fixxfti
+	[  69] +base[  70]  0045 __floatditf
+	[  70] +base[  71]  0046 __floatsitf
+	[  71] +base[  72]  0047 __floattidf
+	[  72] +base[  73]  0048 __floattisf
+	[  73] +base[  74]  0049 __floattitf
+	[  74] +base[  75]  004a __floattixf
+	[  75] +base[  76]  004b __floatunditf
+	[  76] +base[  77]  004c __floatunsitf
+	[  77] +base[  78]  004d __floatuntidf
+	[  78] +base[  79]  004e __floatuntisf
+	[  79] +base[  80]  004f __floatuntitf
+	[  80] +base[  81]  0050 __floatuntixf
+	[  81] +base[  82]  0051 __gcc_personality_seh0
+	[  82] +base[  83]  0052 __getf2
+	[  83] +base[  84]  0053 __gttf2
+	[  84] +base[  85]  0054 __hardcfr_check
+	[  85] +base[  86]  0055 __letf2
+	[  86] +base[  87]  0056 __lshrti3
+	[  87] +base[  88]  0057 __lttf2
+	[  88] +base[  89]  0058 __modti3
+	[  89] +base[  90]  0059 __muldc3
+	[  90] +base[  91]  005a __mulsc3
+	[  91] +base[  92]  005b __multc3
+	[  92] +base[  93]  005c __multf3
+	[  93] +base[  94]  005d __multi3
+	[  94] +base[  95]  005e __mulvdi3
+	[  95] +base[  96]  005f __mulvsi3
+	[  96] +base[  97]  0060 __mulvti3
+	[  97] +base[  98]  0061 __mulxc3
+	[  98] +base[  99]  0062 __negtf2
+	[  99] +base[ 100]  0063 __negti2
+	[ 100] +base[ 101]  0064 __negvdi2
+	[ 101] +base[ 102]  0065 __negvsi2
+	[ 102] +base[ 103]  0066 __negvti2
+	[ 103] +base[ 104]  0067 __netf2
+	[ 104] +base[ 105]  0068 __paritydi2
+	[ 105] +base[ 106]  0069 __parityti2
+	[ 106] +base[ 107]  006a __popcountdi2
+	[ 107] +base[ 108]  006b __popcountti2
+	[ 108] +base[ 109]  006c __powidf2
+	[ 109] +base[ 110]  006d __powisf2
+	[ 110] +base[ 111]  006e __powitf2
+	[ 111] +base[ 112]  006f __powixf2
+	[ 112] +base[ 113]  0070 __strub_enter
+	[ 113] +base[ 114]  0071 __strub_leave
+	[ 114] +base[ 115]  0072 __strub_update
+	[ 115] +base[ 116]  0073 __subtf3
+	[ 116] +base[ 117]  0074 __subvdi3
+	[ 117] +base[ 118]  0075 __subvsi3
+	[ 118] +base[ 119]  0076 __subvti3
+	[ 119] +base[ 120]  0077 __truncdfsf2
+	[ 120] +base[ 121]  0078 __trunctfdf2
+	[ 121] +base[ 122]  0079 __trunctfsf2
+	[ 122] +base[ 123]  007a __trunctfxf2
+	[ 123] +base[ 124]  007b __ucmpti2
+	[ 124] +base[ 125]  007c __udivmodti4
+	[ 125] +base[ 126]  007d __udivti3
+	[ 126] +base[ 127]  007e __umodti3
+	[ 127] +base[ 128]  007f __unordtf2
+

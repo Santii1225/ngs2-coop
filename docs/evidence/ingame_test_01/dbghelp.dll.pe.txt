@@ -1,0 +1,196 @@
+
+<ruta-del-repo>/dist/dbghelp.dll:     file format pei-x86-64
+
+Characteristics 0x2026
+	executable
+	line numbers stripped
+	large address aware
+	DLL
+
+Time/Date		Sun Sep  6 13:03:25 2026
+Magic			020b	(PE32+)
+MajorLinkerVersion	2
+MinorLinkerVersion	47
+SizeOfCode		0000000000007200
+SizeOfInitializedData	0000000000003200
+SizeOfUninitializedData	0000000000000200
+AddressOfEntryPoint	00000000000011f0
+BaseOfCode		0000000000001000
+ImageBase		00000001e4f30000
+SectionAlignment	00001000
+FileAlignment		00000200
+MajorOSystemVersion	4
+MinorOSystemVersion	0
+MajorImageVersion	0
+MinorImageVersion	0
+MajorSubsystemVersion	5
+MinorSubsystemVersion	2
+Win32Version		00000000
+SizeOfImage		0003b000
+SizeOfHeaders		00000600
+CheckSum		00048479
+Subsystem		00000003	(Windows CUI)
+DllCharacteristics	00000160
+					HIGH_ENTROPY_VA
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve	0000000000200000
+SizeOfStackCommit	0000000000001000
+SizeOfHeapReserve	0000000000100000
+SizeOfHeapCommit	0000000000001000
+LoaderFlags		00000000
+NumberOfRvaAndSizes	00000010
+
+The Data Directory
+Entry 0 000000000000f000 00000080 Export Directory [.edata (or where ever we found it)]
+Entry 1 0000000000010000 00000a6c Import Directory [parts of .idata]
+Entry 2 0000000000000000 00000000 Resource Directory [.rsrc]
+Entry 3 000000000000c000 0000087c Exception Directory [.pdata]
+Entry 4 0000000000000000 00000000 Security Directory
+Entry 5 0000000000012000 00000048 Base Relocation Directory [.reloc]
+Entry 6 0000000000000000 00000000 Debug Directory
+Entry 7 0000000000000000 00000000 Description Directory
+Entry 8 0000000000000000 00000000 Special Directory
+Entry 9 000000000000a3a0 00000028 Thread Storage Directory [.tls]
+Entry a 0000000000000000 00000000 Load Configuration Directory
+Entry b 0000000000000000 00000000 Bound Import Directory
+Entry c 00000000000102c0 000001f8 Import Address Table Directory
+Entry d 0000000000000000 00000000 Delay Import Directory
+Entry e 0000000000000000 00000000 CLR Runtime Header
+Entry f 0000000000000000 00000000 Reserved
+
+There is an import table in .idata at 0x1e4f40000
+
+The Import Tables (interpreted .idata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 00010000	000100c8 00000000 00000000 000108a4 000102c0
+
+	DLL Name: libgcc_s_seh-1.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000102c0  <none>  000e  _Unwind_Resume
+
+ 00010014	000100d8 00000000 00000000 00010918 000102d0
+
+	DLL Name: KERNEL32.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000102d0  <none>  0127  DeleteCriticalSection
+	000102d8  <none>  0138  DisableThreadLibraryCalls
+	000102e0  <none>  014d  EnterCriticalSection
+	000102e8  <none>  0193  FindClose
+	000102f0  <none>  0197  FindFirstFileA
+	000102f8  <none>  01a8  FindNextFileA
+	00010300  <none>  01ca  FreeLibrary
+	00010308  <none>  0238  GetCurrentProcess
+	00010310  <none>  0288  GetLastError
+	00010318  <none>  029e  GetModuleHandleA
+	00010320  <none>  029f  GetModuleHandleExA
+	00010328  <none>  02a1  GetModuleHandleW
+	00010330  <none>  02da  GetProcAddress
+	00010338  <none>  0396  InitializeCriticalSection
+	00010340  <none>  03f4  LeaveCriticalSection
+	00010348  <none>  03f8  LoadLibraryA
+	00010350  <none>  0452  OutputDebugStringA
+	00010358  <none>  04b4  ReadProcessMemory
+	00010360  <none>  0530  SetCurrentDirectoryW
+	00010368  <none>  0534  SetDllDirectoryA
+	00010370  <none>  05a9  Sleep
+	00010378  <none>  05cd  TlsGetValue
+	00010380  <none>  05fd  VirtualProtect
+	00010388  <none>  05ff  VirtualQuery
+
+ 00010028	000101a0 00000000 00000000 00010930 00010398
+
+	DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00010398  <none>  0017  calloc
+	000103a0  <none>  0018  free
+
+ 0001003c	000101b8 00000000 00000000 00010958 000103b0
+
+	DLL Name: api-ms-win-crt-private-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000103b0  <none>  043d  memcpy
+	000103b8  <none>  043e  memmove
+
+ 00010050	000101d0 00000000 00000000 00010998 000103c8
+
+	DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	000103c8  <none>  0023  _execute_onexit_table
+	000103d0  <none>  0024  _exit
+	000103d8  <none>  0034  _initialize_onexit_table
+	000103e0  <none>  0036  _initterm
+	000103e8  <none>  0037  _initterm_e
+	000103f0  <none>  003c  _register_onexit_function
+	000103f8  <none>  0054  abort
+
+ 00010064	00010210 00000000 00000000 000109d4 00010408
+
+	DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00010408  <none>  0000  __acrt_iob_func
+	00010410  <none>  0003  __stdio_common_vfprintf
+	00010418  <none>  000d  __stdio_common_vsprintf
+	00010420  <none>  0011  __stdio_common_vswprintf
+	00010428  <none>  006f  fgetwc
+	00010430  <none>  007d  getc
+
+ 00010078	00010248 00000000 00000000 00010a00 00010440
+
+	DLL Name: api-ms-win-crt-string-l1-1-0.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00010440  <none>  0079  memset
+	00010448  <none>  0081  strlen
+	00010450  <none>  0084  strncmp
+
+ 0001008c	00010268 00000000 00000000 00010a28 00010460
+
+	DLL Name: libwinpthread-1.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00010460  <none>  0068  pthread_once
+
+ 000100a0	00010278 00000000 00000000 00010a5c 00010470
+
+	DLL Name: libstdc++-6.dll
+	vma:     Ordinal  Hint  Member-Name  Bound-To
+	00010470  <none>  12df  _ZSt15__get_once_callv
+	00010478  <none>  1324  _ZSt19__get_once_callablev
+	00010480  <none>  1332  _ZSt20__throw_system_errori
+	00010488  <none>  1337  _ZSt21__glibcxx_assert_failPKciS0_S0_
+	00010490  <none>  1732  _ZdlPvy
+	00010498  <none>  1738  _Znwy
+	000104a0  <none>  1764  __gxx_personality_seh0
+	000104a8  <none>  1765  __once_proxy
+
+ 000100b4	00000000 00000000 00000000 00000000 00000000
+
+There is an export table in .edata at 0x1e4f3f000
+
+The Export Tables (interpreted .edata section contents)
+
+Export Flags 			0
+Time/Date stamp 		6a9db8fd
+Major/Minor 			0/0
+Name 				000000000000f046 dbghelp.dll
+Ordinal Base 			1
+Number in:
+	Export Address Table 		00000003
+	[Name Pointer/Ordinal] Table	00000003
+Table Addresses
+	Export Address Table 		000000000000f028
+	Name Pointer Table 		000000000000f034
+	Ordinal Table 			000000000000f040
+
+Export Address Table -- Ordinal Base 1
+	          Ordinal  Address  Type
+	[   0] +base[   1] 0000190d Export RVA
+	[   1] +base[   2] 0000197f Export RVA
+	[   2] +base[   3] 00001944 Export RVA
+
+[Ordinal/Name Pointer] Table -- Ordinal Base 1
+	          Ordinal   Hint Name
+	[   0] +base[   1]  0000 DllMain
+	[   1] +base[   2]  0001 MiniDumpWriteDump
+	[   2] +base[   3]  0002 NMRestoreSigma2Hook
+

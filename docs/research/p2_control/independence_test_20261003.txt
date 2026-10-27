@@ -1,0 +1,31 @@
+# exp_indep.py run, 2026-10-03 ~03:4x UTC, PID 20300, Team Mission Practice "Acolito 01" (Ryu + partner Ryu)
+# enemies bound to controller port 3 (freeze_enemies.py) so nothing pushes the players around
+# partner = game_object[4], char[group 1]; padmap 0x14211e755 = 1 during the run
+
+# --- run 1: padmap[1] = 0 (default) -> port 1 receives player-1 pad (slot 0)
+A) AI mode, P2 stick up (expect none)  partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.0, 0.0] | 0.00|
+B) bound p1, no input (expect 0/0)     partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.0, 0.0] | 0.00|
+C) bound p1, P1 stick up (Ryu only)    partner d(x,z)=[-0.88, 5.88] | 5.94|  ryu d(x,z)=[-3.38, 4.89] | 5.95|   <- both follow pad 1
+D) bound p1, P2 stick up (partner only) partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.0, 0.0] | 0.00|
+E) bound p1, P1 left + P2 right        partner d(x,z)=[3.26, 0.03] | 3.26|  ryu d(x,z)=[4.96, 2.2] | 5.43|
+
+# --- run 2: padmap[1] = 1 -> player 2 reads pad slot 1 (virtual pad 2)
+A) AI mode, P2 stick up (expect none)  partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.0, 0.0] | 0.00|  states ryu=0x0 ai=0x0
+B) bound p1, no input (expect 0/0)     partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.0, 0.0] | 0.00|  states ryu=0x0 ai=0x0
+C) bound p1, P1 stick up (Ryu only)    partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.0, 0.2] | 0.20|  states ryu=0xa ai=0x0
+D) bound p1, P2 stick up (partner only) partner d(x,z)=[-0.01, 3.53] | 3.53|  ryu d(x,z)=[-0.81, 1.81] | 1.99|  states ryu=0x0 ai=0x2a
+E) bound p1, P1 left + P2 right        partner d(x,z)=[-5.4, -0.35] | 5.41|  ryu d(x,z)=[0.8, -5.29] | 5.35|  states ryu=0x2a ai=0x2a
+A) AI mode, P2 stick up (expect none)  partner d(x,z)=[1.55, -1.73] | 2.33|  ryu d(x,z)=[0.0, 0.0] | 0.00|  states ryu=0x0 ai=0x0
+B) bound p1, no input (expect 0/0)     partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.0, 0.0] | 0.00|  states ryu=0x0 ai=0x0
+C) bound p1, P1 stick up (Ryu only)    partner d(x,z)=[0.0, 0.0] | 0.00|  ryu d(x,z)=[0.05, -3.38] | 3.38|  states ryu=0x2a ai=0x0
+D) bound p1, P2 stick up (partner only) partner d(x,z)=[-4.92, 0.9] | 5.00|  ryu d(x,z)=[0.0, 0.0] | 0.00|  states ryu=0x0 ai=0x2a
+E) bound p1, P1 left + P2 right        partner d(x,z)=[0.11, -5.42] | 5.43|  ryu d(x,z)=[-5.1, -1.81] | 5.41|  states ryu=0x2a ai=0x2a
+# (rep-1 C/D: residual momentum/turn-in-place on the first transition; rep 2 is the clean pass)
+
+# --- P2 buttons (p2bind.py holding port 1 + padmap[1]=1), partner char[1]:
+idle       state=0x00 act=0xff pos=[66.54, 5.22, -107.36]
+P2 X       state=0x0b act=0x02 pos=[67.33, 5.22, -108.21]   attack (lunge)
+P2 Y       state=0x0b act=0x02 pos=[69.13, 5.22, -109.62]   attack
+P2 A       state=0x55 act=0x02 pos=[70.04, 7.52, -110.35]   jump (Y +2.3)
+
+# --- persistence: wrote port=1 + padmap[1]=1 once, sampled every 5 ms for 6 s -> only (1,1) seen (engine does not reset them mid-mission)

@@ -1,0 +1,5 @@
+# P2 pad hot-plugged mid-mission (Steam virtual pads bypassed); padmap [0, 1]
+mando 1 (ranura 0) stick             P1 moved  1.40   P2 moved  0.00
+mando conectado en caliente stick    P1 moved  0.00   P2 moved  4.74
+mando 1 (ranura 0) stick             P1 moved  2.17   P2 moved  0.00
+mando conectado en caliente stick    P1 moved  0.00   P2 moved  0.63

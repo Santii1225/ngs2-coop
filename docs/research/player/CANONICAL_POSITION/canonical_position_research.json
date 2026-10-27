@@ -1,0 +1,88 @@
+{
+  "phase": "FASE 10 - canonical player position",
+  "generated": "2026-09-06",
+  "pid": 29318,
+  "object_rva": "0x3197100",
+  "finding_object_2b0_non_authoritative": {
+    "mvp2": "write to object+0x2B0 (+0.30 X) reverted by the engine in < ~150 ms",
+    "value_change_watch_idle": "gdb value-change watchpoint on object+0x2B0: 0 hits in 30 s while Ryu idle -> written same value every frame",
+    "access_watch": "gdb access watchpoint: constant hits from 3 .text sites, all generic block-copy (memcpy/memmove) routines; RVA 0x8c7b4 (inlined memcpy) confirmed as a per-frame toucher; also 0x1353e41, 0xead02e",
+    "writer_thread": "\"Updating\" (game update thread, LWP name)",
+    "conclusion": "object+0x2B0 is a per-frame working/snapshot copy, filled by a block copy each frame from a canonical source that was NOT isolated with read-only tooling. No dedicated 'movss [obj+0x2B0], xmm' position store exists."
+  },
+  "position_copies": {
+    "render_observable_object": [
+      "0x2B0",
+      "0x2E0",
+      "0xAF0",
+      "0xB20",
+      "0x1330",
+      "0x1360",
+      "0x1930"
+    ],
+    "render_observable_character": [
+      "0x310",
+      "0xFE0",
+      "0x1010",
+      "0x10E0",
+      "0x1120",
+      "0x1160",
+      "0x1170"
+    ],
+    "interpolated": [
+      "object+0x310 (lags in motion, catches up at rest; transient variants +0xB50/+0x1390 seen just after a move)"
+    ],
+    "historical_ring": [
+      "object+0x340 (previous position)",
+      "object+0x370 (older still)"
+    ],
+    "behavior": "the 14 render/observable copies are byte-identical at rest and every one followed the player exactly (delta 1.3543 u) on a controlled move"
+  },
+  "ai_partner_equivalent": {
+    "object_copies": [
+      "0x2B0",
+      "0x2E0",
+      "0xAF0",
+      "0xB20",
+      "0x1330",
+      "0x1360",
+      "0x1930"
+    ],
+    "character_copies": [
+      "0x310",
+      "0x950",
+      "0xFE0",
+      "0x1010",
+      "0x10E0",
+      "0x1120",
+      "0x1160",
+      "0x1170"
+    ],
+    "note": "AI_PARTNER (game_object[4]) has the SAME position-copy architecture as LOCAL_PLAYER -> whatever canonical structure feeds LOCAL has an AI equivalent (relevant for multiplayer). NOT written."
+  },
+  "velocity": {
+    "status": "not isolated",
+    "note": "no clean velocity float3 at idle (~0,0,0); the 'small float3' hits are rotation-matrix fragments / unaligned reads"
+  },
+  "pointers_out_of_object": "none into a heap physics body in object[0..0x2000] -> object is self-contained static data",
+  "gdb_limitation": "on this Wine/Proton + SteamDRM binary, gdb access watchpoints and hardware breakpoints fire, but value-change 'watch' does not reliably fire; 'disassemble <range>' often returns empty for .text; batch capture of the memcpy source under a narrow address condition yielded 0 of 2000 hits (hot generic memcpy).",
+  "base_capture": {
+    "xyz": [
+      67.84577941894531,
+      5.219999313354492,
+      -95.8218994140625
+    ]
+  },
+  "moved_capture": {
+    "xyz": [
+      67.98969268798828,
+      5.220000267028809,
+      -94.47522735595703
+    ],
+    "player_move_u": 1.3543
+  },
+  "canonical_confidence": "LOW",
+  "ready_for_mvp2b": false,
+  "reason": "no CANONICAL_POSITION strong candidate isolated; all located fields are render/observable copies, one interpolated, two historical. The authoritative value is block-copied in each frame from a source not reachable with read-only /proc + batch gdb.",
+  "next_step": "deeper static RE of the 'Updating' thread transform-sync function (find where the memcpy source pointer / register comes from), OR a frame-timed write hook (a NEW hook - out of scope for read-only phases), OR a write-probe of each of the ~14 copies + a sustained high-frequency override test (design only). Not attempted."
+}

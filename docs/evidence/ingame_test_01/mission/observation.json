@@ -1,0 +1,20 @@
+{
+  "captured": "2026-09-06T18:13:28.166767-06:00",
+  "user_confirmation": "MISI\u00d3N TERMINADA, ESTOY EN EL MEN\u00da",
+  "pid": 8894,
+  "active": true,
+  "same_process_start": true,
+  "status": [
+    "Name:\tNINJA GAIDEN SI",
+    "State:\tS (sleeping)",
+    "Pid:\t8894",
+    "PPid:\t8776",
+    "TracerPid:\t0"
+  ],
+  "core_log_sha256": "c813689df355ad0565b41d97b4f8dffa365f1ad77c05d9b0721831199fc4a257",
+  "core_log_unchanged": true,
+  "core_log_size": 460,
+  "proton_size": 919359,
+  "proton_sha256": "4858f6fc56efaf51b849cac904e58d3fb34e7c69525a6dad6f8da7f39874e0c5",
+  "new_matching_lines": 1188
+}

@@ -1,0 +1,130 @@
+{
+  "session": "ACTOR_RESTART_AI_A/B/C (Fase 9, PID 29318, full restart, Ayane partner)",
+  "local_player": {
+    "obj_rva": "0x3197100",
+    "entry": 0,
+    "group": 0,
+    "obj_id": 0,
+    "A": [
+      88.2174,
+      8.0,
+      -130.3655
+    ],
+    "B": [
+      88.0515,
+      8.0,
+      -130.7767
+    ],
+    "C": [
+      97.2323,
+      5.22,
+      -117.0288
+    ],
+    "stability": [
+      true,
+      false,
+      true
+    ],
+    "A_to_B_move": 0.443,
+    "B_to_C_move": 16.764,
+    "note": "B had ~0.07u drift (UNSTABLE_LOCAL_PLAYER); B->C the user relocated Ryu ~16.8u. Structural identity held throughout (obj rva 0x3197100, char[0]+0x00 = 0x00, live layout).",
+    "status": "RUNTIME VERIFIED"
+  },
+  "ai_partner": {
+    "obj_rva": "0x319cdb0",
+    "entry": 4,
+    "group": 1,
+    "obj_id": 220,
+    "A": [
+      88.069,
+      6.2862,
+      -122.359
+    ],
+    "B": [
+      97.9611,
+      8.0,
+      -126.726
+    ],
+    "C": [
+      99.7699,
+      5.22,
+      -116.7781
+    ],
+    "A_to_B_move_xz": 10.81,
+    "B_to_C_move_xz": 10.11,
+    "dist_to_local": [
+      8.19,
+      14.35,
+      3.9
+    ],
+    "dist_to_local_at_C": 2.55,
+    "live_char_layout": [
+      true,
+      true,
+      true
+    ],
+    "char_dead_byte": [
+      0,
+      0,
+      0
+    ],
+    "char_hdr4": [
+      "0909",
+      "2828",
+      "2828"
+    ],
+    "char_enemy_hdr": [
+      false,
+      false,
+      false
+    ],
+    "correlation_B": "AI moved ~10.8u while local moved ~0.4u",
+    "correlation_C": "AI moved ~10.1u and converged on the player's new location (dist 2.55u) -> follow behaviour",
+    "consistency": "entry 4 / obj RVA 0x319cdb0 in 3 Team Missions + across a full restart; live layout; not-enemy header every time; alive",
+    "criteria_8": {
+      "new_pid": true,
+      "resolved_from_scratch": true,
+      "runtime_addr_reobtained": true,
+      "character_like_structure": true,
+      "non_enemy_discriminator": true,
+      "valid_transform": true,
+      "autonomous_movement": true,
+      "correlation_B": true,
+      "correlation_C": true,
+      "local_player_distinguishable": true,
+      "consistent_with_prior_2_missions": true
+    },
+    "caveats": [
+      "module base is deterministic (ASLR delta 0 both sessions); RVA identity is expected, so this did not test address-randomisation resilience. The re-resolution of the ROLE and the structural discriminators across a real restart is the meaningful result.",
+      "LOCAL_PLAYER was not perfectly frozen during B (0.07u) and moved ~16.8u B->C; the AI signal (10-11u each step, plus convergence on the player) dominated the local noise."
+    ],
+    "status": "RUNTIME VERIFIED"
+  },
+  "control_discriminator": {
+    "candidate": "char[group] + 0x00 byte",
+    "local": 0,
+    "ai_partner": 4,
+    "enemies": 4,
+    "also": [
+      "game_object rec +0x1D: local 0x00, AI 0x04",
+      "object + 0x98 byte: local 0x02, AI 0x04"
+    ],
+    "reading": "char[group]+0x00 == 0x00 <-> the input-controlled local player (0x04 = AI partner or enemy). Reproduced in 3 Team Missions + 2 solo + across restart. No semantic proof it is literally an input-owner flag vs a team-0 marker.",
+    "status": "CONTROL_DISCRIMINATOR_CANDIDATE"
+  },
+  "character_id": {
+    "candidate": "char[group] + 0x16 byte",
+    "ryu": 78,
+    "ayane": 182,
+    "other_char_varying": [
+      "char[grp]+0x1e8/+0x1ec ~4530/4565 (Ryu) vs ~4271/4342 (Ayane) - plausibly max HP",
+      "obj+0x9f/+0xa3 byte 0x09 (Ryu) vs 0x0a (Ayane)"
+    ],
+    "note": "obj_id stays REJECTED. Only 2 data points; could be moveset/model id or coincidence. No pointer to a character-definition found in char[group] first 0x400.",
+    "status": "CHARACTER_ID_CANDIDATE (low confidence)"
+  },
+  "pitch_roll": {
+    "status": "NOT VERIFIED",
+    "note": "rotation matrix row1 (up) ~ (0,1,~0) in every capture; no jump/fall/ramp measured. Yaw/matrix remains RUNTIME VERIFIED."
+  }
+}

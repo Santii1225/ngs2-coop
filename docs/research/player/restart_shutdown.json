@@ -1,0 +1,9 @@
+{
+  "time": "2026-09-06T18:43:48.304998-06:00",
+  "user_confirmation": "JUEGO CERRADO NORMALMENTE",
+  "previous_pid": 12404,
+  "previous_pid_exists": false,
+  "same_process_alive": false,
+  "active_game_processes": [],
+  "scope": "process existence/starttime only; no memory access or process control"
+}

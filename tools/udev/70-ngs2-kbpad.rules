@@ -1,0 +1,3 @@
+# Give the logged-in desktop user access to the Logitech G515 keyboard so tools/kbpad.py
+# can turn it into a virtual player-2 controller (NGS2 coop testing). Remove to revoke.
+SUBSYSTEM=="input", KERNEL=="event*", ATTRS{name}=="Logitech G515 LS TKL", TAG+="uaccess"

@@ -1,0 +1,7 @@
+[ 40%] Built target loader
+[ 40%] Built target steam-bugfixes
+[ 60%] Built target combat
+[ 80%] Built target effect
+[ 90%] Building CXX object CMakeFiles/core.dir/src/core/main.cpp.obj
+[100%] Linking CXX shared module dbghelp.dll
+[100%] Built target core

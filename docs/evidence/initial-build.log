@@ -1,0 +1,66 @@
+[ 10%] Building CXX object CMakeFiles/combat.dir/src/combat/main.cpp.obj
+[ 20%] Building CXX object CMakeFiles/steam-bugfixes.dir/src/steam-bugfixes/main.cpp.obj
+[ 30%] Building CXX object CMakeFiles/effect.dir/src/effect/main.cpp.obj
+[ 40%] Building CXX object CMakeFiles/core.dir/src/core/main.cpp.obj
+[ 50%] Building CXX object CMakeFiles/loader.dir/src/loader/main.cpp.obj
+<ruta-del-repo>/src/combat/main.cpp: In function ‘void {anonymous}::init()’:
+<ruta-del-repo>/src/combat/main.cpp:50:12: error: cannot convert ‘nm::Patch<std::array<long long unsigned int, 16> >*’ to ‘nm::Patch<std::array<long long unsigned int, 35> >*’ in assignment
+   50 |   patch1 = new Patch {0x1829080, arr};
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            nm::Patch<std::array<long long unsigned int, 16> >*
+<ruta-del-repo>/src/combat/main.cpp:52:12: error: cannot convert ‘nm::Patch<std::array<long long unsigned int, 16> >*’ to ‘nm::Patch<std::array<long long unsigned int, 35> >*’ in assignment
+   52 |   patch1 = new Patch {0x1829110, arr};
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            nm::Patch<std::array<long long unsigned int, 16> >*
+<ruta-del-repo>/src/core/main.cpp:35:40: error: use of deleted function ‘nm::VFPHook<F>::VFPHook() [with F = void({anonymous}::Sigma2*)]’
+   35 | VFPHook <decltype (Sigma2_vfunction1)> Sigma2_vfunction1_hook;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~
+In file included from <ruta-del-repo>/src/core/main.cpp:14:
+<ruta-del-repo>/src/util.hpp:196:3: note: declared here
+  196 |   VFPHook () = delete;
+      |   ^~~~~~~
+<ruta-del-repo>/src/core/main.cpp:35:40: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+   35 | VFPHook <decltype (Sigma2_vfunction1)> Sigma2_vfunction1_hook;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~
+<ruta-del-repo>/src/core/main.cpp: In function ‘BOOL {anonymous}::pre_init(LPCWSTR)’:
+<ruta-del-repo>/src/core/main.cpp:89:65: error: use of deleted function ‘nm::VFPHook<F>& nm::VFPHook<F>::operator=(const nm::VFPHook<F>&) [with F = void({anonymous}::Sigma2*)]’
+   89 |   Sigma2_vfunction1_hook = VFPHook {0x1462a00, Sigma2_vfunction1};
+      |                                                                 ^
+<ruta-del-repo>/src/util.hpp:198:13: note: declared here
+  198 |   VFPHook & operator= (const VFPHook &) = delete;
+      |             ^~~~~~~~
+make[2]: *** [CMakeFiles/combat.dir/build.make:80: CMakeFiles/combat.dir/src/combat/main.cpp.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/combat.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 60%] Linking CXX shared module nmsteam-bugfixes.dll
+make[2]: *** [CMakeFiles/core.dir/build.make:80: CMakeFiles/core.dir/src/core/main.cpp.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:99: CMakeFiles/core.dir/all] Error 2
+In file included from <ruta-del-repo>/src/effect/main.cpp:14:
+<ruta-del-repo>/src/effect/dismember.hpp: In function ‘void nm::update_SUP_NodeObj_visibility(game_object&, uint32_t)’:
+<ruta-del-repo>/src/effect/dismember.hpp:75:55: error: ‘base_of_image’ was not declared in this scope [-Wtemplate-body]
+   75 |   auto offsets = reinterpret_cast <uintptr_t (*)[4]> (base_of_image + object_data_offset_table_rva);
+      |                                                       ^~~~~~~~~~~~~
+<ruta-del-repo>/src/loader/main.cpp: In function ‘void {anonymous}::init()’:
+<ruta-del-repo>/src/loader/main.cpp:170:11: error: ‘image_id’ was not declared in this scope
+  170 |   switch (image_id)
+      |           ^~~~~~~~
+<ruta-del-repo>/src/loader/main.cpp:172:8: error: ‘ImageId’ has not been declared
+  172 |   case ImageId::NGS1SteamAE:
+      |        ^~~~~~~
+[ 60%] Built target steam-bugfixes
+<ruta-del-repo>/src/loader/main.cpp:175:60: error: ‘base_of_image’ was not declared in this scope
+  175 |     tmcl_malloc = reinterpret_cast<decltype (tmcl_malloc)>(base_of_image + 0x07e5630);
+      |                                                            ^~~~~~~~~~~~~
+<ruta-del-repo>/src/loader/main.cpp:177:8: error: ‘ImageId’ has not been declared
+  177 |   case ImageId::NGS2SteamAE:
+      |        ^~~~~~~
+<ruta-del-repo>/src/loader/main.cpp:181:8: error: ‘ImageId’ has not been declared
+  181 |   case ImageId::NGS2SteamJP:
+      |        ^~~~~~~
+make[2]: *** [CMakeFiles/loader.dir/build.make:80: CMakeFiles/loader.dir/src/loader/main.cpp.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/loader.dir/all] Error 2
+make[2]: *** [CMakeFiles/effect.dir/build.make:80: CMakeFiles/effect.dir/src/effect/main.cpp.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/effect.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
