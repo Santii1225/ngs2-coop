@@ -8,6 +8,14 @@ Mod de co-op local para **NINJA GAIDEN Σ2** (NINJA GAIDEN: Master Collection, S
 Equipo un segundo jugador controla al compañero de la IA con su propio mando, y cada jugador tiene su propia
 cámara: pantalla dividida en un monitor o un monitor por jugador.
 
+[![Ver el tráiler en YouTube](docs/media/trailer-thumbnail.jpg)](https://youtu.be/VQ-9o8vhL5I)
+
+| | |
+|---|---|
+| ![Pantalla dividida horizontal](docs/media/split-horizontal.jpg)<br>Pantalla dividida horizontal | ![Pantalla dividida vertical](docs/media/split-vertical.jpg)<br>Pantalla dividida vertical |
+| ![Los dos configuran su personaje a la vez](docs/media/character-select.jpg)<br>Los dos configuran su personaje a la vez | ![Recuadro rojo del jugador 2 al elegir misión](docs/media/mission-select.jpg)<br>Recuadro rojo del jugador 2 al elegir misión |
+| ![Revive a tu compañero](docs/media/revive.jpg)<br>Revive a tu compañero | ![Un monitor por jugador](docs/media/two-monitors.jpg)<br>Un monitor por jugador |
+
 Basado en [NM Plugins](https://github.com/nm004/ngs2-nm-plugin) de Nozomi Miyamori (cargador de plugins,
 efectos de desmembramiento y correcciones). El README original se conserva en
 [docs/NM_PLUGINS_README.md](docs/NM_PLUGINS_README.md).

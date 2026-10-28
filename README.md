@@ -8,6 +8,14 @@ Local co-op mod for **NINJA GAIDEN Σ2** (NINJA GAIDEN: Master Collection, Steam
 player takes control of the AI partner with their own controller, and each player gets their own camera:
 split screen on one monitor, or one monitor per player.
 
+[![Watch the trailer on YouTube](docs/media/trailer-thumbnail.jpg)](https://youtu.be/VQ-9o8vhL5I)
+
+| | |
+|---|---|
+| ![Horizontal split screen](docs/media/split-horizontal.jpg)<br>Horizontal split screen | ![Vertical split screen](docs/media/split-vertical.jpg)<br>Vertical split screen |
+| ![Both players set up their character at once](docs/media/character-select.jpg)<br>Both players set up their character at once | ![Player 2's red box on the mission select](docs/media/mission-select.jpg)<br>Player 2's red box on the mission select |
+| ![Revive your partner](docs/media/revive.jpg)<br>Revive your partner | ![One monitor per player](docs/media/two-monitors.jpg)<br>One monitor per player |
+
 Built on top of [NM Plugins](https://github.com/nm004/ngs2-nm-plugin) by Nozomi Miyamori (plugin loader,
 gore effects and bug fixes). The original README is kept in [docs/NM_PLUGINS_README.md](docs/NM_PLUGINS_README.md).
 
