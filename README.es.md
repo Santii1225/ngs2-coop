@@ -2,7 +2,7 @@
 
 [English](README.md) · **Español**
 
-**Versión 1.1**
+**Versión 1.2**
 
 Mod de co-op local para **NINJA GAIDEN Σ2** (NINJA GAIDEN: Master Collection, Steam). En las Misiones en
 Equipo un segundo jugador controla al compañero de la IA con su propio mando, y cada jugador tiene su propia
@@ -46,9 +46,11 @@ Cada vista se dibuja a 30 fps (el juego alterna las dos cámaras en sus frames d
 
 - Co-op local y pantalla dividida: funcionan, probados en Linux (Proton) con una RTX 4060, incluida una partida
   de una hora en Misiones en Equipo con dos mandos físicos (un monitor por jugador) sin ningún cuelgue.
-- Windows nativo: la 1.1 se cierra en la primera pantalla (dos reservas de memoria suponían el juego en
-  0x140000000, cierto en Wine pero no con el ASLR de Windows). Corregido en `main`; los instaladores siguen
-  siendo la 1.1 hasta la próxima versión.
+- Windows nativo (1.2): funciona, probado en Windows 11 con dos mandos (un jugador físico y mandos virtuales con
+  ViGEmBus): unirse con BACK, menús compartidos, elección de misión y pantalla de personajes para dos, pantalla
+  dividida (vertical y horizontal, con el HUD de cada jugador), selector rápido del jugador 2 y pausa; 60 fps y
+  sin cierres. Falta probar en Windows un monitor por jugador. La 1.1 se cerraba allí en la primera pantalla y
+  la pantalla dividida mostraba una sola vista; ver [docs/STATUS.md](docs/STATUS.md).
 - Pendiente: la misma arma o proyectil para los dos en el selector rápido (de momento se rechaza, ver abajo);
   pantallas de fin de misión y de muerte en pantalla dividida.
 
@@ -58,9 +60,9 @@ Descarga el instalador de tu sistema desde la [última versión](../../releases/
 tus bibliotecas de Steam, copia el mod (con NM Plugins incluido) en la carpeta del juego y, en Linux, añade la
 opción de lanzamiento que necesita Proton. Ábrelo otra vez para actualizar o desinstalar.
 
-- **Windows:** `NGS2-Coop-1.1-Windows.exe`, doble clic.
-- **Linux / Steam Deck (modo escritorio):** `NGS2-Coop-1.1-Linux`. Permite que se ejecute (clic derecho >
-  Propiedades > «Permitir ejecutar como programa», o `chmod +x NGS2-Coop-1.1-Linux`) y dale doble clic. Si Steam
+- **Windows:** `NGS2-Coop-1.2-Windows.exe`, doble clic.
+- **Linux / Steam Deck (modo escritorio):** `NGS2-Coop-1.2-Linux`. Permite que se ejecute (clic derecho >
+  Propiedades > «Permitir ejecutar como programa», o `chmod +x NGS2-Coop-1.2-Linux`) y dale doble clic. Si Steam
   está abierto, ofrece cerrarlo para que se guarde la opción de lanzamiento.
 
 Si no encuentra el juego, el instalador pide su carpeta. Opciones para scripts:
@@ -68,7 +70,9 @@ Si no encuentra el juego, el instalador pide su carpeta. Opciones para scripts:
 
 Instalación manual: copia NM Plugins ([docs/NM_PLUGINS_README.md](docs/NM_PLUGINS_README.md)) y `NGS2Coop.dll` en
 la carpeta `plugin/` del juego y, en Linux, pon en las opciones de lanzamiento `WINEDLLOVERRIDES=dbghelp=n,b %command%`.
-Para compilar los instaladores: `tools/make_installers.sh` (CMake + MinGW-w64 + g++; archivos de NM Plugins en `dist/`).
+Para compilar los instaladores: `tools/make_installers.sh` en Linux (CMake + MinGW-w64 + g++), o
+`tools/make_installers.ps1 -MinGW <bin de MinGW-w64> -Zig <zig.exe>` en Windows (Zig compila el de Linux); los dos
+toman los archivos de NM Plugins de `dist/`.
 
 ## Controles y ajustes
 

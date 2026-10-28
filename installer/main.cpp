@@ -37,7 +37,7 @@ namespace fs = std::filesystem;
 
 constexpr const char* kAppId = "1580790";
 constexpr const char* kGameExe = "NINJA GAIDEN SIGMA2.exe";
-constexpr const char* kVersion = "1.1";
+constexpr const char* kVersion = "1.2";
 constexpr const char* kManifest = "plugin/ngs2coop-installed.txt";  // what the installer wrote, for uninstalling
 constexpr const char* kBackupSuffix = ".ngs2coop-backup";             // a file the install replaced
 constexpr const char* kOverride = "WINEDLLOVERRIDES=dbghelp=n,b";

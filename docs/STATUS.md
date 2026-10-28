@@ -1,10 +1,24 @@
-> **2026-10-28 — arreglo para Windows nativo.** La 1.1 se cerraba al arrancar en Windows 11 (0xc0000005 en
-> `0x14cd0bd`, y una vez ejecución en memoria sin módulo). `install_sound_listener` (`src/coop/main.cpp`) y
-> `alloc_near` (`src/coop/quickmenu.cpp`) reservaban en `0x147000000..0x170000000` suponiendo la imagen en
-> `0x140000000`: así la carga Wine, pero Windows aplica ASLR (`DllCharacteristics 0x8160`, base observada
-> `0x7FF668BB0000`) y los disp32/rel32 se truncaban. Ahora buscan en `base + 0x7300000 .. base + 0x30000000`
-> (`SizeOfImage = 0x72CE000`), como `split.cpp`; el oyente de sonido además comprueba el alcance rel32.
-> Compilado con WinLibs MinGW-w64 16.2 en Windows. Pendiente: probarlo en partida en Windows y nueva versión de los instaladores.
+> **2026-10-28 — versión 1.2: Windows nativo.** Probado en Windows 11 (portátil NVIDIA + Intel, un monitor) con el
+> jugador 1 y mandos virtuales (ViGEmBus + `vgamepad`): unirse/salir con BACK, menús compartidos, recuadro rojo del
+> P2 en el selector, pantalla de personajes para dos, pantalla dividida vertical/horizontal con HUD por jugador,
+> selector rápido del P2 sin pausa, pausa a tamaño completo, 5 min de juego a 60 fps sin vistas mezcladas ni cierres;
+> instalador 1.2 (desinstalar/instalar con `--yes`). Sin probar en Windows: un monitor por jugador. Tres fallos:
+> 1. **ASLR** (cierre al arrancar, 0xc0000005 en `0x14cd0bd` o ejecución en memoria sin módulo):
+>    `install_sound_listener` (`main.cpp`) y `alloc_near` (`quickmenu.cpp`) reservaban en `0x147000000..0x170000000`
+>    suponiendo la imagen en `0x140000000` (así la carga Wine); Windows aplica ASLR (`DllCharacteristics 0x8160`,
+>    base vista `0x7FF668BB0000`) y los disp32/rel32 se truncaban. Ahora `base + 0x7300000 .. base + 0x30000000`
+>    (`SizeOfImage = 0x72CE000`), como `split.cpp`.
+> 2. **Pantalla dividida congelada/alternando:** el `d3d11.dll` de Windows guarda la vtable del contexto inmediato
+>    dentro del objeto (heap, `ctx + 8`) y reescribe sus entradas `Draw*`/`ClearRenderTargetView` en casi cada
+>    llamada de estado (variante "validar y dibujar" / rápida), así que los hooks puestos una vez se perdían (0 draws
+>    vistos, sin `final target`). En el runtime nativo el objeto recibe ahora una vtable propia: cada entrada es un stub
+>    que salta por la entrada viva de d3d11 y las enganchadas llaman a ese stub como original. DXVK (vtable en la
+>    imagen) sigue con el parcheo de siempre.
+> 3. **Carrera al arrancar** (cierre en `quickmenu::track_charge`, `image` a 0): el hook de mandos se instala antes de
+>    `quickmenu::init` y llama a `quickmenu::frame`; ahora `frame` espera a que `init` termine. Afecta también a Linux.
+> Instaladores generables desde Windows con `tools/make_installers.ps1` (MinGW-w64 + Zig para el de Linux, estático
+> musl; sin probar en Linux). Con el juego sin foco no le llegan los mandos (a diferencia de Proton; el EXE no importa
+> `GetForegroundWindow`, se sospecha de Steam Input, sin verificar): solo afecta a pruebas desatendidas.
 
 > **2026-10-27 — versión 1.1 (rama `main`).** Co-op local en Misiones en Equipo cerrado y unido en `main`: partida
 > real de una hora con dos mandos físicos (laptop + TV) sin cuelgues ni volcados. Desde el 2026-10-12: cuelgue

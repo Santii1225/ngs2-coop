@@ -959,7 +959,10 @@ void track_charge();  // essence orbs, below
 extern volatile uint8_t guard_held[2];      // players holding guard, for the blue/red orbs (below)
 constexpr uint32_t kGuardButton = 0x8000;  // RT in the pad slot's held mask
 
+volatile bool started = false;  // init done: the pad hook that calls frame() is installed before it
+
 void frame(volatile uint8_t* pads, int p2_slot, uintptr_t pad_stride) {
+  if (!started) return;
   track_charge();
   revive_boost();
   gametext::banner_tick();
@@ -1274,7 +1277,7 @@ bool install_essence_fix(uint8_t* stub) {
   return true;
 }
 
-bool init(uintptr_t base, void (*log_fn)(const char*, ...)) {
+bool init_hooks(uintptr_t base, void (*log_fn)(const char*, ...)) {
   log = log_fn;
   image = base;
   uint8_t* mem = alloc_near();
@@ -1323,5 +1326,11 @@ bool init(uintptr_t base, void (*log_fn)(const char*, ...)) {
   if (install_essence_fix(mem + 0x980)) log("team missions: essence, blue and red orbs go to the nearer player");
   else log("team missions: unexpected bytes at the essence orbs, orbs as the game gives them");
   return true;
+}
+
+bool init(uintptr_t base, void (*log_fn)(const char*, ...)) {
+  const bool ok = init_hooks(base, log_fn);
+  started = true;
+  return ok;
 }
 } // namespace quickmenu

@@ -28,7 +28,7 @@ python3 - "$PAY" "$OUT" <<'EOF'
 import os, struct, sys
 pay, out = sys.argv[1], sys.argv[2]
 files = ['dbghelp.dll'] + ['plugin/' + f for f in sorted(os.listdir(os.path.join(pay, 'plugin')))]
-for exe, name in (('setup.exe', 'NGS2-Coop-1.1-Windows.exe'), ('setup', 'NGS2-Coop-1.1-Linux')):
+for exe, name in (('setup.exe', 'NGS2-Coop-1.2-Windows.exe'), ('setup', 'NGS2-Coop-1.2-Linux')):
     with open(os.path.join(pay, exe), 'rb') as f: data = bytearray(f.read())
     index = ''
     for rel in files:

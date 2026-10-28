@@ -812,15 +812,71 @@ template<class F> void patch(void** vt, int idx, F hook, F& orig) {
   VirtualProtect(&vt[idx], sizeof(void*), old, &old);
 }
 
+// Windows' own d3d11.dll keeps the immediate context's vtable inside the object (heap) and keeps rewriting its
+// entries: most state calls switch Draw* (and ClearRenderTargetView) between a "validate, then draw" variant and a
+// fast one, so a hook written into it is gone after the next state change. DXVK's vtable is static and is patched
+// as is. On the native runtime the object gets a vtable of our own instead: every entry is a stub that jumps through
+// d3d11's live entry, except the hooked ones, whose originals are those same stubs (always d3d11's current choice).
+ID3D11DeviceContext* own_ctx = nullptr;
+void** own_vt = nullptr;
+constexpr int kVtSlots = 256;  // ID3D11DeviceContext4 has ~150 methods
+
+void* live_stubs(void** live) {
+  auto* code = static_cast<uint8_t*>(VirtualAlloc(nullptr, kVtSlots * 16, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE));
+  if (!code) return nullptr;
+  for (int i = 0; i < kVtSlots; ++i) {
+    uint8_t* s = code + i * 16;
+    const uint64_t entry = reinterpret_cast<uint64_t>(&live[i]);
+    s[0] = 0x48; s[1] = 0xb8; memcpy(s + 2, &entry, 8);  // mov rax, &live[i]
+    s[10] = 0xff; s[11] = 0x20;                           // jmp [rax]
+    s[12] = s[13] = s[14] = s[15] = 0xcc;
+  }
+  DWORD old;
+  VirtualProtect(code, kVtSlots * 16, PAGE_EXECUTE_READ, &old);
+  FlushInstructionCache(GetCurrentProcess(), code, kVtSlots * 16);
+  return code;
+}
+
+template<class F> void own_entry(int idx, F hook, F& orig, uint8_t* stubs) {
+  orig = reinterpret_cast<F>(stubs + idx * 16);
+  own_vt[idx] = reinterpret_cast<void*>(hook);
+}
+
 void hook_context(ID3D11DeviceContext* ctx) {
   void** vt = *reinterpret_cast<void***>(ctx);
-  patch(vt, 12, &h_draw_indexed, o_draw_indexed);
-  patch(vt, 13, &h_draw, o_draw);
-  patch(vt, 20, &h_draw_indexed_instanced, o_draw_indexed_instanced);
-  patch(vt, 21, &h_draw_instanced, o_draw_instanced);
-  patch(vt, 33, &h_set_rt, o_set_rt);
-  patch(vt, 35, &h_set_blend, o_set_blend);
-  patch(vt, 50, &h_clear_rt, o_clear_rt);
+  MEMORY_BASIC_INFORMATION mi{};
+  const bool in_object = VirtualQuery(vt, &mi, sizeof(mi)) && mi.Type == MEM_PRIVATE;
+  uint8_t* stubs = in_object ? static_cast<uint8_t*>(live_stubs(vt)) : nullptr;
+  own_vt = stubs ? static_cast<void**>(VirtualAlloc(nullptr, kVtSlots * sizeof(void*), MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE)) : nullptr;
+  if (!own_vt) {
+    patch(vt, 12, &h_draw_indexed, o_draw_indexed);
+    patch(vt, 13, &h_draw, o_draw);
+    patch(vt, 20, &h_draw_indexed_instanced, o_draw_indexed_instanced);
+    patch(vt, 21, &h_draw_instanced, o_draw_instanced);
+    patch(vt, 33, &h_set_rt, o_set_rt);
+    patch(vt, 35, &h_set_blend, o_set_blend);
+    patch(vt, 50, &h_clear_rt, o_clear_rt);
+    return;
+  }
+  for (int i = 0; i < kVtSlots; ++i) own_vt[i] = stubs + i * 16;
+  own_entry(12, &h_draw_indexed, o_draw_indexed, stubs);
+  own_entry(13, &h_draw, o_draw, stubs);
+  own_entry(20, &h_draw_indexed_instanced, o_draw_indexed_instanced, stubs);
+  own_entry(21, &h_draw_instanced, o_draw_instanced, stubs);
+  own_entry(33, &h_set_rt, o_set_rt, stubs);
+  own_entry(35, &h_set_blend, o_set_blend, stubs);
+  own_entry(50, &h_clear_rt, o_clear_rt, stubs);
+  own_ctx = ctx;
+  InterlockedExchangePointer(reinterpret_cast<void* volatile*>(ctx), own_vt);
+  log("split: native d3d11 context (vtable in the object, rewritten as it runs): hooked through a vtable of our own");
+}
+
+// d3d11 could point the object back at its own table: checked every frame.
+void keep_own_vtable() {
+  if (!own_ctx || *reinterpret_cast<void***>(own_ctx) == own_vt) return;
+  InterlockedExchangePointer(reinterpret_cast<void* volatile*>(own_ctx), own_vt);
+  static int told = 0;
+  if (told++ < 5) log("split: d3d11 restored the context's vtable, ours put back");
 }
 
 // ---- second monitor: a borderless window of our own showing player 2 ------------------------------
@@ -1255,6 +1311,7 @@ bool present(IDXGISwapChain* sc) {
     }
   }
   ID3D11DeviceContext* c = immediate;
+  keep_own_vtable();
 
   // Frame that just finished.
   if (frame_active && !gpu_failed) {

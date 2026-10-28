@@ -4,6 +4,7 @@
 /build
 
 /build-codex/
+/build-win/
 /dist/
 config/steam_launch_env.txt
 /release/
