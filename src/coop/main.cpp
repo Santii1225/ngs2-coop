@@ -778,7 +778,8 @@ constexpr uintptr_t kCameraGlobals = 0x2ff1940, kViewIndex = 0x2ff2778;
 uint8_t* sound_camera = nullptr;  // 0x40 bytes within +-2 GB of the image
 
 bool install_sound_listener() {
-  for (uintptr_t a = 0x147000000; a < 0x170000000 && !sound_camera; a += 0x100000)
+  // Relative to the image: Windows loads it with ASLR (e.g. 0x7ff6........), Wine at 0x140000000.
+  for (uintptr_t a = base + 0x7300000; a < base + 0x30000000 && !sound_camera; a += 0x100000)
     sound_camera = static_cast<uint8_t*>(VirtualAlloc(reinterpret_cast<void*>(a), 0x1000, MEM_RESERVE | MEM_COMMIT, PAGE_READWRITE));
   if (!sound_camera) {
     log("sound: no memory near the image, listener left as is");
@@ -791,6 +792,11 @@ bool install_sound_listener() {
     memcpy(&disp, reinterpret_cast<void*>(ins + r.disp_off), 4);
     if (next + disp != base + r.target) {
       log("sound: unexpected instruction at %p, listener left as is", reinterpret_cast<void*>(ins));
+      return false;
+    }
+    const int64_t d = reinterpret_cast<int64_t>(sound_camera) - static_cast<int64_t>(next);
+    if (d < INT32_MIN + 0x40 || d > INT32_MAX - 0x40) {
+      log("sound: copy at %p out of rel32 reach, listener left as is", sound_camera);
       return false;
     }
   }

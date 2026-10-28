@@ -128,8 +128,9 @@ void write_code(uint8_t* target, const uint8_t* bytes, size_t len) {
   VirtualProtect(target, len, old, &old);
 }
 
+// Within rel32 reach of the image, relative to its base: Windows loads it with ASLR, Wine at 0x140000000.
 uint8_t* alloc_near() {
-  for (uintptr_t a = 0x147000000; a < 0x170000000; a += 0x100000)
+  for (uintptr_t a = image + 0x7300000; a < image + 0x30000000; a += 0x100000)
     if (auto* p = static_cast<uint8_t*>(VirtualAlloc(reinterpret_cast<void*>(a), 0x1000, MEM_RESERVE | MEM_COMMIT, PAGE_EXECUTE_READWRITE)))
       return p;
   return nullptr;

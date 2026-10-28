@@ -43,6 +43,8 @@ Each view renders at 30 fps (the game alternates both cameras on its 60 fps fram
 
 - Local co-op and split screen: working, tested on Linux (Proton) with an RTX 4060, including an hour-long
   Team Missions session with two physical controllers (one monitor per player) without a single hang.
+- Native Windows: 1.1 closes on the first screen (two allocations assumed the game at 0x140000000, true under
+  Wine but not with Windows ASLR). Fixed in `main`; the installers still carry 1.1 until the next release.
 - Pending: the same weapon or projectile for both players in the quick selector (still refused, see below);
   end-of-mission / death screens in split screen.
 

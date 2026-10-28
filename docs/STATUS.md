@@ -1,3 +1,11 @@
+> **2026-10-28 — arreglo para Windows nativo.** La 1.1 se cerraba al arrancar en Windows 11 (0xc0000005 en
+> `0x14cd0bd`, y una vez ejecución en memoria sin módulo). `install_sound_listener` (`src/coop/main.cpp`) y
+> `alloc_near` (`src/coop/quickmenu.cpp`) reservaban en `0x147000000..0x170000000` suponiendo la imagen en
+> `0x140000000`: así la carga Wine, pero Windows aplica ASLR (`DllCharacteristics 0x8160`, base observada
+> `0x7FF668BB0000`) y los disp32/rel32 se truncaban. Ahora buscan en `base + 0x7300000 .. base + 0x30000000`
+> (`SizeOfImage = 0x72CE000`), como `split.cpp`; el oyente de sonido además comprueba el alcance rel32.
+> Compilado con WinLibs MinGW-w64 16.2 en Windows. Pendiente: probarlo en partida en Windows y nueva versión de los instaladores.
+
 > **2026-10-27 — versión 1.1 (rama `main`).** Co-op local en Misiones en Equipo cerrado y unido en `main`: partida
 > real de una hora con dos mandos físicos (laptop + TV) sin cuelgues ni volcados. Desde el 2026-10-12: cuelgue
 > 0x21 → 0xc (D1), cinco ninpo llenos para los dos, iconos de ninpo y retícula de apuntado del P2 en su vista,

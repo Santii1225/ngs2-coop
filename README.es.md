@@ -46,6 +46,9 @@ Cada vista se dibuja a 30 fps (el juego alterna las dos cámaras en sus frames d
 
 - Co-op local y pantalla dividida: funcionan, probados en Linux (Proton) con una RTX 4060, incluida una partida
   de una hora en Misiones en Equipo con dos mandos físicos (un monitor por jugador) sin ningún cuelgue.
+- Windows nativo: la 1.1 se cierra en la primera pantalla (dos reservas de memoria suponían el juego en
+  0x140000000, cierto en Wine pero no con el ASLR de Windows). Corregido en `main`; los instaladores siguen
+  siendo la 1.1 hasta la próxima versión.
 - Pendiente: la misma arma o proyectil para los dos en el selector rápido (de momento se rechaza, ver abajo);
   pantallas de fin de misión y de muerte en pantalla dividida.
 
