@@ -1,3 +1,13 @@
+> **2026-10-28 (tarde) — un monitor por jugador en Windows.** Con dos monitores (1920x1200 al 125 % + 1360x768) el
+> juego se cerraba (0xc0000005, salto a 0) en cuanto entraba el P2. Con gdb: el overlay de Steam
+> (`GameOverlayRenderer64.dll`) engancha cada swap chain nueva leyendo la entrada `Present` (slot 8) de la vtable
+> compartida de DXGI; si no es suya le pone un hook en línea y guarda el original en un global. Esa entrada era ya
+> nuestro `present_hook`, el hook de Steam sobre él falla y el global queda a nulo: el siguiente `Present` del juego
+> (`present_hook` → Steam) llama a 0. Ahora `overlay::hook_present(false/true)` devuelve la entrada a lo que había
+> mientras `split` crea la swap chain del P2. Probado con dos mandos virtuales: unirse (la ventana del P2 replica los
+> menús), elección de misión y personajes para dos, misión con cada jugador en su monitor (cámara y HUD propios,
+> 60 fps), L3+R3 por los tres modos, salir/volver con BACK, resultados.
+>
 > **2026-10-28 — versión 1.2: Windows nativo.** Probado en Windows 11 (portátil NVIDIA + Intel, un monitor) con el
 > jugador 1 y mandos virtuales (ViGEmBus + `vgamepad`): unirse/salir con BACK, menús compartidos, recuadro rojo del
 > P2 en el selector, pantalla de personajes para dos, pantalla dividida vertical/horizontal con HUD por jugador,

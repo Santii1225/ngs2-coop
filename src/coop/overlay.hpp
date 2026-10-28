@@ -8,6 +8,10 @@
 namespace overlay {
 // Hooks IDXGISwapChain::Present (shared vtable with the game's swap chain). Call once, from a thread.
 bool install(void (*log)(const char*, ...));
+// Takes the Present hook out of the vtable (false) and puts it back (true), around creating a swap chain: Steam's
+// overlay hooks whatever that slot holds at every new swap chain, and on ours it leaves a null pointer that the
+// next Present calls (native Windows; the game closes). Render thread only.
+void hook_present(bool on);
 // Called on the render thread at every Present, before the overlay draws.
 void on_frame(void (*fn)());
 // Shows text for a few seconds at the top centre of the screen (replaces the current toast).

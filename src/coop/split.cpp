@@ -1018,7 +1018,9 @@ bool ensure_p2_chain() {
     sd.SampleDesc.Count = 1;
     sd.Windowed = TRUE;
     sd.SwapEffect = DXGI_SWAP_EFFECT_FLIP_DISCARD;
+    overlay::hook_present(false);
     const HRESULT hr = factory->CreateSwapChain(device, &sd, &p2_chain);
+    overlay::hook_present(true);
     if (FAILED(hr)) log("split: second swap chain failed %08lx", hr);
     else {
       factory->MakeWindowAssociation(p2_window, DXGI_MWA_NO_ALT_ENTER);

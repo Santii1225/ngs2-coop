@@ -46,7 +46,8 @@ Each view renders at 30 fps (the game alternates both cameras on its 60 fps fram
 - Native Windows (1.2): working, tested on Windows 11 with two controllers (one physical player and virtual pads
   through ViGEmBus): joining with BACK, shared menus, the mission pick and the two-player character screen, split
   screen (vertical and horizontal, each player's HUD), player 2's quick selector, pause; 60 fps, no crashes.
-  One monitor per player is not tested on Windows yet. 1.1 closed on the first screen there and split screen
+  One monitor per player too (two monitors; it used to close the game when player 2 joined, with Steam's overlay
+  on). 1.1 closed on the first screen there and split screen
   showed one view at a time; see [docs/STATUS.md](docs/STATUS.md).
 - Pending: the same weapon or projectile for both players in the quick selector (still refused, see below);
   end-of-mission / death screens in split screen.

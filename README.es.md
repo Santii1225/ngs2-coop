@@ -49,7 +49,8 @@ Cada vista se dibuja a 30 fps (el juego alterna las dos cámaras en sus frames d
 - Windows nativo (1.2): funciona, probado en Windows 11 con dos mandos (un jugador físico y mandos virtuales con
   ViGEmBus): unirse con BACK, menús compartidos, elección de misión y pantalla de personajes para dos, pantalla
   dividida (vertical y horizontal, con el HUD de cada jugador), selector rápido del jugador 2 y pausa; 60 fps y
-  sin cierres. Falta probar en Windows un monitor por jugador. La 1.1 se cerraba allí en la primera pantalla y
+  sin cierres. También un monitor por jugador (con dos monitores; antes cerraba el juego al entrar el jugador 2
+  con el overlay de Steam activo). La 1.1 se cerraba allí en la primera pantalla y
   la pantalla dividida mostraba una sola vista; ver [docs/STATUS.md](docs/STATUS.md).
 - Pendiente: la misma arma o proyectil para los dos en el selector rápido (de momento se rechaza, ver abajo);
   pantallas de fin de misión y de muerte en pantalla dividida.

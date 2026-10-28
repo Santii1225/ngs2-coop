@@ -559,8 +559,26 @@ void edit_char_buffer(int b) {
   *slot = reinterpret_cast<uint64_t>(char_chain[b][0]);
 }
 
+// The screen byte stays at 6 after other menus too (load game, then the main menu and the team mode select;
+// seen 2026-10-28: player 1's A was held back there for a mission pick nobody could see). The mission screen is
+// also told by the grid cursor's frame (scale 1, on the game cursor's cell) in this frame's sprite lists.
+volatile ULONGLONG grid_seen = 0;
+
+bool grid_cursor_drawn() {
+  const float cx = kGridX0 + kGridDX * at<uint8_t>(kMissionCol), cy = kGridY0 + kGridDY * at<uint8_t>(kMissionRow);
+  for (int b = 0; b < 2; ++b) {
+    const uintptr_t lo = base + kSpriteLists[b];
+    for (uintptr_t a = lo; a + 0x80 <= lo + kSpriteListSpan; a += 0x10) {
+      const Entry e{a};
+      if (e.p()[0x10] == 0x0a && e.f(0x30) == 1.0f && e.f(0x40) == cx && e.f(0x44) == cy && e.p()[0x1a] != 0xb7) return true;
+    }
+  }
+  return false;
+}
+
 void ui_built() {
   const uint8_t screen = at<uint8_t>(kMenuScreen);
+  if (screen == kScreenMissions && grid_cursor_drawn()) grid_seen = GetTickCount64();
   if (screen == kScreenCharacters && chars_on) {
     for (int b = 0; b < 2; ++b) edit_char_buffer(b);
     return;
@@ -634,7 +652,8 @@ void publish_grid(int page, const Choice& game) {
   v.active = true;
 }
 
-bool on_mission_screen() { return at<uint8_t>(kMenuScreen) == kScreenMissions; }
+// The cursor slides between cells for a few frames (no frame on any cell): a second of grace.
+bool on_mission_screen() { return at<uint8_t>(kMenuScreen) == kScreenMissions && GetTickCount64() - grid_seen < 1000; }
 
 // Returns true while it owns slot 0 (the shared-menu copy must not run).
 bool mission_pick_frame(volatile uint8_t* pads) {
@@ -1180,7 +1199,7 @@ DWORD WINAPI worker(LPVOID) {
         gametext::startup(nullptr);
       }
       if (use_overlay) overlay::notice(startup_hint && GetTickCount64() - hint_start < 10000 ? L"Jugador 2: pulsa BACK para unirte" : nullptr);
-      const bool mission_screen = !in_mission && at<uint8_t>(kMenuScreen) == kScreenMissions;
+      const bool mission_screen = !in_mission && on_mission_screen();
       if (joined && mission_screen) {
         // the dual mission pick owns the line here
       } else if (joined && char_screen) {

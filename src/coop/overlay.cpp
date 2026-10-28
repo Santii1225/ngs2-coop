@@ -328,7 +328,20 @@ HRESULT STDMETHODCALLTYPE present_hook(IDXGISwapChain* sc, UINT sync, UINT flags
   }
   return original_present(sc, sync, flags);
 }
+
+void** present_slot = nullptr;
 } // namespace
+
+void hook_present(bool on) {
+  if (!present_slot) return;
+  void* const ours = reinterpret_cast<void*>(&present_hook);
+  void* const theirs = reinterpret_cast<void*>(original_present);
+  DWORD old;
+  VirtualProtect(present_slot, sizeof(void*), PAGE_READWRITE, &old);
+  // only our own entry: a hook chained after ours stays
+  InterlockedCompareExchangePointer(present_slot, on ? ours : theirs, on ? theirs : ours);
+  VirtualProtect(present_slot, sizeof(void*), old, &old);
+}
 
 bool install(void (*logger)(const char*, ...)) {
   log = logger;
@@ -370,6 +383,7 @@ bool install(void (*logger)(const char*, ...)) {
     original_present = reinterpret_cast<PresentFn>(prev);
   } while (InterlockedCompareExchangePointer(slot, reinterpret_cast<void*>(&present_hook), prev) != prev);
   VirtualProtect(slot, sizeof(void*), old, &old);
+  present_slot = slot;
   sc->Release();
   ctx->Release();
   dev->Release();
