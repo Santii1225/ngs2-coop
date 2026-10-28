@@ -371,7 +371,7 @@ int ignored_count = 0;
 // (its height differs). -1 when the two cameras are too close to tell (their images look alike then).
 int classify_view() {
   const uint64_t mgr = at<uint64_t>(kCameraMgrPtr);
-  if (mgr < 0x140000000ull) return -1;
+  if (mgr < 0x10000) return -1;  // not built yet; on Windows the heap can sit below the image
   const volatile float* r = &at<float>(kRenderEye);
   const auto* c0 = reinterpret_cast<const volatile float*>(mgr + kCameraEye);
   const auto* c1 = reinterpret_cast<const volatile float*>(mgr + kCameraStride + kCameraEye);

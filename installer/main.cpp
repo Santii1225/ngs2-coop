@@ -430,6 +430,7 @@ int set_launch_options(const fs::path& steam_root, bool add, bool dry_run = fals
       else next = std::string(kOverride) + " %command%" + (cur.empty() ? "" : " " + cur);
     } else if (!add && at != std::string::npos) {
       next.erase(at, strlen(kOverride));
+      for (size_t sp; (sp = next.find("  ")) != std::string::npos;) next.erase(sp, 1);
       while (!next.empty() && next.front() == ' ') next.erase(next.begin());
       if (next == "%command%") next.clear();
     }
