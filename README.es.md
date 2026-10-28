@@ -2,7 +2,7 @@
 
 [English](README.md) · **Español**
 
-**Versión 1.2**
+**Versión 1.2** · [Nexus Mods](https://www.nexusmods.com/ninjagaidenmastercollection/mods/549) · [Tráiler (YouTube)](https://youtu.be/VQ-9o8vhL5I)
 
 Mod de co-op local para **NINJA GAIDEN Σ2** (NINJA GAIDEN: Master Collection, Steam). En las Misiones en
 Equipo un segundo jugador controla al compañero de la IA con su propio mando, y cada jugador tiene su propia
@@ -57,7 +57,8 @@ Cada vista se dibuja a 30 fps (el juego alterna las dos cámaras en sus frames d
 
 ## Instalación
 
-Descarga el instalador de tu sistema desde la [última versión](../../releases/latest) y ábrelo. Busca el juego en
+Descarga el instalador de tu sistema desde la [última versión](../../releases/latest) (también en
+[Nexus Mods](https://www.nexusmods.com/ninjagaidenmastercollection/mods/549)) y ábrelo. Busca el juego en
 tus bibliotecas de Steam, copia el mod (con NM Plugins incluido) en la carpeta del juego y, en Linux, añade la
 opción de lanzamiento que necesita Proton. Ábrelo otra vez para actualizar o desinstalar.
 

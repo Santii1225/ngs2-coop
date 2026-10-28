@@ -2,7 +2,7 @@
 
 **English** · [Español](README.es.md)
 
-**Version 1.2**
+**Version 1.2** · [Nexus Mods](https://www.nexusmods.com/ninjagaidenmastercollection/mods/549) · [Trailer (YouTube)](https://youtu.be/VQ-9o8vhL5I)
 
 Local co-op mod for **NINJA GAIDEN Σ2** (NINJA GAIDEN: Master Collection, Steam). In Team Missions a second
 player takes control of the AI partner with their own controller, and each player gets their own camera:
@@ -54,7 +54,8 @@ Each view renders at 30 fps (the game alternates both cameras on its 60 fps fram
 
 ## Install
 
-Download the installer for your system from the [latest release](../../releases/latest) and run it. It finds
+Download the installer for your system from the [latest release](../../releases/latest) (also on
+[Nexus Mods](https://www.nexusmods.com/ninjagaidenmastercollection/mods/549)) and run it. It finds
 the game in your Steam libraries, copies the mod (NM Plugins included) into the game's folder and, on Linux, adds
 the launch option Proton needs. Run it again to update or uninstall.
 
